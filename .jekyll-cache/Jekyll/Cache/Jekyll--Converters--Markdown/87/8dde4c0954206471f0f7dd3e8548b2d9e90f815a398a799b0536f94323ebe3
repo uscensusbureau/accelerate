@@ -1,0 +1,95 @@
+I"<h1 id="links">Links</h1>
+
+<p><a href="javascript:void(0);">This</a> is a text link on a light background.</p>
+
+<p><a href="https://18f.gsa.gov" class="usa-color-text-visited">This</a> is a visited link.</p>
+
+<p>This is link that goes to an <a href="https://18f.gsa.gov" class="usa-external_link">external website</a>.</p>
+
+<div class="usa-background-dark">
+  <p><a href="javascript:void(0);">This</a> is a text link on a light background.</p>
+</div>
+
+<h1 id="buttons">Buttons</h1>
+<h2 id="default-or-primary">Default or primary</h2>
+<p><button class="">Default</button>
+<button class=" usa-button-hover">Hover</button>
+<button class=" usa-button-active">Active</button>
+<button class=" usa-focus">Focus</button>
+<button class="" disabled="">Disabled</button></p>
+<h2 id="secondary">Secondary</h2>
+<p><button class="usa-button-secondary">Default</button>
+<button class="usa-button-secondary usa-button-hover">Hover</button>
+<button class="usa-button-secondary usa-button-active">Active</button>
+<button class="usa-button-secondary usa-focus">Focus</button>
+<button class="usa-button-secondary" disabled="">Disabled</button></p>
+
+<h1 id="tables">Tables</h1>
+<h2 id="standard">Standard</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Document title</th>
+      <th>Description</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Declaration of Independence</td>
+      <td>Statement adopted by the Continental Congress declaring independence from the British Empire.</td>
+      <td>1776</td>
+    </tr>
+    <tr>
+      <td>Bill of Rights</td>
+      <td>The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms.</td>
+      <td>1791</td>
+    </tr>
+    <tr>
+      <td>Declaration of Sentiments</td>
+      <td>A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens.</td>
+      <td>1848</td>
+    </tr>
+    <tr>
+      <td>Emancipation Proclamation</td>
+      <td>An executive order granting freedom to slaves in designated southern states.</td>
+      <td>1863</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="borderless">Borderless</h2>
+
+<table class="usa-table-borderless">
+  <thead>
+    <tr>
+      <th>Document title</th>
+      <th>Description</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Declaration of Independence</td>
+      <td>Statement adopted by the Continental Congress declaring independence from the British Empire.</td>
+      <td>1776</td>
+    </tr>
+    <tr>
+      <td>Bill of Rights</td>
+      <td>The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms.</td>
+      <td>1791</td>
+    </tr>
+    <tr>
+      <td>Declaration of Sentiments</td>
+      <td>A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens.</td>
+      <td>1848</td>
+    </tr>
+    <tr>
+      <td>Emancipation Proclamation</td>
+      <td>An executive order granting freedom to slaves in designated southern states.</td>
+      <td>1863</td>
+    </tr>
+  </tbody>
+</table>
+:ET
