@@ -1,9 +1,12 @@
-# National Science Foundation SBIR Phase II (Build) Project
-This is the home of the NSF SBIR Phase II (Build) Project.
+# Census Open Innovation Labs 
+This is the home of Census Open Innovation Lab's website
 
 ## Getting started
 
-Most of our documentation can be found in the **[wiki](https://github.com/18F/nsf-sbir/wiki)**. You can also find us in the #nsf-sbir Slack channel.
+This project is based off of https://github.com/18F/nsf-sbir.git 
+
+Most of the documentation can be found in the NSF **[wiki](https://github.com/18F/nsf-sbir/wiki)**. 
+
 
 ### Set up the site locally
 To set up the site on your local machine, follow these steps:
@@ -13,7 +16,7 @@ To set up the site on your local machine, follow these steps:
 1. Clone the site. [More detail on this](https://help.github.com/articles/cloning-a-repository/).
 
     ```sh
-    git clone https://github.com/18F/nsf-sbir.git
+    git clone https://github.com/census-coil/coil-website.git
     ```
 
 1. Run the site!
@@ -63,3 +66,4 @@ To get it working, do the following:
     ```sh
     pa11y-ci http://localhost:4000/[name of link]
     ```
+
