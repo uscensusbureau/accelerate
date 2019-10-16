@@ -1,3 +1,13 @@
+
+.usa-nav-container {
+  @include media($nav-width) {
+    max-width: $landing-max-width;
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    background-color: $color-primary-darkest;
+  }
+}
+
 .usa-nav-primary {
   clear: both;
 
@@ -7,7 +17,7 @@
 
   .usa-accordion-button,
   .usa-accordion-button[aria-expanded=false] {
-    color: $color-base;
+    color: $color-white;
     font-family: $font-mono;
     font-size: $font-size-xxxs;
     font-weight: 400;
@@ -51,7 +61,7 @@
 
   li {
     a {
-      color: $color-base;
+      color: $color-white;
       font-family: $font-mono;
       font-size: $font-size-xxxs;
       font-weight: 400;
@@ -74,9 +84,13 @@
 
 @include media($nav-width) {
   .usa-nav {
-    background-color: $color-white-transprent;
-    margin-top: 3.8rem;
+    width: auto;
+    background-color: $color-primary-darkest;
     padding: 0;
+    margin-left: auto;
+  }
+  .usa-navbar {
+    display: none;
   }
 
   .usa-nav-submenu {

@@ -6,7 +6,7 @@ $color-focus: #02BFE7;
 
 /* blues */
 $color-primary: #1b5bf3;
-$color-primary-darkest: #0744d7;
+$color-primary-darkest: #13192F;
 $color-primary-darker: #094ce9;
 $color-visited: #414f71;
 
@@ -37,9 +37,13 @@ $color-blue-light: #e1f4f9;
 $color-neutral-light: #F5FBFC;
 $color-gray-cool-light: #f2f5f6;
 
+/* white */
+$color-white: #F5F8FB;
+
 // Mobile first breakpoints
 $large-screen:  960px !default;
 $site-max-width: 960px !default;
+$landing-max-width: 1440px !default;
 
 // Unique colors
 /* pinks */

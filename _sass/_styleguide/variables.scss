@@ -10,7 +10,7 @@ $paragraph-margins-thick: 3rem;
 $section-margins:    5rem;
 
 // Colors
-$color-dark: #1C304A; // $color-dark / $color-primary-dark
+$color-dark: #13192F; // $color-dark / $color-primary-dark
 $color-medium:       #046b99; // $color-medium / $color-primary
 $color-medium-hover: #00547A;
 $color-bright:       #00cfff; // $color-bright / $color-secondary
@@ -31,3 +31,7 @@ $border-accent-height: 1rem;
 $border-accent:        $border-accent-height solid $color-bright;
 $border-light:         1px solid $color-gray-lightest;
 $border-thick:       4px solid $color-gray-lightest;
+
+
+// Magic Numbers
+$site-max-width:      1440px !default;
