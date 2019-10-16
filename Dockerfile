@@ -1,2 +1,8 @@
 # Base Image
-FROM ruby:2.5.0
+FROM alpine
+
+# MAINTAINER Anna Wang <anna.wang.census@gmail.com>
+
+# RUN gem install bundler 
+
+CMD ["echo",  "Hello world!"]
