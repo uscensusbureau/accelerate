@@ -28,19 +28,5 @@
         <div class="usa-width-one-third"></div>
         {% endif %}
       </div>
-        {% if hero.caption %}
-        <div class="usa-grid">
-          <div class="usa-width-one-third">
-            <div class="usa-accordion">
-              <div id="amendment-1" class="usa-accordion-content caption">
-                <p>
-                  {{ hero.caption | liquify }}
-                </p>
-              </div>
-              <button class="usa-accordion-button" aria-expanded="false" aria-controls="amendment-1">About this Picture</button>
-            </div>
-          </div>
-        </div>
-      {% endif %}
   </section>
 {% endif %}

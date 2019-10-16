@@ -12,28 +12,16 @@
 primary:
   - text: About
     href: /about/
-  - text: The Opportunity Project
+  - text: Showcase
+    href: /showcase/
+  - text: Get Invovled
     links:
-      - text: See the Projects 
-        href: /top/projects/
-      - text: Get Involved
-        links: 
-          - text: Join a Sprint
-            href: /top/join/
-          - text: Run a Sprint
-            href: /top/run/
-      - text: Resources
-        href: /top/resources/
-  - text: Accelerate
-    links:
-      - text: See the Create-a-thons
-        href: /accelerate/createathons/
-      - text: Get Involved
-        href: /accelerate/get-involved/
-      - text: Resources
-        href: /accelerate/resources/
-  - text: Contact Us
-    href: /contact/
+      - text: Partner With Us
+        href: /get-involved/partner-with-us/
+      - text: Attend a Create-a-thon
+        href: /get-involved/create-a-thons/
+      - text: Become a Creative Ambassador
+        href: /get-involved/creative-ambassador/
 
 top:
   - text: See the Projects 
@@ -59,97 +47,6 @@ accelerate:
 
 # Below is from NSF, not COIL
 
-fastlane:
-  - text: Fastlane Overview
-    href: /fastlane/
-  - text: Registrations
-    href: /fastlane/registrations/
-  - text: Form Preparation
-    href: /fastlane/form-prep-1/
-  - text: Form Preparation part 2
-    href: /fastlane/form-prep-2/
-  - text: Form Preparation part 3
-    href: /fastlane/form-prep-3/
-  - text: Proposal Submission
-    href: /fastlane/proposal-submission/   
-  - text: Definitions
-    href: /fastlane/definitions/
-
-review:
-  - text: Review process
-    href: /resources/review/
-  - text: Peer review
-    href: /resources/review/peer-review/
-  - text: Instructions for panelists
-    href: /resources/review/panelist-system/
-  - text: Instructions for mail reviewers
-    href: /resources/review/peer-mail-review/
-  - text: Travel instructions
-    href: /resources/review/travel/
-  - text: Virtual panels
-    href: /resources/review/virtual-panelist/
-
-phase-1:
-  - text: Phase I awardees
-    href: /resources/awardees/phase-1/
-  - text: Boot Camp
-    href: /resources/awardees/phase-1/bootcamp/
-  - text: Phase I reporting requirements
-    href: /resources/awardees/phase-1/reporting/
-  - text: Forms and checklists
-    href: /resources/awardees/phase-1/forms/
-  - text: Revising a budget
-    href: /resources/awardees/phase-1/revised-budget/
-  - text: No-cost extension
-    href: /resources/awardees/phase-1/no-cost-extension/
-  - text: Changes at your organization
-    href: /resources/awardees/phase-1/novation/
-  - text: Change of PI
-    href: /resources/awardees/phase-1/pi-change/
-  - text: How to apply for Phase II
-    href: /resources/awardees/phase-2/apply/
-  - text: Ambassador
-    href: /resources/awardees/phase-1/ambassador/
-  - text: Research experiences
-    href: /resources/awardees/phase-1/research-experiences/
-  - text: General awardee conditions
-    href: https://www.nsf.gov/awards/managing/special_conditions.jsp
-  - text: CAAR Videos for Phase I Awardees
-    href: https://www.youtube.com/playlist?list=PLGhBP1C7iCOmI1p5UtqYCXzmUL9SzSApv
-
-
-phase-2:
-  - text: Phase II awardees
-    href: /resources/awardees/phase-2/
-  - text: Phase II reporting requirements
-    href: /resources/awardees/phase-2/reporting/
-  - text: Forms and checklists
-    href: /resources/awardees/phase-2/forms/
-  - text: Revising a budget
-    href: /resources/awardees/phase-2/revised-budget/
-  - text: No-cost extension
-    href: /resources/awardees/phase-2/no-cost-extension/
-  - text: Changes at your organization
-    href: /resources/awardees/phase-2/novation/
-  - text: Principal Investigator change
-    href: /resources/awardees/phase-2/pi-change/
-  - text: Ambassador
-    href: /resources/awardees/phase-2/ambassador/
-  - text: General award conditions
-    href: https://www.nsf.gov/awards/managing/special_conditions.jsp
-  - text: Supplemental funding opportunities
-    section: supplement
-    href: /resources/awardees/supplement/overview/
-  - text: Additional opportunities
-    href: /resources/awardees/supplement/additional/
-  - text: Commercial opportunities
-    href: /resources/awardees/supplement/commercial/
-  - text: Educational opportunities
-    href: /resources/awardees/supplement/educational/
-  - text: Institutional opportunities
-    href: /resources/awardees/supplement/institutional/
-  - text: Supplement submission instructions
-    href: /resources/awardees/phase-2/instructions/
 
 footer:
   - text: About

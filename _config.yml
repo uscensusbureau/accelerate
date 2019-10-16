@@ -1,18 +1,9 @@
-title: COIL
+title: Census Accelerate
 theme: uswds-jekyll
 
-url: https://seedfund.nsf.gov
+url: #URL for Accelerate
 baseurl: ""
 permalink: pretty
-
-deadline: December 12
-past_deadline: June 2019
-solicitation_released: March 2019
-
-
-
-app_process: active
-# app_process: inactive
 
 styles:
   - /assets/css/styles.css
