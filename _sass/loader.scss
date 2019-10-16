@@ -1,0 +1,77 @@
+// Courtesy of https://projects.lukehaas.me/css-loaders/
+
+$loader-diameter: 10em;
+$loader-overhang: 0.2em;
+$loader-cover: $loader-diameter + $loader-overhang;
+$loader-cover-half: $loader-cover / 2;
+$loader-radius: $loader-diameter / 2;
+$loader-radius-cover: $loader-radius + $loader-overhang;
+$smidge: 0.1em;
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+.loader {
+  color: $color-primary;
+  font-size: 8px;
+  text-indent: -99999em;
+  margin-right: $space-m;
+  position: relative;
+  width: $loader-diameter;
+  height: $loader-diameter;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+.loader:before {
+  width: $loader-radius-cover;
+  height: $loader-cover;
+  background: $color-neutral-light;
+  border-radius: $loader-cover 0 0 $loader-cover;
+  top: -$smidge;
+  left: -$smidge;
+  -webkit-transform-origin: $loader-radius-cover $loader-cover-half;
+  transform-origin: $loader-radius-cover $loader-cover-half;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+.loader:after {
+  width: $loader-radius-cover;
+  height: $loader-cover;
+  background: $color-neutral-light;
+  border-radius: 0 $loader-cover $loader-cover 0;
+  top: -$smidge;
+  left: $loader-cover-half;
+  -webkit-transform-origin: 0px $loader-cover-half;
+  transform-origin: 0px $loader-cover-half;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -1,3 +1,12 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/masonry.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
 {% assign _scripts = '' | split: '' %}
 {% assign _async_marker = 'uswds_async=true' %}
 {% assign _site_scripts = site.scripts %}
@@ -5,13 +14,6 @@
   {% assign _uswds_js = '/assets/uswds/js/uswds.min.js' | append: '?' | append: _async_marker %}
   {% assign _site_scripts = '' | split: ''
     | push: _uswds_js %}
-    {% if site.anchor_js_targets %}
-      {% assign _anchor_js = '/assets/js/vendor/anchor.min.js' %}
-      {% assign _main_js = '/assets/js/main.js' %}
-      {% assign _site_scripts = _site_scripts
-        | push: _anchor_js
-        | push: _main_js %}
-    {% endif %}
 {% endunless %}
 {% assign _scripts = _scripts
   | push: _site_scripts
@@ -24,16 +26,25 @@
 {% endfor %}{% endfor %}
 
 
-{% if site.search_site_handle %}
-<script type="text/javascript">
-//<![CDATA[
-      var usasearch_config = { siteHandle:"{{ site.search_site_handle }}" };
 
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "//search.usa.gov/javascripts/remote.loader.js";
-      document.getElementsByTagName("head")[0].appendChild(script);
 
-//]]>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-33523145-1', 'auto');
+ga('create', 'UA-48605964-48', 'auto', 'seedfundTracker');
+ga('send', 'pageview');
+ga('seedfundTracker.send', 'pageview');
+
 </script>
-{% endif %}
+<script type="text/javascript">
+function currentAwards(a1) {
+window.open('https://www.nsf.gov/awardsearch/advancedSearchResult?PIId=&PIFirstName=&PILastName=&PIOrganization=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgEleCode=5373%2C+1591%2C+5371%2C+1505&BooleanElement=Any&ProgRefCode=&BooleanRef=All&Program=&ProgOfficer=&Keyword=' + a1 + '&AwardNumberOperator=&AwardAmount=&AwardInstrument=&ActiveAwards=true&OriginalAwardDateOperator=&StartDateOperator=&ExpDateOperator=',   'a1window');
+}
+function allAwards(a1) {
+window.open('https://www.nsf.gov/awardsearch/simpleSearchResult?queryText=' + a1 + '&ActiveAwards=true',   'a1window');
+}
+</script>

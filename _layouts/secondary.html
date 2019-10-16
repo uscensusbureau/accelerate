@@ -1,0 +1,18 @@
+---
+layout: base
+class: secondary-layout
+---
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% if sidenav %}
+<aside class="usa-width-one-fourth usa-layout-docs-sidenav">
+  {% include sidenav.html links=sidenav %}
+</aside>
+
+<div class="usa-width-three-fourths">
+  {{ content }}
+</div>
+{% else %}
+<div class="usa-layout-docs-main_content usa-content">
+  {{ content }}
+</div>
+{% endif %}

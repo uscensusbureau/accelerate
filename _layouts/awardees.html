@@ -1,0 +1,109 @@
+---
+layout: base
+class: awardees-layout
+---
+{% assign recent_date = site.data.awards_meta['recent_date'] | date: "%m/%Y" | default: 'DATE' %}
+{% assign awards_summary = site.data.awards_summary[page.dataset] %}
+<section class="usa-section background-light-neutral">
+  <div class="usa-grid awardees-top-header">
+    <div class="usa-width-one-whole">
+      <h1 class="page-title text-xl">Current awardees:</h1>
+      <div class="usa-accordion accordion-dropdown ">
+            <button class="usa-accordion-button text-xl" aria-expanded="false" aria-controls="awardees-nav">
+          {{ page.nav_title | liquify }}
+          </button>
+            <div id="awardees-nav" class="usa-accordion-content">
+              <ul class="usa-unstyled-list">
+                <li><a href="{{ site.baseurl }}/awardees/phase-1/">Phase I current awardees</a></li>
+                <li><a href="{{ site.baseurl }}/awardees/phase-2/">Phase II current awardees</a></li>
+              </ul>
+            </div>
+      </div>
+      <div class="usa-content">
+        <p>
+          Current awardees are those who are still conducting research outlined in their proposals and who haven’t yet reached the estimated end dates.
+        </p>
+      </div>
+
+    </div>
+    <div class="usa-width-one-whole">
+      <span class="text-xxxxl font-bold big-number">{{ awards_summary.companies }}</span>
+      <p class="big-number-description"><span class="font-mono">Number of companies with active awards</span>
+      <span class="text-large font-bold">{{ page.phase }} seed funding</span></p>
+    </div>
+  </div>
+  <div class="usa-grid awardees-bottom-header">
+    <ul class="flex-list flex-list-3-col">
+    <li>
+      <span class="text-xxl font-bold">{{ awards_summary.funding_per_application | round | intcomma_dollar }}</span>
+      <span class="text-small font-mono">Average amount of funding awarded for each company</span>
+    </li>
+    <li>
+      <span class="text-xxl font-bold">{{ awards_summary.states_count }}</span>
+      <span class="text-small font-mono">{{ awards_summary.states_total }} Total states and territories</span>
+    </li>
+    <li>
+      <span class="text-xxl font-bold">{{ page.manual_stat }}</span>
+      <span class="text-small font-mono">{{ page.manual_stat_description }}</span>
+    </li>
+    <!-- <li>
+      <span class="text-xxl font-bold">{{ awards_summary.companies_unique_percent }}%</span>
+      <span class="text-small font-mono">Total applications received</span>
+    </li> -->
+    </ul>
+  </div>
+</section>
+
+<section class="usa-section background-white">
+    <div class="usa-grid">
+  <h2 class="text-medium">Current {{ page.phase }} awardees</h2>
+    <p class="subhead inline-block accordion-number-of-awardees-header">Awardees</p>
+    <p class="subhead inline-block accordion-tech-topic-header">Technology topic areas</p>
+</div>
+  <div class="usa-grid">
+    <div class="usa-accordion awardees-details-accordion">
+    {% for topic in site.data.tech-topics %}
+      {% assign po_name = topic.programDirector[0].api_name | default: topic.programDirector[0].name %}
+      {% assign matching_awards = site.data[page.dataset] | uniq | where:'poName', po_name | sort_insensitive:'awardeeName' %}
+      {% if matching_awards.size > 0 %}
+        <div class="border-bottom">
+          <button class="usa-accordion-button" aria-expanded="false" aria-controls="{{ topic.topic | slugify }}">
+            <span class="accordion-number-of-awardees">{{ matching_awards | size }}</span>
+            <span class="accordion-tech-topic">{{ topic.topic | default: "" }}</span>
+          </button>
+          <div id="{{ topic.topic | slugify }}" class="usa-accordion-content">
+            <ul class="table monospace">
+              <li class="table-row table-header">
+                <div class="table-row-item subhead">Company</div>
+                <div class="table-row-item subhead">Location</div>
+                <div class="table-row-item subhead narrow numeric">Award amount</div>
+                <div class="table-row-item subhead narrow numeric">Award date</div>
+              </li>
+              <div>
+              {% for matching in matching_awards %}
+                <li class="table-row">
+                  <div class="table-row-item" data-header="Company">
+                    {% assign awardeeSlug = matching.awardeeName | slugify %}
+                    <a href="{{ page.details_url | append: awardeeSlug | relative_url }}" alt="{{ matching.awardeeName }}">
+                    <span>{{ matching.awardeeName }}</span>
+                    </a>
+                  </div>
+                  <div class="table-row-item" data-header="Location">{{ matching.awardeeStateCode }}</div>
+                  <div class="table-row-item narrow numeric font-mono text-small" data-header="Award amount">{{ matching.fundsObligatedAmt | intcomma_dollar }}</div>
+                  <div class="table-row-item narrow numeric font-mono text-small" data-header="Award date">{{ matching.date }}</div>
+                </li>
+              {% endfor %}
+              </div>
+            </ul>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="usa-section background-white">
+  <div class="usa-grid">
+    {{ content }}
+  </div>
+</section>

@@ -1,0 +1,92 @@
+.tech-topic-layout {
+
+  .section-background-image {
+    padding-top: $space-xl;
+
+
+    .topic-icon {
+      background-repeat: no-repeat;
+      background-size: 27rem;
+      height: 32rem;
+      background-position-y: 6rem;
+      background-position-x: 3rem;
+      h1 {
+        background-color: $color-secondary;
+        display: inline-block;
+        padding: $space-xs;
+        font-weight: 600;
+      }
+
+    }
+
+    .caption {
+      padding: 0;
+      float: right;
+      p {
+        font-size: $font-size-xxxs;
+      }
+    }
+
+  }
+
+  .program-dir-img {
+    border-radius: 5rem;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: $space-s;
+  }
+
+  h2 {
+    margin-bottom: $space-l;
+    line-height: $leading-xxs;
+  }
+
+  h3 {
+    margin-top: $space-xl;
+  }
+  h3.text-medium {
+    margin-top: 0rem;
+  }
+
+  .usa-width-one-third {
+    padding-right: $space-l + $space-m;
+
+    ul,
+    li {
+      padding: 0;
+      margin: 0;
+      font-size: $font-size-xxs;
+    }
+    ul {
+      margin-bottom: $space-l;
+      margin-left: $space-m;
+    }
+    li {
+      margin-bottom: $space-xs;
+    }
+
+    .tech-topic-content {
+      h3 {
+        &+p {
+          a {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    h4 {
+      font-weight: 600;
+      font-size: $font-size-xs;
+    }
+
+  }
+
+  .usa-width-two-thirds {
+    h4 {
+      margin-top: $space-xl;
+    }
+  }
+
+
+}

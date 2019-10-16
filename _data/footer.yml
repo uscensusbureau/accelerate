@@ -1,71 +1,46 @@
-# This is the configuration for the site footer.
+# Whether to show the "Return to top" link; can also be
+# configured as an object with 'text' and 'href' properties.
+top: true
 
-# Configuration for type of footer.
-# Footer types can be 'slim', 'medium', or 'big'.
-# https://designsystem.digital.gov/components/footers/
-type: medium
-
-# Configuration for "Return to top" link.
-# Customize with 'text' and 'href' properties.
-# Comment out to the following section to hide.
-top:
-  text: Return to top
-  href: '#'
-
-# Configuration for "Edit this page" link in the footer.
-# Customize with 'text' property.
-# Uncomment the following line to show.
-# edit_page:
-#   text: Edit this page
-
-# Configuration for "Last updated" date and time.
-# Uncomment the following line to show.
-# last_updated: true
-
-# Configuration for which links show at the top of the footer.
-# this is a key into _data/navigation.yml
+# Which links to show at the top of the footer.
+# This can key into _data/navigation.yml or a list of link objects
+# with 'text' and 'href' properties.
 links: footer
+subfooter: subfooter
 
-# Configuration for the big footer's email sign-up form.
-# Set to true to make the form visible.
-# Hooking it up to send the data somewhere is up to you :)
-big_footer_signup_form: false
+# The optional heading for the footer.
+heading: America's Seed Fund
 
-# Configuration for footer heading. (optional)
-heading: Name of agency
-
-# Configuration for agency logo(s) (shown side by side).
-# If the logo is external add external: true
+# An array of agency logos to show, side by side, in the lower left
+# of the footer on large screens.
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
-    external: true
+#  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+#    alt: 18F
+#  - src: https://18f.gsa.gov/assets/img/logos/gsa-logo.svg
+#    alt: GSA
 
-# Configuration for footer contact links
 contact:
-# Configuration for social media links
-# Comment out links you don't want to use (RSS is an example)
-  social_links:
-    - text: Facebook
-      href: https://facebook.com
-      external: true
-      type: facebook
-    - text: Twitter
-      href: https://twitter.com
-      external: true
-      type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
-  # - text: RSS Feed
-  #   href: https://usa.gov/
-  #   external: true
-  #   type: rss
-  heading: Agency contact center
-# Configuration for contact links for email, phone, etc...
-  contact_links:
-    - text: (800) CALL-GOVT
-      href: tel:1-800-555-5555
-    - text: info@agency.gov
-      href: mailto:info@agency.gov
+  links:
+  #  - text: USA
+  #    href: https://usa.gov/
+
+  heading: Stay in touch
+  content: |
+    Subscribe to our email list to be notified of upcoming deadlines.<br>
+    <a href="mailto:INNOVATION-SUBSCRIBE-REQUEST@LISTSERV.NSF.GOV?Subject=subscribe" class="usa-button usa-button-primary button-arrow">Join our email list</a>
+
+
+  address: |
+    [National Science Foundation](https://www.nsf.gov/)<br>
+    2415 Eisenhower Ave.<br>
+    Alexandria, VA 22314 USA
+
+  TEL: (703) 292-8050
+
+  FIRS: (800) 877-8339
+
+  TDD: (800) 281-8749
+
+social:
+  twitter_url: https://twitter.com/NSFSBIR
+  youtube_url: https://www.youtube.com/user/NSFInnovationIIP

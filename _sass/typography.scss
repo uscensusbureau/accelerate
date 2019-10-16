@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400|Chivo:400,700|Work+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+h1,
+.page-title {
+  font-size: $font-size-xl;
+  font-weight: 800;
+  letter-spacing: $kern-tight;
+  line-height: $leading-xxs;
+}
+h1+p {
+  letter-spacing: $kern-tight;
+  line-height: $leading-s;
+  font-weight: 500;
+  margin: $space-l 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: $kern-tight;
+  margin-top: 0;
+  color: $color-base;
+}
+
+h2 {
+  font-size: $font-size-l;
+  letter-spacing: $kern-tight;
+  line-height: $leading-xxs;
+}
+
+h3,
+h4 {
+  font-size: $font-size-m;
+}
+
+h5 {
+  font-size: $font-size-s;
+}
+
+.h1 { @extend h1 }
+.h2 { @extend h2 }
+.h3 { @extend h3 }
+.h4 { @extend h4 }
+.h5 { @extend h5 }
+.h6 { @extend h6 }
+
+.header-top-bar {
+  padding-top: $space-m;
+  position: relative;
+
+  &::before {
+    background-color: $color-base;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    }
+}
+
+.header-light {
+  font-weight: 500;
+}
+
+.text-xxxxl {
+  font-size: $font-size-xxxl;
+}
+
+.text-xxxl {
+  font-size: $font-size-xxl;
+}
+
+.text-xxl {
+  font-size: $font-size-xl;
+}
+
+.text-xl {
+  font-size: $font-size-l;
+}
+
+.text-large {
+  font-size: $font-size-m;
+  letter-spacing: $kern-tight;
+}
+
+.text-medium {
+  font-size: $font-size-s;
+}
+
+.text-alt {
+  font-family: $font-mono;
+}
+
+.text-small {
+  font-size: $font-size-xxs;
+}
+
+.text-max-width {
+  max-width: $text-max-width;
+}
+
+.subhead {
+  font-family: $font-mono;
+  font-size: $font-size-xxxs;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: $kern-loose;
+  margin-bottom: $space-m;
+}
+
+.section-header {
+  margin-bottom: 8em;
+}
+
+.larger-header {
+  font-size: 110%;
+  font-weight: 700;
+}
+
+.smaller-header {
+  font-size: $font-size-s;
+  font-weight: 600;
+  letter-spacing: -.02rem;
+  line-height: 1.325;
+}
+
+.font-serif {
+  font-family: $font-serif;
+}
+
+code,
+.font-mono {
+  font-family: $font-mono;
+}
+
+.font-sans {
+  font-family: $font-sans;
+}
+
+.font-regular { font-weight: $font-normal; }
+.font-bold { font-weight: $font-bold; }
+.uppercase { text-transform: uppercase; }
+.inline-block {display: inline-block;}

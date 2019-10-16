@@ -1,0 +1,50 @@
+---
+layout: base
+class: tech-topic-layout
+---
+{% for topic in site.data.tech-topics %}
+{% if page.topic_code == topic.topic_code %}
+<section class="section-background-image">
+  <div class="usa-grid topic-icon" style="background-image:url('{{ site.baseurl }}/assets/img/icons/{{ topic.topic_code | downcase }}-white.svg')">
+    <h1 class="text-large">{{ topic.topic }}</h1>
+  </div>
+  <div class="usa-grid">
+    <div class="usa-width-one-half caption">
+      {{ page.section_image_caption | liquify | markdownify }}
+    </div>
+  </div>
+</section>
+<section class="background-light-blue">
+  <div class="usa-section usa-content usa-grid">
+    <div class="usa-width-one-third">
+      <h2 class="subhead">Program director</h2>
+      {% for programDirector in topic.programDirector %}
+      {% if programDirector.photo %}
+        <img src="{{ site.baseurl }}/assets/img/pd/{{ programDirector.photo }}" class="program-dir-img" alt="{{ programDirector.name | default: 'program director' }} headshot">
+      {% endif %}
+        <h3 class="text-medium">
+          {{ programDirector.name }}
+        </h3>
+        <ul>
+          <li>
+            <a href="mailto:{{ programDirector.email }}">Send email</a>
+          </li>
+          {% if programDirector.bio %}
+          <li>
+            <a href="{{ site.baseurl }}/contact/bios#{{ programDirector.name }}">View bio</a>
+          </li>
+          {% endif %}
+        </ul>
+      {% endfor %}
+      
+    </div>
+    <div class="usa-width-two-thirds tech-topic-content">
+      <p class="subhead">Technology topic</p>
+      <h2>{{ topic.topic }}</h2>
+        {{ content }}
+    </div>
+  </div>
+</section>
+{% else %}
+{% endif %}
+{% endfor %}

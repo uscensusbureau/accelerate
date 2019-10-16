@@ -1,0 +1,51 @@
+---
+layout: base
+---
+
+<div>
+  <div class="results-failure flex flex-column usa-grid usa-section" style="display: none;">
+    <h1 class="h3 m0">There were no results found for <span class="results-query background-secondary font-mono">that query</span>.</h1>
+    <p>Try a new search or return to <a href="{{ page.parent_permalink | relative_url }}">previous page</a> to try again.</p>
+  </div>
+  <form onsubmit="window.searchAwards(this.company.value); return false;" class="awards-search-form usa-grid" style="display: none;">
+    <input type="text" name="company" id="awards-search" class="awards-search-input" size="20" placeholder="" />
+    <label class="text-small" for="awards-search">Search America's Seed Fund awardees</label>
+    <input type="submit" class="usa-button usa-button-primary usa-sr-only" value="Search" />
+  </form>
+  <div class="results-loading flex flex-center usa-grid usa-section">
+    <div class="loader" aria-role="img"></div>
+    <h2 class="h3 m0">Loading company results...</h2>
+  </div>
+
+  {% assign awards_to_detail = site.data[page.dataset] | default: 'site.data.awards_phase_1' %}
+
+  {% if page.split_by_awards %}
+    {% assign awards_by_phase_1 = awards_to_detail | uniq | where_phase_1 %}
+    {% assign awards_by_phase_2 = awards_to_detail | uniq | where_phase_2 %}
+    {% assign awards_by_company_phase_1 = awards_by_phase_1 | uniq | group_by: "awardeeName" | sort: 'name' %}
+    {% assign awards_by_company_phase_2 = awards_by_phase_2 | uniq | group_by: "awardeeName" | sort: 'name' %}
+    <div id="awards-details-list" style="display: none;">
+      <div class="usa-grid usa-section">
+        <h1 class="h2 subhead uppercase results-phase" style="display: none;">Phase II</h1>
+        <h2 class="h1 results-company-title" style="display: none;"></h2>
+        {% include details-list.html awards_by_company=awards_by_company_phase_2 %}
+      </div>
+    </div>
+    <div id="awards-details-list-phase-2" class="background-white" style="display: none;">
+      <div class="usa-grid usa-section">
+        <h1 class="h2 subhead uppercase results-phase" style="display: none;">Phase I</h1>
+        <h2 class="h1 results-company-title" style="display: none;"></h2>
+        {% include details-list.html awards_by_company=awards_by_company_phase_1 %}
+      </div>
+    </div>
+  {% else %}
+    {% assign awards_by_company = awards_to_detail | uniq | group_by: "awardeeName" | sort: 'name' %}
+    <div id="awards-details-list">
+      <div class="usa-grid usa-section">
+        <h1 class="h2 subhead uppercase results-phase" style="display: none;">{{ page.phase }}</h1>
+        <h2 class="h1 results-company-title" style="display: none;"></h2>
+        {% include details-list.html awards_by_company=awards_by_company %}
+      </div>
+    </div>
+  {% endif %}
+</div>

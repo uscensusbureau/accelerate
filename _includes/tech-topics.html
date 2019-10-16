@@ -1,0 +1,7 @@
+  <ul class="flex-list">
+    {% for topic in site.data.tech-topics %}
+      <li class="button-arrow-after button-arrow-down">
+        <a href="/portfolio/#{{ topic.topic | slugify }}">{{ topic.topic }}</a>
+      </li>
+    {% endfor %}
+  </ul>

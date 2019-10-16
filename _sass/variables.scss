@@ -1,0 +1,101 @@
+
+// Color USWDS Overrides
+$visited: #406098;
+$color-base: #212121;
+$color-focus: #02BFE7;
+
+/* blues */
+$color-primary: #1b5bf3;
+$color-primary-darkest: #0744d7;
+$color-primary-darker: #094ce9;
+$color-visited: #414f71;
+
+$color-gray-dark: #323A45;
+$color-gray-medium-warm: #696969;
+$color-gray-medium-cool: #4F5A65;
+$color-gray-light: #AEB0B5;
+
+
+/* reds/salmons */
+$color-primary-alt: #ed613e;
+$color-primary-alt-darkest: #bf3310;
+$color-primary-alt-dark: #d85230;
+$color-primary-alt-medium: #ed613e;
+$color-primary-alt-light: #ee7257;
+$color-primary-alt-lightest: #f89f8b;
+
+
+/* yellows */
+$color-secondary: #f7c644;
+$color-secondary-darkest: #f7c644;
+$color-secondary-dark: #f7c644;
+$color-secondary-light: #fdd66d;
+$color-secondary-lightest: #ffe5a0;
+
+$color-gray-lightest: #F7F7F7;
+$color-blue-light: #e1f4f9;
+$color-neutral-light: #F5FBFC;
+$color-gray-cool-light: #f2f5f6;
+
+// Mobile first breakpoints
+$large-screen:  960px !default;
+$site-max-width: 960px !default;
+
+// Unique colors
+/* pinks */
+$color-tertiary: #f4b9cc;
+$color-tertiary-darkest: #dc1f5c;
+$color-tertiary-dark: #f45e8e;
+$color-tertiary-light: #f4b9cc;
+$color-tertiary-lightest: #F9DEDE;
+$color-white-transprent: rgba(255,255,255,.9);
+
+
+// Backgrounds
+$color-bg-light: #F5FBFC;
+$bg-color: #F7F7F7;
+$hero-bg-color: $color-base;
+
+
+// End Unique colors
+
+// Typography
+$font-serif: 'Poppins', 'Work Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;;
+$font-mono: 'Chivo', monospace;
+$font-mono-alt: 'Overpass Mono', monospace;
+$font-sans: 'Poppins', 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
+$font-size-xxxs: 1.1rem;
+$font-size-xxs: 1.2rem;
+$font-size-xs: 1.4rem;
+$font-size-s: 1.8rem;
+$font-size-m: 2.4rem;
+$font-size-l: 3.6rem;
+$font-size-xl: 5rem;
+$font-size-xxl: 7rem;
+$font-size-xxxl: 12rem;
+
+// Line-heights
+$leading-xl: 1.825;
+$leading-l: 1.75;
+$leading-m: 1.625;
+$leading-s: 1.5;
+$leading-xs: 1.35;
+$leading-xxs: 1.2;
+
+// Letter-spacing
+$kern-tight: -.015em;
+$kern-loose: .0625em;
+$kern-looser: .0825em;
+
+// Spacing
+$space-xxs: .25rem;
+$space-xs: .5rem;
+$space-s: 1rem;
+$space-m: 1.5rem;
+$space-l: 3rem;
+$space-xl: 6rem;
+
+// Setup of USWDS
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
+@import 'uswds/all';

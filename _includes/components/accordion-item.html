@@ -1,0 +1,33 @@
+{% assign timeline_item = site.timeline | where:"slug", include.slug %}
+{% if timeline_item.size > 0 %}
+
+
+
+  {% if timeline_item[0].becomes_inactive == true %}
+
+  <h2><button class="usa-accordion-button" disabled="disabled" aria-expanded="false" aria-controls="{{ timeline_item[0].title | slugify }}">
+    {{ timeline_item[0].title | default: "" }} 
+     </button></h2>
+     {% if timeline_item[0].inactive_description %}
+        <span class="step-description" >{{ timeline_item[0].inactive_description | liquify | markdownify }}</span>
+      {% endif %}
+  
+  <div id="{{ timeline_item[0].title | slugify }}" class="usa-accordion-content">
+    {{ timeline_item[0].content | markdownify }}
+  </div>
+  {% else %}
+  <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="{{ timeline_item[0].title | slugify }}">
+    {{ timeline_item[0].title | default: "" }}
+  </button></h2>  
+    {% if timeline_item[0].description %}
+      <span class="step-description" >{{ timeline_item[0].description  | liquify | markdownify }}</span>
+    {% endif %}
+  
+  <div id="{{ timeline_item[0].title | slugify }}" class="usa-accordion-content">
+    {{ timeline_item[0].content | markdownify }}
+  </div>
+  {% endif %}
+
+
+{% else %}
+{% endif %}

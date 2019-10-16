@@ -1,0 +1,75 @@
+.coil-team-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: $space-xl 0;
+  padding: 0;
+
+  &:after {
+    content: "";
+    max-width: 30%;
+    flex: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 70%;
+  }
+
+  .coil-team-card {
+    margin: 0 $space-l $space-l 0;
+    width: 27rem;
+    height: 45rem;
+  }
+
+  .coil-team-list-content {
+    display: block;
+    padding: 1.05rem 3rem;
+  }
+}
+
+.coil-team-name {
+  font-size: $font-size-xs;
+  margin-top: $space-m;
+  margin-bottom: $space-m;
+  letter-spacing: normal;
+}
+
+.coil-team-title {
+  font-size: $font-size-xs;
+  margin-top: $space-m;
+  margin-bottom: $space-m;
+  letter-spacing: normal;
+  font-weight: 300;
+}
+
+.coil-team-program-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: $space-m;
+
+  .coil-team-tech-program {
+    font-size: $font-size-xxs;
+    line-height: $leading-xs;
+    margin-bottom: $space-xs;
+
+    &::before {
+      content: '\2192';
+      font-family: $font-serif;
+      margin-right: 5px;
+      width: 16px;
+      color: $color-base;
+    }
+
+    a {
+      color: $color-primary;
+      font-weight: 500;
+      display: block;
+      border: none;
+      margin: -1.6rem 0 0 0;
+    }
+
+
+  }
+
+}

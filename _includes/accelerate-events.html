@@ -1,0 +1,13 @@
+<ul class="accelerate-event-list">
+  {% assign sorted_events = site.data.accelerate-events %}
+  {% for event in sorted_events %}
+    <li>
+      <div class="accelerate-event" id="accelerate-event-{{ event.id }}">
+        <div class="accelerate-event-date">{{ event.date_display }}</div>
+        <div class="accelerate-event-name">{{ event.name }}</div>
+        <div class="accelerate-event-city">{{ event.city }}</div>
+        <p>{{ event.details }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

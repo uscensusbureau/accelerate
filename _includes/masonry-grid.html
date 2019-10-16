@@ -1,0 +1,6 @@
+<div class="masonry-grid">
+  {% assign images = site.data.accelerate_showcase_pictures %}
+  {% for img in images %}
+    <img src="{{ site.baseurl }}/assets/img/accelerate_showcase_gallery/{{ img.src }}" alt="" style="" class="grid-item"/>
+  {% endfor %}
+</div>

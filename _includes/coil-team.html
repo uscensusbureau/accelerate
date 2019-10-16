@@ -1,0 +1,27 @@
+<ul class="coil-team-list">
+  {% assign sorted_coil_team = site.data.coil-team %}
+  {% for member in sorted_coil_team %}
+    <li class="coil-team-card">
+      {% if member.photo %}
+        <img src="{{ site.baseurl }}/assets/img/headshots/{{ member.photo }}" alt="{{ member.name }}'s headshot">
+      {% endif %}
+      <span class="coil-team-list-content">
+        <h3 class="coil-team-name"><a href="{{ site.baseurl }}/contact/bios/#{{ member.name }}">{{ member.name }} {{ member.last_name }}</a></h3>
+        <h3 class="coil-team-title">{{ member.title }}</h3>
+        {% if member.programs.size > 0 %}
+          <ul class="coil-team-program-list">
+            {% for program in member.programs %}
+              <li class="coil-team-tech-program">{{ program.program_name }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <div class="coil-team-program-list"><span class="coil-team-tech-program">{{ member.program }}</span></div>
+        {% endif %}
+
+        <p class="text-small">
+          <a href="mailto:{{ member.email }}">Send email</a>
+        </p>
+      </span>
+    </li>
+  {% endfor %}
+</ul>

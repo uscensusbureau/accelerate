@@ -1,0 +1,91 @@
+{% if footer.top %}
+{% endif %}
+{% if footer %}
+<footer class="usa-footer usa-footer-medium" role="contentinfo">
+  {% if footer.contact %}
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid usa-footer-return-to-top">
+      <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+    </div>
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-third">
+        {% for logo in footer.logos %}
+        <img class="usa-footer-logo-img" src="{{ logo.src }}" alt="{{ logo.alt }}"
+          {% if logo.width %}width="{{ logo.width }}"{% endif %}
+          {% if logo.height %}height="{{ logo.height }}"{% endif %}>
+        {% endfor %}
+        {% if footer.heading %}
+        <h2 class="usa-footer-logo-heading">{{ footer.heading }}</h2>
+        {% endif %}
+        {% if footer.contact.address %}
+        <address>
+          {{ footer.contact.address | markdownify }}
+        </address>
+        {% endif %}
+      <p>
+          Tel: {{ footer.contact.TEL }}<br>
+          FIRS: {{ footer.contact.FIRS }}  | TDD: {{ footer.contact.TDD }}
+        </p>
+        <p>
+           <a href="https://github.com/18F/nsf-sbir/issues/new">Report an issue</a>
+        </p>
+      </div>
+      <div class="usa-width-one-third">
+        {% if footer.links %}
+          {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
+          {% assign _sizes = 'whole half third fourth fifth sixth' | split: ' ' %}
+          {% assign _size = footer_links.size | minus: 1 %}
+          {% assign _size = _sizes[_size] | default: 'whole' %}
+
+            <nav class="usa-footer-nav" aria-label="footer nav">
+              <ul class="usa-unstyled-list flex-list ">
+                {% for _link in footer_links %}
+                <li class="usa-footer-primary-content">
+                  <a class="usa-footer-primary-link" href="{{ _link.href | relative_url }}">
+                    {{ _link.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </nav>
+        {% endif %}
+        {% if footer.subfooter %}
+          {% assign subfooter_links = site.data.navigation[footer.subfooter] | default: subfooter.links %}
+            <nav class="usa-footer-nav" aria-label="subfooter nav">
+              <ul class="usa-unstyled-list flex-list ">
+                {% for _link in subfooter_links %}
+                <li class="usa-footer-primary-content">
+                  <a class="usa-footer-primary-link" href="{% if _link.href contains "https:"  or _link.href contains "www." _link.href contains "http:" %}{{ _link.href}}{% else %}{{ _link.href | relative_url }}{% endif %}">
+                    {{ _link.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </nav>
+        {% endif %}
+      </div>
+      <div class="usa-width-one-third">
+        {% if footer.contact.heading %}
+        <h3 class="usa-footer-contact-heading">{{ footer.contact.heading }}</h3>
+        {% endif %}
+        {% if footer.contact.content %}
+          {{ footer.contact.content | markdownify }}
+        {% endif %}
+        {% if footer.social.twitter_url %}
+          <a href="{{ footer.social.twitter_url }}" class="social-link"><img src="{{site.baseurl}}/assets/uswds/img/social-icons/svg/twitter16.svg" alt="twitter logo"></a>
+        {% endif %}
+        {% if footer.social.youtube_url %}
+          <a href="{{ footer.social.youtube_url }}" class="social-link"><img src="{{site.baseurl}}/assets/uswds/img/social-icons/svg/youtube15.svg" alt="youtube logo"></a>
+        {% endif %}
+        {% assign contact_links = site.data.navigation[footer.contact.links] | default: footer.contact.links %}
+        {% for _link in contact_links %}
+        <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{{ _link.href | relative_url }}">
+          <span>{{ _link.text }}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</footer>
+{% endif %}

@@ -1,0 +1,75 @@
+{% assign award = include.award | default: award %}
+<li id="{{ award.awardeeName | slugify }}" class="usa-grid-full">
+  <div class="mb5 mt5">
+    <h1 class="h2 awardeeName usa-sr-only">{{ award.awardeeName }}</h1>
+    <h2 class="title h5 font-regular">{{ award.title }}</h2>
+  </div>
+  <div class="usa-grid-full {% unless forloop.last %}award-listing{% endunless %}">
+    <div class="usa-width-one-fourth">
+       <address>
+         <div class="mb5">
+          <h4 class="subhead uppercase">Team</h4>
+          <p class="piName font-bold">
+            {% if award.piEmail %}
+              <a href="mailto:{{ award.piEmail }}">
+                {{ award.piFirstName }} {{ award.piLastName }}
+              </a>
+            {% else %}
+              {{ award.piFirstName }} {{ award.piLastName }}
+            {% endif %}
+          </p>
+          {% if award.piPhone %}
+            <p><a href="tel:{{ award.piPhone }}">{{ award.piPhone | phone }}</a></p>
+          {% endif %}
+          <p>Principal Investigator</p>
+        </div>
+        <div class="mb5">
+          <h4 class="subhead uppercase">Contact</h4>
+          {% if award.awardeeAddress %}
+            <p>{{ award.awardeeAddress }}</p>
+          {% endif %}
+          <p class="city">
+            {{ award.awardeeCity | titlecase }}, {{ award.awardeeStateCode }}{% if award.awardeeZipCode %} {{ award.awardeeZipCode | zip_code }}{% endif %}
+          </p>
+          {% if award.poPhone %}
+            <p>{{ award.poPhone }}</p>
+          {% endif %}
+        </div>
+      </address>
+      <div class="mb5">
+        <h4 class="subhead uppercase">NSF Award</h4>
+        <p class="id">{{ award.id }} – {{ award.fundProgramName }}</p>
+      </div>
+      <div class="mb5">
+        <h4 class="subhead uppercase">Award amount to date</h4>
+        <p class="amount">{{ award.fundsObligatedAmt | round | intcomma_dollar }}</p>
+      </div>
+      <div class="mb5">
+        {% if award.startDate and award.expDate %}
+          <h4 class="subhead uppercase">Start / end date</h4>
+          <p>{{ award.startDate }} – {{ award.expDate }}</p>
+        {% elsif award.startDate %}
+          <h4 class="subhead uppercase">Start date</h4>
+          <p>{{ award.startDate }}</p>
+        {% elsif award.expDate %}
+          <h4 class="subhead uppercase">End date</h4>
+          <p>{{ award.expDate }}</p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="usa-width-three-fourths">
+      <div class="mb5">
+        <h4 class="subhead uppercase">Abstract</h4>
+        <p class="abstractText">{{ award.abstractText }}</p>
+      </div>
+      <div class="mb5">
+        <h4 class="subhead uppercase">Errata</h4>
+        <p class="abstractText">Please report errors in award information by writing to <a href="mailto:awardsearch@nsf.gov">awardsearch@nsf.gov</a>.</p>
+      </div>
+      <div class="mb5">
+        <h4 class="subhead uppercase">Addenda</h4>
+        <p class="abstractText">If you're a member of this company, you may <a href="https://github.com/18F/nsf-sbir/issues/new">submit updates and supplemental company information via GitHub</a>.</p>
+      </div>
+    </div>
+  </div>
+</li>

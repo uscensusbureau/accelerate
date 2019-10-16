@@ -1,0 +1,16 @@
+<ul class="accelerate-event-list">
+  {% assign sorted_events = site.data.accelerate-events %}
+  {% for event in sorted_events %}
+    <li class="accelerate-event-card">
+      <!-- <a href="{{ site.baseurl }}/accelerate/createathons#accelerate-event-{{ event.id }}"> -->
+        <div class="accelerate-triange-topleft"></div>
+        <span class="accelerate-event-list-content">
+          <h3 class="accelerate-event-series"><a>{{ event.series }}</a></h3>
+          <h3 class="accelerate-event-date">{{ event.date_display }}</h3>
+          <h3 class="accelerate-event-name">{{ event.name }}</h3>
+          <h3 class="accelerate-event-city">{{ event.city }}</h3>
+        </span>
+      <!-- </a> -->
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t coil .
+docker run --rm -it -v "$(pwd):/usr/src/app" -p 4000:4000 coil

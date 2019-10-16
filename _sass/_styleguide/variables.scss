@@ -1,0 +1,33 @@
+// Variables for styleguide setup
+$sliding-panel-width: 26rem;
+
+// width needed to add so nav doesn't break on medium-screen size
+$nav-width-extra: 88px;
+
+// Spacing
+$paragraph-margins:  1.5rem;
+$paragraph-margins-thick: 3rem;
+$section-margins:    5rem;
+
+// Colors
+$color-dark: #1C304A; // $color-dark / $color-primary-dark
+$color-medium:       #046b99; // $color-medium / $color-primary
+$color-medium-hover: #00547A;
+$color-bright:       #00cfff; // $color-bright / $color-secondary
+$color-bright-hover: #00A7CE;
+$color-light:        #b3efff; // $color-light / $color-secondary-light
+$color-inverse: #ffffff;
+$code-background: #cff3ff;
+$code-text-color: #006699;
+
+// Icons
+$icon-small: 1rem;
+$icon: 1.3rem;
+$icon-diameter: 30px;
+
+
+// Miscellaneous
+$border-accent-height: 1rem;
+$border-accent:        $border-accent-height solid $color-bright;
+$border-light:         1px solid $color-gray-lightest;
+$border-thick:       4px solid $color-gray-lightest;

@@ -14,6 +14,25 @@ $usa-btn-big-width:     11.6rem;
   max-width: none;
   position: relative;
 
+  [type=search],
+  .usa-search-input {
+    @include padding(0 null);
+    -webkit-appearance: none;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    border-top-right-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    font-size: $small-font-size;
+    height: 3.3rem;
+    margin: 0;
+    width: calc(100% - #{$usa-btn-small-width});
+
+    @include media($small-screen) {
+      width: calc(100% - #{$usa-btn-medium-width});
+    }
+  }
+
   [type=submit],
   .usa-search-submit {
     @include search-icon;
@@ -27,6 +46,14 @@ $usa-btn-big-width:     11.6rem;
     @include media($small-screen) {
       background-image: none;
       width: $usa-btn-medium-width;
+    }
+  }
+
+  .usa-search-submit-text {
+    display: none;
+
+    @include media($small-screen) {
+      display: block;
     }
   }
 
@@ -78,34 +105,60 @@ $usa-btn-big-width:     11.6rem;
   }
 }
 
-// Extra specificity to override rules set in reset.css.
-input[type=search] { /* stylelint-disable-line selector-no-qualifying-type */
-  box-sizing: border-box;
-  appearance: none;
+#search_form input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
 }
-
-[type=search],
-.usa-search-input {
-  @include padding(0 null);
-  border-bottom-right-radius: 0;
-  border-right: none;
-  border-top-right-radius: 0;
-  box-sizing: border-box;
-  float: left;
-  font-size: $small-font-size;
-  height: 3.3rem;
-  margin: 0;
-  width: calc(100% - #{$usa-btn-small-width});
-
-  @include media($small-screen) {
-    width: calc(100% - #{$usa-btn-medium-width});
-  }
+#search_form input::-webkit-search-decoration,
+#search_form input::-webkit-search-cancel-button {
+	display: none; 
 }
+#search_form input[type=search] {	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+#search_form input[type=search]:focus {
+	width: 130px;
+	outline:none;
+}
+#search_form input:-moz-placeholder {
+	color: #212121;
+}
+#search_form input::-webkit-input-placeholder {
+	color: #212121;
+}
+#search_form input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+	background-image: url(https://seedfund.nsf.gov/assets/uswds/img/search-alt.svg);
+  background-repeat: no-repeat;
+	background-position:right;
+	border-bottom: none;
 
-.usa-search-submit-text {
-  @include sr-only;
-
-  @include media($small-screen) {
-    @include not-sr-only();
-  }
+}
+#search_form input[type=search]:hover {
+}
+#search_form input[type=search]:focus {
+	width: 130px;
+	padding-left: 15px;
+	padding-right:10px;
+	color: #212121;
+	cursor: auto;
+	/*border-bottom: 3px solid #00A6D2;*/
+	background-color:#fff;
+	outline:none;
+}
+#search_form input:-moz-placeholder {
+	color: transparent;
+}
+#search_form input::-webkit-input-placeholder {
+	color: transparent;
+}
+#search_form textarea:focus, input:focus{ 
+	outline: none; 
 }

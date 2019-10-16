@@ -1,0 +1,58 @@
+---
+  # name is the name of the event
+  # series is what event series it's part of
+  # id will be used as an anchor to direct a click on an event card to the full info
+  # city is the event city
+  # date is the full date (for sorting purposes)
+  # date_display is the date that shows up on the cards
+  # details is the full blurb about the event
+
+- name: Hard-To-Count Communities
+  id: HardToCountCommunities
+  series: #CreativesForTheCount
+  city: Columbia, SC
+  date: October 15th, 2019
+  date_display: 10.15.19
+  details: <p><strong>Coming soon!</strong></p>
+- name: Families With Kids Under 5
+  id: FamiliesWithKidsUnder5
+  series: #CreativesForTheCount
+  city: New York City, NY
+  date: September, 2019
+  date_display: 08.19
+  details: <p>Children may be our future, but young ones are historically undercounted. Two million children under the age of five were missed in the 2010 Census, and this has dire implications for the programs and services that they need to thrive. The sprint in New York will focus on creating content for parents, caregivers, and families of children under 5 to ensure that all people - even tiny ones - receive the funding and services that benefit them.</p>
+- name: Hispanic/Latinx Border Communities
+  id: HispanicLatinxBorderCommunities
+  series: #CreativesForTheCount
+  city: El Paso, TX
+  date: July, 2019
+  date_display: 07.19
+  details: <p>COIL is working with community partners and regional Census staff to organize a create-a-thon to educate and support underrepresented communities along our nation's border.</p>
+- name: LGBTQ+ Communities
+  id: LGBTQPlusCommunities
+  series: #CreativesForTheCount
+  city: Washington D.C.
+  date: June 2019
+  date_display: 06.19
+  details: <p>In celebration of Pride Week, LGBTQ advocates and creatives gathered from around our nation's capital to produce graphics and campaign imagery for nationally impactful organizations at a #CensusPride create-a-thon.</p>
+- name: Young And Mobile Communities
+  id: YoungAndMobileCommunities
+  series: #CreativesForTheCount
+  city: Los Angeles, CA
+  date: November 2018
+  date_display: 11.18
+  details: <p>The first #CreativesForTheCount pilot event pulled together creative heavy-hitters from across the LA creative scene at Red Bull Studios in Los Angeles to develop content for undercounted millennials.</p>
+- name: Underrepresented Minorities & Families With Kids Under 5
+  id: UnderrepresentedMinoritiesFamiliesWithKidsUnder5
+  series: #CreativesForTheCount
+  city: Portland, OR
+  date: April 2019
+  date_display: 04.19
+  details: <p>Portland is home to an increasingly young and diverse population that is representative of many of the nation's marginalized groups. In conjunction with Design Week Portland, visual designers produced content for advocacy groups across the state as well as a toolkit that can be used by creatives, nationwide.</p>
+- name: Rural Communities
+  id: RuralCommunities
+  series: #CreativesForTheCount
+  city: Nashville, TN
+  date: June 2019
+  date_display: 06.19
+  details: <p>COIL helped to facilitate a singer & songwriting-focused create-a-thon with contemporary Christian musicians and religious leaders to better reach their audiences.</p>

@@ -1,0 +1,74 @@
+
+h2#program-directors,
+h2#executive-staff {
+  margin: $space-xl+$space-m 0 $space-l 0;
+}
+
+// h2#executive-staff {
+//   margin-top: $space-xl+$space-m;
+// }
+
+h2#program-directors,
+h2#executive-staff {
+  padding-top: $space-m;
+  position: relative;
+  &::before {
+    background-color: $color-base;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    }
+}
+
+.usa-content .bios-content li {
+  width: 100%;
+  max-width: 100%;
+}
+
+.bios-content {
+
+  .coil-team-list,
+  .exec-list {
+
+    padding: 0;
+
+    a[name]:not(:first-child) {
+      padding-bottom: $space-xl;
+      display: block;
+      border: 1px solid transparent;
+    }
+
+    .coil-team-bio-content,
+    .exec-bio-content {
+
+      padding-bottom: $space-m;
+
+        img {
+          width: $space-xl * 2;
+          height: $space-xl * 2;
+          margin-bottom: $space-m;
+          border-radius: $space-xl;
+        }
+
+        @media screen and (min-width: $medium-screen){
+          display: flex;
+          img {
+            margin-right: $space-xl;
+          }
+          .bio {
+            font-size: $font-size-s - 2;
+            line-height: $leading-xl;
+            letter-spacing: $kern-tight;
+            font-weight: 400;
+          }
+
+        }
+
+      }
+
+    }
+
+  }

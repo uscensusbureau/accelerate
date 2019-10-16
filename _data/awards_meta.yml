@@ -1,0 +1,31 @@
+---
+active_date_is_now: true
+fundProgramName: phase i
+reset: false
+recent_date: 2016-01-01
+printFields:
+- id
+- awardeeName
+- date
+- expDate
+- fundsObligatedAmt
+- fundProgramName
+- poName
+- title
+- abstractText
+- startDate
+- endDate
+- awardeeCity
+- awardeeCountryCode
+- awardeeStateCode
+- awardeeZipCode
+- awardeeAddress
+- piFirstName
+- piMiddeInitial
+- piLastName
+- piPhone
+- piEmail
+last_updated: 08/08/2019
+active_date: 08/08/2019
+---
+

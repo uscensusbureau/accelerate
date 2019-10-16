@@ -1,0 +1,19 @@
+<ul class="exec-list">
+{% for exec in site.data.executives %}
+
+  <a name="{{ exec.name }}"></a>
+
+  <li class="exec-bio-content">
+
+    {% if exec.photo %}
+    <img src="{{ site.baseurl }}/assets/img/pd/{{ exec.photo }}" alt="{{ exec.name }}">
+    {% endif %}
+    {% if exec.bio %}
+      <p class="bio">
+        <strong>{{ exec.name }}</strong> {{ exec.bio }}
+      </p>
+    {% endif %}
+
+  </li>
+{% endfor %}
+</ul>

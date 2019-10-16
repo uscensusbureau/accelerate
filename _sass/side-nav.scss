@@ -1,0 +1,63 @@
+
+
+.usa-sidenav-list {
+
+  padding-top: $space-xl * 1.25;
+
+  li {
+    border: none;
+    margin-right: $space-s;
+
+    &.supplement {  // sidenav section divider
+      margin-top: -1px;
+      // margin-right: 1rem;
+      border-top: 2px solid $color-primary-alt-medium;
+
+    }
+
+    a {
+      color: $color-primary-alt-dark;
+      font-family: $font-serif;
+      font-size: $font-size-xxs;
+      font-weight: 400;
+      border: none;
+      padding: 1rem 1rem 1rem 2rem;
+      margin: 0;
+      background-color: transparent;
+      border-bottom: 1px dotted $color-primary-alt-medium;
+
+      &:hover {
+        color: white;
+        background-color: $color-primary-alt-lightest;
+      }
+      &:visited {
+        background-color: $color-primary-alt-light;
+        border-bottom: 1px solid $color-base;
+      }
+      &:active,
+      &:focus {
+        box-shadow: none;
+        background-color: $color-primary-alt-lightest;
+      }
+      &.usa-current {
+        border-left: none;
+        padding-left: 2rem;
+        color: $color-base;
+        font-weight: 600;
+        // background-color: $color-white-transparent;
+
+        &::before {
+          content: '\2192';
+          width: 1.5rem;
+          display: inline-block !important;
+          font-family: $font-serif;
+          margin-left: -2rem;
+        }
+      }
+
+    }
+
+
+  }
+
+}

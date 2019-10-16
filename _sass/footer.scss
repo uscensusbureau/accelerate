@@ -1,0 +1,45 @@
+.usa-footer,
+.usa-footer-primary-section,
+.usa-footer-secondary_section {
+  background-color: $color-neutral-light;
+  font-size: $font-size-xxs;
+
+  p {
+    font-size: $font-size-xxs;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: $font-size-xs;
+  }
+}
+
+.usa-footer-logo-img {
+  max-width: 5rem;
+}
+
+.usa-footer-nav {
+  margin-bottom: 1.8rem;
+  li {
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    display: inline-block;
+  }
+  .usa-footer-primary-content, .usa-footer-primary-content:last-child  {
+    border: 0;
+  }
+  .usa-footer-primary-link {
+    font-weight: normal;
+    padding-bottom: $space-xs;
+    padding-top: $space-xs;
+    font-size: $font-size-xxs;
+    color: $color-primary;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

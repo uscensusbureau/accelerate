@@ -1,0 +1,32 @@
+{% assign company = include.company | default: company %}
+{% assign awardee_name = include.awardee_name | default: awardee_name | default: topic['awardeeName'] %}
+
+{% assign company_name = company['name'] %}
+{% assign company_slug = company_name | slugify %}
+{% assign awardee_slug = awardee_name | slugify %}
+{% if company['past'] %}
+  {% assign company_past_slug = company['past'] | slugify %}
+  {% assign company_name = company_name | append: " (formerly " | append: company['past'] | append: ")" %}
+  {% if awardee_slug == company_past_slug %}
+    <li><a href="{{ site.baseurl }}/portfolio/details/?company={{ company_past_slug }}">{{ company_name }}</a></li>
+    {% break %}
+  {% elsif awardee_slug == company_slug %}
+    <li><a href="{{ site.baseurl }}/portfolio/details/?company={{ company_slug }}">{{ company_name }}</a></li>
+    {% break %}
+  {% endif %}
+{% elsif company['dba'] %}
+  {% assign company_dba_slug = company['dba'] | slugify %}
+  {% assign company_name = company_name | append: " (dba " | append: company['dba'] | append: ")" %}
+  {% if awardee_slug == company_dba_slug %}
+    <li><a href="{{ site.baseurl }}/portfolio/details/?company={{ company_dba_slug }}">{{ company_name }}</a></li>
+    {% break %}
+  {% elsif awardee_slug == company_slug %}
+    <li><a href="{{ site.baseurl }}/portfolio/details/?company={{ company_slug }}">{{ company_name }}</a></li>
+    {% break %}
+  {% endif %}
+{% else %}
+  {% if awardee_slug == company_slug %}
+    <li><a href="{{ site.baseurl }}/portfolio/details/?company={{ company_slug }}">{{ company_name }}</a></li>
+    {% break %}
+  {% endif %}
+{% endif %}

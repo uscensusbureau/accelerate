@@ -1,0 +1,15 @@
+.no-js {
+  .results-loading {
+    display: none;
+  }
+
+  .results {
+    display: block !important;
+
+    li { display: none; }
+
+    li:target {
+      display: block;
+    }
+  }
+}

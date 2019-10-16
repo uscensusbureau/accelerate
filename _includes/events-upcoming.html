@@ -1,0 +1,38 @@
+<ul class="event-upcoming-listing">
+  {% for upcoming_event in site.data.events_upcoming %}
+  <li>
+    <div class="date">{{ upcoming_event.date }}</div>
+    <div class="upcoming-event-info">
+      <h3>{{ upcoming_event.eventName }}</h3>
+      <p class="time"> {{ upcoming_event.time }}</p>
+      <p class="description" markdown="1">{{ upcoming_event.description }}</p>
+      {% if upcoming_event.registrationLink %}
+        <a href="{{ upcoming_event.registrationLink }}" class="usa-button">Register</a>
+      {% endif %}
+    </div>
+  </li>
+<!--<li>
+    <div class="date">Apr 4 2017</div>
+    <div class="upcoming-event-info">
+      <h3>Q&amp;A webinar with Ben Schrag</h3>
+      <p class="time">2:00 PM - 3:30 PM ET</p>
+      <p class="description">
+        Tristique porttitor lobortis per ad conubia in aenean, dignissim velit scelerisque condimentum facilisi commodo porta ullamcorper, augue ornare penatibus sociosqu suspendisse nam.
+      </p>
+      <a href="#" class="usa-button">Register</a>
+    </div>
+  </li>
+  <li>
+    <div class="date">Apr 4 - 10 2017</div>
+    <div class="upcoming-event-info">
+      <h3>Lorem Ipsum Dolor Sit Amet</h3>
+      <p class="time">9:00 AM - 6:00 PM ET</p>
+      <p class="location">Washington, DC</p>
+      <p class="description">
+        Tristique porttitor lobortis per ad conubia in aenean, dignissim velit scelerisque condimentum facilisi commodo porta ullamcorper, augue ornare penatibus sociosqu suspendisse nam.
+      </p>
+      <a href="#" class="button-arrow">View details</a>
+    </div>
+  </li>-->
+  {% endfor %}
+</ul>

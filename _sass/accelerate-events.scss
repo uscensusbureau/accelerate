@@ -1,0 +1,94 @@
+.accelerate-event-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: $space-xl 0;
+  padding: 0;
+
+  &:after {
+    content: "";
+    max-width: 30%;
+    flex: auto;
+  }
+
+  img {
+    display: block;
+    max-width: 70%;
+  }
+
+  .accelerate-event-card {
+    margin: 0 $space-l $space-l 0;
+    width: 27rem;
+    height: 45rem;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .accelerate-triange-topleft {
+    border-top: 45rem solid #f89f8b;
+    border-right: 27rem solid transparent;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.5;
+  }
+
+
+  .accelerate-event-list-content {
+    display: block;
+    padding: 1.05rem 3rem;
+    position: absolute;
+    z-index: 100;
+    width: 27rem;
+    height: 45rem;
+    text-overflow: wrap;
+  }
+}
+
+
+.accelerate-event-series,
+.accelerate-event-name,
+.accelerate-event-city,
+.accelerate-event-date,
+.accelerate-event-details {
+  margin-top: $space-m;
+  margin-bottom: $space-m;
+  letter-spacing: normal;
+  font-weight: 300;
+  color: black;
+  /*position: absolute;*/
+}
+
+
+.accelerate-event-series {
+  font-size: $font-size-xs;
+}
+
+.accelerate-event-name {
+  font-size: $font-size-m;
+  font-weight: 800;
+}
+
+.accelerate-event-city {
+  font-size: $font-size-m;
+  position: absolute;
+  bottom: 0px;
+}
+
+.accelerate-event-date {
+  font-size: $font-size-xxl;
+  font-weight: 600;
+}
+
+.accelerate-event-details {
+  font-size: $font-size-xs;
+}
+
+
+.accelerate-event {
+  margin-bottom: 3em;
+  display: block;
+
+  .accelerate-event-city {
+    position: inherit;
+  }
+}

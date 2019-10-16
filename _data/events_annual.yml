@@ -1,0 +1,94 @@
+---
+- month: Jan
+  events:
+    - eventname: Consumer Electronics Show (CES)
+      href: https://www.ces.tech/
+      desc: Find program staff in Eureka Park.
+    - eventname: J.P. Morgan Healthcare Conference
+      href: https://www.jpmorgan.com/global/healthcareconference
+      desc: Find program staff to learn about funding opportunities.
+- month: Feb
+  events:
+    - eventname: HIMSS19 Global Conference & Exhibition
+      href: https://www.himssconference.org/about/general-info/himss-global-conference-save-date
+    - eventname: SPIE Photonics West
+      href: http://spie.org/conferences-and-exhibitions/photonics-west?SSO=1
+    - eventname: AUTM Annual Meeting
+      href: https://autm.net/annual-meeting
+- month: Mar
+  events:
+    - eventname: SXSW
+      href: https://www.sxsw.com/
+      desc: Find program staff to learn about funding opportunities.
+    - eventname: Venture Summit West
+      href: https://youngstartup.com/VSWest/
+      desc: NSF staff introduces investors and startups to the program.
+    - eventname: VentureWell Open Conference
+      href: https://venturewell.org/open/
+    - eventname: ACS National Meeting and Expo
+      href: https://www.acs.org/content/acs/en/meetings/national-meeting.html
+- month: Apr
+  events:
+    - eventname: ACA Summit
+      href: https://www.angelcapitalassociation.org/2018-summit/
+    - eventname: MIT Energy Conference
+      href: https://www.mitenergyconference.org/
+- month: May
+  events:
+    - eventname: SBIR Road Tour
+      href: http://www.sbirroadtour.com/
+      desc: NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.
+    - eventname: Kauffman's ESHIP Summit
+      href: http://www.kauffman.org/what-we-do/events/the-eship-summit 
+- month: Jun
+  events:
+    - eventname: International Society for Technology in Education
+      href: https://www.iste.org/
+    - eventname: BIO International Convention
+      href: http://convention.bio.org/ 
+    - eventname: National SBIR Conference
+      href: https://www.techconnectworld.com/SBIRSpring2019/
+      desc: Join NSF and other government agencies with similar programs for the annual conference.
+    - eventname: WEAR Conference
+      href: https://www.wearconferences.com/   
+- month: Jul
+  events:
+    - eventname: New York Venture Summit
+      href: https://www.youngstartup.com/events.php
+      desc: NSF staff introduces investors and startups to the program.
+    - eventname: ARPA-E's Tech Showcase
+      href: https://arpa-e.energy.gov/
+      desc: Find program staff at the Tech Showcase.      
+- month: Aug
+  events:
+    - eventname: SBIR Road Tour
+      href: http://www.sbirroadtour.com/
+      desc: NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.
+- month: Sep
+  events:
+    - eventname: SynBioBeta
+      href: https://synbiobeta.com/
+    - eventname: Black Enterprise - Tech Connext
+      href: https://www.blackenterprise.com/techconnext/  
+    - eventname: SBIR Road Tour
+      href: http://www.sbirroadtour.com/
+      desc: NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.
+- month: Oct
+  events:
+    - eventname: TechCrunch Disrupt
+      href: https://techcrunch.com/events/disrupt-sf-2019/
+    - eventname: SBIR/STTR Fall Innovation Summit
+      href: https://events.techconnect.org/DTCFall/dagSBIR2018.html
+    - eventname: Tough Tech Summit
+      href: https://toughtechsummit.engine.xyz/#about
+    - eventname: EmTech
+      href: https://events.technologyreview.com/emtech/
+    - eventname: SOCAP - Social Capital Markets
+      href: https://socialcapitalmarkets.net/      
+- month: Nov
+  events:
+
+- month: Dec
+  events:
+
+---

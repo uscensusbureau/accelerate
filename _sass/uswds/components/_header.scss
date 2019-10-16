@@ -15,7 +15,7 @@ $z-index-nav:     9000;
   z-index: $z-index-header;
 
   @include media($nav-width) {
-    border-bottom: 1px solid $color-gray-lighter;
+    border-bottom: 1px solid $color-gray-light;
   }
 
   a {
@@ -23,8 +23,11 @@ $z-index-nav:     9000;
   }
 
   .usa-search {
+    margin-bottom: 1.5rem;
+
     @include media($nav-width) {
       float: right;
+      margin-bottom: 0;
       max-width: 21.5rem;
     }
   }
@@ -102,7 +105,7 @@ $z-index-nav:     9000;
   @include position(fixed, 0);
   background: $color-black;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   visibility: hidden;
   z-index: $z-index-overlay;
 
@@ -117,7 +120,7 @@ $z-index-nav:     9000;
 .usa-header-basic {
   .usa-logo {
     @include media($nav-width) {
-      bottom: 0;
+      bottom: 1.9rem;
       position: absolute;
     }
   }
@@ -128,101 +131,4 @@ $z-index-nav:     9000;
       width: 18%; // TODO: review this more
     }
   }
-}
-
-// Extended header ----------- //
-
-.usa-header-extended {
-  .usa-header {
-    @include media($nav-width) {
-      border-bottom: none;
-    }
-  }
-
-  .usa-logo {
-    @include media($nav-width) {
-      @include margin(3rem null);
-    }
-  }
-
-  em {
-    @include media($nav-width) {
-      font-size: 3.2rem;
-      line-height: 1;
-    }
-  }
-
-  .usa-navbar {
-    @include media($nav-width) {
-      @include outer-container($site-max-width);
-      @include padding(null $site-margins);
-      display: block;
-      height: auto;
-    }
-  }
-
-  .usa-nav {
-    @include media($nav-width) {
-      border-top: 1px solid $color-gray-lighter;
-      float: none;
-      padding: 0;
-      width: 100%;
-    }
-  }
-
-  .usa-nav-inner {
-    @include media($nav-width) {
-      @include outer-container($site-max-width);
-      @include padding(null $site-margins null 1.5rem);
-      position: relative;
-    }
-  }
-
-  .usa-nav-primary {
-    @include media($nav-width) {
-      @include clearfix;
-    }
-
-    button {
-      &[aria-expanded=false],
-      &[aria-expanded=true] { /* stylelint-disable-line selector-no-qualifying-type */
-        @include media($nav-width) { /* stylelint-disable-line selector-no-qualifying-type */
-          background-position: right 1.5rem top 53%;
-        }
-      }
-    }
-  }
-
-  .usa-nav-link {
-    @include media($nav-width) {
-      @include padding(1.8rem null);
-    }
-  }
-
-  .usa-nav-submenu {
-    .usa-grid-full {
-      @include media($nav-width) {
-        padding-left: 1.2rem;
-      }
-    }
-  }
-
-  .usa-megamenu {
-    @include media($nav-width) {
-      padding-left: $site-margins;
-    }
-  }
-
-  // Temp code for v1 to force show the search at mobile, not dekstop
-  /* stylelint-disable selector-no-id, declaration-no-important  */
-  .usa-search {
-    &[hidden] {
-      display: block !important;
-
-      @include media($nav-width) {
-        display: none !important;
-      }
-    }
-  }
-  /* stylelint-enable */
 }

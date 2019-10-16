@@ -1,0 +1,40 @@
+.usa-width-three-fourths {
+
+  .usa-section.usa-content {
+
+    h1 {
+      letter-spacing: -.015em;  // $kern-tight
+    }
+
+    h2 {
+      font-size: $font-size-m;
+      margin-top: $space-xl;
+      margin-bottom: $space-m;
+
+    }
+
+    h3 {
+      font-size: $font-size-s;
+      font-weight: 600;
+      letter-spacing: -.015em;  // $kern-tight
+      margin-top: $space-xl;
+      margin-bottom: $space-m;
+    }
+
+    h2 + h3 {
+      margin-top: $space-m;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    img {
+      margin: $space-m 0 $space-xl 0;
+      max-width: calc(100% - $space-xl);
+      border: 10px solid $color-white;
+    }
+
+  }
+
+}

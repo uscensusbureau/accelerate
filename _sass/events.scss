@@ -1,0 +1,176 @@
+.event-listing {
+  td {
+    vertical-align: top;
+  }
+
+  .event-title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .event-description {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-events {
+  #main-content {
+    h1 {
+      margin-bottom: $space-xxs;
+      & + h2 {
+        border-top: 1px solid $color-base;
+        margin-top: $space-m;
+        padding-top: $space-s;
+      }
+    }
+    h2 {
+      font-weight: 500;
+      letter-spacing: -.035em;
+    }
+    .event-upcoming-listing,
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .event-upcoming-listing {
+      padding: $space-m*3 0 $space-l 0;
+      li {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding-bottom: $space-m * 3;
+        .date {
+          flex-flow: column;
+          font-size: $font-size-s - $space-xxs;
+          font-weight: 600;
+          line-height: $leading-xxs;
+          letter-spacing: -.01em;
+          margin-bottom: 1rem;
+          padding-right: 1rem;
+          text-transform: uppercase;
+          width: $space-l * 3;
+        }
+        .time,
+        .location {
+          margin-bottom: 0;
+        }
+        .description {
+          margin-top: $space-l;
+        }
+        .upcoming-event-info {
+          flex-flow: column;
+          padding: 0 $space-l;
+          margin-left: $space-l;
+          border-left: 1px solid $color-gray-medium-warm;
+          h3 {
+            font-weight: 500;
+            margin-bottom: 0;
+          }
+        }
+        .usa-button {
+          background: none;
+          padding: $space-s $space-m;
+          font-family: $font-serif;
+          font-size: $font-size-xs;
+          font-weight: 500;
+          &.usa-button-hover,
+          &:hover {
+            background-color: $color-white;
+            border: 1px solid $color-primary-alt;
+            color: $color-black;
+          }
+          &.usa-button-active,
+          &:active,
+          &.usa-button-focus,
+          &:focus {
+            box-shadow: none;
+            background-color: $color-secondary-lightest;
+          }
+        }
+      }
+    }
+    .section-background-image {
+      background: $color-bg-light url('../img/bg/altaeros.jpg') center top no-repeat fixed;
+      padding: 0;
+      .usa-section-tight-top.usa-content {
+        background: url('../img/bg/tile.gif') repeat;
+        padding: $space-xl 0;
+      }
+      ul,
+      ol,
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      h3 {
+        border-top: 1px solid #000;
+        font-size: $font-size-s;
+        text-transform: uppercase;
+        padding: $space-xs 0 $space-m;
+      }
+      h4 {
+        font-size: $font-size-xxs;
+        font-weight: 600;
+        margin: $space-s 0;
+        position: relative;
+        &:before {
+          content: "";
+          background-color: $color-base;
+          position: absolute;
+          top: -5px;
+          left: 0;
+          height: 1px;
+          width: 30px;
+        }
+        & a {
+          border-bottom: none;
+          color: $color-primary-darker;
+          &:hover {
+            color: $color-primary-alt-medium;
+          }
+        }
+      }
+      li {
+        p {
+          font-size: $font-size-xxs;
+        }
+      }
+
+      .event-annual-listing {
+        padding: $space-xl 0 $space-xl*3 0;
+        ul {
+          padding-bottom: $space-xl;
+          li {
+            padding-bottom: $space-xs;
+          }
+        }
+      }
+
+      @media (min-width: 600px) and (max-width: 799px) {
+        .event-annual-listing {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          & > li {
+            width: calc(50% - 10px);
+          }
+        }
+      }
+
+      @media (min-width: 800px) {
+        .event-annual-listing {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          & > li {
+              width: calc(33.33% - 10px);
+          }
+        }
+      }
+    }
+  }
+}

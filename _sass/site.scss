@@ -1,0 +1,102 @@
+.page-background {
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-background-image {
+  background-color: transparent;
+  padding-top: 300px;
+
+  .caption p {
+    background-color: $color-white-transprent;
+    float: right;
+    font-size: $font-size-xxs;
+    margin: 0;
+    padding: 5px 20px;
+  }
+
+  .usa-width-one-third {
+    float: right;
+  }
+}
+
+.landing-layout {
+  .section-header {
+    p {
+      font-size: $font-size-m;
+    }
+  }
+}
+
+.secondary-layout {
+  .section-header {
+    p {
+      font-size: $font-size-s;
+    }
+  }
+}
+
+.usa-section-tight-top {
+ padding-top: 1rem;
+}
+
+.section-intro {
+  h2 {
+    font-size: $font-size-s;
+  }
+  p {
+    font-size: $font-size-xs;
+  }
+}
+
+.divider,
+.divider:first-child {
+  border: 0;
+  border-top: 1px solid $color-white;
+  display: block;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  width: 10%;
+
+  &.divider-left {
+    display: inline-block;
+  }
+}
+
+.usa-footer .social-link {
+  border: none;
+  display: inline-block;
+  img {
+    width: 35px;
+    fill: $color-primary;
+  }
+  &:hover {
+    border: none;
+    text-decoration: none;
+  }
+}
+
+a {
+  border-bottom: 1px dotted $color-primary;
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom-style: solid;
+    text-decoration: none;
+    }
+
+  &:visited {
+    color: $color-visited;
+  }
+  &:focus,
+  &:active {
+    box-shadow: none;
+    box-shadow: 0 0 1px 0 $color-gray-medium-warm;
+    border-color: transparent;
+    background-color: $color-secondary-lightest;
+  }
+
+}

@@ -1,0 +1,10 @@
+{% assign awards_by_company = include.awards_by_company | default:awards_by_company %}
+<ul class="list results list-reset" style="display: none;">
+  {% for company in awards_by_company %}
+    {% if company.name != blank %}
+      {% for award in company.items %}
+        {% include details-listing.html award=award %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

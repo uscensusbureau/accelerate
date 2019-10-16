@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+    <!-- TODO: Consider gaining this for COIL too -->
+    <!-- <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NSF" id="_fed_an_ua_tag"></script> -->
+  </head>
+
+  <body class="{{ layout.class }} page-{{ page.title | slugify }} {{ page.class }} {% if page.section_image %} page-background {% endif %} {% if page.hero.image %} page-background {% endif %}"
+{% if page.section_image %} style="background-image: url('{{ page.section_image | relative_url }}');" {% endif %}
+{% if page.hero.image %} style="background-image: url('{{ page.hero.image | relative_url }}');" {% endif %}>
+
+   {% if page.layout == 'landing' %}
+   <div class="hero-treatment">
+   {% else %}
+   {% endif %}
+    {% include skipnav.html %}
+    <!--  "An Official Website of the US Government" banner -->
+    {% include banner.html %}
+    {% include header.html %}
+
+    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+    {{ content }}
+    </main>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% if page.layout == 'landing' %}
+  </div>
+    {% else %}
+    {% endif %}
+  </body>
+</html>

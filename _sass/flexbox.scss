@@ -1,0 +1,11 @@
+.flex { display: flex; }
+
+.flex-center { align-items: center; }
+
+.flex-column { flex-direction: column; }
+
+.flex-row-md {
+  @include media($small-screen) {
+    flex-direction: row;
+  }
+}

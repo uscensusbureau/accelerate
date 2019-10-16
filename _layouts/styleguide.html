@@ -1,0 +1,75 @@
+---
+layout: base-styleguide
+title: NSF SBIR UI Styleguide
+nav_items:
+  - text: Overview
+    permalink: /styleguide/
+  - text: Layouts
+    permalink: /styleguide/layouts/
+    children:
+      - text: Landing page
+        permalink: /styleguide/layouts/#landing-page-layout
+      - text: Secondary page
+        permalink: /styleguide/layouts/#secondary-page-layout
+      - text: Grid
+        permalink: /styleguide/layouts/#grid
+  - text: Typography
+    permalink: /styleguide/typography/
+    children:
+      - text: Font family
+        permalink: /styleguide/typography/#font-family
+      - text: Typesetting
+        permalink: /styleguide/typography/#typesetting
+      - text: Font weights
+        permalink: /styleguide/typography/#font-weights
+      - text: Links
+        permalink: /styleguide/typography/#links
+  - text: Colors
+    permalink: /styleguide/colors/
+    children:
+      - text: Palette
+        permalink: /styleguide/colors/#palette
+      - text: Backgrounds
+        permalink: /styleguide/colors/#backgrounds
+  - text: Images
+    permalink: /styleguide/images/
+    children:
+      - text: Image formats
+        permalink: /styleguide/images/#image-formats
+      - text: Using SVGs
+        permalink: /styleguide/images/#using-svgs
+      - text: SVG include catalog
+        permalink: /styleguide/images/#svg-include-catalog
+      - text: Adding images
+        permalink: /styleguide/images/#adding-images
+      - text: Image lists
+        permalink: /styleguide/images/#image-lists
+  - text: Components
+    permalink: /styleguide/components/
+    children:
+      - text: Buttons
+        permalink: /styleguide/components/#buttons
+  - text: For developers
+    permalink: /styleguide/for-developers/
+    children:
+      - text: Plugin gems
+        permalink: /styleguide/for-developers/#plugin-gems
+      - text: Custom plugins
+        permalink: /styleguide/for-developers/#custom-plugins
+---
+
+{% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+{% assign github_url_master = "https://github.com/18F/18f.gsa.gov/blob/master/" %}
+
+
+<div class="styleguide-content-wrapper">
+
+  <aside class="nav-subnav styleguide-subnav">
+    {% include styleguide/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
+  </aside>
+
+  <section class="styleguide-content usa-content" id="main-content">
+    {% if page.title %}<h2 class="styleguide-page-title">{{ page.title }}</h2>{% endif %}
+    {{ content }}
+  </section>
+</div>

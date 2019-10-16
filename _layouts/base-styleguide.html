@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+  {% include meta.html %}
+<!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="vmVo2wbQpKGMHVpllQP7bQ0w5gICWD356VH9DNbv5f4" />
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta tags
+================================================== -->
+
+<!-- Description -->
+
+<meta name="description" content="{{ page.description | default: site.description | xml_escape }}">
+
+<!-- Author -->
+{% if page.author %}
+  <meta name="author" content="{{ page.author | array_to_sentence_string }}">
+{% endif %}
+
+<!-- Date -->
+{% if page.date %}
+  <meta name="date" content="{{ page.date }}" scheme="YYYY-MM-DD">
+{% endif %}
+
+<!-- Tags -->
+{% if page.tags %}
+  <meta name="keywords" content="{{ page.tags  | array_to_sentence_string }}">
+{% endif %}
+
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
+
+<!-- Favicons
+================================================== -->
+
+  <!--  Touch icon for iOS 2.0+ and Android 2.1+ -->
+  <!-- <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/img/favicons/[FUTURE NSF FAVIC.ON]"> -->
+
+  <!--  More info: https://github.com/audreyr/favicon-cheat-sheet -->
+
+<!-- CSS
+=================================================== -->
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}" media="all" />
+
+
+  <body class="styleguide-layout">
+  <section class="styleguide-header-wrapper">
+    <a href="{{ site.baseurl }}/styleguide/">
+      <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logo/logo-2c.svg" alt="NSF SBIR logo" />
+      <h1 class="h2" id="{{ page.title | slugify }}">{{ site.title }} UI style guide</h1>
+    </a>
+    <div class="menu-btn-styleguide-wrapper">
+      <button class="menu-btn-styleguide">Menu</button>
+    </div>
+  </section>
+    <div class="main-content styleguide-main-content">
+      {{ content }}
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="{{ '/assets/js/styleguide/index.js' | prepend: site.baseurl  }}"></script>
+    <script src="{{ '/assets/uswds/js/uswds.min.js' | prepend: site.baseurl  }}"></script>
+
+  </body>
+</html>

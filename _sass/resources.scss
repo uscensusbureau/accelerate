@@ -1,0 +1,114 @@
+.resources-layout {
+
+  .usa-layout-docs-sidenav{
+    width: 26rem;
+  }
+
+  .usa-width-two-thirds {
+
+    h1 {
+      font-size: $font-size-xl * .9;
+      line-height: 1;
+
+      & + p {
+        font-size: $font-size-s;
+      }
+
+      & + ol {
+        margin-top: $space-l + $space-xs;
+
+        & > li {
+          font-weight: 600;
+          line-height: $leading-xs;
+          padding-top: $space-m;
+        }
+
+      }
+
+      span {
+        text-transform: uppercase;
+        font-size: $font-size-xs;
+        font-weight: 600;
+        display: block;
+        line-height: $leading-xxs;
+        margin: 0;
+        letter-spacing: normal;
+      }
+    }
+
+    h2,
+    h3 {
+      font-size: $font-size-m;
+      margin-top: $space-xl;
+      margin-bottom: $space-l;
+    }
+    h2 {
+      font-weight: 600;
+    }
+    h3 {
+      font-weight: 500;
+    }
+
+    h2 + h3 {
+      margin-top: 0;
+    }
+
+    p,
+    ul,
+    ol,
+    li {
+      max-width: none;
+      line-height: $leading-l;
+    }
+
+    ul,
+    ol {
+      margin: 1rem 0 0 0;
+      padding-left: $space-m;
+    }
+    li {
+      // padding-bottom: $space-xxs;
+    }
+    strong {
+      font-weight: 600;
+    }
+
+    code {
+      font-family: $font-mono-alt;
+      letter-spacing: $kern-tight;
+      font-size: 90%;
+      padding: 2px 4px;
+      margin-left: 2px;
+      margin-right: 2px;
+      background-color: rgba(205, 236, 248, .35);
+    }
+
+    .usa-section.usa-content {
+      & > ol,
+      & > ul {
+        margin-bottom: $space-m;
+      }
+
+      blockquote {
+        border-left: 3px solid $color-primary-alt-light;
+        padding-left: $space-m;
+        padding-right: $space-l;
+        margin-bottom: $space-l;
+
+        a {
+          // margin-left: $space-xl;
+          padding: $space-xs $space-s;
+          margin-top: $space-m;
+          border: 1px solid $color-primary-alt-light;
+          font-family: $font-mono;
+          display: inline-block;
+          color: $color-base;
+          font-size: $font-size-xxxs;
+        }
+
+      }
+
+    }
+
+  }
+}

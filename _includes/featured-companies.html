@@ -1,0 +1,12 @@
+{% assign max_companies_shown_limit = site['topics_api']['max_companies_shown'] %}
+
+<ul class="flex-list flex-list-4-col featured-companies shuffled-list">
+
+{% assign shuffled_featured_companies = site.data.featured-companies | sample: max_companies_shown_limit %}
+{% for company in shuffled_featured_companies %}
+  {% for topic in site.data.topics %}
+    {% assign awardee_name = topic['awardeeName'] %}
+    {% include company.html company=company awardee_name=awardee_name %}
+  {% endfor %}
+{% endfor %}
+</ul>

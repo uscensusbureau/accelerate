@@ -1,0 +1,70 @@
+// consolidate these later
+.background-light-blue,
+.bg-blue-light {
+  background-color: $color-blue-light;
+}
+
+.background-light-yellow {
+  background-color: $color-secondary-light;
+}
+
+.background-light-neutral {
+  background-color: $color-neutral-light;
+}
+
+.background-white {
+  background-color: $color-white;
+}
+
+.background-gray-dark {
+  background-color: $color-gray-dark;
+}
+
+.background-blue, .background-primary {
+  background-color: $color-primary;
+  color: white !important;
+}
+
+
+.background-yellow, .background-secondary {
+  background-color: $color-secondary;
+  color: white !important;
+}
+
+
+.background-salmon, .background-primary-alt {
+  background-color: $color-primary-alt;
+  color: white !important;
+}
+
+.background-pink, .background-tertiary {
+  background-color: $color-tertiary;
+}
+.background-tertiary > .usa-button .usa-button-primary {
+	background-color: $color-tertiary-lightest;
+}
+
+.background-blue div,
+.background-blue span,
+.background-blue h1,
+.background-blue h2,
+.background-blue p,
+.background-primary-alt div,
+.background-primary-alt span,
+.background-primary-alt h1,
+.background-primary-alt h2,
+.background-primary-alt p {
+	color: #fff !important;
+}
+
+
+// consolidate these later
+.background-light-warm-gray,
+.bg-gray-warm-light {
+  background-color: $color-gray-warm-light;
+}
+
+.background-bold-blue {
+  background-color: $color-primary-darker;
+  color: white !important;
+}

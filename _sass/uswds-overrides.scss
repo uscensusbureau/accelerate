@@ -1,0 +1,245 @@
+html,
+body {
+  background-color: $color-neutral-light;
+  color: $color-base;
+  font-family: $font-serif;
+}
+
+p,
+li,
+tr {
+  font-size: $font-size-xs;
+  font-weight: 400;
+  line-height: $leading-m;
+  margin-bottom: $space-m;
+  margin-top: 0;
+}
+
+ul,
+ol {
+  margin-bottom: 3rem;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.usa-banner {
+  font-family: $font-sans;
+
+  p {
+    font-size: $font-size-xxs;
+    line-height: $leading-s;
+  }
+}
+
+
+.usa-grid-center {
+  &:last-child {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+
+.usa-logo {
+  float: none;
+
+  img {
+    height: 40px;
+    max-width: none;
+    padding: 4px 2px 0 2px;
+  }
+
+  a {
+    display: block;
+
+
+    &:hover {
+      border-bottom-style: none;
+    }
+    &:active,
+    &:focus {
+      background-color: transparent;
+      box-shadow: 0 0 1px 0 $color-gray-medium-warm;
+    }
+  }
+}
+
+.landing-layout {
+  .usa-logo {
+    a:active,
+    a:focus {
+      box-shadow: 0 0 0 1px $color-secondary-lightest;
+    }
+  }
+}
+
+// small screen nav - top nav
+.usa-menu-btn {
+  min-width: auto;
+  &:hover {
+    border: 0;
+  }
+}
+
+.usa-nav-close {
+  min-width: auto;
+}
+.usa-nav-inner {
+  padding: $space-m;
+}
+@include media($nav-width) {
+  .usa-nav-inner {
+    padding: inherit;
+  }
+}
+
+// END - small screen nav - top nav
+
+.usa-content {
+  li {
+    max-width: $text-max-width;
+  }
+}
+
+button,
+.usa-button,
+button:visited,
+.usa-button:visited {
+  background-color: transparent;
+  border: 1px solid $color-primary-alt;
+  border-radius: 0;
+  color: $color-base;
+  font-family: $font-serif;
+  font-size: $font-size-xxs;
+  font-weight: 500;
+  min-width: 18rem;
+  padding: $space-m 2.5rem $space-m 2rem;
+
+  &.usa-button-hover,
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-primary-alt;
+    color: $color-black;
+  }
+
+  &.usa-button-active,
+  &:active,
+  &.usa-button-focus,
+  &:focus {
+    background-color: $color-secondary-lightest;
+    box-shadow: none;
+  }
+
+
+  &.usa-button-secondary {
+    border: 0;
+    color: $color-black;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+
+  &.usa-button-big {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.2;
+    padding-left: $space-m;
+    padding-right: $space-m + $space-xs;
+  }
+}
+
+.usa-search {
+  button {
+    background-color: $color-primary;
+    min-width: initial;
+
+    &:hover {
+      background-color: $color-primary-darker;
+      border: 0;
+    }
+  }
+}
+
+.usa-layout-docs {
+  h1 {
+    font-size: $font-size-xl;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: $font-size-l;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-weight: 700;
+  }
+}
+
+.button-arrow {
+  &::before {
+    content: '\2192';
+    display: inline-block !important;
+    font-family: $font-serif;
+    padding-right: $space-xxs;
+  }
+}
+
+.button-arrow-after {
+  &::after {
+    content: '\2192';
+    display: inline-block;
+    font-family: $font-serif;
+    padding-left: $space-s;
+  }
+
+  &.button-arrow-down {
+    &::after {
+      color: $color-primary-alt;
+      position: relative;
+      top: -15%;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.usa-header {
+  background-color: $color-white;
+  border: 0;
+  .usa-search {
+      margin-bottom: -1.37rem;
+      padding-right: 1rem;
+      button[type=submit],
+      button[type=submit]:hover {
+        background-image: url('../uswds/img/search-alt.svg');
+        background-color: transparent;
+        border-bottom: 3px solid $color-primary-alt-dark;
+        background-size: auto;
+        background-position: 50%;
+        min-width: auto;
+      }
+      .usagov-search-autocomplete {
+        border: 0;
+        border-bottom: 3px solid $color-primary-alt-dark;
+        background-color: transparent;
+        font-family: $font-mono;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+  }
+}
+
+
+.usa-button-yellow, .usa-button-yellow:visited {
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.usa-button-yellow:hover, .usa-button-yellow:focus  {
+  border: 1px solid $color-primary-alt !important;
+  color: $color-primary-alt !important;
+}

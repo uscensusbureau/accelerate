@@ -1,0 +1,7 @@
+<ul class="flex-list">
+  {% for topic in site.data.tech-topics %}
+    <li class="button-arrow">
+      <a href="{{ topic.permalink | relative_url }}">{{ topic.topic }}</a>
+    </li>
+  {% endfor %}
+</ul>

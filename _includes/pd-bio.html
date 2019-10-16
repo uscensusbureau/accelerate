@@ -1,0 +1,19 @@
+<ul class="pd-list">
+{% for director in site.data.program-directors %}
+
+  <a name="{{ director.name }}"></a>
+
+  <li class="pd-bio-content">
+
+    {% if director.photo %}
+    <img src="{{ site.baseurl }}/assets/img/pd/{{ director.photo }}" alt="{{ director.name }}">
+    {% endif %}
+    {% if director.bio %}
+      <p class="bio">
+        <strong><a href="mailto:{{ director.email }}">{{ director.name }}</a></strong> {{ director.bio }}
+      </p>
+    {% endif %}
+
+  </li>
+{% endfor %}
+</ul>

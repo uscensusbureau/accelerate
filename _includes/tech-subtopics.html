@@ -1,0 +1,52 @@
+{% assign max_companies_shown = site['topics_api']['max_companies_shown'] %}
+
+{% for topic in site.data.tech-topics %}
+  <section id="{{ topic.topic | slugify }}" class="usa-section section-tech-topic">
+    <h2 class="text-medium header-top-bar tech-topic-title">{{ topic.topic }}</h2>
+    <div class="usa-width-one-fourth">
+      <h3 class="subhead">Program director</h3>
+      {% for programDirector in topic.programDirector %}
+        <p>
+          {{ programDirector.name }}
+        </p>
+        <ul>
+          <li>
+            <a href="mailto:{{ programDirector.email }}">
+              Send email
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/contact/bios/#{{ programDirector.name }}">
+              View bio
+            </a>
+          </li>
+        </ul>
+      {% endfor %}
+    </div>
+    <div class="usa-width-three-fourths">
+      {% if topic.companies %}
+        <h3 class="subhead">Featured companies</h3>
+        <ul class="flex-list flex-list-3-col featured-companies shuffled-list">
+          {% assign iterator = 0 %}
+          {% assign shuffled_companies = topic.companies | sample: max_companies_shown %}
+          {% for company in shuffled_companies %}
+            {% for t in site.data.topics %}
+              {% assign awardee_name = t['awardeeName'] %}
+              {% include company.html company=company awardee_name=awardee_name %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <div class="tech-subtopics">
+        <h4 class="tech-subtopics-header"><a href="{{ topic.permalink | relative_url }}">{{ topic.topic }}:</a></h4>
+        <ul>
+          {% for subtopic in topic.subtopics %}
+            <li>
+              {{ subtopic }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+{% endfor %}

@@ -1,0 +1,127 @@
+
+.tech-subtopics {
+  padding-bottom: $space-xl;
+  display: block;
+  .tech-subtopics-header {
+    display: inline;
+    font-size: $font-size-xxs;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
+  ul {
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+}
+li:last-child {
+  &::after {
+    width: 0;
+  }
+}
+  li {
+    display: inline;
+    font-size: $font-size-xxs;
+    color: $color-gray-dark;
+
+    &::after {
+      background-color: $color-gray-light;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      margin-bottom: 3px;
+      width: $space-m;
+    }
+  }
+}
+
+.featured-companies {
+  margin-bottom: $space-m;
+
+  li {
+    padding: 0 $space-m 0 0;
+    line-height: $leading-xs;
+  }
+
+  a {
+    border-bottom: 0;
+    border-top: 1px dotted $color-primary-darkest;
+    color: $color-primary;
+    display: block;
+    font-size: $font-size-xxs;
+    font-weight: 600;
+    min-height: $space-xl - $space-m;
+    padding-top: $space-xs;
+
+    &:hover {
+      border-top-style: solid;
+    }
+  }
+
+}
+
+.list-tech-topics {
+  padding-top: $space-s;
+  li {
+    padding: 0 $space-m 0 0;
+    margin-bottom: 5px;
+    a {
+      border-bottom: 1px dotted transparent;
+      color: $color-base;
+      display: inline-block;
+      font-size: $font-size-xxs;
+      width: calc(90% - $space-m);
+      &:hover {
+        border-color: $color-base;
+      }
+    }
+  }
+}
+.page-portfolio {
+
+  h2.subhead,
+  h3.subhead {
+    margin-bottom: $space-m;
+    letter-spacing: $kern-loose;
+    color: $color-gray-dark;
+    font-weight: 400;
+  }
+
+  .awards-search-form {
+    margin-bottom: $space-xl;
+  }
+
+  .section-tech-topic {
+    clear: both;
+
+    .usa-width-one-fourth {
+      margin-bottom: $space-xl;
+
+      p {
+        margin-bottom: $space-xs;
+        font-size: $font-size-xs;
+        letter-spacing: $kern-tight;
+        font-weight: 600;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+        li {
+          margin: 0 0 $space-xs 1.4rem;
+          font-size: $font-size-xxs;
+          list-style-type: circle;
+        }
+      }
+    }
+
+  }
+
+  h2.text-medium.tech-topic-title {
+    font-size: $font-size-s;
+    font-weight: 600;
+    margin-bottom: $space-xl;
+    margin-top: $space-xl;
+  }
+
+
+}

@@ -1,0 +1,19 @@
+<div class="usa-content">
+  <ul class="event-annual-listing">
+    {% for annual_event in site.data.events_annual %}
+    <li>
+      <h3>{{annual_event.month}}</h3>
+      {% if annual_event.events.size > 0 %}
+        <ul>
+          {% for month_event in annual_event.events %}
+            <li>
+              <h4><a href="{{ month_event.href }}">{{ month_event.eventname }}</a></h4>
+              <p markdown="1">{{ month_event.desc }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

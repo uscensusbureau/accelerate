@@ -1,0 +1,19 @@
+<ul class="coil-team-list">
+{% for member in site.data.coil-team %}
+
+  <a name="{{ member.name }}"></a>
+
+  <li class="coil-team-bio-content">
+
+    {% if member.photo %}
+    <img src="{{ site.baseurl }}/assets/img/coil-team/{{ member.photo }}" alt="{{ member.name }}">
+    {% endif %}
+    {% if member.bio %}
+      <p class="bio">
+        <strong><a href="mailto:{{ member.email }}">{{ member.name }}</a></strong> {{ member.bio }}
+      </p>
+    {% endif %}
+
+  </li>
+{% endfor %}
+</ul>

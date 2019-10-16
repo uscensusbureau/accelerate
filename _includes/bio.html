@@ -1,0 +1,12 @@
+
+  {% for member in site.data.coil-team %}
+      <a name="{{ member.name }}" class="coil-team-bio"></a>
+
+      {% if member.photo %}
+        <img src="{{ site.baseurl }}/assets/img/headshots/{{ member.photo }}">
+      {% endif %}
+      {% if member.bio %}
+        <p>{{ member.bio }} <a href="mailto:{{ member.email }}">Send email</a></p>
+      {% endif %}
+
+  {% endfor %}

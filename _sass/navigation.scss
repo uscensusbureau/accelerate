@@ -1,0 +1,111 @@
+.usa-nav-primary {
+  clear: both;
+
+  .usa-nav-link {
+    padding-bottom: 1.3rem;
+  }
+
+  .usa-accordion-button,
+  .usa-accordion-button[aria-expanded=false] {
+    color: $color-base;
+    font-family: $font-mono;
+    font-size: $font-size-xxxs;
+    font-weight: 400;
+    text-transform: uppercase;
+    min-width: auto;
+    border: 0;
+    background-position: right 1.5rem top 50%;
+    background-image: url('../img/arrow-down.svg');
+
+    &:hover {
+      color: $color-base;
+      background-color: $color-secondary;
+      border: 0;
+
+      span {
+        border: 0;
+      }
+    }
+  }
+
+  button[aria-expanded=true],
+  button[aria-expanded=true]:hover {
+    background-color: $color-secondary;
+    background-image: url('../img/arrow-up.svg');
+    color: $color-base;
+    z-index: 1000;
+    position: relative;
+    background-position: right 1.5rem top 50%;
+
+    span {
+      border: 0;
+    }
+  }
+}
+
+
+.usa-nav,
+.usa-nav-submenu  {
+  margin-top: 0;
+  padding: 0;
+
+  li {
+    a {
+      color: $color-base;
+      font-family: $font-mono;
+      font-size: $font-size-xxxs;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: $kern-loose;
+      text-rendering: optimizeLegibility;
+
+      &:hover {
+        color: $color-base;
+        background-color: $color-secondary;
+        border: 0;
+
+        span {
+          border: 0;
+      }
+    }
+  }
+}
+}
+
+@include media($nav-width) {
+  .usa-nav {
+    background-color: $color-white-transprent;
+    margin-top: 3.8rem;
+    padding: 0;
+  }
+
+  .usa-nav-submenu {
+    background-color: $color-white-transprent;
+    padding: .5rem 0;
+
+    a:hover {
+      color: $color-base;
+    }
+  }
+}
+
+@include media($large-screen) {
+  .usa-nav {
+    li {
+      margin: 0;
+    }
+  }
+}
+
+.usa-navbar {
+  border-bottom: 0;
+  height: auto;
+  padding-top: $space-m;
+}
+
+@include media($nav-width) {
+  .usa-navbar {
+    border-bottom: none;
+    height: 10.3rem;
+  }
+}

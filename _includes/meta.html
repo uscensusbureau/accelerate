@@ -3,10 +3,4 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-
-{% assign description = page.description | default: site.description %}
-{% if description %}
-<meta name="description" content="{{ description }}">
-{% endif %}
-
 {% include favicon.html %}

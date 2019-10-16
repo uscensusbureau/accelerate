@@ -1,0 +1,129 @@
+.hero-treatment {
+  background-image: url('../img/bg/tile.png');
+}
+
+.usa-hero {
+  background-attachment: fixed;
+  background-image: none;
+  padding-bottom: 0;
+  padding-top: $space-xl;
+
+  .large-header {
+    color: $color-secondary;
+    font-size: $font-size-xxl - $font-size-xs;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    line-height: 1;
+
+    .usa-hero-callout-alt {
+      color: $color-white;
+      display: block;
+    }
+
+    .subheader {
+      font-size: $font-size-s;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+
+.usa-accordion {
+  position: relative;
+}
+
+.usa-accordion-button {
+  padding: 1rem 1.8rem;
+  background-image: none;
+  font-weight: inherit;
+  width: auto;
+  min-width: 0;
+  border: 0;
+  background-color: $color-neutral-light;
+}
+.usa-accordion-content {
+  background: inherit;
+  padding: inherit;
+  position: absolute;
+  top: -14.4rem;
+}
+
+  .usa-width-one-third {
+    float: right;
+  }
+
+  .usa-button {
+    color: initial;
+    font-size: 2.1rem;
+    font-family: $font-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 0;
+
+    &.usa-button-big {
+      padding: $space-s $space-m+$space-s $space-s $space-m+$space-xs;
+      margin-bottom: $space-xl;
+    }
+
+    .subtext {
+      display: block;
+      font-family: $font-mono;
+      font-size: $font-size-xxs;
+      font-weight: 400;
+    }
+
+    &:hover {
+      color: initial;
+    }
+    }
+
+  .usa-header {
+    background-color: transparent;
+    margin-bottom: 6rem;
+    }
+    .caption p {
+      background-color: $color-white-transprent;
+      float: right;
+      font-size: $font-size-xxs;
+      margin: 0;
+      padding: 5px 20px;
+    }
+  }
+
+.landing-layout {
+
+  .section-intro {
+    .usa-width-one-third {
+      padding-right: $space-s;
+      h2 {
+        min-height: $space-xl - $space-xs;
+        line-height: $leading-xs;
+      }
+    }
+  }
+
+  .section-goodfit {
+
+    padding-bottom: $space-xl * 1.5;
+
+    .text-large {
+      max-width: 70rem;
+      font-size: $font-size-m - .2rem;
+    }
+
+    .text-medium {
+      max-width: 70rem;
+      font-size: $font-size-xs;
+    }
+  }
+  .usa-width-one-half {
+    padding-right: $space-s;
+  }
+
+  .usa-section .section-header {
+    color: $color-base;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4em;
+  }
+
+}

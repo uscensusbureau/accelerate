@@ -1,0 +1,174 @@
+.showcase-header {
+  .usa-content {
+
+    h1 {
+      font-size: $space-l;
+      font-weight: 700;
+      margin-bottom: $space-s + $space-l;
+    }
+
+    h2 {
+      font-size: $font-size-xxl;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -.015em;
+      margin: 0 0 $space-l 0;
+      max-width: 54rem;
+
+    }
+
+  }
+}
+
+.usa-content {
+
+  .showcase-quote {
+    padding: $space-xl*2 0;
+    background-color: $color-primary-alt-light;
+
+    p {
+      margin-left: 150px;
+      font-size: $font-size-s;
+      font-weight: 600;
+
+      @media screen and (max-width: 600px) {
+        margin-left: 0;
+      }
+
+    }
+
+    a {
+      color: $color-primary;
+    }
+
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+
+    .quote-content {
+
+      display: flex;
+
+      p {
+        margin-left: 0;
+      }
+
+      @media screen and (max-width: 600px) {
+        display: block;
+      }
+
+      img {
+        flex-flow: row;
+        max-width: 150px;
+        margin-top: 18px;
+      }
+
+      blockquote {
+        border-left: 1px solid #fff;
+        margin-left: 0;
+        padding-left: 3.5rem;
+        padding-bottom: 5rem;
+        flex-flow: row;
+
+        p {
+          // font-size: $font-size-l - .6rem;
+          font-size: $font-size-s;
+          font-weight: 400;
+          line-height: $leading-s;
+          max-width: 600px;
+        }
+
+        @media screen and (max-width: 600px) {
+          p {
+            font-size: $font-size-xs;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+
+.showcase-content {
+  padding: $space-xl $space-xs $space-xl 0;
+
+  &.background-gray-dark {
+    color: $color-gray-warm-light;
+    text-rendering: optimizeLegibility;
+
+    a {
+      color: $color-secondary;
+      border-bottom-color: $color-secondary;
+      &:focus,
+      &:active {
+        box-shadow: 0 0 3px 1px $color-secondary;
+        // border-color: transparent;
+        background-color: transparent;
+      }
+    }
+
+  }
+
+  .usa-width-one-half {
+    min-height: 300px;
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+
+    h3 {
+      color: $color-gray-warm-light;
+      font-size: $font-size-l;
+      line-height: 1.1;
+      letter-spacing: -.015em;
+      padding-top: $space-m;
+      padding-right: $space-m;
+      position: relative;
+
+      &::before {
+        background-color: $color-gray-warm-light;
+        content: '';
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: $space-xl;
+        }
+      }
+
+    p {
+      padding-right: $space-l;
+    }
+
+    img[src *= 'img/icons/'] {
+      height: 350px;
+    }
+
+    iframe {
+      margin-top: $space-l;
+      height: 28rem;
+    }
+
+  }
+}
+
+.usa-content .usa-width-one-sixth p {
+  max-width:100%;
+}
+.usa-content .usa-width-five-sixths p {
+  max-width:100%;
+}
+
+#drugDelivery {
+  background-color:#9BDAF1;
+}
+#drugDelivery img {
+  width:100%;
+  height:auto;
+}
+#drugDelivery div.caption p {
+  max-width:100%;  
+  font-size:80%;
+}

@@ -1,42 +1,110 @@
-title: Census Accelerate
-description: This is the site description.
+title: COIL
+theme: uswds-jekyll
 
-# GitHub information
-# This is used for adding an edit this page link to the footer
-github_info:
-  organization: COIL
-  repository: accelerate
-  default_branch: master
+url: https://seedfund.nsf.gov
+baseurl: ""
+permalink: pretty
 
-# Configuration for setting the site width to 100%
-# To enable, uncomment the following line
-site_width: wide
+deadline: December 12
+past_deadline: June 2019
+solicitation_released: March 2019
 
-# Configuration for Google Analytics, add your UA code here:
-# google_analytics_ua: UA-????????-??
 
-# Configuration for DAP, add your agency ID here:
-# dap_agency: GSA
 
-# Uncomment to enable AnchorJS functionality on docs layout.
-# See https://github.com/bryanbraun/anchorjs for more information.
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+app_process: active
+# app_process: inactive
 
-# To enable search, uncomment the search section
-# You will need to setup a search account with search.gov
-# https://search.usa.gov/signup
-# Your search_site_handle value is from the search.gov settings page.
-
-# search_site_handle: searchgov-site-handle
-
-# Configuration for projects and team collections
-# See https://jekyllrb.com/docs/collections/ for more information about collections.
-# collections:
-#   projects:
-#     output: true
-#   team:
-#     output: true
-
-# Compress Sass
+styles:
+  - /assets/css/styles.css
 sass:
   style: compressed
+
+scripts:
+  - src: /assets/uswds/js/uswds.min.js
+    async: true
+
+collections:
+  apply:
+    permalink: /how-to-apply/:path/
+    output: true
+  events:
+    output: false
+  timeline:
+    output: false
+  styleguide:
+    output: true
+    permalink: /styleguide/:path/
+
+defaults:
+  - scope:
+      path: "_apply"
+    values:
+      layout: secondary-narrow
+  - scope:
+      path: "_styleguide"
+    values:
+      layout: styleguide
+      include_subnav: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+awards_api:
+  active_date_is_now: true
+  fundProgramName: phase i
+  reset: false
+  recent_date: 2016-01-01
+  printFields:
+    - id
+    - awardeeName
+    - date
+    - expDate
+    - fundsObligatedAmt
+    - fundProgramName
+    - poName
+    - title
+    - abstractText
+    - startDate
+    - endDate
+    - awardeeCity
+    - awardeeCountryCode
+    - awardeeStateCode
+    - awardeeZipCode
+    - awardeeAddress
+    - piFirstName
+    - piMiddeInitial
+    - piLastName
+    - piPhone
+    - piEmail
+
+
+topics_api:
+  max_companies_shown: 9
+  active_date_is_now: true
+  fundProgramName: phase i
+  reset: false
+  recent_date: 2016-01-01
+  allow_recent_all: true
+  printFields:
+    - id
+    - awardeeName
+    - date
+    - expDate
+    - fundsObligatedAmt
+    - fundProgramName
+    - poName
+    - title
+    - abstractText
+    - startDate
+    - endDate
+    - awardeeCity
+    - awardeeCountryCode
+    - awardeeStateCode
+    - awardeeZipCode
+    - awardeeAddress
+    - piFirstName
+    - piMiddeInitial
+    - piLastName
+    - piPhone
+    - piEmail

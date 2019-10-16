@@ -1,0 +1,17 @@
+.awards-search-form {
+
+  .awards-search-input {
+  border: 0;
+  border-bottom: 3px solid $color-primary-alt-dark;
+  background-color: transparent;
+  background-image: url('../uswds/img/search-alt.svg');
+  display: inline-block;
+  background-position: left;
+  background-size: 3rem;
+  background-repeat: no-repeat;
+  padding-left: 4rem;
+  }
+  label {
+    margin-top: $space-xs;
+  }
+}

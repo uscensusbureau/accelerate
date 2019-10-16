@@ -1,0 +1,297 @@
+$timeline-line-width: 4px;
+$timeline-node-diameter: 14px;
+$timeline-node-width: 2px;
+$timeline-left: 25%;
+$timeline-right: 75%;
+$timeline-right-padding: 5rem;
+
+.page-apply {
+  background-color: $color-blue-light;
+}
+
+
+
+.timeline {
+  counter-reset: count;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 60px;
+  font-family: $font-serif;
+  line-height: $leading-s;
+  color: $color-base;
+
+  & > li {
+    color: $color-gray;
+    padding: 0 0 4rem;
+  }
+
+  li {
+    font-family: $font-serif;
+    line-height: $leading-s;
+    list-style-type: none;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+   }
+
+  .time {
+    color: $color-base;
+    font-size: $font-size-xxs;
+    line-height: $leading-xs;
+    br {
+      display: none;
+    }
+  }
+
+  .time-description {
+    color: $color-base;
+    font-size: $font-size-xs;
+    line-height: $leading-xs;
+    display: block;
+  }
+
+  .step {
+    margin: .25rem .25rem 1rem;
+
+    .step-description {
+      color: $color-gray-dark;
+      display: block;
+      font-family: $font-serif;
+      font-size: $font-size-xs;
+      font-weight: 400;
+      line-height: $leading-s;
+      margin-top: 0;
+      padding: 1.5rem 5.5rem 1.5rem 3rem;
+      background-color: $color-white;
+    }
+    .flex-list li {
+      font-size: $font-size-xxs;
+      margin-left: 2.7rem;
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  .timeline-step-deadline {
+    font-weight: $font-bold;
+  }
+
+
+
+  .usa-accordion {
+    margin-top: $site-margins;
+    font-family: $font-serif;
+    line-height: $leading-s;
+    color: $color-base;
+
+    .step {
+      counter-increment: li;
+
+      h2 {
+        margin-bottom: 0;
+        & + .usa-accordion-content {
+          padding-top: $space-l;
+        }
+      }
+
+    }
+
+    .step-inactive {
+    /*  &::before {
+        border-color: $color-gray-lightest;
+        color: $color-gray-light;
+      }*/
+  /*    .step-label-expired {
+        font-family: $font-mono;
+        font-size: $font-size-xxxs;
+        font-weight: 400;
+        color: $color-gray-medium-warm;
+        text-transform: uppercase;
+        letter-spacing: $kern-looser;
+        background-color: $color-secondary-lightest;
+        padding: 1px 4px;
+        margin-left: $space-xxs;
+      }*/
+    }
+
+    // setup accordion arrow
+    button {
+      background-color: $color-white;
+      background-image: url('../img/arrow-up.svg');
+      background-position: right 2.25rem top 2.9rem;
+      border: 0;
+      border-left: 3px solid transparent;
+      font-family: $font-serif;
+      font-size: $font-size-s;
+      font-weight: 600;
+      line-height: $leading-s;
+      color: $color-base;
+      padding: 2.5rem 5.5rem;
+
+      // building the step number dots
+      &::before {
+        // Display the counter
+        background-color: $color-secondary-lightest;
+        border: 3px solid $color-secondary-lightest;
+        border-radius: 50%;
+        color: $color-base;
+        content: counter(count) '';
+        counter-increment: count;
+        display: inline-block;
+        font-family: $font-serif;
+        font-weight: 600;
+        height: 35px;
+        left: 14px;
+        line-height: 2.7rem;
+        position: absolute;
+        text-align: center;
+        top: 2.2rem;
+        width: 35px;
+      }
+      &:focus,
+      &:active {
+        border-left-color: $color-primary-darkest;
+        box-shadow: none;
+      }
+      &:focus::before,
+      &:active::before {
+        // background-color: $color-secondary-darkest;
+        // border: 3px solid $color-secondary-darkest;
+        // left: 8px;
+      }
+      &[aria-expanded='true'] {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      &[aria-expanded='false'] {
+        background-image: url('../img/arrow-down.svg');
+        position: relative;
+      }
+    }
+    // inactive step button
+    button[disabled] {
+    background-color: $color-white;
+    background-image: none;
+    // color: $color-gray-light;
+    //color: $color-gray-medium-warm;
+    //font-weight: 500;
+    }
+  }
+
+  .usa-accordion-content {
+    padding-top: 0;
+    padding-bottom: $space-xl;
+
+    ul {
+      margin-bottom: 0;
+
+      li {
+        list-style-type: initial;
+        margin-bottom: $space-s;
+        max-width: $text-max-width - 5rem;
+
+        &::before {
+          display: none;
+
+        }
+      }
+    }
+
+    h3 {
+      font-size: $font-size-xs;
+      font-weight: 600;
+      margin-left: 2.7rem;
+
+      &:not(:first-child) {
+        margin-top: $space-l;
+
+      }
+    }
+
+    p {
+      margin-left: 2.7rem;
+    }
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+@include media($medium-screen) {
+  .timeline {
+    > .timeline-step {
+      &::before {
+        background-color: $color-gray-light;
+        content: '';
+        display: block;
+        height: 100%;
+        left: $timeline-left;
+        position: absolute;
+        width: $timeline-line-width;
+      }
+
+      &::after {
+        background-color: $color-white;
+        border: $timeline-node-width solid $color-gray;
+        border-radius: 25px;
+        content: '';
+        display: inline-block;
+        height: $timeline-node-diameter;
+        left: $timeline-left;
+        margin-left: -5px;
+        position: absolute;
+        top: 1.5rem;
+        width: $timeline-node-diameter;
+      }
+    }
+
+    .timeline-step-deadline {
+      &::after {
+        border-color: $color-tertiary;
+      }
+
+      small {
+        display: block;
+        font-weight: $font-normal;
+      }
+    }
+
+
+
+    .time {
+      display: inline-block;
+      padding-right: $timeline-right-padding;
+      padding-top: 0;
+      text-align: right;
+      width: $timeline-left;
+
+      br {
+        display: initial;
+      }
+    }
+
+    .time-description {
+      display: inline-block;
+      float: right;
+      padding-left: $timeline-right-padding;
+      padding-top: 1rem;
+      position: relative;
+      vertical-align: top;
+      width: $timeline-right;
+    }
+
+    .usa-accordion {
+      list-style: none;
+      padding-left: calc(#{$timeline-left} + #{$timeline-right-padding});
+
+      li {
+        position: relative;
+
+        &::before {
+          left: 1rem;
+        }
+      }
+    }
+  }
+}
