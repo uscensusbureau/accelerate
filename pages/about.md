@@ -1,16 +1,60 @@
 ---
 title: About
 permalink: /about/
-layout: secondary
-section_image: "/assets/img/bg/coil-post-its.jpg"
-section_image_caption: |
-  A participant lays out a few of her ideas onto a team ideation board, in the early phases of a Census Accelerate Create-a-thon, hosted in Washington D.C.
+layout: test-layout
+sidenav: about
+hero:
+  color: blue
+  image: ../assets/img/hero/hero-01.png
+  alt: Create-a-thon attendees
 ---
 <head>
 <script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
 </head>
 
-<section class="background-light-neutral" id="about">
+<section class="usa-section usa-content" id="overview" >
+<div class="usa-width-three-fourths" markdown="1">
+# An Open, Grassroots Call for Content
+We work with designers, content strategists, storytellers, creative agencies, and the entertainment industry to inspire innovative content that speaks to hard-to-count communities. Our work complements the official 2020 Census outreach to ensure a complete and accurate count for everyone in America.
+<div class="divider"></div>
+</div>
+<div class="usa-width-one-fourth" markdown="1">
+</div>
+</section>
+
+<section class="usa-section usa-content" id="our-story" >
+<div class="usa-width-three-fourths" markdown="1">
+# Our Story
+#### Everyone deserves to be counted
+Historically, certain groups have been undercounted at disproportionately high rates, including millennials, rural communities, families with young children, immigrants, non-native English speakers, renters, undererepresented minorities, and people experiencing homelessness — these are called “hard-to-count” communities. If these groups aren’t counted, their communities may not receive their fair share of countless services, resources, and representation. It also impacts the data upon which countless policy, legal, and business decisions are made.
+</div>
+<div class="usa-width-one-fourth" markdown="1">
+  330+ Million
+</div>
+</section>
+<section class="usa-section usa-content">
+<div class="usa-width-three-fourths" markdown="1">
+#### We’re finding creative ways to help
+We match creatives with community-based Census outreach efforts to generate innovative content that speaks to hard-to-count communities about why their participation matters.
+</br>
+Led by the U.S. Census Bureau, Accelerate works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure everyone in our country, regardless of location, income, race or ethnicity, is represented in the 2020 Census.
+<div class="divider"></div>
+</div>
+
+</section>
+
+
+
+<!-- <section id="overview" markdown="1">
+# An Open, Grassroots Call for Content
+We work with designers, content strategists, storytellers, creative agencies, and the entertainment industry to inspire innovative content that speaks to hard-to-count communities. Our work complements the official 2020 Census outreach to ensure a complete and accurate count for everyone in America.
+</section> -->
+
+
+
+
+
+<!-- <section class="background-light-neutral" id="about">
 <div class="usa-section usa-content usa-grid" markdown="1">
 <div class="usa-width-one-third" markdown="1">
 ## About
@@ -93,4 +137,4 @@ More detail on approach: What we do / COIL approach / how we’re doing things d
 We work with startups and small businesses, and we welcome proposals from newly formed companies — you don’t need a track record of commercialization to apply for funding. Please note that your company needs to be a legal entity before you apply.
 
 If your company is majority owned by venture capital operating companies, hedge funds, or private-equity firms, you’re not eligible to apply for funding, although joint ventures and partnerships are eligible. Read more about proposal eligibility in our [Eligibility Guide](https://www.sbir.gov/faqs/eligibility-requirements).
-</div>
+</div> -->

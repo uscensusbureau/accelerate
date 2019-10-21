@@ -1,0 +1,13 @@
+{% if hero %}
+  {% if hero.color == "yellow" %}
+  <div class="hero-block" style="background-image: url('../assets/img/hero/yellow-bg.svg')">
+  {% elsif hero.color == "blue" %}
+  <div class="hero-block" style="background-image: url('../assets/img/hero/blue-bg.svg')"">
+  {% endif %}
+
+    <div class="usa-grid">
+      {% if hero.image %}<img src= "{{ hero.image }}" alt="{{ hero.alt }}"/>{% endif %}
+
+    </div>
+  </div>
+{% endif %}

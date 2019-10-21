@@ -24,7 +24,7 @@ primary:
         href: /get-involved/creative-ambassador/
 
 top:
-  - text: See the Projects 
+  - text: See the Projects
     href: /top/projects/
   - text: Join a Sprint
     href: /top/join/
@@ -43,6 +43,17 @@ accelerate:
   - text: Resources
     href: /accelerate/resources/
 
+about:
+  - text: Overview
+    href: /about/#overview
+  - text: Our Story
+    href: /about/#our-story
+  - text: The 2020 Census
+    href: /about/#2020-census
+  - text: Meet the Team
+    href: /about/#meet-the-team
+  - text: An Initiative of COIL
+    href: /about/#coil-initiative
 
 
 # Below is from NSF, not COIL

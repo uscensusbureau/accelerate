@@ -1,7 +1,7 @@
 
 .usa-nav-container {
   @include media($nav-width) {
-    max-width: $landing-max-width;
+    max-width: 100%;
     padding: 0 2rem 0 2rem;
     display: flex;
     background-color: $color-primary-darkest;

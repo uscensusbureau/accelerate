@@ -1,23 +1,25 @@
-
 // Color USWDS Overrides
 $visited: #406098;
 $color-base: #212121;
 $color-focus: #02BFE7;
 
 /* blues */
-$color-primary: #1b5bf3;
+$color-primary: #004280;
 $color-primary-darkest: #13192F;
+$color-gray-lighter: #DDDBD8;
+$color-gray-light: #D9D6D5;
+$color-gray-dark: #5B5D6A;
+
 $color-primary-darker: #094ce9;
 $color-visited: #414f71;
-
-$color-gray-dark: #323A45;
 $color-gray-medium-warm: #696969;
 $color-gray-medium-cool: #4F5A65;
-$color-gray-light: #AEB0B5;
+
 
 
 /* reds/salmons */
-$color-primary-alt: #ed613e;
+$color-red: #DF4317;
+
 $color-primary-alt-darkest: #bf3310;
 $color-primary-alt-dark: #d85230;
 $color-primary-alt-medium: #ed613e;
@@ -26,27 +28,27 @@ $color-primary-alt-lightest: #f89f8b;
 
 
 /* yellows */
-$color-secondary: #f7c644;
+$color-secondary: #F7C636;
+
 $color-secondary-darkest: #f7c644;
 $color-secondary-dark: #f7c644;
 $color-secondary-light: #fdd66d;
 $color-secondary-lightest: #ffe5a0;
-
 $color-gray-lightest: #F7F7F7;
 $color-blue-light: #e1f4f9;
 $color-neutral-light: #F5FBFC;
 $color-gray-cool-light: #f2f5f6;
 
 /* white */
+$color-offwhite: #FFFBF5;
 $color-white: #F5F8FB;
 
 // Mobile first breakpoints
 $large-screen:  960px !default;
-$site-max-width: 960px !default;
+$site-max-width: 1110px !default;
 $landing-max-width: 1440px !default;
 
 // Unique colors
-/* pinks */
 $color-tertiary: #f4b9cc;
 $color-tertiary-darkest: #dc1f5c;
 $color-tertiary-dark: #f45e8e;
@@ -54,26 +56,21 @@ $color-tertiary-light: #f4b9cc;
 $color-tertiary-lightest: #F9DEDE;
 $color-white-transprent: rgba(255,255,255,.9);
 
-
-// Backgrounds
-$color-bg-light: #F5FBFC;
-$bg-color: #F7F7F7;
-$hero-bg-color: $color-base;
-
-
-// End Unique colors
+$color-bg-light: $color-offwhite;
 
 // Typography
-$font-serif: 'Poppins', 'Work Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;;
+ @import url("https://use.typekit.net/pcd3slg.css");
+$font-serif: lemonde-journal, "Times New Roman", serif; // Sanomat
 $font-mono: 'Chivo', monospace;
 $font-mono-alt: 'Overpass Mono', monospace;
-$font-sans: 'Poppins', 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
+$font-sans: aktiv-grotesk, 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
+$font-size-side-nav: 1.6rem;
 $font-size-xxxs: 1.1rem;
 $font-size-xxs: 1.2rem;
 $font-size-xs: 1.4rem;
-$font-size-s: 1.8rem;
-$font-size-m: 2.4rem;
-$font-size-l: 3.6rem;
+$font-size-s: 1.6rem;
+$font-size-m: 1.8rem;
+$font-size-l: 4rem;
 $font-size-xl: 5rem;
 $font-size-xxl: 7rem;
 $font-size-xxxl: 12rem;

@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: $color-neutral-light;
+  background-color: $color-offwhite;
   color: $color-base;
   font-family: $font-serif;
 }
@@ -101,6 +101,10 @@ ol {
   li {
     max-width: $text-max-width;
   }
+}
+
+.usa-section {
+  padding-top: $space-l;
 }
 
 button,
@@ -242,4 +246,16 @@ button:visited,
 .usa-button-yellow:hover, .usa-button-yellow:focus  {
   border: 1px solid $color-primary-alt !important;
   color: $color-primary-alt !important;
+}
+
+.usa-width-one-whole>:last-child,
+.usa-width-one-half>:last-child,
+.usa-width-one-third>:last-child,
+.usa-width-two-thirds>:last-child,
+.usa-width-one-fourth>:last-child,
+.usa-width-three-fourths>:last-child,
+.usa-width-one-sixth>:last-child,
+.usa-width-five-sixths>:last-child,
+.usa-width-one-twelfth>:last-child {
+  margin-bottom: 3em;
 }
