@@ -3,12 +3,12 @@
 
 h1,
 .page-title {
-  font-size: $font-size-l;
+  font-size: $font-size-xl;
   font-weight: 600;
   letter-spacing: $kern-tight;
   line-height: $leading-xxs;
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
 }
 
 p {

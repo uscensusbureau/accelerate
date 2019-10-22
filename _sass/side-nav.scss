@@ -2,6 +2,7 @@
 
 .usa-sidenav-list {
   padding-right: $space-l;
+  margin-top: $space-l !important;
 
   li {
     border: none;
@@ -21,16 +22,19 @@
       font-weight: 500;
       padding: 1rem 1rem 1rem 0rem;
       margin: 0;
-      border-bottom: 1px solid #DDDBD8;
+      border-bottom: 1px solid $color-gray-lighter;
+
+      &:visited {
+        background-color: $color-offwhite;
+        border-bottom: none;
+        border-bottom: 1px solid $color-gray-lighter;
+      }
 
       &:hover {
         background-color: inherit;
         border-bottom: 2px solid $color-primary;
       }
-      &:visited {
-        background-color: $color-offwhite;
-        border-bottom: none;
-      }
+
       &:active,
       &:focus {
         box-shadow: none;

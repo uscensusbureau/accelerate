@@ -61,7 +61,7 @@ $color-bg-light: $color-offwhite;
 // Typography
  @import url("https://use.typekit.net/pcd3slg.css");
 $font-serif: lemonde-journal, "Times New Roman", serif; // Sanomat
-$font-mono: 'Chivo', monospace;
+$font-mono: 'Chivo', monospace; // Plaak
 $font-mono-alt: 'Overpass Mono', monospace;
 $font-sans: aktiv-grotesk, 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
 $font-size-side-nav: 1.6rem;
@@ -70,8 +70,8 @@ $font-size-xxs: 1.2rem;
 $font-size-xs: 1.4rem;
 $font-size-s: 1.6rem;
 $font-size-m: 1.8rem;
-$font-size-l: 4rem;
-$font-size-xl: 5rem;
+$font-size-l: 2.4rem;
+$font-size-xl: 4rem;
 $font-size-xxl: 7rem;
 $font-size-xxxl: 12rem;
 

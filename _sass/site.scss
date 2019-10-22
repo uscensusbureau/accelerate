@@ -65,6 +65,45 @@
   }
 }
 
+.stat-detail {
+  h1 {
+    font-family: $font-mono;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    font-size: $font-size-xxl;
+    margin: 0;
+    margin-right: $space-xs;
+    display: inline;
+    line-height: $leading-xxs;
+  }
+  h2 {
+    font-family: $font-sans;
+    font-size: $font-size-m;
+    font-weight: 600;
+    display: inline;
+  }
+  p {
+    font-family: $font-sans;
+    font-size: $font-size-xs;
+    line-height: $leading-s;
+  }
+
+}
+
+.testimonial {
+  h4 {
+    font-family: $font-serif;
+    font-size: $font-size-l;
+    margin: 0 $space-l $space-l 0;
+    color: $color-primary;
+  }
+
+  p {
+    font-family: $font-sans;
+    font-size: $font-size-xs;
+  }
+}
+
 .usa-footer .social-link {
   border: none;
   display: inline-block;
