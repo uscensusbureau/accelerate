@@ -7,8 +7,9 @@
 <script src="{{ site.baseurl }}/assets/js/masonry.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/jquery-smooth-scroll.js"></script>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+<script src="{{ site.baseurl }}/assets/uswds/js/uswds.min.js"</script>
 
-{% assign _scripts = '' | split: '' %}
+<!-- {% assign _scripts = '' | split: '' %}
 {% assign _async_marker = 'uswds_async=true' %}
 {% assign _site_scripts = site.scripts %}
 {% unless _site_scripts -%}
@@ -24,7 +25,7 @@
 {% for _list in _scripts %}{% for _script in _list %}
   {% assign _src = _script.src | default: _script %}
 <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
-{% endfor %}{% endfor %}
+{% endfor %}{% endfor %} -->
 
 
 

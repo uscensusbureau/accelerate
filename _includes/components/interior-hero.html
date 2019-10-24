@@ -1,13 +1,14 @@
 {% if hero %}
   {% if hero.color == "yellow" %}
-  <div class="hero-block" style="background-image: url('../assets/img/hero/yellow-bg.svg')">
+  <div class="hero-block" style="background-image: url('{{ site.baseurl }}/assets/img/hero/yellow-bg.svg')">
   {% elsif hero.color == "blue" %}
-  <div class="hero-block" style="background-image: url('../assets/img/hero/blue-bg.svg')"">
+  <div class="hero-block" style="background-image: url('{{ site.baseurl }}/assets/img/hero/blue-bg.svg')"">
+  {% elsif hero.color == "red" %}
+  <div class="hero-block" style="background-image: url('{{ site.baseurl }}/assets/img/hero/red-bg.svg')"">
   {% endif %}
-
+  {% if hero.image %}
     <div class="usa-grid">
-      {% if hero.image %}<img src= "{{ hero.image }}" alt="{{ hero.alt }}"/>{% endif %}
-
+      <img src= "{{ hero.image | relative_url }}" alt="{{ hero.alt }}"/>{% endif %}
     </div>
   </div>
 {% endif %}

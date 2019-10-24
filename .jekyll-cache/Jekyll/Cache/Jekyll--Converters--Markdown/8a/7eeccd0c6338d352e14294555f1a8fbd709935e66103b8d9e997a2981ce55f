@@ -1,0 +1,80 @@
+I"�<head>
+<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
+</head>
+
+<section class="usa-section usa-content">
+<div class="usa-width-three-fourths" id="overview">
+    <h1 id="attend-a-create-a-thon">Attend a Create-a-thon</h1>
+    <p>In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.</p>
+  </div>
+
+<div class="usa-width-three-fourths" id="upcoming-events">
+    <h4 id="upcoming-events">Upcoming Events</h4>
+    <p>Find an event near you to help your favorite community receive the respect and resources it deserves.</p>
+  </div>
+
+
+<div class="event">
+  <div class="usa-width-one-half">
+    <img src="/site/assets/img/events/uncasville.png" alt="Placeholder image for uncasville create-a-thon" />
+  </div>
+  <div class="usa-width-one-half">
+    <h4>Uncasville, CT</h4>
+    <h6>November 8, 2019</h6>
+    <p>Join the Lt. Governor; Connecticut Complete Count Committee; and the U.S. Census Bureau for Connecticut’s first create-a-thon to reach hard-to-count communities!</p>
+    <div class="usa-button">
+      <a href="https://www.google.com/" target="_blank">RSVP</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="event">
+  <div class="usa-width-one-half">
+    <img src="/site/assets/img/events/seattle.png" alt="Placeholder image for Seattle create-a-thon" />
+  </div>
+  <div class="usa-width-one-half">
+    <h4>Seattle, WA</h4>
+    <h6>December 13, 2019</h6>
+    <p>Placeholder description</p>
+    <div class="usa-button">
+      <a href="https://www.google.com/" target="_blank">RSVP</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="usa-width-three-fourths" id="how-it-works">
+    <div class="divider"></div>
+    <h1 id="how-it-works">How it Works</h1>
+  </div>
+<div class="usa-width-three-fourths">
+  <ul>
+    <li><div class="step-circle">1</div><h4>Grassroots organizations step up.</h4>
+        <p>Organizations supporting hard-to-count communities share their needs for census content and partner up with Accelerate and our robust event toolkit to create a one-day event to fulfill their needs.</p>
+    </li>
+    <li><div class="step-circle">2</div><h4>Creatives across the region step in.</h4>
+        <p>Talented designers, content strategists, storytellers, filmmakers and other creatives attend the event to learn more and collaborate on content that truly speaks to underrepresented communities.</p>
+    </li>
+    <li><div class="step-circle">3</div><h4>Content meets communities where they’re at.</h4>
+        <p>Content made with and for hard-to-count communities is shared. back into the neighborhoods that are hardest to reach, and shared with the rest of the country through our partners.</p>
+    </li>
+    <li><div class="step-circle">4</div><h4>Repeat.</h4>
+        <p>The more community leaders and creatives collaborate to create and share, the more opportunities to reach new communities are made. Event participants may choose to create a new create-a-thon of their own or continue working in tandem through the remainder of 2020.</p>
+    </li>
+  </ul>
+</div>
+<div class="usa-width-one-fourth stat-detail">
+    <h1 id="section">2.6</h1>
+    <h2 id="million">Million</h2>
+    <p>Grassroots media assets created this year</p>
+  </div>
+
+<div class="usa-width-three-fourths" id="our-story">
+    <h1 id="run-your-own">Run Your Own</h1>
+    <p>Are you a creative or community leader raring to bring a create-a-thon to your community? Let’s do this.</p>
+  </div>
+</section>
+:ET

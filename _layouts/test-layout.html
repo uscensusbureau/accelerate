@@ -3,8 +3,8 @@ layout: base
 class: test-layout
 ---
 {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
-
 {% assign hero = page.hero %}
+
 {% include components/interior-hero.html %}
 
 {% if sidenav %}

@@ -19,9 +19,39 @@ primary:
       - text: Partner With Us
         href: /get-involved/partner-with-us/
       - text: Attend a Create-a-thon
-        href: /get-involved/create-a-thons/
+        href: /get-involved/attend-a-create-a-thon/
       - text: Become a Creative Ambassador
         href: /get-involved/creative-ambassador/
+
+about:
+  - text: Overview
+    href: /about/#overview
+  - text: Our Story
+    href: /about/#our-story
+  - text: The 2020 Census
+    href: /about/#2020-census
+  - text: Meet the Team
+    href: /about/#meet-the-team
+  - text: An Initiative of COIL
+    href: /about/#coil-initiative
+
+partner:
+  - text: Partner With Us
+    href: /get-involved/partner-with-us/#contact
+
+create-a-thon:
+  - text: Overview
+    href: /get-involved/attend-a-create-a-thon/#overview
+  - text: Upcoming Events
+    href: /get-involved/attend-a-create-a-thon/#upcoming-events
+  - text: How it Works
+    href: /get-involved/attend-a-create-a-thon/#how-it-works
+  - text: Run Your Own
+    href: /get-involved/attend-a-create-a-thon/#run-your-own
+
+
+
+# Below is previous links
 
 top:
   - text: See the Projects
@@ -42,19 +72,6 @@ accelerate:
     href: /accelerate/creative-ambassadors/
   - text: Resources
     href: /accelerate/resources/
-
-about:
-  - text: Overview
-    href: /about/#overview
-  - text: Our Story
-    href: /about/#our-story
-  - text: The 2020 Census
-    href: /about/#2020-census
-  - text: Meet the Team
-    href: /about/#meet-the-team
-  - text: An Initiative of COIL
-    href: /about/#coil-initiative
-
 
 # Below is from NSF, not COIL
 
