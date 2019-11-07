@@ -1,0 +1,348 @@
+I"$'<section class="usa-section usa-content">
+<div class="usa-grid">
+
+    <h1 id="events">Events</h1>
+
+    <h2 id="upcoming">Upcoming</h2>
+
+    <p>We regularly host webinars for startups and small businesses to learn about the application process and what we look for when we review proposals. Can’t make it to a webinar? Watch a <a href="https://youtu.be/xZO8o1mDiO0">recorded webinar</a> about the Project Pitch Pilot or a <a href="https://youtu.be/HDjxAvLM_Ok">recorded webinar</a> about How to Apply.</p>
+
+    <!-- <div class="usa-content usa-grid">
+
+
+
+
+
+
+</div>
+ -->
+
+    <div class="event">
+  <div class="usa-width-one-half">
+    <img src="/site/assets/img/events/uncasville.png" alt="Placeholder image for uncasville create-a-thon" />
+  </div>
+  <div class="usa-width-one-half">
+    <h4>Uncasville, CT</h4>
+    <h6>November 8, 2019</h6>
+    <p>Join the Lt. Governor; Connecticut Complete Count Committee; and the U.S. Census Bureau for Connecticut’s first create-a-thon to reach hard-to-count communities!</p>
+    <div class="usa-button">
+      <a href="https://www.google.com/" target="_blank">RSVP</a>
+    </div>
+  </div>
+</div>
+
+    <div class="event">
+  <div class="usa-width-one-half">
+    <img src="/site/assets/img/events/seattle.png" alt="Placeholder image for Seattle create-a-thon" />
+  </div>
+  <div class="usa-width-one-half">
+    <h4>Seattle, WA</h4>
+    <h6>December 13, 2019</h6>
+    <p>Placeholder description</p>
+    <div class="usa-button">
+      <a href="https://www.google.com/" target="_blank">RSVP</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="section-background-image">
+<div class="usa-section-tight-top usa-content">
+<div class="usa-grid">
+
+      <h2 id="annual-events">Annual events</h2>
+
+      <p>You can often find NSF staff at major tradeshows and events throughout the year. Here’s a calendar of some of the events we plan on attending in 2018 through 2019:</p>
+
+      <div class="usa-content">
+  <ul class="event-annual-listing">
+    
+    <li>
+      <h3>Jan</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.ces.tech/">Consumer Electronics Show (CES)</a></h4>
+              <p>Find program staff in Eureka Park.</p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.jpmorgan.com/global/healthcareconference">J.P. Morgan Healthcare Conference</a></h4>
+              <p>Find program staff to learn about funding opportunities.</p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Feb</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.himssconference.org/about/general-info/himss-global-conference-save-date">HIMSS19 Global Conference &amp; Exhibition</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="http://spie.org/conferences-and-exhibitions/photonics-west?SSO=1">SPIE Photonics West</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://autm.net/annual-meeting">AUTM Annual Meeting</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Mar</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.sxsw.com/">SXSW</a></h4>
+              <p>Find program staff to learn about funding opportunities.</p>
+            </li>
+          
+            <li>
+              <h4><a href="https://youngstartup.com/VSWest/">Venture Summit West</a></h4>
+              <p>NSF staff introduces investors and startups to the program.</p>
+            </li>
+          
+            <li>
+              <h4><a href="https://venturewell.org/open/">VentureWell Open Conference</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.acs.org/content/acs/en/meetings/national-meeting.html">ACS National Meeting and Expo</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Apr</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.angelcapitalassociation.org/2018-summit/">ACA Summit</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.mitenergyconference.org/">MIT Energy Conference</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>May</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="http://www.sbirroadtour.com/">SBIR Road Tour</a></h4>
+              <p>NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.</p>
+            </li>
+          
+            <li>
+              <h4><a href="http://www.kauffman.org/what-we-do/events/the-eship-summit">Kauffman's ESHIP Summit</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Jun</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.iste.org/">International Society for Technology in Education</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="http://convention.bio.org/">BIO International Convention</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.techconnectworld.com/SBIRSpring2019/">National SBIR Conference</a></h4>
+              <p>Join NSF and other government agencies with similar programs for the annual conference.</p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.wearconferences.com/">WEAR Conference</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Jul</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://www.youngstartup.com/events.php">New York Venture Summit</a></h4>
+              <p>NSF staff introduces investors and startups to the program.</p>
+            </li>
+          
+            <li>
+              <h4><a href="https://arpa-e.energy.gov/">ARPA-E's Tech Showcase</a></h4>
+              <p>Find program staff at the Tech Showcase.</p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Aug</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="http://www.sbirroadtour.com/">SBIR Road Tour</a></h4>
+              <p>NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.</p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Sep</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://synbiobeta.com/">SynBioBeta</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://www.blackenterprise.com/techconnext/">Black Enterprise - Tech Connext</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="http://www.sbirroadtour.com/">SBIR Road Tour</a></h4>
+              <p>NSF program directors join other funding agencies on a bus tour to speak about funding opportunities.</p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Oct</h3>
+      
+        <ul>
+          
+            <li>
+              <h4><a href="https://techcrunch.com/events/disrupt-sf-2019/">TechCrunch Disrupt</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://events.techconnect.org/DTCFall/dagSBIR2018.html">SBIR/STTR Fall Innovation Summit</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://toughtechsummit.engine.xyz/#about">Tough Tech Summit</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://events.technologyreview.com/emtech/">EmTech</a></h4>
+              <p></p>
+            </li>
+          
+            <li>
+              <h4><a href="https://socialcapitalmarkets.net/">SOCAP - Social Capital Markets</a></h4>
+              <p></p>
+            </li>
+          
+        </ul>
+      
+    </li>
+    
+    <li>
+      <h3>Nov</h3>
+      
+    </li>
+    
+    <li>
+      <h3>Dec</h3>
+      
+    </li>
+    
+  </ul>
+</div>
+
+    </div>
+</div>
+</section>
+
+<!--
+You can often find us at major tradeshows and events throughout the year.  Here's a representation of events we've attended or plan on attending in 2017:
+
+### January
+[CES](https://www.ces.tech/)
+### March
+[SXSW](https://www.sxsw.com/)
+### April
+[ACA Summit](https://www.angelcapitalassociation.org/)
+### May
+National SBIR Conference
+### June
+[ISTE](https://www.iste.org/)  
+[BIO International Convention](https://convention.bio.org/home.aspx)  
+[Phase II SBIR Conference](https://www.nsfiipconf.com/2017sbirp2/)  
+<<<<<<< HEAD
+[SBIR Road Tour](https://www.sbirroadtour.com/dates.php#)  
+### July
+[SBIR Road Tour](https://www.sbirroadtour.com/dates.php#)  
+[New York Venture Summit](https://www.youngstartup.com/newyork2017/overview.php)  
+[SEMICON West](https://www.semiconwest.org/)  
+### September
+[SBIR Road Tour](https://www.sbirroadtour.com/dates.php#)
+### October
+=======
+[SBIR Road Tour](http://www.sbirroadtour.com/)  
+## July
+[SBIR Road Tour](http://www.sbirroadtour.com/)  
+[New York Venture Summit](https://www.youngstartup.com/newyork2017/overview.php)  
+[SEMICON West](https://www.semiconwest.org/)  
+## September
+[SBIR Road Tour](http://www.sbirroadtour.com/)
+## October
+>>>>>>> dev
+[SBIR Road Tour](https://www.sbirroadtour.com/dates.php#)  
+[SynBioBeta](https://synbiobeta.com/)  
+[Black Enterprise - TechConnext Summit](https://www.blackenterprise.com/events/techconnext/)  
+[SOCAP](https://socialcapitalmarkets.net/)  
+[EmTech](https://events.technologyreview.com/emtech/16/)    -->
+:ET
