@@ -1,4 +1,23 @@
 .list-reset {
   padding-left: 0;
-  list-style-type: none;
+  list-style: none;
+}
+
+.list-circle {
+  .step-circle {
+    border-radius: 50%;
+    display: inline-block;
+    height: 2.3rem;
+    width: 2.3rem;
+    background-color: $color-primary-darkest;
+    color: $color-white;
+    text-align: center;
+    padding-top: 1px;
+    margin-right: 2rem;
+  }
+  .text {
+    display:inline-block;
+    width: 85%;
+    vertical-align: top;
+  }
 }

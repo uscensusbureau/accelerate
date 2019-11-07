@@ -1,0 +1,13 @@
+---
+- city: Uncasville, CT
+  image: /assets/img/events/uncasville.png
+  alt: Placeholder image for uncasville create-a-thon
+  date: November 8, 2019
+  desc: Join the Lt. Governor; Connecticut Complete Count Committee; and the U.S. Census Bureau for Connecticut’s first create-a-thon to reach hard-to-count communities!
+  link: https://www.google.com/
+- city: Seattle, WA
+  image: /assets/img/events/seattle.png
+  alt: Placeholder image for Seattle create-a-thon
+  date: December 13, 2019
+  desc: Placeholder description
+  link: https://www.google.com/

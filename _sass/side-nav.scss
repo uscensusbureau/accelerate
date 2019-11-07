@@ -1,8 +1,8 @@
 
 
 .usa-sidenav-list {
-
-  padding-top: $space-xl * 1.25;
+  padding-right: $space-l;
+  margin-top: $space-l !important;
 
   li {
     border: none;
@@ -11,33 +11,34 @@
     &.supplement {  // sidenav section divider
       margin-top: -1px;
       // margin-right: 1rem;
-      border-top: 2px solid $color-primary-alt-medium;
+      border-top: 2px solid $color-primary;
 
     }
 
     a {
-      color: $color-primary-alt-dark;
-      font-family: $font-serif;
-      font-size: $font-size-xxs;
-      font-weight: 400;
-      border: none;
-      padding: 1rem 1rem 1rem 2rem;
+      color: $color-primary-darkest;
+      font-family: $font-sans;
+      font-size: $font-size-side-nav;
+      font-weight: 500;
+      padding: 1rem 1rem 1rem 0rem;
       margin: 0;
-      background-color: transparent;
-      border-bottom: 1px dotted $color-primary-alt-medium;
+      border-bottom: 1px solid $color-gray-lighter;
+
+      &:visited {
+        background-color: $color-offwhite;
+        border-bottom: none;
+        border-bottom: 1px solid $color-gray-lighter;
+      }
 
       &:hover {
-        color: white;
-        background-color: $color-primary-alt-lightest;
+        background-color: inherit;
+        border-bottom: 2px solid $color-primary;
       }
-      &:visited {
-        background-color: $color-primary-alt-light;
-        border-bottom: 1px solid $color-base;
-      }
+
       &:active,
       &:focus {
         box-shadow: none;
-        background-color: $color-primary-alt-lightest;
+        border-bottom: 2px solid $color-primary;
       }
       &.usa-current {
         border-left: none;

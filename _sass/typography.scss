@@ -4,15 +4,18 @@
 h1,
 .page-title {
   font-size: $font-size-xl;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: $kern-tight;
   line-height: $leading-xxs;
+  margin-top: 0;
+  margin-bottom: 1em !important;
 }
-h1+p {
-  letter-spacing: $kern-tight;
-  line-height: $leading-s;
-  font-weight: 500;
-  margin: $space-l 0;
+
+p {
+  line-height: $leading-m;
+  margin: 0 0 3em 0;
+  color: $color-gray-dark;
+  font-size: $font-size-s;
 }
 
 h2,
@@ -21,9 +24,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  letter-spacing: $kern-tight;
   margin-top: 0;
-  color: $color-base;
+  color: $color-primary-darkest;
 }
 
 h2 {
@@ -35,6 +37,8 @@ h2 {
 h3,
 h4 {
   font-size: $font-size-m;
+  font-family: $font-sans;
+  margin-bottom: 1em;
 }
 
 h5 {
