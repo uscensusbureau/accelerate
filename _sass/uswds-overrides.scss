@@ -1,8 +1,6 @@
 html,
 body {
-  background-color: $color-offwhite;
   color: $color-base;
-  font-family: $font-serif;
 }
 
 p,
@@ -13,6 +11,16 @@ tr {
   line-height: $leading-m;
   margin-bottom: $space-m;
   margin-top: 0;
+  font-family: $font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif;
 }
 
 ul,
@@ -24,16 +32,6 @@ ol {
   }
 }
 
-.usa-banner {
-  font-family: $font-sans;
-
-  p {
-    font-size: $font-size-xxs;
-    line-height: $leading-s;
-  }
-}
-
-
 .usa-grid-center {
   &:last-child {
     float: none;
@@ -41,6 +39,12 @@ ol {
   }
 }
 
+.usa-nav-primary li a {
+  padding: 1.3rem 3rem 1.7rem;
+  &:visited {
+    color: inherit;
+  }
+}
 
 .usa-logo {
   float: none;
@@ -111,15 +115,15 @@ button,
 .usa-button,
 button:visited,
 .usa-button:visited {
-  background-color: transparent;
-  border: 1px solid $color-primary-alt;
-  border-radius: 0;
+  border-radius: 24px;
   color: $color-base;
-  font-family: $font-serif;
-  font-size: $font-size-xxs;
+  font-family: $font-sans;
+  font-size: $font-size-s;
   font-weight: 500;
   min-width: 18rem;
   padding: $space-m 2.5rem $space-m 2rem;
+  z-index: 2;
+  position: relative;
 
   &.usa-button-hover,
   &:hover {
@@ -136,10 +140,14 @@ button:visited,
     box-shadow: none;
   }
 
-
+  &.usa-button-primary {
+    background-color: $color-navy;
+    color: $color-white;
+  }
   &.usa-button-secondary {
+    background-color: $color-secondary;
     border: 0;
-    color: $color-black;
+    color: $color-navy;
 
     &:hover {
       color: $color-black;
@@ -147,11 +155,9 @@ button:visited,
   }
 
   &.usa-button-big {
-    font-size: 1.4rem;
-    font-weight: normal;
+    font-size: $font-size-s;
+    font-weight: 500;
     line-height: 1.2;
-    padding-left: $space-m;
-    padding-right: $space-m + $space-xs;
   }
 }
 
@@ -183,32 +189,6 @@ button:visited,
   }
 }
 
-.button-arrow {
-  &::before {
-    content: '\2192';
-    display: inline-block !important;
-    font-family: $font-serif;
-    padding-right: $space-xxs;
-  }
-}
-
-.button-arrow-after {
-  &::after {
-    content: '\2192';
-    display: inline-block;
-    font-family: $font-serif;
-    padding-left: $space-s;
-  }
-
-  &.button-arrow-down {
-    &::after {
-      color: $color-primary-alt;
-      position: relative;
-      top: -15%;
-      transform: rotate(90deg);
-    }
-  }
-}
 
 .usa-header {
   background-color: $color-white;
@@ -236,7 +216,6 @@ button:visited,
       }
   }
 }
-
 
 .usa-button-yellow, .usa-button-yellow:visited {
   border: 1px solid white !important;

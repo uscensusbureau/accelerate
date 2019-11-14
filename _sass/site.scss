@@ -1,7 +1,8 @@
 .page-background {
   background-position: center top;
   background-attachment: fixed;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .section-background-image {
@@ -128,7 +129,7 @@ a {
     }
 
   &:visited {
-    color: $color-visited;
+
   }
   &:focus,
   &:active {

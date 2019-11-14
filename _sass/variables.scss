@@ -4,14 +4,14 @@ $color-base: #212121;
 $color-focus: #02BFE7;
 
 /* blues */
-$color-primary: #004280;
-$color-primary-darkest: #13192F;
+$color-blue: #004280;
+$color-navy: #13192F;
 $color-gray-lighter: #DDDBD8;
 $color-gray-light: #D9D6D5;
 $color-gray-dark: #5B5D6A;
 
 $color-primary-darker: #094ce9;
-$color-visited: #414f71;
+$color-visited: $color-navy;
 $color-gray-medium-warm: #696969;
 $color-gray-medium-cool: #4F5A65;
 
@@ -42,6 +42,7 @@ $color-gray-cool-light: #f2f5f6;
 /* white */
 $color-offwhite: #FFFBF5;
 $color-white: #F5F8FB;
+$color-true-white: #FFFFFF;
 
 // Mobile first breakpoints
 $large-screen:  960px !default;
@@ -60,7 +61,9 @@ $color-bg-light: $color-offwhite;
 
 // Typography
  @import url("https://use.typekit.net/pcd3slg.css");
-$font-serif: lemonde-journal, "Times New Roman", serif; // Sanomat
+$font-serif: "Sanomat Bold", "Times New Roman", serif;
+$font-serif-bold: "Sanomat Bold", "Times New Roman", serif;
+$font-serif-medium: "Sanomat Medium", "Times New Roman", serif;
 $font-mono: 'Chivo', monospace; // Plaak
 $font-mono-alt: 'Overpass Mono', monospace;
 $font-sans: aktiv-grotesk, 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
@@ -71,8 +74,8 @@ $font-size-xs: 1.4rem;
 $font-size-s: 1.6rem;
 $font-size-m: 1.8rem;
 $font-size-l: 2.4rem;
-$font-size-xl: 4rem;
-$font-size-xxl: 7rem;
+$font-size-xl: 4.57rem;
+$font-size-xxl: 8.9rem;
 $font-size-xxxl: 12rem;
 
 // Line-heights

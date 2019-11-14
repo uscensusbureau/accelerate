@@ -5,16 +5,15 @@ h1,
 .page-title {
   font-size: $font-size-xl;
   font-weight: 600;
-  letter-spacing: $kern-tight;
   line-height: $leading-xxs;
   margin-top: 0;
-  margin-bottom: 1em !important;
+  margin-bottom: 1em;
 }
 
 p {
   line-height: $leading-m;
-  margin: 0 0 3em 0;
-  color: $color-gray-dark;
+  margin: 0 0 0 0;
+  color: $color-navy;
   font-size: $font-size-s;
 }
 
@@ -89,7 +88,6 @@ h5 {
 
 .text-large {
   font-size: $font-size-m;
-  letter-spacing: $kern-tight;
 }
 
 .text-medium {
@@ -133,6 +131,13 @@ h5 {
   line-height: 1.325;
 }
 
+.bottom-space {
+  margin-bottom: $space-l;
+}
+
+.bottom-space-l {
+  margin-bottom: $space-xl;
+}
 .font-serif {
   font-family: $font-serif;
 }
