@@ -1,0 +1,5 @@
+<ul class="coil-team-list">
+{% for partner in site.data.partners %}
+  <li><img src="{{ site.baseurl }}/assets/img/logos/{{ partner.photo }}" alt="{{ partner.name }}"></li>
+{% endfor %}
+</ul>
