@@ -135,6 +135,11 @@ hero:
         <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/">Learn more</a>
         </div>
       </div>
+
+      <img id="doodle-01" src="{{site.baseurl}}/assets/img/doodle-01.svg" />
+      <img id="doodle-02" src="{{site.baseurl}}/assets/img/doodle-02.svg" />
+      <img id="doodle-03" src="{{site.baseurl}}/assets/img/doodle-03.svg" />
+
   </div>
 </section>
 <!--
