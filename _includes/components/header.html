@@ -5,16 +5,14 @@
   <div class="usa-nav-container">
   <div class="usa-navbar">
     <button class="usa-menu-btn">Menu</button>
-    <!-- logo
-    <div class="usa-logo" id="logo">
-      <em class="usa-logo-text">
-        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
 
-            <img src="{{site.baseurl}}/assets/img/logo/#" alt="{{ header.title | default: site.title }}">
+    <div class="usa-logo">
+      <em class="usa-logo-text">Accelerate
+        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+            <img src="{{site.baseurl}}/assets/img/logo/logo-dark.png" alt="{{ header.title | default: site.title }}">
           </a>
       </em>
     </div>
-    -->
   </div>
 
   <nav role="navigation" class="usa-nav" aria-label="primary">
@@ -37,7 +35,7 @@
           <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
             <span>{{ _section.text }}</span>
           </button>
-          <ul id="{{ _section_id }}" class="usa-nav-submenu">
+          <ul id="{{ _section_id }}" class="usa-nav-submenu nav-dark">
             {% for _link in section_links %}
             <li>
               <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
@@ -101,9 +99,6 @@
       </div>
       {% endif %}
 
-    </div>
-  </nav>
-</div>
   {% endif %}
 
 </header>

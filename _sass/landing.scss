@@ -1,0 +1,220 @@
+#opportunity-top {
+  background-image: url('../img/opportunity-top.svg');
+  height: 60rem;
+  position: relative;
+  top: -30rem;
+  z-index: 3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#opportunity {
+  background-color: $color-white;
+
+  @include media($large-screen) {
+    padding-left: 15rem;
+    position: relative;
+    top: -40rem;
+    z-index:4;
+  }
+}
+
+#opportunity-bottom {
+  background-image: url('../img/opportunity-bottom.svg');
+  height: 10rem;
+  position: relative;
+  top: -40.1rem;
+  z-index: 4;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#help {
+  background-color: $color-true-white;
+  position: relative;
+  top:-54rem;
+  padding-top: 20rem;
+  padding-bottom: 40rem;
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: $space-s;
+  }
+  .text-large {
+    text-align: center;
+    margin: auto;
+    margin-bottom: $space-xl;
+  }
+  h3 {
+    font-size: $font-size-l;
+    color: $color-navy;
+    margin-bottom: $space-xxs;
+  }
+  h4 {
+    font-size: $font-size-m;
+    color: $color-navy;
+    font-weight: 400;
+    margin-bottom: $space-xxs;
+  }
+  img {
+    margin-bottom: $space-l;
+  }
+  p {
+    margin-bottom: $space-m;
+  }
+}
+
+
+#impact {
+  @include media($large-screen) {
+    position: relative;
+    top: -80rem;
+    background-image: url('../img/blue-yellow.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 20rem;
+    z-index: 0;
+    padding-bottom: 40rem;
+  }
+  .spacing-top {
+    padding-top: 10rem;
+  }
+  h1 {
+    color: $color-true-white;
+    margin-bottom: $space-s;
+  }
+  p {
+    font-size: $font-size-m;
+    color: $color-true-white;
+    margin-bottom: $space-xl + $space-m;
+    max-width: 40rem;
+    line-height: $leading-m;
+  }
+  img {
+    margin-left: $space-l;
+  }
+}
+
+
+#partners {
+  @include media($large-screen) {
+    position: relative;
+    top: -150rem;
+    padding-top: 50rem;
+    background-color: $color-navy;
+    text-align: center;
+    z-index: -2;
+  }
+  p {
+    color: $color-offwhite;
+    opacity: 40%;
+    margin: auto;
+  }
+  img {
+    margin: $space-l;
+  }
+}
+
+#partners-bottom {
+  background-image: url('../img/partners-bottom.svg');
+  top: -150.1rem;
+  z-index: 1;
+  position: relative;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#join {
+  @include media($large-screen) {
+    position: relative;
+    top: -160rem;
+    padding-top: 20rem;
+    background-color: $color-true-white;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: $space-xl*2;
+  }
+
+  .card {
+    background-color: $color-navy;
+    color: $color-white;
+    padding: $space-l;
+    text-align: left;
+    min-height: 45rem;
+    z-index: 5;
+    position: relative;
+    margin-bottom: $space-m;
+
+    img {
+      display: block;
+      margin: auto;
+    }
+    h3 {
+      color: $color-white;
+      font-size: 2.2rem;
+      text-align: left;
+      margin: 1rem 0 1.5rem 0;
+    }
+    p {
+      color: $color-white;
+      opacity: 75%;
+      margin-bottom: 0;
+    }
+  }
+  .card-wrapper {
+    position: relative;
+  }
+
+  .card-bg {
+    position: absolute;
+    left: -($space-m);
+    top: -($space-m);
+    z-index: 5;
+    height: 45rem;
+    width: 100%;
+  }
+  .yellow {
+    background-color: $color-secondary;
+  }
+  .red {
+    background-color: $color-red;
+  }
+  .blue {
+    background-color: $color-primary;
+  }
+  #card-02 {
+    margin-top: $space-xl;
+  }
+  #card-03 {
+    margin-top: $space-xl*2;
+  }
+
+  .button-wrapper {
+    position: relative;
+    &:hover {
+      .usa-button {
+        transform: translate(0.5rem, 0.5rem);
+        border: none;
+      }
+    }
+  }
+  .button-bg {
+    position: absolute;
+    left: -1rem;
+    z-index: 0;
+    height: 5rem;
+    width: 52%;
+    border-radius:24px;
+  }
+  .usa-button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 5rem;
+    border-radius: 24px;
+  }
+}

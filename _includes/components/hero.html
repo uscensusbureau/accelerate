@@ -1,32 +1,32 @@
 {% if hero %}
   <section class="usa-hero">
       <div class="usa-grid">
-        <div class="usa-width-two-thirds">
+        <div class="usa-width-three-fourths">
           {% if hero.callout %}
             <h1 class="large-header">
-              {% if hero.callout.alt %}
-                <span class="usa-hero-callout-alt">{{ hero.callout.alt }}</span>
+              {% if hero.callout.text %}
+                <span class="usa-hero-callout-alt">{{ hero.callout.text }}</span>
               {% endif %}
-              <span class="subheader">{{ hero.callout.text | default: hero.callout }}</span>
             </h1>
-            {% if hero.callout.subtext %}
-              <p class="usa-hero-callout-subtext">{{ hero.callout.subtext }}</p>
-            {% endif %}
-          {% endif %}
-          {% if hero.link %}
-            <a class="usa-hero-link" href="{{ hero.link.href | relative_url }}">
-              {{ hero.link.text }}
-            </a>
           {% endif %}
           {{ hero.content | markdownify }}
-          {% if hero.button %}
-          <a class="usa-button usa-button-big usa-button-secondary button-arrow" href="{{ hero.button.href | relative_url }}">
+        </div>
+        <div class="usa-width-one-fourth"></div>
+      </div>
+
+      {% if hero.callout.subtext %}
+      <div class="usa-grid">
+        <div class="usa-width-seven-twelfths">
+            <p class="usa-hero-callout-subtext">{{ hero.callout.subtext }}</p>
+            {% endif %}
+        {% if hero.button %}
+          <a class="usa-button usa-button-big usa-button-secondary" href="{{ hero.button.href | relative_url }}">
             {{ hero.button.text }}
             <span class="subtext">{{ hero.button.subtext | liquify }}</span>
           </a>
-        </div>
-        <div class="usa-width-one-third"></div>
         {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
       </div>
   </section>
 {% endif %}

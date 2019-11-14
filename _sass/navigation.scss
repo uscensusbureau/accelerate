@@ -4,8 +4,15 @@
     max-width: 100%;
     padding: 0 2rem 0 2rem;
     display: flex;
-    background-color: $color-primary-darkest;
   }
+}
+
+.nav-light {
+  color: $color-navy;
+}
+
+.nav-dark {
+  color: $color-white;
 }
 
 .usa-nav-primary {
@@ -17,11 +24,10 @@
 
   .usa-accordion-button,
   .usa-accordion-button[aria-expanded=false] {
-    color: $color-white;
-    font-family: $font-mono;
-    font-size: $font-size-xxxs;
-    font-weight: 400;
-    text-transform: uppercase;
+    color: $color-navy;
+    font-family: $font-sans;
+    font-size: $font-size-s;
+    font-weight: 500;
     min-width: auto;
     border: 0;
     background-position: right 1.5rem top 50%;
@@ -61,12 +67,9 @@
 
   li {
     a {
-      color: $color-white;
-      font-family: $font-mono;
-      font-size: $font-size-xxxs;
-      font-weight: 400;
-      text-transform: uppercase;
-      letter-spacing: $kern-loose;
+      font-family: $font-sans;
+      font-size: $font-size-s;
+      font-weight: 500;
       text-rendering: optimizeLegibility;
 
       &:hover {
@@ -85,7 +88,6 @@
 @include media($nav-width) {
   .usa-nav {
     width: auto;
-    background-color: $color-primary-darkest;
     padding: 0;
     margin-left: auto;
   }
@@ -94,7 +96,7 @@
   }
 
   .usa-nav-submenu {
-    background-color: $color-primary-darkest;
+    background-color: $color-navy;
     padding: .5rem 0;
 
     a:hover {
@@ -105,6 +107,7 @@
 
 @include media($large-screen) {
   .usa-nav {
+    background: none;
     li {
       margin: 0;
     }
