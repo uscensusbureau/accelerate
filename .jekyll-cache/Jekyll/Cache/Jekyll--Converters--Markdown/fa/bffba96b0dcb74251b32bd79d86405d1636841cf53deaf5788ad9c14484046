@@ -1,0 +1,17 @@
+I"
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  
+<span class="gu">#### Example of successful image reference with alt text</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-S.png"</span> <span class="na">alt=</span><span class="s">"18F logo"</span> <span class="nt">/&gt;</span>
+
+<span class="gu">#### Example of successful image reference with empty alt text</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-S.png"</span> <span class="na">alt=</span><span class="s">""</span> <span class="nt">/&gt;</span>
+
+<span class="gu">#### Example of failed image with alt text</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-Small.jpg"</span> <span class="na">alt=</span><span class="s">"18F logo"</span> <span class="nt">/&gt;</span>
+
+<span class="gu">#### Example of failed image without alt text</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-Small.jpg"</span> <span class="nt">/&gt;</span>
+
+</code></pre></div></div>
+
+:ET

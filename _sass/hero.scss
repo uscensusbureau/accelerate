@@ -2,16 +2,8 @@
   background-image: url('../img/bg/tile.png');
 }
 
-.hero-block {
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-}
-
 .usa-hero {
-  height: auto;
-  background-attachment: fixed;
-  background-image: none;
+  height: 87rem;
   padding-bottom: 0;
   padding-top: 22rem;
 
@@ -27,7 +19,6 @@
       color: $color-navy;
       display: block;
     }
-
   }
 
 .usa-hero-callout-subtext {
@@ -138,4 +129,30 @@
     margin-bottom: 4em;
   }
 
+}
+
+.usa-hero-interior {
+  height: 87rem;
+  padding-bottom: 0;
+  padding-top: 28rem;
+  background-repeat: no-repeat;
+
+  .large-header {
+    font-size: $font-size-xxl;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    line-height: 1.1;
+    margin-bottom: $space-m !important;
+
+    .usa-hero-callout-alt {
+      display: block;
+    }
+  }
+
+  .dark {
+    color: $color-navy;
+  }
+  .white {
+    color: $color-white;
+  }
 }

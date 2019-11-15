@@ -1,12 +1,14 @@
 ---
 title: About
 permalink: /about/
-layout: test-layout
+layout: interior
 sidenav: about
+nav: white
 hero:
   color: blue
-  image: /assets/img/hero/hero-01.png
-  alt: Create-a-thon attendees
+  callout:
+    text: An open, grassroots call for content
+    subtext: Our work complements the official 2020 Census outreach to ensure a complete and accurate count for everyone in America.
 accordion:
   id: a2
   title: Who is considered 'hard-to-count'?
@@ -29,11 +31,6 @@ accordion:
 </head>
 
 <section class="usa-section usa-content">
-<div class="usa-width-three-fourths" markdown="1" id="overview" >
-# An Open, Grassroots Call for Content
-We work with designers, content strategists, storytellers, creative agencies, and the entertainment industry to inspire innovative content that speaks to hard-to-count communities. Our work complements the official 2020 Census outreach to ensure a complete and accurate count for everyone in America.
-<div class="divider"></div>
-</div>
 
 <div class="usa-width-three-fourths" markdown="1"  id="our-story" >
 # Our Story
