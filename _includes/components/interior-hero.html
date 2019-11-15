@@ -1,41 +1,90 @@
 {% if hero %}
   {% if hero.color == "blue" %}
-  <section class="usa-hero-interior white" style="background-image: url('{{ site.baseurl }}/assets/img/hero-blue.svg')">
+  <div class="usa-hero-interior-bg">
+    {% include svg/hero-blue.svg %}
+  </div>
+
+  <section class="usa-hero-interior usa-hero">
+    <div class="usa-grid">
+      <div class="usa-width-three-fourths">
+        {% if hero.callout %}
+          <h1 class="large-header white">
+            {% if hero.callout.text %}
+              <span>{{ hero.callout.text }}</span>
+            {% endif %}
+          </h1>
+        {% endif %}
+      </div>
+      <div class="usa-width-one-fourth"></div>
+    </div>
+    {% if hero.callout.subtext %}
+    <div class="usa-grid">
+      <div class="usa-width-seven-twelfths">
+          <p class="usa-hero-callout-subtext white">{{ hero.callout.subtext }}</p>
+          {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
+    </div>
+    </section>
 
 
   {% elsif hero.color == "yellow" %}
-  <section class="usa-hero" style="background-image: url('{{ site.baseurl }}/assets/img/hero-yellow.svg')"">
+  <div class="usa-hero-interior-bg">
+    {% include svg/hero-yellow.svg %}
+  </div>
+
+  <section class="usa-hero-interior usa-hero">
+    <div class="usa-grid">
+      <div class="usa-width-three-fourths">
+        {% if hero.callout %}
+          <h1 class="large-header dark">
+            {% if hero.callout.text %}
+              <span>{{ hero.callout.text }}</span>
+            {% endif %}
+          </h1>
+        {% endif %}
+      </div>
+      <div class="usa-width-one-fourth"></div>
+    </div>
+    {% if hero.callout.subtext %}
+    <div class="usa-grid">
+      <div class="usa-width-seven-twelfths">
+          <p class="usa-hero-callout-subtext dark">{{ hero.callout.subtext }}</p>
+          {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
+    </div>
+    </section>
+
 
   {% elsif hero.color == "red" %}
-  <section class="usa-hero" style="background-image: url('{{ site.baseurl }}/assets/img/hero-red.svg')">
-  {% endif %}
-  <div class="usa-grid">
-    <div class="usa-width-three-fourths">
-      {% if hero.callout %}
-        <h1 class="large-header">
-          {% if hero.callout.text %}
-            <span class="usa-hero-callout-alt">{{ hero.callout.text }}</span>
-          {% endif %}
-        </h1>
-      {% endif %}
-      {{ hero.content | markdownify }}
-    </div>
-    <div class="usa-width-one-fourth"></div>
+  <div class="usa-hero-interior-bg">
+    {% include svg/hero-red.svg %}
   </div>
 
-  {% if hero.callout.subtext %}
-  <div class="usa-grid">
-    <div class="usa-width-seven-twelfths">
-        <p class="usa-hero-callout-subtext">{{ hero.callout.subtext }}</p>
+  <section class="usa-hero-interior usa-hero">
+    <div class="usa-grid">
+      <div class="usa-width-three-fourths">
+        {% if hero.callout %}
+          <h1 class="large-header white">
+            {% if hero.callout.text %}
+              <span>{{ hero.callout.text }}</span>
+            {% endif %}
+          </h1>
         {% endif %}
-    {% if hero.button %}
-      <a class="usa-button usa-button-big usa-button-secondary" href="{{ hero.button.href | relative_url }}">
-        {{ hero.button.text }}
-        <span class="subtext">{{ hero.button.subtext | liquify }}</span>
-      </a>
-    {% endif %}
+      </div>
+      <div class="usa-width-one-fourth"></div>
     </div>
-    <div class="usa-width-five-twelfths"></div>
-  </div>
-  </section>
+    {% if hero.callout.subtext %}
+    <div class="usa-grid">
+      <div class="usa-width-seven-twelfths">
+          <p class="usa-hero-callout-subtext white">{{ hero.callout.subtext }}</p>
+          {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
+    </div>
+    </section>
+
+  {% endif %}
+
 {% endif %}

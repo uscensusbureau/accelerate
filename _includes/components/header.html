@@ -9,7 +9,11 @@
     <div class="usa-logo">
       <em class="usa-logo-text">Accelerate
         <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
-            <img src="{{site.baseurl}}/assets/img/logo/logo-dark.png" alt="{{ header.title | default: site.title }}">
+            {% if color == "light" %}
+            <img src="{{site.baseurl}}/assets/img/logo/logo-light.svg" alt="{{ header.title | default: site.title }}">
+            {% else %}
+            <img src="{{site.baseurl}}/assets/img/logo/logo-dark.svg" alt="{{ header.title | default: site.title }}">
+            {% endif %}
           </a>
       </em>
     </div>
@@ -23,24 +27,39 @@
 
       {% assign _primary = header.primary.links %}
       {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
+      {% assign color = include.color %}
+      {% assign active = page.nav.page %}
+
       {% if primary_links %}
       <nav aria-label="primary links">
       <ul class="usa-nav-primary usa-accordion">
         {% for _section in primary_links %}
-        <li>
+        {% if color == "light" %}
+          <li class="nav-light">
+        {% else %}
+          <li class="nav-dark">
+        {% endif %}
           {% if _section.links %}
             {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
             {% assign _section_id = _section.id %}
             {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
-          <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
-            <span>{{ _section.text }}</span>
+
+          {% if color == "light" %}
+          <button class="usa-accordion-button button-light usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+            <span class="nav-light">{{ _section.text }}</span>
+            {% else %}
+          <button class="usa-accordion-button button-dark usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+            <span class="nav-dark">{{ _section.text }}</span>
+            {% endif %}
           </button>
-          <ul id="{{ _section_id }}" class="usa-nav-submenu nav-dark">
-            {% for _link in section_links %}
-            <li>
-              <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
-            </li>
-            {% endfor %}
+          <ul id="{{ _section_id }}" class="usa-nav-submenu">
+              {% for _link in section_links %}
+                <li>
+                  <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
+                </li>
+              {% endfor %}
+
+
           </ul>
           {% else %}
           <a class="usa-nav-link" href="{{ _section.href | relative_url }}">
@@ -49,6 +68,7 @@
           {% endif %}
         </li>
         {% endfor %}
+        <!-- search functionality
         <li>
           <div id="sb-search" class="sb-search">
             <form class="usa-search usa-search-small" accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
@@ -66,7 +86,7 @@
       </nav>
       {% endif %}
 
-      <!-- search functionality -->
+
       {% assign _secondary = header.secondary %}
       {% if _secondary %}
       <div class="usa-nav-secondary">
@@ -98,7 +118,7 @@
           </nav>
       </div>
       {% endif %}
-
+      -->
   {% endif %}
 
 </header>

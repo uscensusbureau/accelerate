@@ -5,16 +5,18 @@ class: landing-layout
 
 {% assign hero = page.hero %}
 {% include components/hero.html %}
+
 {% if hero.video %}
 <div id="video">
   <img src="{{ site.baseurl }}{{ hero.video }}" />
 </div>
-<!-- 
+<!--
   <video autoplay muted loop id="video">
     <img id="video" src="{{ site.baseurl }}{{ hero.video }}" />
   </video>
   -->
 {% endif %}
+
 {% if page.tagline and page.intro %}
 <section class="usa-grid usa-section">
   <div class="usa-width-one-third">

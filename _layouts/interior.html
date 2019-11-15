@@ -4,6 +4,7 @@ class: interior
 ---
 {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
 {% assign hero = page.hero %}
+{% assign nav = page.nav %}
 
 {% include components/interior-hero.html %}
 

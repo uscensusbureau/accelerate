@@ -3,11 +3,13 @@ title: About
 permalink: /about/
 layout: interior
 sidenav: about
-nav: white
+nav:
+  color: light
+  page: about
 hero:
   color: blue
   callout:
-    text: An open, grassroots call for content
+    text: An open call for content
     subtext: Our work complements the official 2020 Census outreach to ensure a complete and accurate count for everyone in America.
 accordion:
   id: a2
