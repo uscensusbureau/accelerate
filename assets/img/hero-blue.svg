@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="866px" viewBox="0 0 1440 866" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About">
+            <g id="Rectangle">
+                <g id="Mask">
+                    <rect id="Rectangle" x="0" y="0" width="1440" height="866"></rect>
+                </g>
+                <path d="M0,825.193737 C146.431265,871.115919 318.097931,878.278485 515,846.681433 C810.353103,799.285855 811.06256,765.463797 990,719.266408 C1109.29163,688.468148 1259.29163,685.21562 1440,709.508822 L1440,1.2602216 L0,-1.70530257e-13 L0,825.193737 Z" id="Path-14" fill="#004789"></path>
+                <path d="M100.5,-146.810048 L-207.002178,1.27519592 L-282.948944,334.019719 L-70.1508344,600.860109 L271.150834,600.860109 L483.948944,334.019719 L408.002178,1.27519592 L100.5,-146.810048 Z" id="Polygon" stroke="#013B71" stroke-width="240"></path>
+            </g>
+        </g>
+    </g>
+</svg>

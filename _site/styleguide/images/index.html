@@ -65,14 +65,14 @@
 
 <!-- Description -->
 
-<meta name="description" content="">
+<meta name="description" content="This is the site description.">
 
 <!-- Author -->
 
 
 <!-- Date -->
 
-  <meta name="date" content="2019-10-21 15:22:59 +0000" scheme="YYYY-MM-DD">
+  <meta name="date" content="2019-11-14 18:43:43 +0000" scheme="YYYY-MM-DD">
 
 
 <!-- Tags -->
@@ -275,11 +275,10 @@
       </button>
       <div id="svg-include" class="usa-accordion-content styleguide-border">
         
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code>  
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  
   svg placeholder
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 
       </div>
@@ -339,11 +338,10 @@
       </button>
       <div id="svg-catalog-example" class="usa-accordion-content styleguide-border">
         
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code>  
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  
 svg placeholders
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 
       </div>
@@ -375,7 +373,7 @@ svg placeholders
   <li>Add the image to the assets directory.
     - Blog images go in the <code class="highlighter-rouge">/assets/blog/</code> directory. The subdirectories are organized by topic, so place the image in the directory that pertains to blog post’s primary topic. For detailed information on adding images to the blog, see <a href="/site/styleguide/blog">Blog</a>.
     - All other images can go in the <code class="highlighter-rouge">/assets/img/</code> directory.</li>
-  <li>Reference the file path in an image tag, making sure to prefix the path with <code class="highlighter-rouge"><span class="p">{</span><span class="err">{</span><span class="w"> </span><span class="err">site.baseurl</span><span class="w"> </span><span class="p">}</span><span class="err">}</span></code> and adding <code class="highlighter-rouge">alt</code> text for accessibility purposes.</li>
+  <li>Reference the file path in an image tag, making sure to prefix the path with <code class="highlighter-rouge">{{ site.baseurl }}</code> and adding <code class="highlighter-rouge">alt</code> text for accessibility purposes.</li>
 </ol>
 
 <h4 id="example-of-successful-image-reference-with-alt-text">Example of successful image reference with alt text</h4>
@@ -398,7 +396,7 @@ svg placeholders
       </button>
       <div id="svg-catalog" class="usa-accordion-content styleguide-border">
         
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code>  
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  
 <span class="gu">#### Example of successful image reference with alt text</span>
 <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-S.png"</span> <span class="na">alt=</span><span class="s">"18F logo"</span> <span class="nt">/&gt;</span>
 
@@ -411,8 +409,7 @@ svg placeholders
 <span class="gu">#### Example of failed image without alt text</span>
 <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.baseurl }}/assets/img/logos/18F-Logo-Small.jpg"</span> <span class="nt">/&gt;</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 
       </div>
@@ -473,7 +470,7 @@ svg placeholders
       </button>
       <div id="icon-list-catalog" class="usa-accordion-content styleguide-border">
         
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code>  
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  
 <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"icon-list-wrapper"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"icon-list"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"icon-list-image"</span><span class="nt">&gt;</span>svg placeholder<span class="nt">&lt;/figure&gt;</span>
@@ -491,8 +488,7 @@ svg placeholders
   <span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 
       </div>
