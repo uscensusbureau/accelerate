@@ -1,8 +1,5 @@
-.hero-treatment {
-  background-image: url('../img/bg/tile.png');
-}
-
 .usa-hero {
+  background-image: none;
   height: 87rem;
   padding-bottom: 0;
   padding-top: 22rem;
@@ -11,7 +8,6 @@
     color: $color-navy;
     font-size: $font-size-xxl;
     font-weight: 700;
-    letter-spacing: -.025em;
     line-height: 1.1;
     margin-bottom: $space-m !important;
 
@@ -140,7 +136,6 @@
   .large-header {
     font-size: $font-size-xxl;
     font-weight: 700;
-    letter-spacing: -.025em;
     line-height: 1.1;
     margin-bottom: $space-m !important;
 
@@ -155,4 +150,12 @@
   .white {
     color: $color-white;
   }
+}
+
+.usa-hero-interior-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

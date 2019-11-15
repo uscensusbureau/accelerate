@@ -1,9 +1,13 @@
 ---
 title: Showcase
 permalink: /showcase/
-layout: secondary
+layout: interior
+hero:
+  color: yellow
+  callout:
+    text: Our participants' co-creations
+    subtext: We activate creatives and community advocates locally and nationally to co-create compelling content that engages everyday people about the importance of the 2020 Census.
 ---
-<section class="section-header showcase-header background-light-yellow">
 <div class="usa-section usa-content usa-grid" markdown="1">
 
 # Showcase

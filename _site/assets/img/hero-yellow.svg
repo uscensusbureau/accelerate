@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1440px" height="865px" viewBox="0 0 1440 865" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>Polygon + Rectangle Mask</title>
+    <title>Polygon + Mask Mask</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M0,824.193737 C146.431265,870.115919 318.097931,877.278485 515,845.681433 C810.353103,798.285855 811.06256,764.463797 990,718.266408 C1109.29163,687.468148 1259.29163,684.21562 1440,708.508822 L1440,0.260221599 L0,0.260221599 L0,824.193737 Z" id="path-1"></path>
+        <rect id="path-1" x="0" y="0" width="1440" height="865"></rect>
+        <path d="M0,824.193737 C146.431265,870.115919 318.097931,877.278485 515,845.681433 C810.353103,798.285855 811.06256,764.463797 990,718.266408 C1109.29163,687.468148 1259.29163,684.21562 1440,708.508822 L1440,0.260221599 L0,0.260221599 L0,824.193737 Z" id="path-3"></path>
     </defs>
     <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Showcase">
             <g id="Hero">
                 <g id="Polygon-+-Rectangle-Mask">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <use id="Mask" fill="#F7C636" xlink:href="#path-1"></use>
-                    <path d="M720.5,-419.810048 L412.997822,-271.724804 L337.051056,61.0197193 L549.849166,327.860109 L891.150834,327.860109 L1103.94894,61.0197193 L1028.00218,-271.724804 L720.5,-419.810048 Z" id="Polygon" stroke="#E3B630" stroke-width="240" mask="url(#mask-2)"></path>
-                    <rect id="Rectangle" mask="url(#mask-2)" x="0" y="0" width="1440" height="866"></rect>
+                    <g id="Polygon-+-Mask-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#F7C636" xlink:href="#path-3"></use>
+                        <path d="M720.5,-419.810048 L412.997822,-271.724804 L337.051056,61.0197193 L549.849166,327.860109 L891.150834,327.860109 L1103.94894,61.0197193 L1028.00218,-271.724804 L720.5,-419.810048 Z" id="Polygon" stroke="#E3B630" stroke-width="240" mask="url(#mask-4)"></path>
+                    </g>
                 </g>
             </g>
         </g>

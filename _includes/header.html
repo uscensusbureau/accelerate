@@ -1,2 +1,11 @@
 {% assign header = site.data.header %}
-{% include components/header.html %}
+{% if page.nav %}
+  {% assign nav = page.nav.color %}
+  {% if nav == "light" %}
+  {% include components/header.html color="light" %}
+  {% else %}
+  {% include components/header.html color="dark"%}
+  {% endif %}
+{% else %}
+  {% include components/header.html color="dark"%}
+{% endif %}
