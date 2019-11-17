@@ -1,0 +1,23 @@
+#team {
+  margin-top: $space-l;
+}
+
+.team-photo {
+  min-height: 40rem;
+  width: 80%;
+  margin-bottom: $space-m;
+  @include media($large-screen) {
+    width: 30%;
+  }
+
+  img {
+    margin-bottom: $space-m;
+  }
+
+  h6 {
+    font-family: $font-sans;
+    font-size: $font-size-m;
+    text-transform: none;
+    margin-bottom: $space-xs;
+  }
+}

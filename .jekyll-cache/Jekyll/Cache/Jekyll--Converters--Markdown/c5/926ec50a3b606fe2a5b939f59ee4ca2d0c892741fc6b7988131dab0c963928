@@ -1,0 +1,67 @@
+I"ë<h1 id="get-to-know-us">Get to know us</h1>
+
+<h3 id="coil-team">COIL Team</h3>
+
+<section class="bios-content">
+
+  <div id="team">
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/mara.png" alt="Mara Abrams" />
+    <h6 class="font-medium">Mara Abrams</h6>
+    <h6 class="font-normal">Director</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/carla.png" alt="Carla Fernandez" />
+    <h6 class="font-medium">Carla Fernandez</h6>
+    <h6 class="font-normal">Program Strategist</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/dominica.png" alt="Dominica Zhu" />
+    <h6 class="font-medium">Dominica Zhu</h6>
+    <h6 class="font-normal">Program Coordinator</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/ivan.png" alt="Ivan Metzger" />
+    <h6 class="font-medium">Ivan Metzger</h6>
+    <h6 class="font-normal">Head of Design &amp; Strategic Advisor</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/lorena.png" alt="Lorena Molina-Irizarry" />
+    <h6 class="font-medium">Lorena Molina-Irizarry</h6>
+    <h6 class="font-normal">Director of Operations</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/haley.png" alt="Haley Ashcom" />
+    <h6 class="font-medium">Haley Ashcom</h6>
+    <h6 class="font-normal">Facilitator Lead</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/anna.png" alt="Anna Wang" />
+    <h6 class="font-medium">Anna Wang</h6>
+    <h6 class="font-normal">UX Designer</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/emma.png" alt="Emma Brennan" />
+    <h6 class="font-medium">Emma Brennan</h6>
+    <h6 class="font-normal">Visual Designer</h6>
+  </div>
+  
+  <div class="usa-width-one-third team-photo">
+    <img src="/site/assets/img/team-photos/michael-neal.png" alt="Michael Neal Bagby" />
+    <h6 class="font-medium">Michael Neal Bagby</h6>
+    <h6 class="font-normal">Facilitator</h6>
+  </div>
+  
+</div>
+
+
+</section>
+:ET

@@ -1,6 +1,6 @@
 #content-wrapper {
   position: relative;
-  margin-top: -30rem;
+  margin-top: -45rem;
 }
 #video {
   width: 100%;
@@ -12,7 +12,7 @@
 }
 
 #opportunity-top {
-  background-image: url('../img/opportunity-top.svg');
+  background-image: url('../img/backgrounds/opportunity-top.svg');
   height: 45rem;
   position: relative;
   z-index: 3;
@@ -31,7 +31,7 @@
 }
 
 #opportunity-bottom {
-  background-image: url('../img/opportunity-bottom.svg');
+  background-image: url('../img/backgrounds/opportunity-bottom.svg');
   height: 10rem;
   margin-top: -0.2rem;
   position: relative;
@@ -139,7 +139,7 @@
 }
 
 #partners-bottom {
-  background-image: url('../img/partners-bottom.svg');
+  background-image: url('../img/backgrounds/partners-bottom.svg');
   z-index: 4;
   position: relative;
   height: 10rem;
