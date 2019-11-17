@@ -1,12 +1,16 @@
 ---
 title: Attend a Create-a-thon
 permalink: /get-involved/attend-a-create-a-thon
-layout: test-layout
+layout: interior
+nav:
+  color: light
+  page: get involved
 sidenav: create-a-thon
 hero:
   color: red
-  image: /assets/img/hero/hero-03.png
-  alt: Create-a-thon attendees
+  callout:
+    text: Attend a Create-a-thon
+    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.
 
 ---
 
@@ -16,8 +20,10 @@ hero:
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
-# Attend a Create-a-thon
-In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.
+# Join Creatives For The Count
+Create-a-thons bring people together to develop tangible digital content that organizations can use to amplify their existing Census outreach efforts.
+<br><br>
+At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a full day, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
 </div>
 
 <div class="usa-width-three-fourths" markdown="1" id="upcoming-events">
@@ -61,11 +67,6 @@ Find an event near you to help your favorite community receive the respect and r
       </li>
     </ul>
   </div>
-  <div class="usa-width-one-fourth stat-detail">
-    <h1>2.6</h1>
-    <h2>Million</h2>
-    <p>Grassroots media assets created this year</p>
-  </div>
 </div>
 
 <div class="usa-row">
@@ -74,15 +75,17 @@ Find an event near you to help your favorite community receive the respect and r
     <div class="divider"></div>
   </div>
   <div class="usa-width-one-fourth">
-    <div class="usa-button">See What's Been Made</div>
+    <div class="usa-button">See more co-created content</div>
   </div>
 </div>
 
 
 <div class="usa-width-three-fourths" markdown="1"  id="our-story" >
-# Run Your Own
-Are you a creative or community leader raring to bring a create-a-thon to your community? Let’s do this.
-<div class="usa-button">Learn More</div>
+# Run Your Own Create-a-thon
+Are you a creative or community leader raring to bring a create-a-thon to your community? Don’t worry if you haven’t figured it all out. We’ll do our best to point you to resources to help you in your planning.
+<br><br>
+Need our support? Fill out the interest form[#] [Fill out the interest form]({{site.baseurl}}/#)
+<div class="usa-button">Get the Toolkit</div>
 <div class="divider"></div>
 </div>
 </section>

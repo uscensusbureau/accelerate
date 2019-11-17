@@ -7,7 +7,6 @@ h1,
   font-weight: 600;
   line-height: $leading-xxs;
   margin-top: 0;
-  margin-bottom: 1em;
 }
 
 p {
@@ -150,7 +149,13 @@ code,
 .font-sans {
   font-family: $font-sans;
 }
+.font-medium {
+  font-weight: 500;
+}
 
+.font-normal {
+  font-weight: 400;
+}
 .font-regular { font-weight: $font-normal; }
 .font-bold { font-weight: $font-bold; }
 .uppercase { text-transform: uppercase; }

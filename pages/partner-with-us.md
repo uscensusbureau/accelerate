@@ -1,12 +1,16 @@
 ---
 title: Partner With Us
 permalink: /get-involved/partner-with-us
-layout: test-layout
+layout: interior
+nav:
+  color: light
+  page: get involved
 sidenav: partner
 hero:
-  color: yellow
-  image: /assets/img/hero/hero-02.png
-  alt: Create-a-thon attendees
+  color: red
+  callout:
+    text: Partner with us
+    subtext: We work with the entertainment, media and creative industries to introduce the importance of the 2020 Census into pop culture.
 ---
 
 <head>
@@ -15,9 +19,9 @@ hero:
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
-# Partner With Us
+# Get in Touch
 We support the entertainment, media and influencer industries to explain the importance of participating in the 2020 Census and get the word out to our nation’s most vulnerable communities about the 2020 Census.
-#### Get in touch
+
 If you’re ready to mobilize your talent, we’re here to help. Tell us more about you.
 
 <div class="divider"></div>

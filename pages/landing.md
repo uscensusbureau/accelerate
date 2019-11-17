@@ -30,7 +30,7 @@ hero:
       </a>
     </div>
     <div class="usa-width-one-half">
-      <img src="assets/img/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
+      <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
     </div>
   </div>
 </section>
@@ -46,21 +46,21 @@ hero:
 
   <div class="usa-grid">
     <div class="usa-width-one-third">
-      <img src="{{site.baseurl}}/assets/img/persona-01.png" />
+      <img src="{{site.baseurl}}/assets/img/graphics/persona-01.png" />
       <h3>Rock the Vote</h3>
       <h4>Featured Partnership</h4>
       <p>We partner with Accelerate to raise awareness of the 2020 Census for young people through pop culture, music, art and technology.</p>
       <p><a href="{{site.baseurl}}/showcase/">Learn more about our partnership </a></p>
     </div>
     <div class="usa-width-one-third">
-      <img src="{{site.baseurl}}/assets/img/persona-02.png" />
+      <img src="{{site.baseurl}}/assets/img/graphics/persona-02.png" />
       <h3>Meghan Maury</h3>
       <h4>Policy Director, National LGBTQ Task Force</h4>
       <p>The Census Accelerate team brought together about 75 people to think, dream, and design together… The event had given us more than just new materials to use — it left us feeling empowered to create.</p>
       <p><a href="{{site.baseurl}}/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
     </div>
     <div class="usa-width-one-third">
-      <img src="{{site.baseurl}}/assets/img/persona-03.png" />
+      <img src="{{site.baseurl}}/assets/img/graphics/persona-03.png" />
       <h3>Tino Ortega</h3>
       <h4>Local Artist in El Paso, TX</h4>
       <p>We’re getting the community together to gain insight into what our community wants to hear [about] how to get people involved in the census. It’s important to have artists here to mirror the community. </p>
@@ -70,7 +70,7 @@ hero:
 </section>
 
 <div id="impact-bg">
-  <img src="{{site.baseurl}}/assets/img/blue-yellow.svg" />
+  <img src="{{site.baseurl}}/assets/img/backgrounds/blue-yellow.svg" />
 </div>
 <section id="impact" class="usa-section usa-content">
   <div class="usa-grid">
@@ -81,7 +81,7 @@ hero:
       <p>By sharing content through organizations trusted by the communities they serve, we motivate people to participate in the 2020 Census through messages and messengers that resonate at a deep level.</p>
     </div>
     <div class="usa-width-one-half">
-      <img src="{{site.baseurl}}/assets/img/instagram-placeholder.png" />
+      <img src="{{site.baseurl}}/assets/img/graphics/instagram-placeholder.png" />
     </div>
   </div>
 </section>
@@ -100,22 +100,22 @@ hero:
 
 <section id="join" class="usa-section usa-content">
   <div id="doodle-01" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-01.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-01.svg" />
   </div>
   <div id="doodle-02" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-02.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-02.svg" />
   </div>
   <div id="doodle-03" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-03.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-03.svg" />
   </div>
   <div id="doodle-04" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-03.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-03.svg" />
   </div>
   <div id="doodle-05" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-04.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-04.svg" />
   </div>
   <div id="doodle-06" class="doodle">
-    <img src="{{site.baseurl}}/assets/img/doodle-05.svg" />
+    <img src="{{site.baseurl}}/assets/img/graphics/doodle-05.svg" />
   </div>
 
   <div class="usa-grid">
@@ -127,7 +127,7 @@ hero:
       <div id="card-01" class="usa-width-one-third card-wrapper">
         <div class="card-bg yellow"></div>
         <div class="card">
-          <img src="{{site.baseurl}}/assets/img/partner-with-us.svg" />
+          <img src="{{site.baseurl}}/assets/img/graphics/partner-with-us.svg" />
           <h3>Partner With Us</h3>
           <p>Are you looking for a tangible way to make a large-scale impact within a community you care about? We work with the entertainment, media and creative industries to introduce the importance of the 2020 Census into pop culture.</p>
         </div>
@@ -139,7 +139,7 @@ hero:
       <div id="card-02" class="usa-width-one-third card-wrapper">
         <div class="card-bg red"></div>
         <div class="card">
-          <img src="{{site.baseurl}}/assets/img/create-a-thon.svg" />
+          <img src="{{site.baseurl}}/assets/img/graphics/create-a-thon.svg" />
           <h3>Attend a Create-a-thon</h3>
           <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census in an engaging workshop setting.  </p>
         </div>
@@ -151,7 +151,7 @@ hero:
       <div id="card-03" class="usa-width-one-third card-wrapper">
         <div class="card-bg blue"></div>
         <div class="card">
-          <img src="{{site.baseurl}}/assets/img/ambassador.svg" />
+          <img src="{{site.baseurl}}/assets/img/graphics/ambassador.svg" />
           <h3>Become an Ambassador</h3>
           <p>Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations.</p>
         </div>
@@ -166,7 +166,7 @@ hero:
 <section class="usa-section usa-content">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
-      <img src="{{site.baseurl}}/assets/img/we-all-count.svg"/>
+      <img src="{{site.baseurl}}/assets/img/graphics/we-all-count.svg"/>
     </div>
   </div>
 </section>

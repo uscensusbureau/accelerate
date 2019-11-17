@@ -20,8 +20,8 @@ primary:
         href: /get-involved/partner-with-us/
       - text: Attend a Create-a-thon
         href: /get-involved/attend-a-create-a-thon/
-      - text: Become a Creative Ambassador
-        href: /get-involved/creative-ambassador/
+      - text: Become an Ambassador
+        href: /get-involved/become-an-ambassador/
 
 about:
   - text: Overview
@@ -48,30 +48,6 @@ create-a-thon:
     href: /get-involved/attend-a-create-a-thon/#how-it-works
   - text: Run Your Own
     href: /get-involved/attend-a-create-a-thon/#run-your-own
-
-
-
-# Below is previous links
-
-top:
-  - text: See the Projects
-    href: /top/projects/
-  - text: Join a Sprint
-    href: /top/join/
-  - text: Run a Sprint
-    href: /top/run/
-  - text: Resources
-    href: /top/resources/
-
-accelerate:
-  - text: See the Create-a-thons
-    href: /accelerate/createathons/
-  - text: Run a Create-a-thon
-    href: /accelerate/run/
-  - text: Creative Ambassador Program
-    href: /accelerate/creative-ambassadors/
-  - text: Resources
-    href: /accelerate/resources/
 
 # Below is from NSF, not COIL
 

@@ -34,12 +34,13 @@ accordion:
 
 <section class="usa-section usa-content">
 
-<div class="usa-width-three-fourths" markdown="1"  id="our-story" >
+<div class="usa-width-three-fourths bottom-space" markdown="1"  id="our-story" >
 # Our Story
 </div>
 <div class="usa-width-three-fourths" markdown="1">
 #### Everyone deserves to be counted
 Historically, certain groups have been undercounted at disproportionately high rates, including millennials, rural communities, families with young children, immigrants, non-native English speakers, renters, undererepresented minorities, and people experiencing homelessness — these are called “hard-to-count” communities. If these groups aren’t counted, their communities may not receive their fair share of countless services, resources, and representation. It also impacts the data upon which countless policy, legal, and business decisions are made.
+<br><br>
 </div>
 <div class="usa-width-one-fourth stat-detail" markdown="1">
 # 330
@@ -59,11 +60,12 @@ Meghan Maury, Policy Director, LGBTQ Taskforce
 <div class="divider"></div>
 </div>
 
-<div class="usa-width-three-fourths" markdown="1" id="2020-census" >
+<div class="usa-width-three-fourths bottom-space" markdown="1" id="2020-census" >
 # The 2020 Census
 </div>
 <div class="usa-width-three-fourths" markdown="1">
 The Decennial Census is a Constitutionally-mandated count of every person living in the United States, once each decade. This population count is used to determine the number of seats each state gets in the U.S. House of Representatives and how to distribute over $675 billion of annual federal funds to states, cities, and local communities for critical infrastructure and services such as housing, highways, schools, hospitals, and more.
+<br><br>
 #### New Opportunities New Challenges
 Our next Decennial Census begins on April 1, 2020. This Census will count an increasingly diverse and growing population of about 330 million people in more than 140 million housing units, presenting new challenges.
 <br><br>
@@ -78,10 +80,10 @@ Learn More
 
 {% include components/accordion.html %}
 
-<div class="usa-width-one-whole" markdown="1" id="meet-the-team">
+<div class="usa-width-one-whole bottom-space" markdown="1" id="meet-the-team">
 # Meet the Team
 We’re a group of purpose-driven technologists, creatives and data nerds who believe that a fully counted America is a stronger one.
-{% include coil-team-bio.html %}
+{% include team.html %}
 <div class="divider"></div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: Contact us
 permalink: /contact/
-layout: secondary
+layout: interior
 ---
 <section class="usa-section">
 <div class="usa-content utility-content usa-grid">
@@ -23,7 +23,6 @@ Have a general question or concern? Email us at [TODO](mailto:todo@census.gov).
 
 ## COIL Team
 
-{% include coil-team.html %}
 
 </div>
 </div>

@@ -1,0 +1,9 @@
+<div id="team">
+  {% for member in site.data.team %}
+  <div class="usa-width-one-third team-photo">
+    <img src="{{ site.baseurl }}/assets/img/team-photos/{{ member.photo }}" alt="{{ member.name }}" />
+    <h6 class="font-medium">{{ member.name }}</h6>
+    <h6 class="font-normal">{{ member.title }}</h6>
+  </div>
+  {% endfor %}
+</div>
