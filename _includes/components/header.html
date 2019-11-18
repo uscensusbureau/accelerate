@@ -1,4 +1,5 @@
 {% if header %}
+{% assign color = include.color %}
 <header class="usa-header usa-header-{{ header.type | default: 'extended' }}" role="banner">
 
   {% if header %}
@@ -20,6 +21,15 @@
   </div>
 
   <nav role="navigation" class="usa-nav" aria-label="primary">
+    <em class="usa-nav-logo">
+      <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+          {% if color == "light" %}
+          <img src="{{site.baseurl}}/assets/img/logo/logo-light.svg" alt="{{ header.title | default: site.title }}">
+          {% else %}
+          <img src="{{site.baseurl}}/assets/img/logo/logo-dark.svg" alt="{{ header.title | default: site.title }}">
+          {% endif %}
+        </a>
+    </em>
     <div class="usa-nav-inner">
       <button class="usa-nav-close">
         <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">

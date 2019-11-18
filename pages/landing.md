@@ -4,13 +4,15 @@ permalink: /
 layout: landing
 
 hero:
-  video: /assets/img/video-placeholder.png
+  video:
+    horizontal: /assets/img/graphics/video-04.mp4
+    vertical: /assets/img/video-placeholder-mobile.png
   callout:
     text: Amplify your community's voice
     subtext: Make a lasting impact on the next ten years by making sure everyone counts in the 2020 Census.
   button:
     text: Get involved
-    href: /#
+    href: /#join
 ---
 
 <head><script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
@@ -25,9 +27,10 @@ hero:
       <h1>An opportunity to make a difference</h1>
       <p class="text-large">The results of the census will determine how <a href="#">political representation</a> and <a href="#">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
       <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are overwhelmingly undercounted in the Census. But we can help change that.</p>
-      <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/">
-        Learn more about the 2020 Census
-      </a>
+      <div class="button-wrapper">
+        <div class="button-bg blue" style="width:75%;"></div>
+      <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">Learn more about the 2020 Census</a>
+      </div>
     </div>
     <div class="usa-width-one-half">
       <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
@@ -81,7 +84,7 @@ hero:
       <p>By sharing content through organizations trusted by the communities they serve, we motivate people to participate in the 2020 Census through messages and messengers that resonate at a deep level.</p>
     </div>
     <div class="usa-width-one-half">
-      <img src="{{site.baseurl}}/assets/img/graphics/instagram-placeholder.png" />
+      <img src="{{site.baseurl}}/assets/img/graphics/instagram-example.gif" />
     </div>
   </div>
 </section>

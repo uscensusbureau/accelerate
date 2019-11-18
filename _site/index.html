@@ -77,6 +77,7 @@
     
 
   
+
 <header class="usa-header usa-header-basic" role="banner">
 
   
@@ -96,6 +97,13 @@
   </div>
 
   <nav role="navigation" class="usa-nav" aria-label="primary">
+    <em class="usa-nav-logo">
+      <a href="/site/" accesskey="1" title="Home" aria-label="Home">
+          
+          <img src="/site/assets/img/logo/logo-dark.svg" alt="Census Accelerate">
+          
+        </a>
+    </em>
     <div class="usa-nav-inner">
       <button class="usa-nav-close">
         <img src="/site/assets/uswds/img/close.svg" alt="close">
@@ -219,10 +227,10 @@
             <p class="usa-hero-callout-subtext">Make a lasting impact on the next ten years by making sure everyone counts in the 2020 Census.</p>
             
         
-          <a class="usa-button usa-button-big usa-button-secondary" href="/site/">
-            Get involved
-            <span class="subtext"></span>
-          </a>
+        <div class="button-wrapper">
+          <div class="button-bg yellow" style="width:30%"></div>
+        <a class="usa-button usa-button-big usa-button-primary" href="/site/#join">Get involved</a>
+        </div>
         
         </div>
         <div class="usa-width-five-twelfths"></div>
@@ -233,11 +241,17 @@
 
 
 <div id="video">
-  <img src="/site/assets/img/video-placeholder.png" />
+  <video autoplay muted loop poster="/site/assets/img/video-placeholder.png">
+    <source src="/site/assets/img/graphics/video-04.mp4" type="video/mp4">
+  </video>
+</div>
+<div id="video-mobile">
+  <img src="/site/assets/img/video-placeholder-mobile.png" />
 </div>
 <!--
+  <img src="/site/assets/img/graphics/video-04.mp4" />
   <video autoplay muted loop id="video">
-    <img id="video" src="/site/assets/img/video-placeholder.png" />
+    <img id="video" src="/site{"horizontal"=>"/assets/img/graphics/video-04.mp4", "vertical"=>"/assets/img/video-placeholder-mobile.png"}" />
   </video>
   -->
 
@@ -265,9 +279,10 @@
       <h1>An opportunity to make a difference</h1>
       <p class="text-large">The results of the census will determine how <a href="#">political representation</a> and <a href="#">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br /><br /></p>
       <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are overwhelmingly undercounted in the Census. But we can help change that.</p>
-      <a class="usa-button usa-button-big usa-button-primary" href="/site/">
-        Learn more about the 2020 Census
-      </a>
+      <div class="button-wrapper">
+        <div class="button-bg blue" style="width:75%;"></div>
+      <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">Learn more about the 2020 Census</a>
+      </div>
     </div>
     <div class="usa-width-one-half">
       <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
@@ -321,7 +336,7 @@
       <p>By sharing content through organizations trusted by the communities they serve, we motivate people to participate in the 2020 Census through messages and messengers that resonate at a deep level.</p>
     </div>
     <div class="usa-width-one-half">
-      <img src="/site/assets/img/graphics/instagram-placeholder.png" />
+      <img src="/site/assets/img/graphics/instagram-example.gif" />
     </div>
   </div>
 </section>

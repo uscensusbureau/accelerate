@@ -42,18 +42,16 @@ ol {
 
 .usa-nav-primary li a {
   padding: 1.3rem 3rem 1.7rem;
-  &:visited {
-    color: inherit;
-  }
+  color: inherit;
 }
 
 .usa-logo {
   float: none;
 
   img {
-    height: 40px;
+    height: 2rem;
     max-width: none;
-    padding: 4px 2px 0 2px;
+    margin: $space-m 0;
   }
 
   a {
@@ -93,6 +91,7 @@ ol {
 }
 .usa-nav-inner {
   padding: $space-m;
+  float: right;
 }
 @include media($nav-width) {
   .usa-nav-inner {
@@ -237,4 +236,11 @@ button:visited,
 .usa-width-one-sixth>:last-child,
 .usa-width-five-sixths>:last-child,
 .usa-width-one-twelfth>:last-child {
+}
+
+.usa-accordion-button,
+.usa-nav-primary button {
+  &:focus {
+    box-shadow: none;
+  }
 }
