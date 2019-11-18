@@ -20,10 +20,10 @@
             <p class="usa-hero-callout-subtext">{{ hero.callout.subtext }}</p>
             {% endif %}
         {% if hero.button %}
-          <a class="usa-button usa-button-big usa-button-secondary" href="{{ hero.button.href | relative_url }}">
-            {{ hero.button.text }}
-            <span class="subtext">{{ hero.button.subtext | liquify }}</span>
-          </a>
+        <div class="button-wrapper">
+          <div class="button-bg yellow" style="width:30%"></div>
+        <a class="usa-button usa-button-big usa-button-primary" href="{{ hero.button.href | relative_url }}">{{ hero.button.text }}</a>
+        </div>
         {% endif %}
         </div>
         <div class="usa-width-five-twelfths"></div>

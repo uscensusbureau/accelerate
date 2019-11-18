@@ -21,9 +21,15 @@
 
 .usa-header {
   background-color: transparent;
-  padding-top: 10px;
   border: 0;
+  @include media($large-screen) {
+      padding-top: 10px;
+  }
 }
 .landing-layout .usa-header {
   background-color: transparent;
+}
+
+.usa-nav-logo {
+  float: left;
 }

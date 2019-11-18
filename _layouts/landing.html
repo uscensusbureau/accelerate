@@ -8,9 +8,15 @@ class: landing-layout
 
 {% if hero.video %}
 <div id="video">
-  <img src="{{ site.baseurl }}{{ hero.video }}" />
+  <video autoplay muted loop poster="{{site.baseurl}}/assets/img/video-placeholder.png">
+    <source src="{{ site.baseurl }}{{ hero.video.horizontal }}" type="video/mp4">
+  </video>
+</div>
+<div id="video-mobile">
+  <img src="{{ site.baseurl }}{{ hero.video.vertical }}" />
 </div>
 <!--
+  <img src="{{ site.baseurl }}{{ hero.video.horizontal }}" />
   <video autoplay muted loop id="video">
     <img id="video" src="{{ site.baseurl }}{{ hero.video }}" />
   </video>
