@@ -1,0 +1,7 @@
+I"÷
+<p>We are primarily using <a href="https://pages.18f.gov/brand/color-palette/">18F Brand colors</a>.</p>
+
+<p>Site-specific colors, <code class="highlighter-rouge">$color-medium-hover</code> and <code class="highlighter-rouge">$color-bright-hover</code> were created as web-specific extensions of the 18F Brand.</p>
+
+<p>U.S. Web Design standards colors, <code class="highlighter-rouge">$color-gray</code> and <code class="highlighter-rouge">$color-gray-lightest</code>, were pulled for utility use.</p>
+:ET
