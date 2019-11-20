@@ -81,8 +81,15 @@ ol {
 // small screen nav - top nav
 .usa-menu-btn {
   min-width: auto;
+  background-color: $color-blue;
+  font-weight: 600;
+  min-width: 10rem;
+
   &:hover {
     border: 0;
+  }
+  &:active {
+    background-color: $color-blue;
   }
 }
 
@@ -128,7 +135,6 @@ button:visited,
   &.usa-button-hover,
   &:hover {
     background-color: $color-white;
-    border: 1px solid $color-primary-alt;
     color: $color-black;
   }
 
@@ -139,7 +145,6 @@ button:visited,
     background-color: $color-secondary-lightest;
     box-shadow: none;
   }
-
   &.usa-button-primary {
     background-color: $color-navy;
     color: $color-white;
@@ -215,27 +220,6 @@ button:visited,
         font-weight: 400;
       }
   }
-}
-
-.usa-button-yellow, .usa-button-yellow:visited {
-  border: 1px solid white !important;
-  color: white !important;
-}
-
-.usa-button-yellow:hover, .usa-button-yellow:focus  {
-  border: 1px solid $color-primary-alt !important;
-  color: $color-primary-alt !important;
-}
-
-.usa-width-one-whole>:last-child,
-.usa-width-one-half>:last-child,
-.usa-width-one-third>:last-child,
-.usa-width-two-thirds>:last-child,
-.usa-width-one-fourth>:last-child,
-.usa-width-three-fourths>:last-child,
-.usa-width-one-sixth>:last-child,
-.usa-width-five-sixths>:last-child,
-.usa-width-one-twelfth>:last-child {
 }
 
 .usa-accordion-button,

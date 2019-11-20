@@ -4,19 +4,15 @@ permalink: /get-involved/attend-a-create-a-thon
 layout: interior
 nav:
   color: light
-  page: get involved
+  page: attend
 sidenav: create-a-thon
 hero:
   color: red
   callout:
-    text: Attend a Create-a-thon
+    text: Attend a <br> Create-a-thon
     subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.
 
 ---
-
-<head>
-<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
-</head>
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
@@ -26,19 +22,22 @@ Create-a-thons bring people together to develop tangible digital content that or
 At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a full day, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
 </div>
 
-<div class="usa-width-three-fourths" markdown="1" id="upcoming-events">
+<div class="usa-width-three-fourths bottom-space" markdown="1" id="upcoming-events">
+<div class="divider"></div>
 #### Upcoming Events
 Find an event near you to help your favorite community receive the respect and resources it deserves.
 </div>
-
+<div class="usa-width-one-whole">
 {% include events-upcoming.html %}
+</div>
 
-<div class="usa-width-three-fourths" markdown="1"  id="how-it-works">
+
+<div class="usa-width-three-fourths bottom-space" markdown="1"  id="how-it-works">
 <div class="divider"></div>
 # How it Works
 </div>
 
-<div class="usa-row">
+<div class="usa-grid">
   <div class="usa-width-three-fourths">
     <ul class="list-reset list-circle">
       <li><div class="step-circle">1</div>
@@ -69,23 +68,33 @@ Find an event near you to help your favorite community receive the respect and r
   </div>
 </div>
 
-<div class="usa-row">
-  <div class="usa-width-three-fourths" style="margin-top:500px;">
-    <!-- ADD PHOTOS HERE -->
-    <div class="divider"></div>
+<section class="usa-section usa-content">
+<div class="usa-grid">
+  <div class="usa-width-three-fourths meme-section">
+  {% include memes.html %}
+  <div class="button-wrapper">
+    <div class="button-bg blue" style="width:50%;"></div>
+    <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">See more co-created content</a>
+  </div>
   </div>
   <div class="usa-width-one-fourth">
-    <div class="usa-button">See more co-created content</div>
   </div>
 </div>
+</section>
 
-
+<section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1"  id="our-story" >
-# Run Your Own Create-a-thon
+<div class="divider"></div>
+# Run Your Own <br> Create-a-thon
 Are you a creative or community leader raring to bring a create-a-thon to your community? Don’t worry if you haven’t figured it all out. We’ll do our best to point you to resources to help you in your planning.
 <br><br>
-Need our support? Fill out the interest form[#] [Fill out the interest form]({{site.baseurl}}/#)
-<div class="usa-button">Get the Toolkit</div>
+Need our support? [Fill out the interest form]({{site.baseurl}}/#)
+<div class="button-wrapper top-space" >
+  <div class="button-bg red" style="width:30%;"></div>
+  <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">Get the toolkit</a>
+</div>
+
 <div class="divider"></div>
 </div>
+</section>
 </section>
