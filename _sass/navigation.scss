@@ -7,7 +7,10 @@
 }
 
 .nav-light {
-  color: $color-white;
+  @include media($large-screen){
+    color: $color-white;
+  }
+
 }
 
 .nav-dark {
@@ -114,7 +117,9 @@
 
 .usa-nav-submenu {
   color: $color-white;
+  background-color: $color-navy;
 }
+
 @include media($nav-width) {
   .usa-nav {
     width: 100%;

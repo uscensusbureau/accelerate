@@ -1,0 +1,12 @@
+{% for event in site.data.past-events %}
+<div class="usa-width-one-half">
+  <div class="past-event">
+    <h3>{{ event.city }}</h3>
+    <h6 class="event-date">{{ event.date }}</h6>
+    <div class="event-community">
+      <p>{{ event.community }}</p>
+    </div>
+    <p class="event-details">{{ event.details }}</p>
+  </div>
+</div>
+{% endfor %}

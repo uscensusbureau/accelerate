@@ -1,15 +1,13 @@
 {% for event in site.data.events %}
-<div class="event">
+<div class="event usa-grid">
   <div class="usa-width-one-half">
     <img src="{{ site.baseurl }}{{ event.image }}" alt="{{ event.alt }}" />
   </div>
-  <div class="usa-width-one-half">
+  <div class="usa-width-one-half event-description">
     <h4>{{ event.city }}</h4>
     <h6>{{ event.date }}</h6>
     <p>{{ event.desc }}</p>
-    <div class="usa-button">
-      <a href="{{ event.link }}" target="_blank">RSVP</a>
-    </div>
+    <a class="usa-button usa-button-big usa-button-secondary" href="{{ event.link }}" target="_blank"><span>RSVP</span></a>
   </div>
 </div>
 

@@ -1,0 +1,41 @@
+I"m	<div class="usa-section usa-content usa-grid featured-partner">
+<div class="usa-width-five-twelfths">
+    <h1 id="rock-the-vote">Rock the Vote</h1>
+    <p>We’ve partnered with <a href="https://www.rockthevote.org/">Rock the Vote</a> to raise awareness of the 2020 Census for young people through pop culture, music, art and technology.</p>
+
+    <p>We supported Rock the Vote in creating an <a href="https://www.youtube.com/watch?v=HMaaH6Suf98">explainer video</a> (right) on why the census matters; census curriculum as part of their <a href="https://www.rockthevote.org/resources/democracy-class/">Democracy Class</a>; and an open source repository for partner-driven and user-generated content that any census advocate can use for digital organizing (coming soon).</p>
+  </div>
+<div class="usa-width-seven-twelfths">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HMaaH6Suf98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<div class="background-even">
+<div class="usa-section usa-content usa-grid featured-partner">
+<div class="usa-width-one-half">
+      <h1 id="usc-annenberg-innovation-lab-x-wise-entertainment">USC Annenberg Innovation Lab x Wise Entertainment</h1>
+      <p>AnnLab and Wise Entertainment have assembled a powerful coalition of experts in media, communications, data, technology and journalism to directly address perceived risks of census participation among communities fearful and distrusting of being counted.</p>
+
+      <p>We’ve collaborated with Count the Nation to tap into the brilliant minds and networks of entertainment, executives, creatives and media powerhouses to spread the census message throughout pop culture.</p>
+    </div>
+<div class="usa-width-one-half">
+  <!-- Insert video here -->
+</div>
+</div>
+</div>
+
+<div id="cftc" class="usa-section usa-content usa-grid">
+<div class="usa-width-one-half">
+    <p>#Creatives For The Count
+In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.</p>
+
+    <p><a href="/site/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
+  </div>
+<!-- include masonry grid -->
+<!-- button -->
+</div>
+
+<div id="map" class="usa-section usa-content usa-grid">
+
+</div>
+:ET

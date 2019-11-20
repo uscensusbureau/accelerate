@@ -1,0 +1,12 @@
+{% if page.nav %}
+  {% assign type = page.nav.page %}
+  {% if type == "attend" %}
+  <div class="meme-container">
+  {% else %}
+  <div class="meme-container-l">
+  {% endif %}
+    {% for meme in site.data.memes %}
+      <img class="meme" src="{{site.baseurl}}/assets/img/memes/{{meme.link}}" alt="{{meme.alt}}"/>
+    {% endfor %}
+  </div>
+{% endif %}
