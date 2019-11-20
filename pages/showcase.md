@@ -43,7 +43,7 @@ We’ve collaborated with [Count the Nation](https://www.countthenation.org/) to
 # Creatives For The Count
 In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and innoculate against disinformation.
 
-[Learn more about Creatives For The Count]({{site.baseurl}}/attend-a-create-a-thon/)
+[Learn more about Creatives For The Count]({{site.baseurl}}/get-involved/attend-a-create-a-thon/)
 </div>
 </div>
 
@@ -51,7 +51,7 @@ In just a few hours, creators and organizations of all kinds work together to ge
   <div class="usa-width-one-whole">
     {% include memes.html %}
     <div class="button-wrapper">
-    <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">See more co-created messages</a>
+    <a class="usa-button usa-button-big usa-button-primary" href="http://www.creativesforthecount.org/" target="_blank">See more co-created messages</a>
     </div>
   </div>
 </div>
@@ -62,12 +62,14 @@ In just a few hours, creators and organizations of all kinds work together to ge
 <div class="usa-width-one-half"  markdown="1">
 # Past Create-a-thons
 In the past year, we’ve hosted over 16 create-a-thons across the country, engaging nearly 1000 individuals. Check out where we’ve activated people to get out the count!
+
+_All HTC = All Hard-to-count Communities_
 </div>
 </div>
 <div class="usa-grid">
 {% include events-past.html %}
 <div class="usa-width-one-whole" style="text-align:center;margin-top:2rem;">
-  <a class="usa-button usa-button-big usa-button-secondary" href="#" target="_blank">Check out upcoming events</a>
+  <a class="usa-button usa-button-big usa-button-secondary" href="{{site.baseurl}}/get-involved/attend-a-create-a-thon/" target="_blank">Check out upcoming events</a>
 </div>
 </div>
 </div>

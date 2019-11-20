@@ -1,18 +1,16 @@
 {% assign accordion_item = page.accordion %}
 
-  <div class="usa-width-three-fourths">
-    <div class="usa-accordion">
-      <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="{{ accordion_item.id }}">
-        {{ page.accordion.title }}
-      </button></h2>
-      <div id="{{ accordion_item.id }}" class="usa-accordion-content">
-        <p>{{ accordion_item.content }}</p>
-        <ul>
-          {% for list in accordion_item.list %}
-          <li>{{ list.item  }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    <div class="divider"></div>
+<div class="usa-accordion">
+  <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="{{ accordion_item.id }}">
+    {{ page.accordion.title }}
+  </button></h2>
+  <div id="{{ accordion_item.id }}" class="usa-accordion-content">
+    <p>{{ accordion_item.content }}</p>
+    <ul>
+      {% for list in accordion_item.list %}
+      <li>{{ list.item  }}</li>
+      {% endfor %}
+    </ul>
   </div>
+</div>
+<div class="divider"></div>

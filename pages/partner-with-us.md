@@ -25,7 +25,7 @@ We support the entertainment, media and influencer industries to explain the imp
 If you’re ready to mobilize your talent, we’re here to help. Tell us more about you.
 
 <div class="divider"></div>
-<strong><a href="mailto:census.design@gmail.com">Contact US</a></strong>
+<strong><a href="mailto:Census.Accelerate@census.gov?subject=Accelerate%20Inquiry&body=Hi%20Accelerate%20team!%0D%0D">Contact Us</a></strong>
 <div class="divider"></div>
 </div>
 

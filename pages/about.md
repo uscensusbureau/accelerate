@@ -43,7 +43,7 @@ Historically, certain groups have been undercounted at disproportionately high r
 <br><br>
 </div>
 <div class="usa-width-one-fourth stat-detail" markdown="1">
-# 330
+# 330+
 ## Million
 People to be accounted for in the 2020 Census
 </div>
@@ -51,7 +51,7 @@ People to be accounted for in the 2020 Census
 #### We’re finding creative ways to help
 We match creatives with community-based Census outreach efforts to generate innovative content that speaks to hard-to-count communities about why their participation matters.
 <br><br>
-Led by the U.S. Census Bureau, Accelerate works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure everyone in our country, regardless of location, income, race or ethnicity, is represented in the 2020 Census.
+Led by the [Census Open Innovation Labs](https://opportunity.census.gov/coil.html) at the U.S. Census Bureau, Accelerate works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure everyone in our country, regardless of location, income, race or ethnicity, is represented in the 2020 Census.
 <div class="divider"></div>
 </div>
 <div class="usa-width-three-fourths testimonial" markdown="1">
@@ -74,11 +74,13 @@ This Census is the first ever “digital” census, which means there’s now an
 The media landscape has changed radically in the last 10 years. With the rise of social news and media fragmentation, there’s a need for more accurate, engaging content on media channels that people use the most in 2020.
 <div class="divider"></div>
 </div>
-<div class="usa-width-one-fourth side-button" markdown="1">
-Learn More
+<div class="usa-width-one-fourth side-button">
+<a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more</a>
 </div>
 
+<div class="usa-width-three-fourths">
 {% include components/accordion.html %}
+</div>
 
 <div class="usa-width-one-whole bottom-space" markdown="1" id="meet-the-team">
 # Meet the Team
@@ -90,10 +92,10 @@ We’re a group of purpose-driven technologists, creatives and data nerds who be
 <div class="usa-width-three-fourths" markdown="1" id="coil-initiative" >
 # An Initiative of Census Open Innovation Labs
 COIL’s multifunctional team implements, executes and institutionalizes modern, user-centered methods and innovative approaches to collaboration and partner engagements to reach a complete and accurate count for the 2020 Census and increase awareness, use and adoption of Census data for the public.
-<div class="usa-width-one-fourth side-button" markdown="1">
-Learn More
-</div>
 <div class="divider"></div>
+</div>
+<div class="usa-width-one-fourth side-button" markdown="1">
+<a class="usa-button usa-button-big usa-button-primary" href="https://opportunity.census.gov/coil.html" target="_blank">Learn more</a>
 </div>
 
 </section>
