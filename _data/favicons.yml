@@ -1,31 +1,33 @@
-- rel: shortcut icon
-  type: image/ico
-  href: /assets/img/favicon/favicon.ico
 - rel: icon
   type: image/png
-  href: /assets/img/favicon/favicon.png
-- rel: icon
-  type: image/png
-  sizes: 128x128
-  href: /assets/img/favicon/favicon-128.png
-- rel: icon
-  type: image/png
-  sizes: 192x192
-  href: /assets/img/favicon/favicon-192.png
-- rel: apple-touch-icon-precomposed
-  href: /assets/img/favicon/favicon-57.png
-- rel: apple-touch-icon-precomposed
-  sizes: 72x72
-  href: /assets/img/favicon/favicon-72.png
-- rel: apple-touch-icon-precomposed
-  sizes: 114x114
-  href: /assets/img/favicon/favicon-114.png
-- rel: apple-touch-icon-precomposed
-  sizes: 144x144
-  href: /assets/img/favicon/favicon-144.png
-- rel: apple-touch-icon
-  href: /assets/img/favicon/apple-touch-icon-iphone.png
-- rel: apple-touch-icon
-  href: /assets/img/favicon/apple-touch-icon-iphone-retina.png
-- rel: apple-touch-icon
-  href: /assets/img/favicon/apple-touch-icon-ipad.png
+  href: /assets/img/favicon/favicon-black.png
+
+
+# - rel: icon
+#   type: image/png
+#   href: /assets/img/favicon/favicon.png
+# - rel: icon
+#   type: image/png
+#   sizes: 128x128
+#   href: /assets/img/favicon/favicon-128.png
+# - rel: icon
+#   type: image/png
+#   sizes: 192x192
+#   href: /assets/img/favicon/favicon-192.png
+# - rel: apple-touch-icon-precomposed
+#   href: /assets/img/favicon/favicon-57.png
+# - rel: apple-touch-icon-precomposed
+#   sizes: 72x72
+#   href: /assets/img/favicon/favicon-72.png
+# - rel: apple-touch-icon-precomposed
+#   sizes: 114x114
+#   href: /assets/img/favicon/favicon-114.png
+# - rel: apple-touch-icon-precomposed
+#   sizes: 144x144
+#   href: /assets/img/favicon/favicon-144.png
+# - rel: apple-touch-icon
+#   href: /assets/img/favicon/apple-touch-icon-iphone.png
+# - rel: apple-touch-icon
+#   href: /assets/img/favicon/apple-touch-icon-iphone-retina.png
+# - rel: apple-touch-icon
+#   href: /assets/img/favicon/apple-touch-icon-ipad.png

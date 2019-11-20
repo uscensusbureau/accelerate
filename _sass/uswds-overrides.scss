@@ -228,3 +228,15 @@ button:visited,
     box-shadow: none;
   }
 }
+
+.usa-accordion-button {
+  width: 90%;
+}
+
+.usa-accordion-content {
+  width: 90%;
+  p {
+    margin-bottom: $space-l;
+  }
+
+}

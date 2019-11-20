@@ -25,11 +25,11 @@ hero:
     <div class="usa-width-one-twelfth"></div>
     <div class="usa-width-five-twelfths">
       <h1>An opportunity to make a difference</h1>
-      <p class="text-large">The results of the census will determine how <a href="#">political representation</a> and <a href="#">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
+      <p class="text-large">The results of the census will determine how <a href="https://www.youtube.com/watch?v=83UNSPG3BHA" target="_blank">political representation</a> and <a href="https://2020census.gov/en/community-impact.html" target="_blank">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
       <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are overwhelmingly undercounted in the Census. But we can help change that.</p>
       <div class="button-wrapper">
         <div class="button-bg blue" style="width:75%;"></div>
-      <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">Learn more about the 2020 Census</a>
+      <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
       </div>
     </div>
     <div class="usa-width-one-half">
@@ -136,7 +136,7 @@ hero:
         </div>
         <div class="button-wrapper">
           <div class="button-bg yellow"></div>
-          <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/">Get in touch</a>
+          <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/get-involved/partner-with-us/">Get in touch</a>
         </div>
       </div>
       <div id="card-02" class="usa-width-one-third card-wrapper">
@@ -148,7 +148,7 @@ hero:
         </div>
         <div class="button-wrapper">
           <div class="button-bg red"></div>
-        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/">Upcoming Events</a>
+        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/get-involved/attend-a-create-a-thon/">Upcoming Events</a>
         </div>
       </div>
       <div id="card-03" class="usa-width-one-third card-wrapper">
@@ -160,12 +160,13 @@ hero:
         </div>
         <div class="button-wrapper">
           <div class="button-bg blue"></div>
-        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/">Learn more</a>
+        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/get-involved/become-an-ambassador/">Learn more</a>
         </div>
       </div>
   </div>
 </section>
 
+<!-- Optional graphic
 <section class="usa-section usa-content">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
@@ -173,4 +174,4 @@ hero:
     </div>
   </div>
 </section>
-</div>
+-->

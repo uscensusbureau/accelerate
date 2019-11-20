@@ -24,10 +24,10 @@
 #past-events {
   padding: $space-xl 0;
   background-color: $color-navy;
-  margin-bottom: $space-xl;
   h1,
   p {
     color: $color-white;
+    margin-bottom: $space-m;
   }
   .usa-width-one-half {
     @include media($large-screen) {

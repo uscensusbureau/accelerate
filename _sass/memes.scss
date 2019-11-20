@@ -1,5 +1,9 @@
 .meme-section {
   margin-top: $space-xl !important;
+  a {
+    background-image: none !important;
+    background-color: $color-navy !important;
+  }
 }
 
 .meme-container {
