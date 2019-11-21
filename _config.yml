@@ -1,17 +1,17 @@
 title: Census Accelerate
 remote_theme: uswds-jekyll
 
-url: https://census-coil.github.io/accelerate
-baseurl: ""
+url: https://census-coil.github.io/
+baseurl: /accelerate
 permalink: pretty
 
 styles:
-  - assets/css/styles.css
+  - /assets/css/styles.css
 sass:
   style: compressed
 
 scripts:
-  - src: assets/uswds/js/uswds.min.js
+  - src: /assets/uswds/js/uswds.min.js
     async: true
 
 collections:
