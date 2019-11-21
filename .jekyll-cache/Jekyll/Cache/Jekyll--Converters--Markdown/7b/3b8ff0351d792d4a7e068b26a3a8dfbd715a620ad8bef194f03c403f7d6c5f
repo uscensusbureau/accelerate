@@ -1,0 +1,43 @@
+I"�<p>One of the core features of Jekyll is the <a href="https://shopify.github.io/liquid/">Liquid</a> templating language, which has a series of <a href="https://shopify.github.io/liquid/filters/round/">filters</a> and <a href="https://shopify.github.io/liquid/tags/iteration/">tags</a> that allow developers programmatically generate content.</p>
+
+<p>Jekyll and Liquid do quite a bit, but sometimes they aren’t enough for a project’s specific needs. When the built-in functionality that Jekyll provides isn’t enough, it is possible to build or borrow <a href="https://jekyllrb.com/docs/plugins">plugins</a> to extend Jekyll.</p>
+
+<hr />
+<h3 id="plugin-gems">Plugin gems</h3>
+
+<p>18f.gsa.gov is using several Ruby gems plugins:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Plugin gem</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#"><code class="highlighter-rouge">GEM NAME</code></a></td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="custom-plugins">Custom plugins</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Custom plugin name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#">PLUGIN NAME</a></td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+:ET

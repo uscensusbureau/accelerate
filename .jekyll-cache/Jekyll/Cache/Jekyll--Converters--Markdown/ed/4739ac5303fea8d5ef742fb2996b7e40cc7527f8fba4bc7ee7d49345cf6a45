@@ -1,0 +1,52 @@
+I"º
+<p>To use headers, either use the semantic element, or reference it with a dot-delimited class.</p>
+
+<p>For example:</p>
+
+<p><code class="highlighter-rouge">&lt;p class =".h1"&gt;&lt;/p&gt;</code> would render the same as <code class="highlighter-rouge">&lt;h1&gt;&lt;/h1&gt;</code>.</p>
+
+<p>For size reference:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Font size (rem)</th>
+      <th>Font size (px)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h1</td>
+      <td>3.8rem</td>
+      <td>38px</td>
+    </tr>
+    <tr>
+      <td>h2</td>
+      <td>3.4rem</td>
+      <td>34px</td>
+    </tr>
+    <tr>
+      <td>h3</td>
+      <td>2.3rem</td>
+      <td>23px</td>
+    </tr>
+    <tr>
+      <td>h4</td>
+      <td>2.1rem</td>
+      <td>21px</td>
+    </tr>
+    <tr>
+      <td>h5</td>
+      <td>1.4rem</td>
+      <td>14px</td>
+    </tr>
+    <tr>
+      <td>p</td>
+      <td>1.8rem</td>
+      <td>18px</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET
