@@ -29,12 +29,3 @@ class: landing-layout
   </div>
 </section>
 {% endif %}
-
-{% capture _graphics %}
-  {% include graphic-list.html graphics=page.graphics %}
-{% endcapture %}
-{% if page.graphics_position != 'after' %}{{ _graphics }}{% endif %}
-
-    {{ content }}
-
-{% if page.graphics_position == 'after' %}{{ _graphics }}{% endif %}
