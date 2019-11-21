@@ -1,6 +1,6 @@
 ---
 title: Partner With Us
-permalink: /get-involved/partner-with-us
+permalink: /get-involved/partner-with-us/
 layout: interior
 nav:
   color: light
