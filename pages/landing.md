@@ -25,7 +25,7 @@ hero:
       <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are hard to count. But we can help change that.</p>
     </div>
     <div class="usa-width-one-half">
-      <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
+      <img src="{{site.baseurl}}/assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
     </div>
   </div>
   <div id="opportunity-button" class="usa-grid ">
