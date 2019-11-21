@@ -6,12 +6,12 @@ baseurl: ""
 permalink: pretty
 
 styles:
-  - /assets/css/styles.css
+  - assets/css/styles.css
 sass:
   style: compressed
 
 scripts:
-  - src: /assets/uswds/js/uswds.min.js
+  - src: assets/uswds/js/uswds.min.js
     async: true
 
 collections:
