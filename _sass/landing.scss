@@ -1,6 +1,6 @@
 #content-wrapper {
   position: relative;
-  margin-top: 0;
+  margin-top: 12rem;
   @include media($large-screen) {
     margin-top: -45rem;
   }
