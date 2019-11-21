@@ -1,6 +1,6 @@
 ---
 title: Become an Ambassador
-permalink: /get-involved/become-an-ambassador
+permalink: /get-involved/become-an-ambassador/
 layout: interior
 sidenav: ambassador
 nav:
@@ -42,7 +42,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
         <div class="text">
           <h4 id="create">Create your own content</h4>
           <p>We offer resources to help you work independently at your own pace to create content that makes hard-to-count community organizations more effective. Share your content so people across the U.S. can use what you’ve made.</p><br>
-          
+
           <p>See the <a href="https://2020census.gov/en/partners/outreach-materials.html" target="_blank">2020 Census Outreach materials</a></p>
 
           <p>Check out the latest <a href="https://2020census.gov/en/partners/psa-toolkit.html" target="_blank">2020 Census PSA's </a>for inspiration</p>

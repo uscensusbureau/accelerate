@@ -1,6 +1,6 @@
 ---
 title: Attend a Create-a-thon
-permalink: /get-involved/attend-a-create-a-thon
+permalink: /get-involved/attend-a-create-a-thon/
 layout: interior
 nav:
   color: light
