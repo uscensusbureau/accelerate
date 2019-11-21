@@ -11,4 +11,5 @@ gem 'rb-readline'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'gem github-pages'
+gem "jekyll-remote-theme"
 gem 'jquery-smooth-scroll-rails', '~> 0.0.5'
