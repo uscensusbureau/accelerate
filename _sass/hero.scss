@@ -9,7 +9,8 @@
 
   .large-header {
     color: $color-navy;
-    font-size: 6.5rem;
+    font-size: 5.5rem;
+    letter-spacing: -1.5px;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: $space-l !important;
@@ -20,6 +21,7 @@
     @include media($large-screen) {
       font-size: $font-size-xxl;
       margin-bottom: $space-m !important;
+      letter-spacing: normal;
     }
   }
 
@@ -131,7 +133,7 @@
 
 .usa-hero-interior {
   padding: 20rem 2rem 0 2rem;
-  height: 90vh;
+  height: 100vh;
   background-repeat: no-repeat;
   @include media($large-screen) {
     height: 87rem;
@@ -140,12 +142,14 @@
   }
 
   .large-header {
-    font-size: 6rem;
+    font-size: 5.5rem;
+    letter-spacing: -1px;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: $space-m !important;
     @include media($large-screen) {
       font-size: $font-size-xxl;
+      letter-spacing: normal;
     }
     .usa-hero-callout-alt {
       display: block;
