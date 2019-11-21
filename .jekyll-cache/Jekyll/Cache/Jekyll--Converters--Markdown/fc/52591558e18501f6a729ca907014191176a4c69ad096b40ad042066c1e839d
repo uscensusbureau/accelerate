@@ -1,0 +1,174 @@
+I"�<h3 id="landing-page-layout">Landing page layout</h3>
+
+<p>Located at <a href="https://github.com/18F/18f.gsa.gov/tree/master/_layouts/primary.html">_layouts/landing.html</a>, this is the layout that is used for the landing page on seedfund.nsf.gov.</p>
+
+<h4 id="landing-page-general-front-matter">Landing page general front matter</h4>
+
+<p>The primary template uses <a href="https://jekyllrb.com/docs/frontmatter/">Jekyll front matter</a> heavily to account for variations within the site. Below are the the potential front matter attributes that you can use. Some are listed as <em>(optional)</em>. These can be used to alter the appearance of a page.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Value</th>
+      <th>Type</th>
+      <th>What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">title</code></td>
+      <td><code class="highlighter-rouge">NSF SBIR</code></td>
+      <td>String</td>
+      <td>Title for the page visible in blue banner at the top of the page</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">permalink</code></td>
+      <td><code class="highlighter-rouge">/</code></td>
+      <td>String</td>
+      <td>Path that the page renders relative to the site’s <code class="highlighter-rouge">baseurl</code></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">layout</code></td>
+      <td><code class="highlighter-rouge">landing</code></td>
+      <td>String</td>
+      <td>Sets the page layout to <code class="highlighter-rouge">primary</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="landing-page-hero-front-matter">Landing page hero front matter</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Value</th>
+      <th>Type</th>
+      <th>What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">hero: image</code></td>
+      <td><code class="highlighter-rouge">/assets/img/hero-2.png</code></td>
+      <td>String</td>
+      <td>Path to the image to used for the background of the hero</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">hero: callout: alt</code></td>
+      <td><code class="highlighter-rouge">Up to $225,000 seed funding.</code></td>
+      <td>String</td>
+      <td>Text to use in the hero title</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">hero: callout: text</code></td>
+      <td><code class="highlighter-rouge">0% equity.</code></td>
+      <td>String</td>
+      <td>Additional text to use in the hero title</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">hero: button: href</code></td>
+      <td><code class="highlighter-rouge">/how-to-apply/</code></td>
+      <td>String</td>
+      <td>URL where you want the button to go</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">hero: button: text</code></td>
+      <td><code class="highlighter-rouge">Start your application</code></td>
+      <td>String</td>
+      <td>Main button text</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">hero: button: subtext</code></td>
+      <td><code class="highlighter-rouge">Deadline:</code></td>
+      <td>String</td>
+      <td>Additional supporting button text</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="secondary-page-layout">Secondary page layout</h3>
+
+<p>The most common layout on the site. Used for sub pages.</p>
+
+<p>Located at <a href="https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html">_layouts/project-page.html</a>, this is the template for creating new project pages as well as <a href="/styleguide/components/#project-cards">project cards</a> that show up at <a href="/what-we-deliver/">/what-we-deliver/</a>.</p>
+
+<h4 id="secondary-page-front-matter">Secondary page front matter</h4>
+
+<p>The primary template uses <a href="https://jekyllrb.com/docs/frontmatter/">Jekyll front matter</a> heavily to account for variations within the site. Below are the the potential front matter attributes that you can use. Some are listed as <em>(optional)</em>. These can be used to alter the appearance of a page.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Value</th>
+      <th>Type</th>
+      <th>What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">title</code></td>
+      <td><code class="highlighter-rouge">NSF SBIR</code></td>
+      <td>String</td>
+      <td>Title for the page visible in blue banner at the top of the page</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">permalink</code></td>
+      <td><code class="highlighter-rouge">/about/</code></td>
+      <td>String</td>
+      <td>Path that the page renders relative to the site’s <code class="highlighter-rouge">baseurl</code></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">layout</code></td>
+      <td><code class="highlighter-rouge">secondary</code></td>
+      <td>String</td>
+      <td>Sets the page layout to <code class="highlighter-rouge">secondary</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="grid">Grid</h3>
+
+<p>The layout and grid structure inherits from the U.S. Web Design Standards and makes some slight adjustments. Layout changes are not overrides of the standards, but a handful of CSS classes have been added to compliment the Standards.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class name</th>
+      <th>What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss"><code class="highlighter-rouge">usa-width-tablet</code></a></td>
+      <td>A class that allows certain content, namely the <a href="/styleguide/project-cards/">project cards</a>, and the <a href="/styleguide/blog-components/#post-previews">blog previews</a> to respond at a different breakpoint, <a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss"><code class="highlighter-rouge">$tablet-screen</code></a> (768px).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss"><code class="highlighter-rouge">usa-flex</code></a></td>
+      <td>Wrapper class that sets <code class="highlighter-rouge">display: flex</code>, and can be used to create more flexible layouts.</td>
+    </tr>
+    <tr>
+      <td>Classes used with <code class="highlighter-rouge">usa-flex</code></td>
+      <td><code class="highlighter-rouge">usa-flex-baseline</code>, <code class="highlighter-rouge">usa-flex-end</code>, <code class="highlighter-rouge">usa-flex-pull-right</code>, <code class="highlighter-rouge">usa-flex-always</code>, <code class="highlighter-rouge">usa-flex-wrap</code>, <code class="highlighter-rouge">usa-flex-vertically-top</code>, <code class="highlighter-rouge">usa-flex-pull-right</code>, and <code class="highlighter-rouge">usa-flex-vertically-bottom</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss"><code class="highlighter-rouge">usa-grid-reversed</code></a></td>
+      <td>This class can be used to alternate the order that content appears in mobile vs desktop screen widths.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">content-wide</code></td>
+      <td>In the Standards, the primary way to improve readability is via the <code class="highlighter-rouge">usa-content</code> class, which <a href="https://standards.usa.gov/components/typography/#typesetting">limits content to 75 characters</a>. Instead of relying on this mechanism, the site wraps site content with the <code class="highlighter-rouge">content-focus</code> class, <a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss">limiting the entire grid to roughly 100 characters</a>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">content-focus</code></td>
+      <td>When the the grid needs to be wider, <code class="highlighter-rouge">content-wide</code> is used and the content width is controlled by using partial grid layouts.</td>
+    </tr>
+  </tbody>
+</table>
+:ET

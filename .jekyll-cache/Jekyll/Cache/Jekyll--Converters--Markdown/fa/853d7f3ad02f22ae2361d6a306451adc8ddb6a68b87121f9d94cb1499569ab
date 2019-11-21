@@ -1,0 +1,21 @@
+I"Þ<h3 id="this-is-the-user-interface-ui-style-guide-for-seedfundnsfgov">This is the user interface (UI) style guide for <a href="https://seedfund.nsf.gov/">seedfund.nsf.gov</a>.</h3>
+
+<p>The site uses a custom set of styles that inherit from the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a> to create style that is professional, unique, and informative. The guide has a two-fold purpose:</p>
+
+<ol>
+  <li><strong>Speed up onboarding of future maintainers of the site</strong>.
+While most of this guide addresses content needs, there is some <a href="/styleguide/for-developers/">technical documentation</a> for how we have extended Jekyllâ€™s out-of-the-box functionality.</li>
+  <li><strong>Serve as a living reference for 18F brand of styles.</strong></li>
+</ol>
+
+<h4 id="adding-new-page">Adding new page?</h4>
+<p>If you are updating or adding a new project page, go to <a href="/styleguide/layouts/#project-page-template">Layouts</a> to get started.</p>
+
+<h3 id="overriding-the-standards">Overriding the Standards</h3>
+
+<p>While seedfund.nsf.gov relies heavily on the U.S. Web Design standards, there are several instances where we have overridden styles with our own set of custom stylesheets. This is primarily to align more directly with the NSF SBIR brand set of fonts, colors, and logos. Additional overrides were made to create custom layouts or components to address needs that are specific to NSF SBIR.</p>
+
+<p><a href="/styleguide/layouts/">
+Explore style guide
+</a></p>
+:ET
