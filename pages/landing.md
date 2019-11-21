@@ -6,7 +6,7 @@ layout: landing
 hero:
   video:
     horizontal: /assets/img/graphics/video-04.mp4
-    vertical: /assets/img/graphics/video-mobile.mov
+    vertical: /assets/img/video-placeholder-mobile.png
   callout:
     text: Amplify your community's voice
     subtext: Make a lasting impact on the next ten years by making sure everyone counts in the 2020 Census.
