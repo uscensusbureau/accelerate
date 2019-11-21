@@ -1,5 +1,5 @@
 title: Census Accelerate
-theme: uswds-jekyll
+remote_theme: uswds-jekyll
 
 url: #URL for Accelerate
 baseurl: ""
