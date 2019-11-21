@@ -1,8 +1,16 @@
 .event {
+  margin-bottom: $space-xl;
+  @include media($large-screen) {
+    margin-bottom: inherit;
+  }
   padding: $space-m 0;
+
   h4 {
-    padding-top: $space-xl;
+    padding-top: $space-m;
     margin-bottom: $space-xs;
+    @include media($large-screen) {
+      padding-top: $space-xl;
+    }
   }
   h6 {
     font-family: $font-sans;
@@ -18,12 +26,17 @@
 }
 
 .event-description {
-  padding-left: $space-l;
+  @include media($large-screen) {
+    padding-left: $space-l;
+  }
 }
 
 #past-events {
-  padding: $space-xl 0;
+  padding: 2rem 2rem 5rem 2rem;
   background-color: $color-navy;
+  @include media($large-screen) {
+    padding: $space-xl 0;
+  }
   h1,
   p {
     color: $color-white;
@@ -40,9 +53,12 @@
   width: 100%;
   background-color: $color-white;
   text-align: center;
-  padding: $space-xl $space-xl $space-l $space-xl;
+  padding: 6rem 3rem 3rem 3rem;
   margin-bottom: $space-l !important;
   min-height: 41rem;
+  @include media($large-screen) {
+    padding: $space-xl $space-xl $space-l $space-xl;
+  }
   h3 {
     font-family: $font-serif;
     font-size: $font-size-l;

@@ -1,55 +1,74 @@
-.coil-team-list {
+.partner-list {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
   margin: $space-xl 0;
   padding: 0;
 
-  &:after {
-    content: "";
-    max-width: 30%;
-    flex: auto;
-  }
-
   img {
     display: block;
     max-width: 70%;
   }
 
-  .coil-team-card {
-    margin: 0 $space-l $space-l 0;
-    width: 27rem;
-    height: 45rem;
-  }
-
-  .coil-team-list-content {
-    display: block;
-    padding: 1.05rem 3rem;
+  li {
+    width: 40%;
+    margin: auto;
+    @include media($large-screen) {
+      width: auto;
+      margin: 0;
+    }
   }
 }
 
 .featured-partner {
+  padding: 2rem;
   min-height: 60vh;
-  p {
-    margin-bottom: $space-m;
+  @include media($large-screen) {
+    padding: inherit;
+  }
+  p:last-child {
+    margin-bottom: $space-xl;
+    @include media($large-screen) {
+      margin-bottom: $space-m;
+    }
   }
   iframe {
-    padding-left: $space-l;
+    @include media($large-screen) {
+      padding-left: $space-l;
+    }
   }
 }
 
+#partner-01 {
+  margin-top: 10rem !important;
+  @include media($large-screen) {
+    margin-top: inherit;
+  }
+}
 #partner-02 {
   background-color: $color-white;
   padding: $space-xl 0;
 }
 
 #cftc {
+  padding: 2rem;
   background-color: $color-offwhite;
-  padding: $space-xl 0;
+  @include media($large-screen) {
+    padding: $space-xl 0;
+  }
   p {
     margin-bottom: $space-m;
   }
   .button-wrapper {
     text-align: center;
+  }
+}
+
+#partner {
+  .usa-sidenav-list {
+    display: none;
+    @include media($large-screen) {
+      display: block;
+    }
   }
 }

@@ -1,6 +1,9 @@
 #content-wrapper {
   position: relative;
-  margin-top: -45rem;
+  margin-top: 0;
+  @include media($large-screen) {
+    margin-top: -45rem;
+  }
 }
 #video {
   width: 100%;
@@ -32,21 +35,29 @@
 }
 
 #opportunity-top {
+  display: none;
   background-image: url('../img/backgrounds/opportunity-top.svg');
   height: 45rem;
   position: relative;
   z-index: 3;
   background-size: cover;
   background-repeat: no-repeat;
+  @include media($large-screen) {
+    display: block;
+  }
 }
 
 #opportunity {
   background-color: $color-white;
-
+  padding-top: 10rem;
   @include media($large-screen) {
     padding-left: 15rem;
+    padding-bottom: $space-l;
     position: relative;
     z-index:4;
+  }
+  img {
+    margin-bottom: $space-m;
   }
 }
 
@@ -68,6 +79,10 @@
   padding-top: 10rem;
   padding-bottom: 8rem;
   margin: auto;
+  text-align: center;
+  @include media($large-screen) {
+    text-align: inherit;
+  }
 
   h1 {
     text-align: center;
@@ -84,30 +99,46 @@
     margin-bottom: $space-xxs;
   }
   h4 {
+    margin-bottom: $space-s;
     font-size: $font-size-m;
     color: $color-navy;
     font-weight: 400;
-    margin-bottom: $space-xxs;
+    @include media($large-screen) {
+      margin-bottom: $space-xxs;
+    }
   }
   img {
     margin-bottom: $space-l;
   }
   p {
-    margin-bottom: $space-m;
+    margin-bottom: $space-m !important;
   }
 }
 
+.help-card {
+  margin-bottom: 8rem;
+
+}
+
 #impact-bg {
+  display: none;
   position:absolute;
   width: 100%;
   height: auto;
   z-index: 5;
+  @include media($large-screen) {
+    display: initial;
+  }
 }
 
 #impact {
+  text-align: center;
+  background-color: $color-navy;
+  padding-left: 2rem;
+  padding-right: 2rem;
   @include media($large-screen) {
     position: relative;
-
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: 100% auto;
     padding-top: 20rem;
@@ -115,7 +146,10 @@
     padding-bottom: 16.5rem;
   }
   .spacing-top {
-    padding-top: 10rem;
+    padding-top: 0;
+    @include media($large-screen) {
+      padding-top: 10rem;
+    }
   }
   h1 {
     color: $color-true-white;
@@ -129,7 +163,9 @@
     line-height: $leading-m;
   }
   img {
-    margin-left: $space-l;
+    @include media($large-screen) {
+      margin-left: $space-l;
+    }
   }
 }
 
@@ -142,12 +178,13 @@
 }
 
 #partners {
+  text-align: center;
+  background-color: $color-navy;
+  top: -0.1rem;
+  padding-bottom: $space-xl;
   @include media($large-screen) {
     position: relative;
-    background-color: $color-navy;
-    text-align: center;
     z-index: 3;
-    top: -0.1rem;
     padding-top: 8rem;
   }
   p {
@@ -193,6 +230,9 @@
     z-index: 5;
     position: relative;
     margin-bottom: $space-m;
+    @include media($large-screen) {
+      min-height: 45rem;
+    }
 
     img {
       display: block;
@@ -231,42 +271,12 @@
   }
 }
 
-.button-wrapper {
-  position: relative;
-  &:hover {
-    .usa-button {
-      transform: translate(0.5rem, 0.5rem);
-      border: none;
-    }
-  }
-}
-.button-bg {
-  position: absolute;
-  left: -1rem;
-  z-index: 0;
-  height: 5rem;
-  width: 52%;
-  border-radius:24px;
-}
-.usa-button {
-  font-size: 1.5rem;
-  font-weight: 600;
-  height: 5rem;
-  border-radius: 24px;
-}
-
-.yellow {
-  background-color: $color-secondary;
-}
-.red {
-  background-color: $color-red;
-}
-.blue {
-  background-color: $color-primary;
-}
-
 .doodle {
-  position: absolute;
+  display: none;
+  @include media($large-screen) {
+    display: block;
+    position: absolute;
+  }
 }
 
 #doodle-01 {

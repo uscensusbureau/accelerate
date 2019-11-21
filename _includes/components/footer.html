@@ -23,11 +23,13 @@
         </address>
         {% endif %}
       <p>
+        <!-- No number
           Tel: {{ footer.contact.TEL }}<br>
           FIRS: {{ footer.contact.FIRS }}  | TDD: {{ footer.contact.TDD }}
+          -->
         </p>
         <p>
-           <a href="https://github.com/18F/nsf-sbir/issues/new">Report an issue</a>
+           <a href="https://github.com/census-coil/accelerate/issues/new">Report an issue</a>
         </p>
       </div>
       <div class="usa-width-one-third">
@@ -64,6 +66,7 @@
             </nav>
         {% endif %}
       </div>
+      <!-- Add links and subscribe button
       <div class="usa-width-one-third">
         {% if footer.contact.heading %}
         <h3 class="usa-footer-contact-heading">{{ footer.contact.heading }}</h3>
@@ -84,6 +87,7 @@
         </a>
         {% endfor %}
       </div>
+      -->
     </div>
   </div>
   {% endif %}

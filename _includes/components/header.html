@@ -55,7 +55,7 @@
             {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
 
           {% if color == "light" %}
-          <button class="usa-accordion-button button-dark usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+          <button class="usa-accordion-button button-light usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
             <span class="nav-light">{{ _section.text }}</span>
             {% else %}
           <button class="usa-accordion-button button-dark usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">

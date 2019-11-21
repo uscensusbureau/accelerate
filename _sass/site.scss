@@ -59,15 +59,21 @@
   margin-bottom: 5rem !important;
   margin-top: 5rem;
   text-align: center;
-  width: 90%;
-
+  width: 100%;
+  @include media($large-screen) {
+    width: 90%;
+  }
   &.divider-left {
     display: inline-block;
   }
 }
 
 .stat-detail {
+  display: none;
   width: 20%;
+  @include media($large-screen) {
+    display: block;
+  }
 
   h1 {
     font-family: $font-mono;
@@ -91,6 +97,13 @@
     line-height: $leading-s;
   }
 
+}
+
+.side-button {
+  display: none;
+  @include media($large-screen) {
+    display: block;
+  }
 }
 
 .testimonial {

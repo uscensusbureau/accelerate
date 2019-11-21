@@ -50,8 +50,52 @@
   }
 }
 
+.button-wrapper {
+  position: relative;
+  &:hover {
+    .usa-button {
+      transform: translate(0.5rem, 0.5rem);
+      border: none;
+    }
+  }
+}
+.button-bg {
+    display: none;
+  @include media($large-screen) {
+    display: block;
+    position: absolute;
+    left: -1rem;
+    z-index: 0;
+    height: 5rem;
+    width: 52%;
+    border-radius:24px;
+  }
+}
+.usa-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 5rem;
+  border-radius: 24px;
+}
+
+.yellow {
+  background-color: $color-secondary;
+}
+.red {
+  background-color: $color-red;
+}
+.blue {
+  background-color: $color-primary;
+}
+
+
 .text {
   .usa-button {
     margin: $space-l 0;
   }
+}
+
+.button-wrapper .usa-button {
+  background-image: none !important;
+  background-color: $color-navy !important;
 }

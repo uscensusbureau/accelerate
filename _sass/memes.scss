@@ -1,5 +1,6 @@
 .meme-section {
   margin-top: $space-xl !important;
+  padding-bottom: $space-l;
   a {
     background-image: none !important;
     background-color: $color-navy !important;
@@ -11,14 +12,40 @@
   -moz-columns: 2 200px;
   -webkit-columns: 2 200px;
   column-gap: 2rem;
-  margin-bottom: -14rem;
+  margin-bottom: 2rem;
+  @include media($large-screen) {
+    margin-bottom: -14rem;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 2rem;
+    @include media($large-screen) {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .meme-container-l {
   columns: 4 200px;
   column-gap: 2rem;
   img {
-    margin-bottom: $space-m;
+    margin-bottom: 2rem;
+    @include media($large-screen) {
+      margin-bottom: 10rem;
+    }
   }
-  margin-bottom: 10rem;
+}
+
+#cftc {
+  .usa-button {
+    background-image: none !important;
+    background-color: $color-navy !important;
+  }
+  img {
+    width: 100%;
+    @include media($large-screen) {
+        max-width: 100%;
+    }
+  }
 }
