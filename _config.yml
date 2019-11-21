@@ -37,7 +37,7 @@ defaults:
       layout: styleguide
       include_subnav: true
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
