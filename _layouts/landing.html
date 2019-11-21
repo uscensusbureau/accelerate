@@ -13,14 +13,10 @@ class: landing-layout
   </video>
 </div>
 <div id="video-mobile">
-  <img src="{{ site.baseurl }}{{ hero.video.vertical }}" />
-</div>
-<!--
-  <img src="{{ site.baseurl }}{{ hero.video.horizontal }}" />
-  <video autoplay muted loop id="video">
-    <img id="video" src="{{ site.baseurl }}{{ hero.video }}" />
+  <video autoplay muted loop poster="{{site.baseurl}}/assets/img/video-placeholder-mobile.png">
+    <source src="{{ site.baseurl }}{{ hero.video.vertical }}" type="video/mp4">
   </video>
-  -->
+</div>
 {% endif %}
 
 {% if page.tagline and page.intro %}

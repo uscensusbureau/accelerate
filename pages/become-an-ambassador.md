@@ -5,7 +5,7 @@ layout: interior
 sidenav: ambassador
 nav:
   color: light
-  page: get involved
+  page: ambassador
 hero:
   color: red
   callout:
@@ -28,8 +28,13 @@ Ready to lead your own organizational or brand production partnership? We’re h
           <div class="text">
             <h4 id="run">Run your own create-a-thon</h4>
             <p>Are you a creative or community leader raring to bring a create-a-thon to your community? Don’t worry if you haven’t figured it all out. We’ve created a toolkit to help you get started. </p>
-            <p>Need our support? <a href="#" target="_blank">Fill out the interest form</a></p>
-            <a class="usa-button usa-button-big usa-button-secondary" href="#" target="_blank"><span>Get the toolkit</span></a>
+
+            <p>Need our support? <a href="https://coil992463.typeform.com/to/N2daiF" target="_blank">Fill out the interest form</a></p>
+
+            <a class="usa-button usa-button-big usa-button-secondary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
+
+            <p class="text-small">Don't have access to Google Docs?<br>
+            Download the toolkit <a href="{{site.baseurl}}/assets/files/CreativesForTheCount_Toolkit.zip">here</a><br><br></p>
           </div>
 
       </li>
@@ -37,16 +42,19 @@ Ready to lead your own organizational or brand production partnership? We’re h
         <div class="text">
           <h4 id="create">Create your own content</h4>
           <p>We offer resources to help you work independently at your own pace to create content that makes hard-to-count community organizations more effective. Share your content so people across the U.S. can use what you’ve made.</p><br>
-          <p>See the <a href="#" target="_blank">2020 Census Outreach materials</a></p>
-          <p>Check out the latest <a href="#" target="_blank">2020 Census PSA's </a>for inspiration</p>
-          <a class="usa-button usa-button-big usa-button-secondary" href="#" target="_blank"><span>Upload your content</span></a>
+          
+          <p>See the <a href="https://2020census.gov/en/partners/outreach-materials.html" target="_blank">2020 Census Outreach materials</a></p>
+
+          <p>Check out the latest <a href="https://2020census.gov/en/partners/psa-toolkit.html" target="_blank">2020 Census PSA's </a>for inspiration</p>
+
+          <a class="usa-button usa-button-big usa-button-secondary" href="https://www.creativesforthecount.org/gallery/" target="_blank"><span>Upload your content</span></a>
         </div>
       </li>
       <li><div class="step-circle">3</div>
         <div class="text">
           <h4 id="respond">Respond to calls for content</h4>
           <p>Become part of a grassroots rapid response network that responds to virtual calls for content from community organizations. We match creatives with community organizations that need content, especially in response to negative news stories or dis-information.</p>
-          <a class="usa-button usa-button-big usa-button-secondary" href="#" target="_blank"><span>Join our slack</span></a>
+          <a class="usa-button usa-button-big usa-button-secondary" href="http://creativesforthecount.slack.com" target="_blank"><span>Join our slack</span></a>
         </div>
       </li>
     </ul>
@@ -61,7 +69,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
   {% include memes.html %}
   <div class="button-wrapper">
     <div class="button-bg blue" style="width:50%;"></div>
-    <a class="usa-button usa-button-big usa-button-primary" href="#" target="_blank">See more co-created content</a>
+    <a class="usa-button usa-button-big usa-button-primary" href="https://www.creativesforthecount.org/" target="_blank">See more co-created content</a>
   </div>
   </div>
   <div class="usa-width-one-fourth">

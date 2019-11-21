@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="100%" height="866" viewBox="0 0 1440 866" preserveAspectRatio="xMinYMax slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hero-red-icons</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<rect id="b" width="1440" height="866"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<mask id="a" fill="white">
+<use xlink:href="#b"/>
+</mask>
+<path d="m0 824.19c146.43 45.922 318.1 53.085 515 21.488 295.35-47.396 296.06-81.218 475-127.42 119.29-30.798 269.29-34.051 450-9.7576v-708.25h-1440v823.93z" fill="#DF4317" mask="url(#a)"/>
+<path d="m1171.5-237.81l-307.5 148.09-75.947 332.74 212.8 266.84h341.3l212.8-266.84-75.947-332.74-307.5-148.09z" mask="url(#a)" stroke="#D03C12" stroke-width="240"/>
+<g mask="url(#a)">
+<g transform="translate(66 101)">
+<circle cx="65.749" cy="32.749" r="19.5" fill="#F7C636" fill-rule="evenodd"/>
+<line x1="65.999" x2="89.334" y1="32.999" y2="9.6645" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="95.915" y1="32.999" y2="19.069" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="96.825" y1="32.999" y2="44.778" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="79.377" y1="32.999" y2="63.166" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="52.187" y1="32.999" y2="62.969" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="35.377" y1="32.999" y2="45.3" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="35.939" y1="32.999" y2="19.382" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="53.117" y1="32.999" y2="2.6172" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="98.998" y1="32.999" y2="32.747" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="89.83" y1="32.999" y2="55.826" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="65.731" y1="32.999" y2="65.998" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="42.925" y1="32.999" y2="56.591" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="33" y1="32.999" y2="32.743" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="42.664" y1="32.999" y2="9.6645" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="65.751" y1="32.999" y2="-5.7301e-14" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<line x1="65.999" x2="78.465" y1="32.999" y2="2.4443" fill="none" stroke="#F7C636" stroke-linecap="square" stroke-width="7"/>
+<rect x="33" y="136" width="16" height="16" fill="#F5F8FB" fill-rule="evenodd"/>
+<rect y="77" width="16" height="16" fill="#004280" fill-rule="evenodd"/>
+<rect x="1254" y="500" width="16" height="16" fill="#DF4317" fill-rule="evenodd"/>
+<rect x="1288" y="453" width="16" height="16" fill="#F7C636" fill-rule="evenodd"/>
+<rect x="1254" y="375" width="16" height="16" fill="#004280" fill-rule="evenodd"/>
+</g>
+</g>
+</g>
+</svg>

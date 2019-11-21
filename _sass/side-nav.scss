@@ -2,7 +2,10 @@
 
 .usa-sidenav-list {
   padding-right: $space-l;
-  margin-top: $space-l !important;
+  margin-top: 8rem !important;
+  @include media($large-screen) {
+    margin-top: $space-l !important;
+  }
 
   li {
     border: none;

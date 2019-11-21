@@ -24,8 +24,6 @@ primary:
         href: /get-involved/become-an-ambassador/
 
 about:
-  - text: Overview
-    href: /about/#overview
   - text: Our Story
     href: /about/#our-story
   - text: The 2020 Census
@@ -59,34 +57,22 @@ ambassador:
   - text: Respond to Calls for Content
     href: /get-involved/become-an-ambassador/#respond
 
-
-# Below is from NSF, not COIL
-
-
 footer:
   - text: About
     href: /about/
-  - text: Portfolio
-    href: /portfolio/
-  - text: Apply for funding
-    href: /apply/
   - text: Showcase
     href: /showcase/
-  - text: For Press
-    href: /press/
-  - text: Contact us
-    href: /contact/
+  - text: Upcoming Events
+    href: /get-involved/attend-a-create-a-thon/#upcoming-events
+  - text: Contact Us
+    href: /get-involved/partner-with-us/#overview
 
 subfooter:
-  - text: USA.gov
-    href: https://www.usa.gov/
-  - text: Privacy
-    href: https://www.nsf.gov/policies/privacy.jsp
-  - text: FOIA
-    href: https://www.nsf.gov/policies/foia.jsp
-  - text: About NSF
-    href: https://www.nsf.gov/about/
-  - text: Inspector General
-    href: https://www.nsf.gov/oig/
-  - text: SBIR.gov
-    href: https://www.sbir.gov/
+  - text: About COIL
+    href: https://opportunity.census.gov/coil.html
+  - text: US Census Bureau
+    href: https://www.census.gov/
+  - text: Official 2020 Census Site
+    href: https://2020census.gov/
+  - text: Partnership Materials
+    href: https://2020census.gov/en/partners.html

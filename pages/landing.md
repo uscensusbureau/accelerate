@@ -6,7 +6,7 @@ layout: landing
 hero:
   video:
     horizontal: /assets/img/graphics/video-04.mp4
-    vertical: /assets/img/video-placeholder-mobile.png
+    vertical: /assets/img/graphics/video-mobile.mov
   callout:
     text: Amplify your community's voice
     subtext: Make a lasting impact on the next ten years by making sure everyone counts in the 2020 Census.
@@ -15,65 +15,64 @@ hero:
     href: /#join
 ---
 
-<head><script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
-</head>
-
 <div id="content-wrapper">
 <div id="opportunity-top"></div>
 <section id="opportunity" class="usa-section usa-content">
   <div class="usa-grid">
-    <div class="usa-width-one-twelfth"></div>
     <div class="usa-width-five-twelfths">
       <h1>An opportunity to make a difference</h1>
       <p class="text-large">The results of the census will determine how <a href="https://www.youtube.com/watch?v=83UNSPG3BHA" target="_blank">political representation</a> and <a href="https://2020census.gov/en/community-impact.html" target="_blank">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
-      <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are overwhelmingly undercounted in the Census. But we can help change that.</p>
-      <div class="button-wrapper">
-        <div class="button-bg blue" style="width:75%;"></div>
-      <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
-      </div>
+      <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are hard to count. But we can help change that.</p>
     </div>
     <div class="usa-width-one-half">
       <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
     </div>
   </div>
+  <div id="opportunity-button" class="usa-grid ">
+    <div class="button-wrapper usa-width-one-half">
+      <div class="button-bg blue" style="width:60%;"></div>
+    <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
+    </div>
+  </div>
 </section>
+
 <div id="opportunity-bottom"></div>
 
 <section id="help" class="usa-section usa-content">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h1>How you can help</h1>
-      <p class="text-large">We activate creatives and community advocates locally and nationally to co-create compelling. content that engages everyday people about the importance of the 2020 Census. Check out ways people like you have made an impact.</p>
+      <p class="text-large">We activate creatives and community advocates locally and nationally to co-create compelling content that engages everyday people about the importance of the 2020 Census. Check out ways people like you have made an impact.</p>
     </div>
   </div>
 
   <div class="usa-grid">
-    <div class="usa-width-one-third">
+    <div class="usa-width-one-third help-card">
       <img src="{{site.baseurl}}/assets/img/graphics/persona-01.png" />
       <h3>Rock the Vote</h3>
       <h4>Featured Partnership</h4>
       <p>We partner with Accelerate to raise awareness of the 2020 Census for young people through pop culture, music, art and technology.</p>
-      <p><a href="{{site.baseurl}}/showcase/">Learn more about our partnership </a></p>
+      <p><a href="{{site.baseurl}}/showcase/#partner-01">Learn more about our partnership </a></p>
     </div>
-    <div class="usa-width-one-third">
+    <div class="usa-width-one-third help-card">
       <img src="{{site.baseurl}}/assets/img/graphics/persona-02.png" />
       <h3>Meghan Maury</h3>
       <h4>Policy Director, National LGBTQ Task Force</h4>
       <p>The Census Accelerate team brought together about 75 people to think, dream, and design together… The event had given us more than just new materials to use — it left us feeling empowered to create.</p>
-      <p><a href="{{site.baseurl}}/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
+      <p><a href="{{site.baseurl}}/get-involved/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
     </div>
-    <div class="usa-width-one-third">
-      <img src="{{site.baseurl}}/assets/img/graphics/persona-03.png" />
+    <div class="usa-width-one-third" help-card>
+      <img src="{{site.baseurl}}/assets/img/graphics/persona-03.png"/>
       <h3>Tino Ortega</h3>
       <h4>Local Artist in El Paso, TX</h4>
-      <p>We’re getting the community together to gain insight into what our community wants to hear [about] how to get people involved in the census. It’s important to have artists here to mirror the community. </p>
+      <p>We’re getting the community together to gain insight into what our community wants to hear [about] how to get people involved in the census. It’s important to have artists here to mirror the community.</p>
       <p><a href="https://www.youtube.com/watch?v=3SNMCec7cWs" target="_blank">Hear more about his experience</a></p>
     </div>
   </div>
 </section>
 
 <div id="impact-bg">
-  <img src="{{site.baseurl}}/assets/img/backgrounds/blue-yellow.svg" />
+  {% include svg/blue-yellow.svg %}
 </div>
 <section id="impact" class="usa-section usa-content">
   <div class="usa-grid">
@@ -132,7 +131,7 @@ hero:
         <div class="card">
           <img src="{{site.baseurl}}/assets/img/graphics/partner-with-us.svg" />
           <h3>Partner With Us</h3>
-          <p>Are you looking for a tangible way to make a large-scale impact within a community you care about? We work with the entertainment, media and creative industries to introduce the importance of the 2020 Census into pop culture.</p>
+          <p>Are you looking for a tangible way to make a large-scale impact within a community you care about? We work with the entertainment, media, and creative industries to introduce the importance of the 2020 Census into pop culture.</p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg yellow"></div>
@@ -144,11 +143,11 @@ hero:
         <div class="card">
           <img src="{{site.baseurl}}/assets/img/graphics/create-a-thon.svg" />
           <h3>Attend a Create-a-thon</h3>
-          <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census in an engaging workshop setting.  </p>
+          <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census. </p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg red"></div>
-        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/get-involved/attend-a-create-a-thon/">Upcoming Events</a>
+        <a class="usa-button usa-button-big usa-button-primary" href="{{site.baseurl}}/get-involved/attend-a-create-a-thon/#upcoming-events">Upcoming Events</a>
         </div>
       </div>
       <div id="card-03" class="usa-width-one-third card-wrapper">
@@ -156,7 +155,7 @@ hero:
         <div class="card">
           <img src="{{site.baseurl}}/assets/img/graphics/ambassador.svg" />
           <h3>Become an Ambassador</h3>
-          <p>Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations.</p>
+          <p>Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations to counter disinformation.</p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg blue"></div>

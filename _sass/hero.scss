@@ -1,19 +1,25 @@
 .usa-hero {
   background-image: none;
-  height: 87rem;
+  height: 80vh;
   padding-bottom: 0;
   padding-top: 22rem;
+  @include media($large-screen) {
+    height: 87rem;
+  }
 
   .large-header {
     color: $color-navy;
-    font-size: 8.5rem;
+    font-size: 6.5rem;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: $space-m !important;
-
+    margin-bottom: $space-l !important;
     .usa-hero-callout-alt {
       color: $color-navy;
       display: block;
+    }
+    @include media($large-screen) {
+      font-size: $font-size-xxl;
+      margin-bottom: $space-m !important;
     }
   }
 
@@ -124,17 +130,23 @@
 }
 
 .usa-hero-interior {
-  height: 87rem;
-  padding-bottom: 0;
-  padding-top: 28rem;
+  padding: 20rem 2rem 0 2rem;
+  height: 90vh;
   background-repeat: no-repeat;
+  @include media($large-screen) {
+    height: 87rem;
+    padding-top: 28rem;
+    padding-bottom: 0;
+  }
 
   .large-header {
-    font-size: $font-size-xxl;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: $space-m !important;
-
+    @include media($large-screen) {
+      font-size: $font-size-xxl;
+    }
     .usa-hero-callout-alt {
       display: block;
     }

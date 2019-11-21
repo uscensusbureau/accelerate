@@ -9,7 +9,7 @@ links: footer
 subfooter: subfooter
 
 # The optional heading for the footer.
-heading: America's Seed Fund
+heading: Census Accelerate
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
@@ -31,15 +31,15 @@ contact:
 
 
   address: |
-    [National Science Foundation](https://www.nsf.gov/)<br>
-    2415 Eisenhower Ave.<br>
-    Alexandria, VA 22314 USA
+    [US Census Bureau](https://www.census.gov/)<br>
+    4600 Silver Hill Rd<br>
+    Washington, DC 20233-3700
 
-  TEL: (703) 292-8050
+  # TEL: (703) 292-8050
 
-  FIRS: (800) 877-8339
+  # FIRS: (800) 877-8339
 
-  TDD: (800) 281-8749
+  # TDD: (800) 281-8749
 
 social:
   twitter_url: https://twitter.com/NSFSBIR

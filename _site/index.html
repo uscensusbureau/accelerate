@@ -212,14 +212,10 @@
   </video>
 </div>
 <div id="video-mobile">
-  <img src="/site/assets/img/video-placeholder-mobile.png" />
-</div>
-<!--
-  <img src="/site/assets/img/graphics/video-04.mp4" />
-  <video autoplay muted loop id="video">
-    <img id="video" src="/site{"horizontal"=>"/assets/img/graphics/video-04.mp4", "vertical"=>"/assets/img/video-placeholder-mobile.png"}" />
+  <video autoplay muted loop poster="/site/assets/img/video-placeholder-mobile.png">
+    <source src="/site/assets/img/graphics/video-mobile.mov" type="video/mp4">
   </video>
-  -->
+</div>
 
 
 
@@ -233,65 +229,83 @@
 
 
 
-    <head><script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/5508.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
-</head>
-
-<div id="content-wrapper">
+    <div id="content-wrapper">
 <div id="opportunity-top"></div>
 <section id="opportunity" class="usa-section usa-content">
   <div class="usa-grid">
-    <div class="usa-width-one-twelfth"></div>
     <div class="usa-width-five-twelfths">
       <h1>An opportunity to make a difference</h1>
       <p class="text-large">The results of the census will determine how <a href="https://www.youtube.com/watch?v=83UNSPG3BHA" target="_blank">political representation</a> and <a href="https://2020census.gov/en/community-impact.html" target="_blank">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br /><br /></p>
-      <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are overwhelmingly undercounted in the Census. But we can help change that.</p>
-      <div class="button-wrapper">
-        <div class="button-bg blue" style="width:75%;"></div>
-      <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
-      </div>
+      <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are hard to count. But we can help change that.</p>
     </div>
     <div class="usa-width-one-half">
       <img src="assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
     </div>
   </div>
+  <div id="opportunity-button" class="usa-grid ">
+    <div class="button-wrapper usa-width-one-half">
+      <div class="button-bg blue" style="width:60%;"></div>
+    <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
+    </div>
+  </div>
 </section>
+
 <div id="opportunity-bottom"></div>
 
 <section id="help" class="usa-section usa-content">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h1>How you can help</h1>
-      <p class="text-large">We activate creatives and community advocates locally and nationally to co-create compelling. content that engages everyday people about the importance of the 2020 Census. Check out ways people like you have made an impact.</p>
+      <p class="text-large">We activate creatives and community advocates locally and nationally to co-create compelling content that engages everyday people about the importance of the 2020 Census. Check out ways people like you have made an impact.</p>
     </div>
   </div>
 
   <div class="usa-grid">
-    <div class="usa-width-one-third">
+    <div class="usa-width-one-third help-card">
       <img src="/site/assets/img/graphics/persona-01.png" />
       <h3>Rock the Vote</h3>
       <h4>Featured Partnership</h4>
       <p>We partner with Accelerate to raise awareness of the 2020 Census for young people through pop culture, music, art and technology.</p>
-      <p><a href="/site/showcase/">Learn more about our partnership </a></p>
+      <p><a href="/site/showcase/#partner-01">Learn more about our partnership </a></p>
     </div>
-    <div class="usa-width-one-third">
+    <div class="usa-width-one-third help-card">
       <img src="/site/assets/img/graphics/persona-02.png" />
       <h3>Meghan Maury</h3>
       <h4>Policy Director, National LGBTQ Task Force</h4>
       <p>The Census Accelerate team brought together about 75 people to think, dream, and design together… The event had given us more than just new materials to use — it left us feeling empowered to create.</p>
-      <p><a href="/site/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
+      <p><a href="/site/get-involved/attend-a-create-a-thon/">Learn more about Creatives For The Count</a></p>
     </div>
-    <div class="usa-width-one-third">
+    <div class="usa-width-one-third" help-card="">
       <img src="/site/assets/img/graphics/persona-03.png" />
       <h3>Tino Ortega</h3>
       <h4>Local Artist in El Paso, TX</h4>
-      <p>We’re getting the community together to gain insight into what our community wants to hear [about] how to get people involved in the census. It’s important to have artists here to mirror the community. </p>
+      <p>We’re getting the community together to gain insight into what our community wants to hear [about] how to get people involved in the census. It’s important to have artists here to mirror the community.</p>
       <p><a href="https://www.youtube.com/watch?v=3SNMCec7cWs" target="_blank">Hear more about his experience</a></p>
     </div>
   </div>
 </section>
 
 <div id="impact-bg">
-  <img src="/site/assets/img/backgrounds/blue-yellow.svg" />
+  <?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="100%" height="auto" viewBox="0 0 1440 1128" preserveAspectRatio="xMinYMax slice" xmlns="http://www.w3.org/2000/svg">
+<title>Group 2</title>
+<desc>Created with Sketch.</desc>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(0 -2743)" fill-rule="nonzero">
+<g transform="translate(-2 1512)">
+<g transform="translate(0 1230)">
+<g transform="translate(0 .009721)">
+<path d="m1442 1126.4c-495.21 21.13-880.88-96.51-848.07-248.3 32.06-148.23 432.99-1293.2 848.03-621.71l0.03911 870.01z" fill="#F7C636" />
+<g transform="translate(0 .99028)" fill="#004280">
+<path d="m1098.9 158.39c-215.79-105.33-620.36-166-1096.9-157.62l-2 923.92c321.89 132.3 705.01 198.03 1149.4 197.2-342.5-26.228-578.09-124.24-552.3-243.53 34.43-159.17 710.93-131.91 750.93-388.06 12.44-79.57-33.29-226.57-249.07-331.91z" />
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+
 </div>
 <section id="impact" class="usa-section usa-content">
   <div class="usa-grid">
@@ -313,7 +327,7 @@
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <p>Some of our amazing collaborators</p>
-      <ul class="coil-team-list">
+      <ul class="partner-list">
 
   <li><img src="/site/assets/img/partner-logos/microsoft.svg" alt="Microsoft" /></li>
 
@@ -373,7 +387,7 @@
         <div class="card">
           <img src="/site/assets/img/graphics/partner-with-us.svg" />
           <h3>Partner With Us</h3>
-          <p>Are you looking for a tangible way to make a large-scale impact within a community you care about? We work with the entertainment, media and creative industries to introduce the importance of the 2020 Census into pop culture.</p>
+          <p>Are you looking for a tangible way to make a large-scale impact within a community you care about? We work with the entertainment, media, and creative industries to introduce the importance of the 2020 Census into pop culture.</p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg yellow"></div>
@@ -385,11 +399,11 @@
         <div class="card">
           <img src="/site/assets/img/graphics/create-a-thon.svg" />
           <h3>Attend a Create-a-thon</h3>
-          <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census in an engaging workshop setting.  </p>
+          <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census. </p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg red"></div>
-        <a class="usa-button usa-button-big usa-button-primary" href="/site/get-involved/attend-a-create-a-thon/">Upcoming Events</a>
+        <a class="usa-button usa-button-big usa-button-primary" href="/site/get-involved/attend-a-create-a-thon/#upcoming-events">Upcoming Events</a>
         </div>
       </div>
       <div id="card-03" class="usa-width-one-third card-wrapper">
@@ -397,7 +411,7 @@
         <div class="card">
           <img src="/site/assets/img/graphics/ambassador.svg" />
           <h3>Become an Ambassador</h3>
-          <p>Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations.</p>
+          <p>Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations to counter disinformation.</p>
         </div>
         <div class="button-wrapper">
           <div class="button-bg blue"></div>
@@ -436,22 +450,24 @@
       <div class="usa-footer-logo usa-width-one-third">
         
         
-        <h2 class="usa-footer-logo-heading">America's Seed Fund</h2>
+        <h2 class="usa-footer-logo-heading">Census Accelerate</h2>
         
         
         <address>
-          <p><a href="https://www.nsf.gov/">National Science Foundation</a><br />
-2415 Eisenhower Ave.<br />
-Alexandria, VA 22314 USA</p>
+          <p><a href="https://www.census.gov/">US Census Bureau</a><br />
+4600 Silver Hill Rd<br />
+Washington, DC 20233-3700</p>
 
         </address>
         
       <p>
-          Tel: (703) 292-8050<br>
-          FIRS: (800) 877-8339  | TDD: (800) 281-8749
+        <!-- No number
+          Tel: <br>
+          FIRS:   | TDD: 
+          -->
         </p>
         <p>
-           <a href="https://github.com/18F/nsf-sbir/issues/new">Report an issue</a>
+           <a href="https://github.com/census-coil/accelerate/issues/new">Report an issue</a>
         </p>
       </div>
       <div class="usa-width-one-third">
@@ -471,32 +487,20 @@ Alexandria, VA 22314 USA</p>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="/site/portfolio/">
-                    Portfolio
-                  </a>
-                </li>
-                
-                <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="/site/apply/">
-                    Apply for funding
-                  </a>
-                </li>
-                
-                <li class="usa-footer-primary-content">
                   <a class="usa-footer-primary-link" href="/site/showcase/">
                     Showcase
                   </a>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="/site/press/">
-                    For Press
+                  <a class="usa-footer-primary-link" href="/site/get-involved/attend-a-create-a-thon/#upcoming-events">
+                    Upcoming Events
                   </a>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="/site/contact/">
-                    Contact us
+                  <a class="usa-footer-primary-link" href="/site/get-involved/partner-with-us/#overview">
+                    Contact Us
                   </a>
                 </li>
                 
@@ -509,38 +513,26 @@ Alexandria, VA 22314 USA</p>
               <ul class="usa-unstyled-list flex-list ">
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.usa.gov/">
-                    USA.gov
+                  <a class="usa-footer-primary-link" href="https://opportunity.census.gov/coil.html">
+                    About COIL
                   </a>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.nsf.gov/policies/privacy.jsp">
-                    Privacy
+                  <a class="usa-footer-primary-link" href="https://www.census.gov/">
+                    US Census Bureau
                   </a>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.nsf.gov/policies/foia.jsp">
-                    FOIA
+                  <a class="usa-footer-primary-link" href="https://2020census.gov/">
+                    Official 2020 Census Site
                   </a>
                 </li>
                 
                 <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.nsf.gov/about/">
-                    About NSF
-                  </a>
-                </li>
-                
-                <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.nsf.gov/oig/">
-                    Inspector General
-                  </a>
-                </li>
-                
-                <li class="usa-footer-primary-content">
-                  <a class="usa-footer-primary-link" href="https://www.sbir.gov/">
-                    SBIR.gov
+                  <a class="usa-footer-primary-link" href="https://2020census.gov/en/partners.html">
+                    Partnership Materials
                   </a>
                 </li>
                 
@@ -548,6 +540,7 @@ Alexandria, VA 22314 USA</p>
             </nav>
         
       </div>
+      <!-- Add links and subscribe button
       <div class="usa-width-one-third">
         
         <h3 class="usa-footer-contact-heading">Stay in touch</h3>
@@ -566,6 +559,7 @@ Alexandria, VA 22314 USA</p>
         
         
       </div>
+      -->
     </div>
   </div>
   

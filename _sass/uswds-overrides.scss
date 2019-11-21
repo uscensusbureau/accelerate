@@ -78,6 +78,7 @@ ol {
   }
 }
 
+
 // small screen nav - top nav
 .usa-menu-btn {
   min-width: auto;
@@ -115,7 +116,12 @@ ol {
 }
 
 .usa-section {
-  padding-top: $space-l;
+  padding: 5rem $space-s $space-m $space-s;
+  @include media($large-screen) {
+    padding: $space-l 0 0 0;
+  }
+
+
 }
 
 button,
@@ -230,11 +236,19 @@ button:visited,
 }
 
 .usa-accordion-button {
-  width: 90%;
+  width: 100%;
+  @include media($large-screen) {
+    width: 90%;
+    line-height: inherit;
+  }
+  line-height: 2.5rem;
 }
 
 .usa-accordion-content {
-  width: 90%;
+  width: 100%;
+  @include media($large-screen) {
+    width: 90%;
+  }
   p {
     margin-bottom: $space-l;
   }
