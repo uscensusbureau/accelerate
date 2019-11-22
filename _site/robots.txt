@@ -1,1 +1,1 @@
-Sitemap: https://census-coil.github.io//accelerate/sitemap.xml
+Sitemap: http://0.0.0.0:4000/site/sitemap.xml
