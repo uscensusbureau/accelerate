@@ -34,7 +34,7 @@ hero:
     <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
     </div>
   </div>
-</section>
+</section> 
 
 <div id="opportunity-bottom"></div>
 
