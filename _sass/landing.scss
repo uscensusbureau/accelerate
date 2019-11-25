@@ -137,6 +137,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   @include media($large-screen) {
+    text-align: left;
     position: relative;
     background-color: transparent;
     background-repeat: no-repeat;
