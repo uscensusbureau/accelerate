@@ -1,11 +1,11 @@
-# Census Open Innovation Labs 
-This is the home of Census Open Innovation Lab's website
+# Census Open Innovation Labs
+This is the home of Census Accelerate's website.
 
 ## Getting started
 
-This project is based off of https://github.com/18F/nsf-sbir.git 
+This project is based off of https://github.com/18F/nsf-sbir.git
 
-Most of the documentation can be found in the NSF **[wiki](https://github.com/18F/nsf-sbir/wiki)**. 
+Most of the documentation can be found in the NSF **[wiki](https://github.com/18F/nsf-sbir/wiki)**.
 
 
 ### Set up the site locally
@@ -66,4 +66,3 @@ To get it working, do the following:
     ```sh
     pa11y-ci http://localhost:4000/[name of link]
     ```
-
