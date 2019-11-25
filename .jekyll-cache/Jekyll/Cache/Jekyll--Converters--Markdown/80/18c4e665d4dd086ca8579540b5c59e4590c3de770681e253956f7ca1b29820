@@ -1,9 +1,0 @@
-I"/
-<p>The primary way to use both site and blog-specific images is to directly call the image path in an <code class="highlighter-rouge">img</code> tag.</p>
-
-<ul>
-  <li>The `` insures that the path is relative to the root of the directory.</li>
-  <li>Ensure that each image has <code class="highlighter-rouge">alt</code> text for <a href="https://www.w3.org/TR/WCAG20-TECHS/H37.html">improved site accessibility</a>.</li>
-  <li>If the image is presentational only, empty alt text can be added, like so: <code class="highlighter-rouge">alt=""</code>.</li>
-</ul>
-:ET
