@@ -45,17 +45,15 @@ In just a few hours, creators and organizations of all kinds work together to ge
 
 [Learn more about Creatives For The Count]({{site.baseurl}}/get-involved/attend-a-create-a-thon/)
 </div>
-</div>
 
-<div class="usa-grid">
   <div class="usa-width-one-whole">
     {% include memes.html %}
     <div class="button-wrapper">
-    <a class="usa-button usa-button-big usa-button-primary" href="http://www.creativesforthecount.org/" target="_blank">See more co-created messages</a>
+    <a class="usa-button usa-button-big usa-button-primary bottom-space" href="http://www.creativesforthecount.org/" target="_blank">See more co-created messages</a>
     </div>
   </div>
 </div>
-</div>
+
 
 <div id="past-events">
 <div class="usa-section usa-content usa-grid">
