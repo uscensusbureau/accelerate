@@ -128,6 +128,9 @@
   z-index: 5;
   @include media($large-screen) {
     display: initial;
+    background: linear-gradient(to bottom, transparent 23%, $color-navy 23%) no-repeat;
+    height: 113rem;
+    width: 100%;
   }
 }
 
