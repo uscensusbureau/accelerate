@@ -2,6 +2,11 @@ html,
 body {
   color: $color-base;
   background-color: transparent;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
 }
 
 p,
