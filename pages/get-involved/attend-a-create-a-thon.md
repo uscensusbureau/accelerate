@@ -14,7 +14,7 @@ hero:
 
 ---
 
-<section class="usa-section usa-content">
+<section class="usa-section usa-content"> 
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Join Creatives For The Count
 Create-a-thons bring people together to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
