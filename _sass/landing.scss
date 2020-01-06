@@ -127,7 +127,14 @@
   height: auto;
   z-index: 5;
   @include media($large-screen) {
-    display: initial;
+    display: block;
+    background: linear-gradient(to bottom, transparent 23%, $color-navy 23%) no-repeat;
+    height: 113rem;
+    width: 100%;
+  }
+  svg {
+    width:100%;
+    height:100%;
   }
 }
 

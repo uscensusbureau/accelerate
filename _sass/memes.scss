@@ -29,11 +29,12 @@
 .meme-container-l {
   columns: 4 200px;
   column-gap: 2rem;
+  @include media($large-screen) {
+    margin-top: 5rem !important;
+    margin-bottom: 3rem;
+  }
   img {
     margin-bottom: 2rem;
-    @include media($large-screen) {
-      margin-bottom: 10rem;
-    }
   }
 }
 
