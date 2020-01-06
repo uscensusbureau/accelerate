@@ -3,14 +3,14 @@
   image: nyc.png
   alt: New York Create-a-thon
   date: January 22, 2020
-  desc: We're working with the Children's Leadership Council and NYC Media Lab to organize a create-a-thon focused on counting young children.
-  link: https://www.google.com/
+  desc: We're working with the Partnership for America's Children and NYC Media Lab to organize a create-a-thon focused on counting young children.
+  # link: https://www.google.com/
 - city: Pasadena, CA
   image: pasadena.png
   alt: Pasadena, California Create-a-thon
   date: February 7, 2020
   desc: We're partnering with <a href="https://designmattersatartcenter.org/" target="_blank">Designmatters</a> at Art Center College of Design to develop a student-led create-a-thon.
-  link: https://www.google.com/
+  # link: https://www.google.com/
 #-  city: Seattle, WA
   # image: seattle.png
   # alt: Seattle Create-a-thon
