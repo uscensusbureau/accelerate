@@ -30,23 +30,12 @@
 
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155922885-1"></script>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-ga('create', 'UA-33523145-1', 'auto');
-ga('create', 'UA-48605964-48', 'auto', 'seedfundTracker');
-ga('send', 'pageview');
-ga('seedfundTracker.send', 'pageview');
-
-</script>
-<script type="text/javascript">
-function currentAwards(a1) {
-window.open('https://www.nsf.gov/awardsearch/advancedSearchResult?PIId=&PIFirstName=&PILastName=&PIOrganization=&PIState=&PIZip=&PICountry=&ProgOrganization=&ProgEleCode=5373%2C+1591%2C+5371%2C+1505&BooleanElement=Any&ProgRefCode=&BooleanRef=All&Program=&ProgOfficer=&Keyword=' + a1 + '&AwardNumberOperator=&AwardAmount=&AwardInstrument=&ActiveAwards=true&OriginalAwardDateOperator=&StartDateOperator=&ExpDateOperator=',   'a1window');
-}
-function allAwards(a1) {
-window.open('https://www.nsf.gov/awardsearch/simpleSearchResult?queryText=' + a1 + '&ActiveAwards=true',   'a1window');
-}
+  gtag('config', 'UA-155922885-1');
 </script>
