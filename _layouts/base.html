@@ -5,9 +5,15 @@
   <head>
     {% include meta.html %}
     {% include styles.html %}
-    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
-    <!-- TODO: Consider gaining this for COIL too -->
-    <!-- <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NSF" id="_fed_an_ua_tag"></script> -->
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155922885-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-155922885-1');
+    </script>
   </head>
 
   <body class="{{ layout.class }} page-{{ page.title | slugify }} {{ page.class }} {% if page.section_image %} page-background {% endif %} {% if page.hero.image %} page-background {% endif %}"
