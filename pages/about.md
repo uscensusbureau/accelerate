@@ -89,7 +89,7 @@ We’re a group of purpose-driven technologists, creatives and data nerds who be
 # An Initiative of Census Open Innovation Labs
 COIL’s multifunctional team implements, executes and institutionalizes modern, user-centered methods and innovative approaches to collaboration and partner engagements to reach a complete and accurate count for the 2020 Census and increase awareness, use and adoption of census data for the public.  
 
-<a class="usa-button usa-button-big usa-button-primary" href="https://opportunity.census.gov/coil.html" target="_blank">Learn more</a>
+<a class="usa-button usa-button-big usa-button-primary" href="https://opportunity.census.gov/coil" target="_blank">Learn more</a>
 <div class="divider"></div>
 </div>
 
