@@ -47,7 +47,7 @@ People to be accounted for in the 2020 Census
 #### We’re finding creative ways to help
 We match creatives with community-based census outreach efforts to generate innovative content that speaks to hard-to-count communities about why their participation matters.
 <br><br>
-Led by the [Census Open Innovation Labs](https://opportunity.census.gov/coil.html) at the U.S. Census Bureau, Accelerate works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure everyone in our country, regardless of location, income, race or ethnicity, is represented in the 2020 Census.
+Led by the [Census Open Innovation Labs](https://opportunity.census.gov/coil) at the U.S. Census Bureau, Accelerate works through content development sprints, partnerships, and events to bring together creatives, technologists, civic leaders and community organizers to ensure everyone in our country, regardless of location, income, race or ethnicity, is represented in the 2020 Census.
 <div class="divider"></div>
 </div>
 <div class="usa-width-three-fourths testimonial" markdown="1">
