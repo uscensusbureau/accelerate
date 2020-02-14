@@ -18,14 +18,18 @@ accordion:
   list:
   - item: American Indian and Alaskan Native
   - item: Black or African American
-  - item: Chinese - Cantonese and Mandarin
+  - item: Asian
   - item: Low Internet Proficiency
-  - item: LGBTQ
-  - item: Middle Eastern and Pacific Islander (NHPI)
-  - item: Spanish (U.S Mainland)
-  - item: Vietnamese
-  - item: Young and Mobile - Renters, Houseless
+  - item: LGBTQI+
+  - item: Middle Eastern and North African
+  - item: Rural
+  - item: Hispanic/Latinx
+  - item: Native Hawaiian and Pacific Islander
+  - item: Young and Mobile
   - item: Families with Kids Under 5
+  - item: Renters
+  - item: People experiencing homelessness
+
 ---
 
 <section class="usa-section usa-content">
@@ -63,9 +67,9 @@ Meghan Maury, Policy Director, LGBTQ Taskforce
 The Decennial Census is a Constitutionally-mandated count of every person living in the United States, once each decade. This population count is used to determine the number of seats each state gets in the U.S. House of Representatives and how to distribute over $675 billion of annual federal funds to states, cities, and local communities for critical infrastructure and services such as housing, highways, schools, hospitals, and more.
 <br><br>
 #### New Opportunities New Challenges
-Our next Decennial Census begins on April 1, 2020. This census will count an increasingly diverse and growing population of about 330 million people in more than 140 million housing units, presenting new challenges.
+Our next Decennial Census begins in March 2020. This census will count an increasingly diverse and growing population of about 330 million people in more than 140 million housing units, presenting new challenges. Between March 12 and March 20, invitations to participate in the 2020 Census will start arriving in households across the country.
 <br><br>
-This census is the first ever “digital-first” census, which means there’s now an option to fill out each household census online.
+This census is the first ever “digital-first” census, which means there’s now an option to respond to the census online or by phone, in addition to the traditional paper form.
 <br><br>
 The media landscape has changed radically in the last 10 years. With the rise of social news and media fragmentation, there’s a need for more accurate, engaging content on media channels that people use the most in 2020.
 <div class="divider"></div>
