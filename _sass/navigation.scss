@@ -99,6 +99,7 @@
 
 .usa-nav,
 .usa-nav-submenu  {
+  min-width: 18rem;
   margin-top: 0;
   padding: 0;
 
@@ -108,6 +109,31 @@
       font-size: $font-size-s;
       font-weight: 500;
       text-rendering: optimizeLegibility;
+
+      &[href*='.com'],
+      &[href*='.org'],
+      &[href*='.net'],
+      &[href*='.co'],
+      &[href*='.tech'],
+      &[href*='.vc'],
+      &[href*='.gov'],
+      &.external-link {
+        background: url('../img/links/external-link-inverse.svg') 95% 40% no-repeat;
+        background-size: 16px auto;
+      }
+      @include media($large-screen) {
+        &[href*='.com'],
+        &[href*='.org'],
+        &[href*='.net'],
+        &[href*='.co'],
+        &[href*='.tech'],
+        &[href*='.vc'],
+        &[href*='.gov'],
+        &.external-link {
+          background: url('../img/links/external-link-inverse.svg') 85% 30% no-repeat;
+          background-size: 16px auto;
+        }
+      }
 
       &:hover {
         color: $color-base;
