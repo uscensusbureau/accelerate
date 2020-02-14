@@ -14,7 +14,7 @@ hero:
 
 ---
 
-<section class="usa-section usa-content"> 
+<section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Join Creatives For The Count
 Create-a-thons bring people together to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
@@ -27,9 +27,16 @@ At these engaging workshops, creative students and professionals collaborate wit
 #### Upcoming Events
 Find an event near you to help your community receive the representation and resources it depends on.
 </div>
-<div class="usa-width-one-whole">
-{% include events-upcoming.html %}
+<div class="button-wrapper usa-width-one-half">
+  <div class="button-bg yellow" style="width:45%;"></div>
+<a class="usa-button usa-button-big usa-button-primary" href="https://www.creativesforthecount.org/events/" target="_blank">View Events
+  <img src="{{site.baseurl}}/assets/img/links/external-link-inverse.svg" alt="external link" height="15" width="15">
+</a>
 </div>
+
+<!-- <div class="usa-width-one-whole">
+{% include events-upcoming.html %}
+</div> -->
 
 
 <div class="usa-width-three-fourths bottom-space" markdown="1"  id="how-it-works">

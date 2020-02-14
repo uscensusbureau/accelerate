@@ -81,6 +81,12 @@ hero:
       <p>Together, we create awesome content that resonates with communities by taking into account their specific concerns and motivations.</p>
       <h1>Trusted messengers</h1>
       <p>By sharing content through organizations trusted by the communities they serve, we motivate people to participate in the 2020 Census through messages and messengers that resonate at a deep level.</p>
+      <div class="button-wrapper usa-width-one-half">
+        <div class="button-bg yellow" style="width:72%;"></div>
+      <a class="usa-button usa-button-big usa-button-primary" href="https://www.creativesforthecount.org/gallery/" target="_blank">View Gallery
+        <img src="{{site.baseurl}}/assets/img/links/external-link-inverse.svg" alt="external link" height="15" width="15" style="margin:0;">
+      </a>
+      </div>
     </div>
     <div class="usa-width-one-half">
       <img src="{{site.baseurl}}/assets/img/graphics/instagram-example.gif" />
