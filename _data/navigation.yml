@@ -12,6 +12,8 @@
 primary:
   - text: About
     href: /about/
+  - text: Video Challenge
+    href: /video-challenge/
   - text: Showcase
     href: /showcase/
   - text: Get Involved
@@ -35,6 +37,14 @@ about:
     href: /about/#meet-the-team
   - text: An Initiative of COIL
     href: /about/#coil-initiative
+
+video-challenge:
+  - text: Background
+    href: /video-challenge/#background
+  - text: Get Out The Count - Video Challenge
+    href: /video-challenge/#accelerate-video-challenge
+  - text: Submit Your Video
+    href: /video-challenge/#submit-your-video
 
 partner:
   - text: Partner With Us
