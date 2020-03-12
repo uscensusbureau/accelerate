@@ -5,6 +5,21 @@
     margin-top: -45rem;
   }
 }
+
+#prize-banner {
+  width: 100%;
+  background-color: $color-secondary-darkest;
+  color: $color-primary-darker;
+  text-align: center;
+  padding: 10px 0;
+}
+
+  @media (max-width: 690px) {
+    #prize-banner a {
+      display:block;
+    }
+  }
+
 #video {
   width: 100%;
   height: 100%;
