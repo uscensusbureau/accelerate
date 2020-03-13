@@ -63,7 +63,7 @@
 
   <section class="usa-hero-interior usa-hero">
     <div class="usa-grid">
-      <div class="usa-width-three-fourths">
+      <div class="usa-width-three-fourths bottom-space">
         {% if hero.callout %}
           <h1 class="medium-header dark">
             {% if hero.callout.text %}
@@ -74,10 +74,9 @@
       </div>
       <div class="usa-width-one-fourth"></div>
     </div>
-    <div></div>
     {% if hero.callout.subtext %}
     <div class="usa-grid">
-      <div class="usa-width-three-fourths">
+      <div class="usa-width-seven-twelfths">
           <h2>{{ hero.callout.subtext }}</h2>
           {% endif %}
         </div>
@@ -89,7 +88,7 @@
           <p>{{ hero.callout.context }}</p>
           {% endif %}
         </div>
-        <div class="usa-width-five-twelfths"></div>
+        <div class="usa-width-seven-twelfths"></div>
     </div>
     {% if hero.callout.deadline %}
     <div class="usa-grid">
