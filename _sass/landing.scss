@@ -6,19 +6,32 @@
   }
 }
 
+
 #prize-banner {
   width: 100%;
   background-color: $color-secondary-darkest;
   color: $color-primary-darker;
   text-align: center;
   padding: 10px 0;
+  text-decoration: none !important;
+  border-bottom: none;
 }
 
-  @media (max-width: 690px) {
-    #prize-banner a {
-      display:block;
-    }
+@media (max-width: 690px) {
+  #prize-banner a {
+    display:block;
+    text-decoration: none !important;
+    border-bottom: none;
   }
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none !important;
+    border-bottom: none;
+}
 
 #video {
   width: 100%;
