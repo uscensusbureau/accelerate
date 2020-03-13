@@ -56,6 +56,50 @@
     </div>
     </section>
 
+  {% elsif hero.color == "multi" %}
+  <div class="usa-hero-interior-bg">
+    {% include svg/stacked-prize-background.svg %}
+  </div>
+
+  <section class="usa-hero-interior usa-hero">
+    <div class="usa-grid">
+      <div class="usa-width-three-fourths bottom-space">
+        {% if hero.callout %}
+          <h1 class="medium-header dark">
+            {% if hero.callout.text %}
+              <span>{{ hero.callout.text }}</span>
+            {% endif %}
+          </h1>
+        {% endif %}
+      </div>
+      <div class="usa-width-one-fourth"></div>
+    </div>
+    {% if hero.callout.subtext %}
+    <div class="usa-grid">
+      <div class="usa-width-seven-twelfths">
+          <h2>{{ hero.callout.subtext }}</h2>
+          {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
+    </div>
+    {% if hero.callout.context %}
+    <div class="usa-grid">
+      <div class="usa-width-five-twelfths">
+          <p>{{ hero.callout.context }}</p>
+          {% endif %}
+        </div>
+        <div class="usa-width-seven-twelfths"></div>
+    </div>
+    {% if hero.callout.deadline %}
+    <div class="usa-grid">
+      <div class="usa-width-seven-twelfths">
+          <h2>{{ hero.callout.deadline }}</h2>
+          {% endif %}
+        </div>
+        <div class="usa-width-five-twelfths"></div>
+    </div>
+    </section>
+
 
   {% elsif hero.color == "red" %}
   <div class="usa-hero-interior-bg">
