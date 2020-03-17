@@ -1,0 +1,30 @@
+<!-- Twitter and Open Graph cards -->
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="og:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title }}">
+
+<meta property="og:url" content="{{ site.url }}/{{page.permalink}}" />
+
+{% if page.description %}
+  <meta name="twitter:description"
+    content="{{ page.meta_description }}">
+  <meta name="og:description"
+    content="{{ page.meta_description }}">
+{% else %}
+  <meta name="twitter:description"
+    content="{{ page.content | strip_html | xml_escape
+      | truncate: 200 }}">
+{% endif %}
+
+{% if page.image.thumb %}
+  <meta name="twitter:image"
+    content="{{ site.baseurl }}/{{ page.image.thumb }}">
+  <meta name="og:image"
+    content="{{ site.baseurl }}/{{ page.image.thumb }}">
+{% else %}
+  <meta name="twitter:image"
+    content="{{ site.baseurl }}/assets/img/graphics/video-prize-preview.png">
+  <meta name="og:image"
+    content="{{ site.baseurl }}/assets/img/graphics/video-prize-preview.png">
+{% endif %}
