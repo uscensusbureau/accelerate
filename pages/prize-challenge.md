@@ -19,7 +19,7 @@ hero:
 ---
 <section class="usa-section usa-content">
 
-<div class="usa-width-three-fourths bottom-space" markdown="1"  id="our-story" >
+<div class="usa-width-three-fourths bottom-space" markdown="1"  id="background" >
 # What is Census Accelerate?
 
 Census Accelerate, a program of the [Census Open Innovation Labs](https://opportunity.census.gov/coil), brings together designers, content creators, filmmakers, and community representatives to generate compelling digital content focusing on helping communities most at risk of being undercounted in the [2020 Census](http://2020census.gov/).
@@ -95,13 +95,76 @@ Take a look at helpful messaging, guidance and specific talking points to increa
 
 Submissions will be reviewed by government, media & tech industry, and non-profit leaders on categories including potential for impact, virality, technical quality, and creativity.  
 
-</div>
-
-<div class="usa-width-three-fourths top-space bottom-space" markdown="1">
-
 #### Questions?
 Contact us at [census.accelerate@census.gov](mailto:census.accelerate@census.gov)
 </div>
 
-<div class="usa-width-three-fourths top-space bottom-space">
+<div class="usa-width-three-fourths top-space bottom-space" markdown="1" id="faq">
+
+# FAQ’s
+
+### 1. How has the COVID-19 affected the Census or this Prize Challenge?
+
+Most people have already received a mailer from the U.S. Census Bureau with information about how to complete the Census online at [2020census.gov](http://2020census.gov/).  Encourage those who have received their invitation to respond online as soon as they receive it.
+
+**Key message to incorporate into videos: It has never been easier to respond on your own, either online, by phone, or by mail, without having to meet a census taker.**
+
+The U.S. Census Bureau has released statements on its [response to COVID-19](https://www.census.gov/newsroom/press-releases/2020/statement-coronavirus.html), and [announced modifications to Group Quarters operations](https://www.census.gov/newsroom/press-releases/2020/modifying-2020-operations-for-counting-college-students.html), which counts people in nursing homes, college dorms, prisons and other institutional living facilities. Please check back [here for additional news and details](https://www.census.gov/newsroom/press-kits/2020/covid-19-census-bureau.html) on the 2020 Census and COVID-19.
+
+By March 20th, most households will receive the first of several mailed invitations to respond. **Everyone is encouraged to respond online, via phone or by mail, as soon as they receive their invitation** with the provided instructions and web address for the online questionnaire ([my2020census.gov](http://my2020census.gov/)). Filling out the census now will reduce the chances of an enumerator knocking on your door in the future.
+
+### 2. Which hashtag or URL should I direct people to? 
+
+Please direct viewers to [2020census.gov](http://2020census.gov/), or to call 1-844-330-2020 (English) or 1-844-468-2020 (Spanish).
+
+Some optional hashtags are: #ShapeOurFuture  #standupbecounted #2020Census #countmein #icount #wecount #cuentaconmigo #cometoyourcensus
+
+### 3. When are the submissions due?
+
+Submissions are due April 11th at 2:59am EDT.
+
+### 4. In what format should the videos be submitted?
+
+Videos must be 30 seconds to 3 minutes in length, and must be in a compatible YouTube format with the proper codecs: WebM files, MPEG4, 3GPP, MOV, AVI, MPEGPS, WMV, FLV with suggested aspect of 16:9.
+
+### 5. Do I need to be a pro filmmaker to submit a video?
+
+No! As long as videos are accurate, engaging, and meet the requirements on [challenge.gov](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/), we encourage both professional and amateur content creators to submit videos. That includes high school and college students, too!
+
+### 6. I’m a student. Can I submit work for the grand prize and student prize opportunity?
+
+Yes, you are eligible for both. We will ask you for proof of student status if you win the student prize.
+
+### 7. How old do I need to be to participate? 
+
+You must be at least 13 years of age to apply; minors under the age of 18 may apply but must submit a consent form signed by a parent or guardian. You can obtain one by emailing [census.accelerate@census.gov](mailto:census.accelerate@census.gov).
+
+### 8. Can I share the video publicly during the submission period? 
+
+Yes, as long as it’s accurate and follows our messaging guidance, we encourage you to share your video as widely as possible.
+
+### 9. How can I make sure my video is accurate? 
+
+Please take a look at [key facts and resources here](https://www.challenge.gov/assets/document-library/2020-Census-Resource-Guide-GOTC-Video-Prize-Challenge.pdf). You can also visit [2020census.gov](http://2020census.gov/) for additional factsheets and information. We encourage you to direct any questions or clarifications to [census.accelerate@census.gov](mailto:census.accelerate@census.gov). We will also offer a webinar where you can learn more and ask questions. Stay tuned to this webpage for details, or email us to make sure you get the invite!
+
+### 10. Do I need to upload my video to YouTube?
+
+YouTube is the preferred platform for sharing, but you may use a different platform that is compliant with standards listed on [challenge.gov](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/), and wherever you believe your video will be most visible. You MUST submit a complete application, including answers to the required questions and a link to your video. Please see the “How to Enter” section on [challenge.gov](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/).
+
+### 11. Can I submit more than one video?
+
+Yes.
+
+### 12. When will the winners be announced?
+
+Winners will be announced in May.
+
+### 13. Can I apply with my company or creative group?
+
+Yes. In the case of a private entity, it must be incorporated in and maintain a primary place of business in the United States, and in the case of an individual, whether participating singly or in a group, must be a citizen or permanent resident of the United States or U.S. territories.
+
+Applicants may not be a Federal entity or Federal employee acting within the scope of their employment or an employee of the U.S. Census Bureau. View the full eligibility rules on [challenge.gov](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/).
+</div>
+
+<div class="usa-width-three-fourths top-space bottom-space" markdown="1">
 </div>
