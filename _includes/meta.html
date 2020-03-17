@@ -24,7 +24,13 @@
 
 
 <!-- OG/Facebook cards -->
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://accelerate.census.gov/video-challenge/">
 <meta name="og:title"   content="{{ page.title }}">
+<meta name="og:card"  content="summary_large_image">
+<meta name="og:image" content="https://accelerate.census.gov/assets/img/graphics/video-prize-preview.png">
 
 {% if page.description %}
 <meta name="og:description" content="{{ page.description }}">
@@ -32,10 +38,4 @@
 <meta name="og:description" content="{{ site.description }}">
 {% endif %}
 
-{% if page.image %}
-<meta name="og:card"  content="summary_large_image">
-<meta name="og:image" content="https://accelerate.census.gov/assets/img/graphics/video-prize-preview.png">
-{% else %}
-<meta name="og:card"  content="summary">
-{% endif %}
-<!-- end of Twitter cards -->
+<!-- end of OG/FB cards -->
