@@ -16,8 +16,26 @@
 
 {% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}">
+<meta name="twitter:image" content="https://accelerate.census.gov/assets/img/graphics/video-prize-preview.png">
 {% else %}
 <meta name="twitter:card"  content="summary">
+{% endif %}
+<!-- end of Twitter cards -->
+
+
+<!-- OG/Facebook cards -->
+<meta name="og:title"   content="{{ page.title }}">
+
+{% if page.description %}
+<meta name="og:description" content="{{ page.description }}">
+{% else %}
+<meta name="og:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="og:card"  content="summary_large_image">
+<meta name="og:image" content="https://accelerate.census.gov/assets/img/graphics/video-prize-preview.png">
+{% else %}
+<meta name="og:card"  content="summary">
 {% endif %}
 <!-- end of Twitter cards -->
