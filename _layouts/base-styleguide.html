@@ -39,6 +39,25 @@
 
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 
+<!-- Social media meta data for accelerate prize
+================================================== -->
+
+{% if page.title === "Get Out the Count Video Challenge" %}
+  <meta name="title" content="Get Out the Count Video Challenge">
+  <meta name="description" content="Make a video about the 2020 Census and you could win up to $30,000! ">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://accelerate.census.gov/video-challenge/">
+  <meta property="og:title" content="Get Out the Count Video Challenge">
+  <meta property="og:description" content="Make a video about the 2020 Census and you could win up to $30,000! ">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/graphics/video-prize-preview.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://accelerate.census.gov/video-challenge/">
+  <meta property="twitter:title" content="Get Out the Count Video Challenge">
+  <meta property="twitter:description" content="Make a video about the 2020 Census and you could win up to $30,000! ">
+  <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/graphics/video-prize-preview.png">
+(% endif %)
 
 <!-- Favicons
 ================================================== -->
