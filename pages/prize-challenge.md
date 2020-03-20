@@ -61,7 +61,7 @@ The U.S. Census Bureau will be awarding a total of $50,000 for video submissions
   <li class="larger">$10,000 — Student Prize</li>
 </ul>
 
-<b>Submissions close on April 17 at 2:59am EST with winners announced in May.</b>
+<b>Submissions close on April 17 at 11:59pm EST with winners announced in May.</b>
 
 [View brief, timeline & details here.](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/)
 
