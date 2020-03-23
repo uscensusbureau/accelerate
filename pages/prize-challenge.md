@@ -13,7 +13,7 @@ hero:
     text: Calling all content creators, the Census needs you.
     subtext: How making a video about the 2020 Census could win you up to $30,000
     context: Census Accelerate, an initiative within the innovation arm of the U.S. Census Bureau, has launched its first-ever video prize competition to reward the most engaging, impactful and informative videos about the 2020 Census - with a total of $50,000 in cash prizes.
-    deadline: Submissions are due on April 17th at 2:59am EST
+    deadline: Submissions are due on April 17th at 11:59pm EST
 
 
 ---
@@ -121,7 +121,7 @@ Some optional hashtags are: #ShapeOurFuture  #standupbecounted #2020Census #cou
 
 ### 3. When are the submissions due?
 
-Submissions are due April 11th at 2:59am EDT.
+Submissions are due April 17th at 11:59pm EST.
 
 ### 4. In what format should the videos be submitted?
 
