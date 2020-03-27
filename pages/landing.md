@@ -13,6 +13,9 @@ hero:
   button:
     text: Get involved
     href: /#join
+  button-cta:
+    text: Respond to the 2020 Census
+    href: https://2020census.gov/
 ---
 
 <div id="content-wrapper">

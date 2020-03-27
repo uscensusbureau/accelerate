@@ -20,9 +20,16 @@
             <p class="usa-hero-callout-subtext">{{ hero.callout.subtext }}</p>
             {% endif %}
         {% if hero.button %}
+        <div class="button-wrapper" style="margin-right: 5%;">
+          <div class="button-bg yellow"></div>
+          <a class="usa-button usa-button-big usa-button-primary" href="{{ hero.button.href | relative_url }}">{{ hero.button.text }}</a>
+        </div>
+        {% endif %}
+
+        {% if hero.button-cta %}
         <div class="button-wrapper">
-          <div class="button-bg yellow" style="width:30%"></div>
-        <a class="usa-button usa-button-big usa-button-primary" href="{{ hero.button.href | relative_url }}">{{ hero.button.text }}</a>
+          <div class="button-bg blue"></div>
+          <a class="usa-button usa-button-big usa-button-primary" style="padding-left:20px;" target="_blank" href="{{ hero.button-cta.href }}">{{ hero.button-cta.text }}&nbsp <img src="{{site.baseurl}}/assets/img/links/external-link-inverse.svg" alt="external link" height="12" width="12" style="padding-top:2px"></a>
         </div>
         {% endif %}
         </div>
