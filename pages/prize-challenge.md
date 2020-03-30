@@ -76,7 +76,7 @@ The U.S. Census Bureau will be awarding a total of $50,000 for video submissions
 
 Take a look at helpful messaging, guidance and specific talking points to increase the accuracy of the video content.
 
-<a class="usa-button usa-button-big usa-button-primary" href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/" target="_blank">Rules & Guidelines</a>
+<a class="usa-button usa-button-big usa-button-primary" href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/" onclick="captureOutboundLink('https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/'); return false;" target="_blank">Rules & Guidelines</a>
 
 #### Creative Examples:
 
