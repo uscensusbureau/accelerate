@@ -48,7 +48,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
 
           <p style="font-weight: bold;">Examples of partner- and user-generated content through the lens of Covid-19</p>
 
-          <p style="font-style: italic;">From <a href="http://cometoyourcensus.us">SF Art + Action</a></p>
+          <p style="font-style: italic;">From <a href="http://cometoyourcensus.us" target="_blank">SF Art + Action</a></p>
 
           <img style="margin-bottom: 5%;" src="{{site.baseurl}}/assets/img/memes/netflix-and-fill.png" alt="Netflix and Fill (Out your census form)">
 
