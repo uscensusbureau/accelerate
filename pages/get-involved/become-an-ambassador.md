@@ -41,19 +41,30 @@ Ready to lead your own organizational or brand production partnership? We’re h
       <li><div class="step-circle">2</div>
         <div class="text">
           <h4 id="create">Create your own content</h4>
-          <p>We offer resources to help you work independently at your own pace to create content that makes hard-to-count community organizations more effective. Share your content so people across the U.S. can use what you’ve made.</p><br>
+          <p>Want to make your own census content? A team of <a href="#">Creative Ambassadors</a> in Portland, OR, put together a toolkit to guide you. Check it out, post your content in the <a href="https://www.creativesforthecount.org/gallery/" target="_blank">Creatives for the Count content repository</a> if you want others to use it, or just share it in your own social media channels.</p>
+          <p>Remember to strike the right tone given COVID-19. The most important message: it has never been easier to <a href="http://2020census.gov" target="_blank">respond to the census</a> on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
 
-          <p>See the <a href="https://2020census.gov/en/partners/outreach-materials.html" target="_blank">2020 Census Outreach materials</a></p>
+          <p class="text-small">Please <a href="https://2020census.gov/en/news-events/press-kits/covid-19.html" target="_blank">click here for ongoing updates on COVID-19</a> from the Census Bureau</p><br>
 
-          <p>Check out the latest <a href="https://2020census.gov/en/partners/psa-toolkit.html" target="_blank">2020 Census PSA's </a>for inspiration</p>
+          <p style="font-weight: bold;">Examples of partner- and user-generated content through the lens of Covid-19</p>
 
-          <a class="usa-button usa-button-big usa-button-secondary" href="https://www.creativesforthecount.org/gallery/" target="_blank"><span>Upload your content</span></a>
+          <p style="font-style: italic;">From <a href="http://cometoyourcensus.us">SF Art + Action</a></p>
+
+          <img style="margin-bottom: 5%;" src="{{site.baseurl}}/assets/img/memes/netflix-and-fill.png" alt="Netflix and Fill (Out your census form)">
+
+          <p style="font-style: italic;">From <a href="https://naleo.org/" target="_blank">NALEO</a> (Toolkit: <a href="https://naleo.org/COMMS/PDF/HC-Toolkit-COVID19-7.1.pdf" target="_blank">Ensuring an Accurate Count of Latinos in Census 2020 Amid COVID-19 Situation)</a>)</p>
+
+          <img style="margin-bottom: 5%; width: 45%; display:inline-block;" src="{{site.baseurl}}/assets/img/memes/wash-hands-census-2020.png" alt="Don't forget to wash your hands and respond to Census 2020! #HagaseContar">
+          <img style="width: 45%; display:inline-block;" src="{{site.baseurl}}/assets/img/memes/wash-hands-census-2020-es.png" alt="No olvide de lavarse las manos y responder al Census 2020. #HagaseContar">
+
+          <p>Want to make some content alongside a community of other creators? View our <a href="https://www.creativesforthecount.org/events/" target="_blank">line-up of virtual create-a-thons.</a></p>
+
         </div>
       </li>
       <li><div class="step-circle">3</div>
         <div class="text">
           <h4 id="respond">Respond to calls for content</h4>
-          <p>Become part of a grassroots rapid response network that responds to virtual calls for content from community organizations. We match creatives with community organizations that need content, especially in response to negative news stories or dis-information.</p>
+          <p>Become part of a grassroots rapid response network that responds to virtual calls for content from community organizations. We match creatives with community organizations that need content, especially in response evolving events and situational needs.</p>
           <a class="usa-button usa-button-big usa-button-secondary" href="http://creativesforthecount.slack.com" target="_blank"><span>Join our slack</span></a>
         </div>
       </li>

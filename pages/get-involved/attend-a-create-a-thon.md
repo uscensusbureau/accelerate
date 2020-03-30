@@ -10,21 +10,21 @@ hero:
   color: red
   callout:
     text: Attend a <br> Create-a-thon
-    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation.
+    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation. Events are now virtual.
 
 ---
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Join Creatives For The Count
-Create-a-thons bring people together to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
+Create-a-thons bring people together (currently from a physical distance) to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
 <br><br>
-At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a full day, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
+At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a weekend, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
 </div>
 
 <div class="usa-width-three-fourths bottom-space" markdown="1" id="upcoming-events">
 <div class="divider"></div>
-#### Upcoming Events
+#### Upcoming Virtual Events
 Find an event near you to help your community receive the representation and resources it depends on.
 </div>
 <div class="button-wrapper usa-width-one-half">

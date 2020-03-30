@@ -151,7 +151,7 @@ hero:
         <div class="card-bg red"></div>
         <div class="card">
           <img src="{{site.baseurl}}/assets/img/graphics/create-a-thon.svg" />
-          <h3>Attend a Create-a-thon</h3>
+          <h3>Attend a Virtual Create-a-thon</h3>
           <p>Join us for Creatives For The Count, where creatives and community advocates co-create an explosion of content about the 2020 Census. </p>
         </div>
         <div class="button-wrapper">
