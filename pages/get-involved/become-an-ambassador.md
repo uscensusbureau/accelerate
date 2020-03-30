@@ -55,7 +55,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
           <p style="font-style: italic;">From <a href="https://naleo.org/" target="_blank">NALEO</a> (Toolkit: <a href="https://naleo.org/COMMS/PDF/HC-Toolkit-COVID19-7.1.pdf" target="_blank">Ensuring an Accurate Count of Latinos in Census 2020 Amid COVID-19 Situation)</a>)</p>
 
           <img style="margin-bottom: 5%; width: 45%; display:inline-block;" src="{{site.baseurl}}/assets/img/memes/wash-hands-census-2020.png" alt="Don't forget to wash your hands and respond to Census 2020! #HagaseContar">
-          <img style="width: 45%; display:inline-block;" src="{{site.baseurl}}/assets/img/memes/wash-hands-census-2020-es.png" alt="No olvide de lavarse las manos y responder al Census 2020. #HagaseContar">
+          <img style="margin-bottom: 5%; width: 45%; display:inline-block;" src="{{site.baseurl}}/assets/img/memes/wash-hands-census-2020-es.png" alt="No olvide de lavarse las manos y responder al Census 2020. #HagaseContar">
 
           <p>Want to make some content alongside a community of other creators? View our <a href="https://www.creativesforthecount.org/events/" target="_blank">line-up of virtual create-a-thons.</a></p>
 
