@@ -10,14 +10,14 @@ hero:
   color: red
   callout:
     text: Become an Ambassador
-    subtext: Interested in making a difference on your own? Use our resources to create content that will resonate with your community and become part of a rapid response network that will support civil rights groups and community-based organizations.
+    subtext: Interested in making a difference on your own? Use these resources to create content that will resonate with your community and become part of a rapid response network that will support national and community-based organizations.
 
 ---
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Galvanize Your Community
-Ready to lead your own organizational or brand production partnership? We’re here to support you. Learn how you can become a creative ambassador for Census Accelerate.
+Ready to help your community get counted through creative content? We’re here to support you. Learn how you can become a creative ambassador for Census Accelerate.
 <div class="divider"></div>
 </div>
 
@@ -45,7 +45,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
 
           <a class="usa-button usa-button-big usa-button-secondary" href="{{site.baseurl}}/assets/files/Creatives_for_the_Count_DIY_Content_Toolkit.zip" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
 
-          <p>Remember to strike the right tone given COVID-19. The most important message: it has never been easier to <a href="http://2020census.gov" target="_blank">respond to the census</a> on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
+          <p>Remember to strike the right tone given our public health environment. The most important message: it has never been easier to <a href="http://2020census.gov" target="_blank">respond to the census</a> on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
 
           <p class="text-small">Please <a href="https://2020census.gov/en/news-events/press-kits/covid-19.html" target="_blank">click here for ongoing updates on COVID-19</a> from the Census Bureau</p><br>
 
@@ -68,7 +68,7 @@ Ready to lead your own organizational or brand production partnership? We’re h
         <div class="text">
           <h4 id="respond">Respond to calls for content</h4>
           <p>Become part of a grassroots rapid response network that responds to virtual calls for content from community organizations. We match creatives with community organizations that need content, especially in response evolving events and situational needs.</p>
-          <a class="usa-button usa-button-big usa-button-secondary" href="http://creativesforthecount.slack.com" target="_blank"><span>Join our slack</span></a>
+          <a class="usa-button usa-button-big usa-button-secondary" href="mailto:census.accelerate@census.gov" target="_blank"><span>Email us</span></a>
         </div>
       </li>
     </ul>
