@@ -34,14 +34,17 @@ Ready to lead your own organizational or brand production partnership? We’re h
             <a class="usa-button usa-button-big usa-button-secondary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
 
             <p class="text-small">Don't have access to Google Docs?<br>
-            Download the toolkit <a href="{{site.baseurl}}/assets/files/CreativesForTheCount_Toolkit.zip">here</a><br><br></p>
+            Download the toolkit <a href="{{site.baseurl}}/assets/files/Create-a-thon_Toolkit.pdf">here</a><br><br></p>
           </div>
 
       </li>
       <li><div class="step-circle">2</div>
         <div class="text">
           <h4 id="create">Create your own content</h4>
-          <p>Want to make your own census content? A team of <a href="#">Creative Ambassadors</a> in Portland, OR, put together a toolkit to guide you. Check it out, post your content in the <a href="https://www.creativesforthecount.org/gallery/" target="_blank">Creatives for the Count content repository</a> if you want others to use it, or just share it in your own social media channels.</p>
+          <p style="margin-bottom:0;">Want to make your own census content? A team of <a href="#">Creative Ambassadors</a> in Portland, OR, put together a toolkit to guide you. Check it out, post your content in the <a href="https://www.creativesforthecount.org/gallery/" target="_blank">Creatives for the Count content repository</a> if you want others to use it, or just share it in your own social media channels.</p>
+
+          <a class="usa-button usa-button-big usa-button-secondary" href="{{site.baseurl}}/assets/files/Creatives_for_the_Count_DIY_Content_Toolkit.zip" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
+
           <p>Remember to strike the right tone given COVID-19. The most important message: it has never been easier to <a href="http://2020census.gov" target="_blank">respond to the census</a> on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
 
           <p class="text-small">Please <a href="https://2020census.gov/en/news-events/press-kits/covid-19.html" target="_blank">click here for ongoing updates on COVID-19</a> from the Census Bureau</p><br>
