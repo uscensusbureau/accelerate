@@ -49,7 +49,7 @@ Ready to help your community get counted through creative content? We’re here 
 
           <p class="text-small">Please <a href="https://2020census.gov/en/news-events/press-kits/covid-19.html" target="_blank">click here for ongoing updates on COVID-19</a> from the Census Bureau</p><br>
 
-          <p style="font-weight: bold;">Examples of partner- and user-generated content through the lens of Covid-19</p>
+          <p style="font-weight: bold;">Examples of partner- and user-generated content through the lens of COVID-19</p>
 
           <p style="font-style: italic;">From <a href="http://cometoyourcensus.us" target="_blank">SF Art + Action</a></p>
 
