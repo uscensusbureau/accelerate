@@ -13,7 +13,7 @@ hero:
     text: Calling all content creators, the Census needs you.
     subtext: How making a video about the 2020 Census could win you up to $30,000
     context: Census Accelerate, an initiative within the innovation arm of the U.S. Census Bureau, has launched its first-ever video prize competition to reward the most engaging, impactful and informative videos about the 2020 Census - with a total of $50,000 in cash prizes.
-    deadline: Submissions are due on April 17th at 11:59pm EDT
+    deadline: Submissions are due on May 7, 2020 at 11:59pm EDT (NEW extended deadline)
 
 
 ---
@@ -61,7 +61,7 @@ The U.S. Census Bureau will be awarding a total of $50,000 for video submissions
   <li class="larger">$10,000 — Student Prize</li>
 </ul>
 
-<b>Submissions close on April 17 at 11:59pm EDT with winners announced in May.</b>
+<b>Submissions close on May 7 at 11:59pm EDT (extended deadline) with winners announced by early June.</b>
 
 [View brief, timeline & details here.](https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/)
 
@@ -112,6 +112,8 @@ Most people have already received a mailer from the U.S. Census Bureau with info
 The U.S. Census Bureau has released statements on its [response to COVID-19](https://www.census.gov/newsroom/press-releases/2020/statement-coronavirus.html), and [announced modifications to Group Quarters operations](https://www.census.gov/newsroom/press-releases/2020/modifying-2020-operations-for-counting-college-students.html), which counts people in nursing homes, college dorms, prisons and other institutional living facilities. Please check back [here for additional news and details](https://www.census.gov/newsroom/press-kits/2020/covid-19-census-bureau.html) on the 2020 Census and COVID-19.
 
 By March 20th, most households will receive the first of several mailed invitations to respond. **Everyone is encouraged to respond online, via phone or by mail, as soon as they receive their invitation** with the provided instructions and web address for the online questionnaire ([my2020census.gov](http://my2020census.gov/)). Filling out the census now will reduce the chances of an enumerator knocking on your door in the future.
+
+We want you to remain socially distanced and are understanding that videos will be limited to what can be produced while at home. Judges will keep that in the front of their minds.
 
 ### 2. Which hashtag or URL should I direct people to? 
 
