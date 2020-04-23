@@ -39,12 +39,10 @@ about:
     href: /about/#coil-initiative
 
 video-challenge:
-  - text: Background
-    href: /video-challenge/#background
   - text: Get Out The Count - Video Challenge
     href: /video-challenge/#accelerate-video-challenge
-  - text: Submit Your Video
-    href: /video-challenge/#submit-your-video
+  - text: Background
+    href: /video-challenge/#background
   - text: FAQ
     href: /video-challenge/#faq
 
