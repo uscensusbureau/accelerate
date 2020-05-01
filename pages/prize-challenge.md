@@ -145,7 +145,7 @@ Yes, as long as it’s accurate and follows our messaging guidance, we encourage
 
 ### 9. How can I make sure my video is accurate? 
 
-Please take a look at [key facts and resources here](https://www.challenge.gov/assets/document-library/2020-Census-Resource-Guide-GOTC-Video-Prize-Challenge.pdf). You can also visit [2020census.gov](http://2020census.gov/) for additional factsheets and information. We encourage you to direct any questions or clarifications to [census.accelerate@census.gov](mailto:census.accelerate@census.gov). We will also offer a webinar where you can learn more and ask questions. Stay tuned to this webpage for details, or email us to make sure you get the invite!
+Please take a look at [key facts and resources here]({{site.baseurl}}/assets/files/2020-Census-Resource-Guide-GOTC-Video-Prize-Challenge.pdf). You can also visit [2020census.gov](http://2020census.gov/) for additional factsheets and information. We encourage you to direct any questions or clarifications to [census.accelerate@census.gov](mailto:census.accelerate@census.gov). We will also offer a webinar where you can learn more and ask questions. Stay tuned to this webpage for details, or email us to make sure you get the invite!
 
 ### 10. Do I need to upload my video to YouTube?
 
