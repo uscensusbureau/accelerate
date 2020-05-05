@@ -13,7 +13,9 @@ class: interior
 <div class="usa-grid">
 <aside class="usa-width-one-fourth usa-layout-docs-sidenav">
   <div class="usa-section" id="{{ page.id }}">
-  {% include sidenav.html links=sidenav %}
+    {% if sidenav != "nil" %}
+      {% include sidenav.html links=sidenav %}
+    {% endif %}
 </div>
 </aside>
 

@@ -13,7 +13,11 @@ primary:
   - text: About
     href: /about/
   - text: Video Challenge
-    href: /video-challenge/
+    links:
+      - text: About the Challenge
+        href: /video-challenge/
+      - text: Meet the Judges
+        href: /video-challenge/judges/
   - text: Showcase
     href: /showcase/
   - text: Get Involved
