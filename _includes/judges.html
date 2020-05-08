@@ -1,0 +1,21 @@
+
+{% for member in site.data.judges %}
+<div class="usa-section usa-content usa-grid">
+  <div class="usa-width-one-twelfth">
+    <img src="{{site.baseurl}}/assets/img/graphics/{{ member.doodle }}.svg" alt=""/>
+  </div>
+  <div class="usa-width-one-fourth">
+    <img src="{{ site.baseurl }}/assets/img/judges/{{ member.photo }}" alt="{{ member.name }}" />
+  </div>
+  <div class="usa-width-one-half">
+    <div class="usa-width-seven-twelfths">
+      <h4 class="font-medium">{{ member.name }}</h4>
+      <p class="font-medium">{{ member.title }}</p>
+    </div>
+    <p class="usa-width-one-whole">{{ member.bio }}</p>
+  </div>
+</div>
+{% endfor %}
+
+<div class="usa-section top-space bottom-space">
+</div>
