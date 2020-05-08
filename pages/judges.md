@@ -1,6 +1,6 @@
 ---
 title: Video Prize Challenge Judges
-permalink: /video-challenge/judges
+permalink: /video-challenge/judges/
 layout: interior
 nav:
   color: light
