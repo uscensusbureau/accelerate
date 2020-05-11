@@ -14,7 +14,7 @@ hero:
     text: Calling all content creators, the Census needs you.
     subtext: How making a video about the 2020 Census could win you up to $30,000
     context: Census Accelerate, an initiative within the innovation arm of the U.S. Census Bureau, has launched its first-ever video prize competition to reward the most engaging, impactful and informative videos about the 2020 Census - with a total of $50,000 in cash prizes.
-    deadline: Submissions are due on May 7, 2020 at 11:59pm EDT (NEW extended deadline)
+    deadline: Thanks to all who submitted a video! The application period is now closed.
 
 
 ---
