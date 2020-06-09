@@ -20,10 +20,12 @@ primary:
         href: /judges/
   - text: Showcase
     href: /showcase/
+  - text: Partner With Us
+    href: /get-involved/partner-with-us/
+  - text: Virtual Create-a-thon
+    href: /get-involved/virtual-create-a-thon/
   - text: Get Involved
     links:
-      - text: Partner With Us
-        href: /get-involved/partner-with-us/
       - text: Attend a Create-a-thon
         href: /get-involved/attend-a-create-a-thon/
       - text: Become an Ambassador
@@ -63,6 +65,16 @@ create-a-thon:
     href: /get-involved/attend-a-create-a-thon/#how-it-works
   - text: Run Your Own
     href: /get-involved/attend-a-create-a-thon/#run-your-own
+
+virtual-create-a-thon:
+  - text: About
+    href: /get-involved/virtual-create-a-thon/#about
+  - text: Why Virtual
+    href: /get-involved/virtual-create-a-thon/#why-virtual
+  - text: Run Your Own
+    href: /get-involved/virtual-create-a-thon/#run-your-own
+  - text: Become An Ambassador
+    href: /get-involved/virtual-create-a-thon/#become-an-ambassador
 
 ambassador:
   - text: Overview
