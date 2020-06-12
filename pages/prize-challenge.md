@@ -38,7 +38,7 @@ The U.S. Census Bureau will be awarding a total of $50,000 for video submissions
   <li class="larger">$10,000 — Student Prize</li>
 </ul>
 
-<b>Submissions close on May 7 at 11:59pm EDT (extended deadline) with winners announced by early June.</b>
+<b>Submissions close on May 7 at 11:59pm EDT (extended deadline) with winners announced on June 24th.</b>
 
 <a onclick="captureOutboundLink('https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/'); return false;" target="_blank" class="usa-button usa-button-primary" href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/">Go to Rules & Guidelines</a>
 <a class="usa-button usa-button-primary" target="_blank" href="{{site.baseurl}}/assets/files/submission_checklist.pdf" >Download Submission Checklist</a>
@@ -122,7 +122,7 @@ Some optional hashtags are: #ShapeOurFuture  #standupbecounted #2020Census #cou
 
 ### 3. When are the submissions due?
 
-Submissions close on May 7 at 11:59pm EDT (extended deadline) with winners announced by early June.
+Submissions close on May 7 at 11:59pm EDT (extended deadline) with winners announced on June 24th.
 
 ### 4. In what format should the videos be submitted?
 
@@ -158,7 +158,7 @@ Yes.
 
 ### 12. When will the winners be announced?
 
-Winners will be announced in May.
+Winners will be announced on June 24th.
 
 ### 13. Can I apply with my company or creative group?
 
