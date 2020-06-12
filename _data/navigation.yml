@@ -18,8 +18,6 @@ primary:
         href: /video-challenge/
       - text: Meet the Judges
         href: /judges/
-      - text: Awards Show
-        href: /video-challenge/awards
   - text: Showcase
     href: /showcase/
   - text: Partner With Us
@@ -53,14 +51,6 @@ video-challenge:
     href: /video-challenge/#background
   - text: FAQ
     href: /video-challenge/#faq
-
-awards:
-  - text: Communities For the Count
-    href: /video-challenge/awards/#communities-for-the-count
-  - text: Prizes
-    href: /video-challenge/#prizes
-  - text: RSVP
-    href: /video-challenge/#rsvp
 
 partner:
   - text: Partner With Us
