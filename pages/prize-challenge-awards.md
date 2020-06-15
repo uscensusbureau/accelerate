@@ -1,6 +1,6 @@
 ---
 title: Get Out The Count Video Challenge Awards Livestream
-permalink: /video-challenge/awards
+permalink: /awards/
 layout: interior
 banner: true
 sidenav: awards
