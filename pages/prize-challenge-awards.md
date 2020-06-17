@@ -4,7 +4,7 @@ permalink: /awards/
 layout: interior
 banner: true
 sidenav: awards
-description: Make a video about the 2020 Census and you could win up to $30,000!
+description: Join us LIVE on the Census Bureau's YouTube channel as we announce our challenge winners!
 nav:
   page: about
 image: /assets/img/graphics/video-prize-preview.png
