@@ -28,7 +28,7 @@ hero:
 
 After receiving over 750 video submissions in over a dozen languages from all across the United States, our panel of judges are narrowing it down to three videos with prize awards totaling $50,000.
 
-Join us as we preview clips from some of the most inspiring and creative content, hear from special guests, and celebrate the winning videos. The virtual event will be hosted by our Master of Ceremony, Mara Abrams, Co-founder of Census Open Innovation Labs.
+Join us as we preview clips from some of the most inspiring and creative content, hear from special guests, and celebrate the winning videos. The virtual event will be hosted by Lorena Molina-Irizarry Director of Operations, Census Open Innovation Labs and Haley Ashcom Miller, Intergovernmental Affairs Specialist and Strategic Liaison, Census Open Innovation Labs.
 
 <div class="button-wrapper top-space bottom-space" >
   <div class="button-bg red" style="width:30%;"></div>
