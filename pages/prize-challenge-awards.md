@@ -11,8 +11,8 @@ image: /assets/img/graphics/video-prize-preview.png
 hero:
   color: multi
   callout:
-    text: GET OUT THE COUNT VIDEO CHALLENGE AWARDS LIVESTREAM
-    subtext: WEDNESDAY, JUNE 24TH, 3:00PM EST
+    text: Get out the Count Video Challenge Awards Livestream
+    subtext: Wednesday, June 24th, 3:00PM EST
     context: Join us LIVE on the Census Bureau's YouTube channel as we announce our challenge winners!
     button-cta:
       text: Respond to the 2020 Census
@@ -24,7 +24,7 @@ hero:
 <section class="usa-section usa-content">
 
 <div class="usa-width-three-fourths top-space bottom-space" markdown="1" id="communities-for-the-count">
-# COMMUNITIES FOR THE COUNT
+# Communities for the Count
 
 After receiving over 750 video submissions in over a dozen languages from all across the United States, our panel of judges are narrowing it down to three videos with prize awards totaling $50,000.
 
@@ -40,14 +40,14 @@ Join us as we preview clips from some of the most inspiring and creative content
 </div>
 
 <div class="usa-width-three-fourths" markdown="1">
-### IT'S ABOUT POWER & MONEY
+### It's About Power and Money
 
 The count of our population sets our country's trajectory for the next decade, determining congressional apportionment (the number of seats each state gets in the House of Representatives), redistricting, and how over $675 billion dollars are annually distributed to states, cities and counties across the nation for healthcare, education, transportation, emergency services, public services more. It's safe, it's important and it's the basis for democracy in the United States.
 
 </div>
 <div class="usa-width-three-fourths top-space bottom-space" markdown="1">
 
-### MAKING A DIFFERENCE
+### Making a Difference
 
 Hard-to-count communities such as racial and ethnic minorities, young and mobile populations, LGBTQI+, families with young children, people experiencing homelessness, renters, single-parent households and people with limited English proficiency are overwhelmingly undercounted in the Census. This video challenge helped individuals change that by telling their stories and communicating impact of the 2020 Census in their communities.
 </div>
