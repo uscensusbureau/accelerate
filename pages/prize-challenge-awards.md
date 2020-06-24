@@ -2,7 +2,6 @@
 title: Get Out The Count Video Challenge Award Winners
 permalink: /awards/
 layout: interior
-banner: true
 description: Video Prize Challenge Winners
 nav:
   page: about
