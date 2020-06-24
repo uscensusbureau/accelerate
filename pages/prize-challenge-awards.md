@@ -106,9 +106,9 @@ hero:
   <img src="{{ site.baseurl }}/assets/img/graphics/runner-up.png" alt="Video Prize Challenge logo overlaid with $10,000 Runner Up" />
 </div>
 <div class="usa-width-one-half  bottom-space" markdown="1">
-## Runner Up: Executive Director, Gilda (Gigi) Pedraza of  Latino Community Fund  Georgia
+## Runner Up: Latino Community Fund (LCF Georgia)
 </div>
-### Video Title: Me Toca a Mi | Decatur, GA
+### Video Title: Me Toca a Mi | Atlanta, GA
 <div class="usa-accordion padding-bottom">
   <p><button class="usa-accordion-button" aria-expanded="false" aria-controls="3">
     View Lyrics: Me Toca a Mi
