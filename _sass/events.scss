@@ -70,6 +70,34 @@
     text-align: left;
   }
 }
+
+
+.finalists {
+  width: 100%;
+  background-color: $color-white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0rem 2rem;
+  margin-bottom: $space-l !important;
+  min-height: 41rem;
+  @include media($large-screen) {
+    padding: $space-xl $space-xl $space-l $space-xl;
+  }
+  h3 {
+    font-family: $font-serif;
+    font-size: $font-size-l;
+    weight: 600;
+  }
+  h5 {
+    margin-top: auto;
+  }
+  .event-details {
+    color: $color-navy !important;
+    text-align: left;
+  }
+}
+
 .event-community {
   margin: auto;
   background-color: $color-red;
