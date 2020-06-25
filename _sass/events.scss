@@ -71,6 +71,13 @@
   }
 }
 
+.finalist-block {
+   display: inline-block;
+   width: 100%;
+   @include media($large-screen) {
+     width:30%;
+   }
+}
 
 .finalists {
   width: 100%;
