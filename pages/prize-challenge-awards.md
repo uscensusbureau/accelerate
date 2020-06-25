@@ -14,26 +14,27 @@ hero:
 
 
 ---
-<div  class="usa-section usa-content usa-grid bottom-space" markdown="1">
+<div  class="usa-section usa-content usa-grid bottom-space" markdown="1" style="margin-top:-75px; margin-bottom:100px;">
 # Congratulations to the Award Winners!
 
 </div>
 
-<div class="usa-section usa-content usa-grid featured-partner">
+<div class="usa-section usa-content usa-grid featured-partner   bottom-space">
 <div class="usa-width-five-twelfths" markdown="1">
-<div class="usa-width-one-third  bottom-space">
-  <img src="{{ site.baseurl }}/assets/img/graphics/grand-prize.png" alt="Video Prize Challenge logo overlaid with $30,000 Grand Prize Winner" />
+<div class="usa-width-one-third">
+  <img src="{{ site.baseurl }}/assets/img/graphics/grand_prize.png" alt="Video Prize Challenge logo overlaid with $30,000 Grand Prize Winner" />
 </div>
 <div class="usa-width-one-half" markdown="1">
-## Grand Prize Winner: Keaton Davis
+## Grand Prize Winner: <br>Keaton Davis
 </div>
-### Video Title: Make It Count / #2020Census | Austin, TX
+### Video Title: Make It Count / #2020Census
+Austin, TX
 
 <div class="usa-accordion top">
   <p><button class="usa-accordion-button" aria-expanded="false" aria-controls="1">
     View Transcript: Make It Count/ #2020 Census
   </button></p>
-  <div id="1" class="usa-accordion-content" style="height:200px; overflow:auto;">
+  <div id="1" class="usa-accordion-content" style="height:150px; overflow:auto;">
     <p> José and his son Ricky are outside practicing soccer. </p>
     <p>JOSÉ: You got it?</p>
     <p>RICKY: Yeah!</p>
@@ -100,20 +101,26 @@ hero:
 </div>
 
 <div>
-<div class="usa-section usa-content usa-grid featured-partner" style="height:550px;">
-<div class="usa-width-five-twelfths"  markdown="1">
-<div class="usa-width-one-third  bottom-space">
-  <img src="{{ site.baseurl }}/assets/img/graphics/runner-up.png" alt="Video Prize Challenge logo overlaid with $10,000 Runner Up" />
+<div class="usa-section usa-content usa-grid featured-partner top-space bottom-space"  style="padding-bottom:50px;">
+<div class="usa-width-five-twelfths bottom-space"  markdown="1">
+<div class="usa-width-one-third">
+  <img src="{{ site.baseurl }}/assets/img/graphics/runner_up.png" alt="Video Prize Challenge logo overlaid with $10,000 Runner Up" />
 </div>
-<div class="usa-width-one-half  bottom-space" markdown="1">
-## Runner Up: Latino Community Fund (LCF Georgia)
+<div class="usa-width-one-half " markdown="1">
+## Runner Up: <br>Latino Community Fund (LCF Georgia)
 </div>
-### Video Title: Me Toca a Mi | Atlanta, GA
-<div class="usa-accordion padding-bottom">
+### Video Title: Me Toca a Mi
+Atlanta, GA
+
+- Original Track by Nino Augustine.  
+- Te Toca a Ti Census Version Co-written by Nino Augustine, Felicita Pineda, and Josephine Figueroa.  Producer: Bonafly.  
+- Video produced by Cholo Productions, the production company of Atlanta's beloved Latinx party, La Choloteca.  
+- Backed by multimedia artist Josephine Figueroa.
+<div class="usa-accordion">
   <p><button class="usa-accordion-button" aria-expanded="false" aria-controls="3">
     View Lyrics: Me Toca a Mi
   </button></p>
-  <div id="3" class="usa-accordion-content" style="height:200px; overflow:auto;">
+  <div id="3" class="usa-accordion-content" style="height:150px; overflow:auto;">
   <p>
     Me toca a mi <br>
     y te toca ti<br>
@@ -162,20 +169,21 @@ hero:
 </div>
 </div>
 
-<div class="usa-section usa-content usa-grid featured-partner" style="height:500px;">
+<div class="usa-section usa-content usa-grid featured-partner top-space bottom-space">
 <div class="usa-width-five-twelfths" markdown="1">
-<div class="usa-width-one-third  bottom-space">
-  <img src="{{ site.baseurl }}/assets/img/graphics/student-prize.png" alt="Video Prize Challenge logo overlaid with $10,000 Student Prize" />
+<div class="usa-width-one-third">
+  <img src="{{ site.baseurl }}/assets/img/graphics/student_prize.png" alt="Video Prize Challenge logo overlaid with $10,000 Student Prize" />
 </div>
 <div class="usa-width-one-half" markdown="1">
-## Student Prize Winner: Austyn Malynn
+## Student Prize Winner: <br>Austyn Malynn
 </div>
-### Video Title: The 2020 Census Song! | Santa Clarita, CA
+### Video Title: The 2020 Census Song!
+Santa Clarita, CA
 <div class="usa-accordion padding-bottom">
   <p><button class="usa-accordion-button" aria-expanded="false" aria-controls="2">
     View Lyrics: The Census Song
   </button></p>
-  <div id="2" class="usa-accordion-content" style="height:200px; overflow:auto;">
+  <div id="2" class="usa-accordion-content" style="height:150px; overflow:auto;">
   <p>
       Did you know that there are around 330 million people in the United States?<br>
       That’s a lot but don’t go have an existential crisis on me.<br>
@@ -213,17 +221,18 @@ hero:
 </div>
 </div>
 
-<div class="usa-section usa-content usa-grid bottom-space">
+<div class="usa-section usa-content usa-grid top-space bottom-space">
 <div class="usa-width-five-twelfths" markdown="1">
 ## Honorable Mention: Kali Bailey
-### Video: Soy Jesse | Nashville, TN
+### Video: Soy Jesse
+Nashville, TN
 </div>
 <div class="usa-width-seven-twelfths">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vPfDQ-0lWxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
-<div class="usa-section usa-content usa-grid bottom-space">
+<div class="usa-section usa-content usa-grid" style="padding-top:100px; padding-bottom:100px;">
 <div class="usa-width-five-twelfths" markdown="1">
 ## Watch the entire awards ceremony video here!
 </div>
@@ -267,7 +276,7 @@ People can still respond to the 2020 Census by visiting <a href="https://2020cen
 <div class="usa-grid top-space">
   <h1> Award Finalists </h1>
   {% for finalist in site.data.finalists %}
-  <div class="usa-width-one-third" style="display: inline-block; width:30%;">
+  <div class="usa-width-one-third finalist-block">
     <div class="finalists">
       <div class="finalists-text">
         <h3><a href="{{ finalist.link}}" target="_blank">{{ finalist.video }}</a></h3>
