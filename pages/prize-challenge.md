@@ -2,7 +2,6 @@
 title: Get Out The Count Video Challenge
 permalink: /video-challenge/
 layout: interior
-banner: true
 sidenav: video-challenge
 description: Make a video about the 2020 Census and you could win up to $30,000!
 nav:
