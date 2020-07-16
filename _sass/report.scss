@@ -4,11 +4,18 @@ h1, h2, h3, p, a {
 
 .impact {
   margin: auto;
-  width: 920px;
+  // width: 920px;
   h1 {
     margin-top: 10rem;
+    width: 920px;
+    margin: auto;
   }
 }
+
+.impact-body {
+  background-color: #fff;
+}
+
 
 .impact-callout {
   background-color: #004280;
@@ -29,30 +36,33 @@ h1, h2, h3, p, a {
 
 .impact-hero {
   // background: url(https://cdn.dribbble.com/users/3629134/screenshots/6768008/6.png);
-  background-color: #004280;
+  // background-color: #004280;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   background-size: 100% !important;
   background-position: center top !important;
-  padding: 1rem;
-  padding-top: 20%;
-  color: #ffffff;
+  // padding: 1rem;
+  // padding-top: 20%;
+  color: #000000;
   text-align: center;
 
   .title {
     position: fixed;
     top: 50%;
     left: 35%;
+    z-index: -100;
   }
-
+  .collage-thumbnail {
+    display: inline-block;
+    width: 200px;
+    z-index: 10;
+    opacity: 0;
+  }
+  //
   .background-image-collage {
     position: fixed;
-
-    .collage-thumbnail {
-      display: inline-block;
-      width: 230px;
-      z-index: 2;
-    }
+    top: 0;
+    z-index: -1;
   }
 
   .interior {
