@@ -14,11 +14,16 @@ $(function() {
 
 
   $(window).scroll(function(){
-    $(".slowest").css("opacity", 0 + $(window).scrollTop() / 5000);
-    $(".slower").css("opacity", 0 + $(window).scrollTop() / 3000);
-    $(".slow").css("opacity", 0 + $(window).scrollTop() / 2000);
-    $(".fast").css("opacity", 0 + $(window).scrollTop() / 500);
-    $(".fastest").css("opacity", 0 + $(window).scrollTop() / 100);
-
+    offsetSlowest = window.setTimeout(function() {
+      $(".slowest").css("opacity", 0 + $(window).scrollTop() / 8000);
+  	}, 7500);
+    $(".slower").css("opacity", 0 + $(window).scrollTop() / 5000);
+    offsetSlow= window.setTimeout(function() {
+      $(".slow").css("opacity", 0 + $(window).scrollTop() / 2500);
+  	}, 4000);
+    offsetFast = window.setTimeout(function() {
+      $(".fast").css("opacity", 0 + $(window).scrollTop() / 1000);
+  	}, 1000);
+    $(".fastest").css("opacity", 0 + $(window).scrollTop() / 200);
   });
 });
