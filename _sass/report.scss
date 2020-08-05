@@ -113,7 +113,7 @@ h1, h2, h3, p, a {
 }
 
 .impact-map {
-  background: url(https://www.yellowmaps.com/maps/img/US/blank-base/usa.jpg);
+  background: url("../img/impact/temp-background.png");
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   background-size: contain !important;
@@ -147,27 +147,51 @@ h1, h2, h3, p, a {
 
       #map-scrolling-header-1 {
         margin-left: 5rem;
+        max-width: 150px;
       }
       #map-scrolling-header-2 {
         margin-left: 50rem;
+        max-width: 150px;
+
       }
       #map-scrolling-header-3 {
         margin-left: 20rem;
+        max-width: 150px;
+
       }
     }
   }
 }
 
-
-// .theory-card {
-//     margin: 5rem;
-//   }
-
-  .usa-content p:not(.usa-font-lead) {
-      max-width: 63rem;
-      margin: auto;
-      padding: 10px;
+.sticky-container {
+  background-color: skyblue;
+  .data-viz {
+    visibility: hidden;
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
   }
+
+}
+
+.fadeIn {
+    -webkit-animation: animat_show .8s;
+    animation: animat_show .8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+
+.usa-content p:not(.usa-font-lead) {
+    max-width: 63rem;
+    margin: auto;
+    padding: 10px;
+}
 
 
 // TIMELINE
