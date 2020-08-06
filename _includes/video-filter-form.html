@@ -1,0 +1,43 @@
+<form id="video-filter-form">
+  <div class="grid-row">
+    <div class=" usa-width-one-fourth">
+      <div class="usa-accordion">
+        <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="1">
+          Community
+        </button></h2>
+        <div id="1" class="usa-accordion-content">
+          {% for community in site.data.filters.communities %}
+            <input id="{{community | slugify }}" type="checkbox" name="filter-checkbox" value="{{community | slugify }}">
+            <label for="{{community | slugify }}">{{community}}</label>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class=" usa-width-one-fourth">
+      <div class="usa-accordion">
+        <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="2">
+          Language
+        </button></h2>
+        <div id="2" class="usa-accordion-content">
+          <input id="testing" type="checkbox" name="filter-checkbox" value="testing">
+          <label for="testing">testing</label>
+        </div>
+      </div>
+    </div>
+    <div class=" usa-width-one-fourth">
+      <div class="usa-accordion">
+        <h2><button class="usa-accordion-button" aria-expanded="false" aria-controls="3">
+          Best Of
+        </button></h2>
+        <div id="3" class="usa-accordion-content">
+          <input id="testing" type="checkbox" name="filter-checkbox" value="testing">
+          <label for="testing">testing</label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <input type="submit" value="Filter">
+      <button id="reset-filter">Reset Filter &#127335;</button>
+    </div>
+  </div>
+</form>
