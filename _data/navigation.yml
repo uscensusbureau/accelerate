@@ -18,8 +18,10 @@ primary:
         href: /video-challenge/
       - text: Meet the Judges
         href: /judges/
-      - text: Awards Show
+      - text: Winners
         href: /awards/
+      - text: Video Database
+        href: /video-database/
   - text: Showcase
     href: /showcase/
   - text: Partner With Us
