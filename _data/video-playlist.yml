@@ -4,9 +4,10 @@
   title: El Mirage 2020 Census
   name: Sharon Antes
   link: https://www.youtube.com/watch?v=aoyIhFBfUUs&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: aoyIhFBfUUs
   prize: General
-  # html: <iframe src="https://www.youtube.com/embed/aoyIhFBfUUs" height="200" width="300"></iframe>
+  html: <iframe src="https://www.youtube.com/embed/aoyIhFBfUUs" height="200" width="300"></iframe>
   top-pick: true
 - language: Spanish / Hindi
   team: Compass Community Center
@@ -14,7 +15,8 @@
   title: We Count, We Matter! The Compass 2020 Census Video)
   name: Michael Riordan
   link: https://www.youtube.com/watch?v=CCVEwn4wkTo&feature=youtu.be
-  category: Hispanic, LGBTQ
+  community: Hispanic, LGBTQ
+  id: CCVEwn4wkTo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/CCVEwn4wkTo" height="200" width="300"></iframe>"
   top-pick: true
@@ -24,7 +26,8 @@
   title: Shapes that Shape the Future
   name: Alana Freedman
   link: https://www.youtube.com/watch?v=lUk4uat_d_k&feature=youtu.be
-  category: ''
+  community: ''
+  id: lUk4uat_d_k
   prize: General
   html: <iframe src="https://www.youtube.com/embed/lUk4uat_d_k" height="200" width="300"></iframe>
   top-pick: true
@@ -34,7 +37,8 @@
   title: Latinos, Stand Up and Be Counted!
   name: Kayla Nielsen
   link: https://www.youtube.com/watch?v=MRZLdB7h-TY&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: MRZLdB7h-TY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/MRZLdB7h-TY" height="200" width="300"></iframe>
   top-pick: true
@@ -44,7 +48,8 @@
   title: City of N. Lauderale Census
   name: Brandon Wink
   link: https://www.youtube.com/watch?v=KugQlAvp9Ug&feature=youtu.be
-  category: Children, Homeless, Young, Mobile
+  community: Children, Homeless, Young, Mobile
+  id: KugQlAvp9Ug
   prize: General
   html: <iframe src="https://www.youtube.com/embed/KugQlAvp9Ug" height="200" width="300"></iframe>
   top-pick: true
@@ -54,7 +59,8 @@
   title: Y Contar, Contar
   name: Lorena Lopez
   link: https://youtu.be/Bt93XBhAjwE
-  category: Hispanic
+  community: Hispanic
+  id: Bt93XBhAjwE
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/Bt93XBhAjwE" height="200" width="300"></iframe>
 - language: Spanish
@@ -63,7 +69,7 @@
   title: Gona Con El Censo
   name: Arturo Castro
   link: https://vimeo.com/397108868
-  category: Hispanic
+  community: Hispanic
   prize: General
 - language: Spanish
   team: null
@@ -71,7 +77,7 @@
   title: ''
   name: Sarai  Bejarano
   link: https://www.facebook.com/ElCentrodeIgualdadyDerechos/videos/204894010954865/
-  category: Hispanic
+  community: Hispanic
   prize: General
 - language: Spanish
   team: null
@@ -79,7 +85,7 @@
   title: Que es un Censo?
   name: Abbie Kretz
   link: https://www.heartlandworkerscenter.org/video-sabe-que-es-un-censo
-  category: Hispanic
+  community: Hispanic
   prize: General
 - language: Spanish
   team: null
@@ -87,7 +93,8 @@
   title: Tu Cuentes
   name: Yoshie Lewis
   link: https://www.youtube.com/watch?v=C3A7ccaQQPg&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: C3A7ccaQQPg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/C3A7ccaQQPg" height="200" width="300"></iframe>
 - language: Spanish
@@ -96,7 +103,8 @@
   title: 'Unidos Contamos: LUPE y Nuestro Censo Lote'
   name: Abraham Diaz
   link: https://www.youtube.com/watch?v=IMOlY_pyWWU&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: IMOlY_pyWWU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/IMOlY_pyWWU" height="200" width="300"></iframe>
 - language: Spanish
@@ -105,7 +113,8 @@
   title: I Count Song
   name: Providence Kamana
   link: https://www.youtube.com/watch?v=vX8JAWMXTaQ&feature=youtu.be&fbclid=IwAR3RIhQeCXJoAFb3iXcOUK3uw6I27xvI6OsgcNLLQDZ5LtkSnaUNlhJ2gS8
-  category: ''
+  community: ''
+  id: vX8JAWMXTaQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/vX8JAWMXTaQ" height="200" width="300"></iframe>
 - language: Spanish
@@ -114,7 +123,7 @@
   title: A Story About Carl
   name: Jason Silva
   link: https://vimeo.com/407325102/e84f6e1373
-  category: Hispanic, Young
+  community: Hispanic, Young
   prize: General
 - language: Spanish
   team: null
@@ -122,7 +131,9 @@
   title: Me Toca a Mi'
   name: Gilda (Gigi) Pedraza
   link: https://www.youtube.com/watch?v=FOJgHfu3L1I
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -131,7 +142,8 @@
   title: Anuncio de la Funcion Publica en espanol
   name: Megan Preambo
   link: https://youtu.be/7dQ8BEArpxo
-  category: Hispanic
+  community: Hispanic
+  id: 7dQ8BEArpxo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7dQ8BEArpxo" height="200" width="300"></iframe>
 - language: Spanish
@@ -140,7 +152,9 @@
   title: Houston County- 2020 Census
   name: Jacob Cox
   link: https://www.youtube.com/watch?v=VZTw-tMPc50
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -149,7 +163,8 @@
   title: Census 2020 EEUU
   name: Leidys Quinonez
   link: https://www.youtube.com/watch?v=9jjAPdNJe5A&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 9jjAPdNJe5A
   prize: General
   html: <iframe src="https://www.youtube.com/embed/9jjAPdNJe5A" height="200" width="300"></iframe>
 - language: Spanish
@@ -158,7 +173,8 @@
   title: 'Abuela''s Prayer: Census 2020'
   name: Jonny Blackburn
   link: https://youtu.be/9jjAPdNJe5A
-  category: Hispanic
+  community: Hispanic
+  id: 9jjAPdNJe5A
   prize: General
   html: <iframe src="https://www.youtube.com/embed/9jjAPdNJe5A" height="200" width="300"></iframe>
 - language: Spanish
@@ -167,7 +183,8 @@
   title: Mi Amigo El Censo
   name: Aleira Thomas
   link: https://www.youtube.com/watch?v=aO-1hPScUB0&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: aO-1hPScUB0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/aO-1hPScUB0" height="200" width="300"></iframe>
 - language: Spanish
@@ -176,7 +193,8 @@
   title: Be Counted, Cathedral City (Spanish)
   name: Christopher Parman
   link: https://youtu.be/etITU8vk7xs
-  category: Hispanic
+  community: Hispanic
+  id: etITU8vk7xs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/etITU8vk7xs" height="200" width="300"></iframe>
 - language: Spanish
@@ -185,7 +203,9 @@
   title: Stand Up and Be Counted
   name: Jules Corriere
   link: https://www.youtube.com/watch?v=jO1MjPWOJpI
-  category: Hispanic, African-Americans, Young
+  community: Hispanic, African-Americans, Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -194,7 +214,9 @@
   title: Stand Up and Be Counted
   name: Gary Alvarez
   link: https://www.youtube.com/watch?v=pND-ZRRJ9RM
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -203,7 +225,8 @@
   title: 'Census 2020: We All Count'
   name: Jason Summerfield
   link: https://www.youtube.com/watch?v=SuqvOMaTdbs&feature=youtu.be
-  category: ''
+  community: ''
+  id: SuqvOMaTdbs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/SuqvOMaTdbs" height="200" width="300"></iframe>
 - language: Spanish
@@ -212,7 +235,8 @@
   title: The Census Needs You!
   name: Jason Summerfield
   link: https://www.youtube.com/watch?v=U25dmPcP-9Q&feature=youtu.be
-  category: ''
+  community: ''
+  id: U25dmPcP-9Q
   prize: General
   html: <iframe src="https://www.youtube.com/embed/U25dmPcP-9Q" height="200" width="300"></iframe>
 - language: Spanish
@@ -221,7 +245,7 @@
   title: Count DMV
   name: Levina Kim
   link: https://www.dropbox.com/s/ec7drv6wujjhaz5/Census_2020_mp4.mp4?dl=0
-  category: ''
+  community: ''
   prize: General
 - language: Spanish
   team: null
@@ -229,7 +253,8 @@
   title: Stand Up and Be Counted
   name: Cassandra Hollis
   link: https://www.youtube.com/watch?v=8keShsd4zxk&feature=youtu.be
-  category: Hispanic, African-Americans
+  community: Hispanic, African-Americans
+  id: 8keShsd4zxk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/8keShsd4zxk" height="200" width="300"></iframe>
 - language: Spanish
@@ -238,7 +263,8 @@
   title: 'Embrace Equity: The Census Needs YOU'
   name: Gabe Chaikin
   link: https://www.youtube.com/watch?v=C0rYRqGMyus&feature=youtu.be
-  category: African-Americans, Young
+  community: African-Americans, Young
+  id: C0rYRqGMyus
   prize: General
   html: <iframe src="https://www.youtube.com/embed/C0rYRqGMyus" height="200" width="300"></iframe>
 - language: Spanish
@@ -247,7 +273,8 @@
   title: Count All Kids 2020
   name: Dan Sachoff
   link: https://www.youtube.com/watch?v=ElxBx3BUz3U&feature=youtu.be
-  category: Children
+  community: Children
+  id: ElxBx3BUz3U
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ElxBx3BUz3U" height="200" width="300"></iframe>
 - language: Spanish
@@ -256,7 +283,8 @@
   title: Get Counted 2020
   name: Ophelia Noble
   link: https://www.youtube.com/watch?v=iQRVYsCj5Xw&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: iQRVYsCj5Xw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/iQRVYsCj5Xw" height="200" width="300"></iframe>
 - language: Spanish
@@ -265,7 +293,9 @@
   title: 2020 Census Concensus
   name: Daniel Stearns
   link: https://www.youtube.com/watch?v=Lo00EAxu4TY
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -274,7 +304,8 @@
   title: Census Song
   name: Lara Manzanares
   link: https://www.youtube.com/watch?v=Lw2x2X8drgg&feature=youtu.be
-  category: ''
+  community: ''
+  id: Lw2x2X8drgg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Lw2x2X8drgg" height="200" width="300"></iframe>
 - language: Spanish
@@ -283,7 +314,9 @@
   title: Unite Together! 2020 Census
   name: Marta Gore
   link: https://www.youtube.com/watch?v=V0455Nk5fMo
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -292,7 +325,9 @@
   title: 10 Minutes Now!
   name: Marta Gore
   link: https://www.youtube.com/watch?v=Y5iUlrqIs3A
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -301,7 +336,9 @@
   title: 'A New Swing #WeCount'
   name: Jabari Jefferson
   link: https://www.youtube.com/watch?v=Yaay3cbpwsc
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -310,7 +347,8 @@
   title: Census 2020
   name: Ava Graves
   link: https://youtu.be/RQKQ3mNL-E8
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+  id: RQKQ3mNL-E8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/RQKQ3mNL-E8" height="200" width="300"></iframe>
 - language: Spanish
@@ -319,7 +357,8 @@
   title: Stars Complex Census 2020
   name: Christina Bellamy
   link: https://www.youtube.com/watch?v=D7DyBeuPIBs&feature=youtu.be
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+  id: D7DyBeuPIBs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/D7DyBeuPIBs" height="200" width="300"></iframe>
 - language: Spanish
@@ -328,7 +367,8 @@
   title: Kitsap Community Census PSA
   name: Darci McGuire
   link: https://www.youtube.com/watch?v=q4PlRyTl0cU&feature=youtu.be
-  category: Racial and Ethnic Minorities, Children
+  community: Racial and Ethnic Minorities, Children
+  id: q4PlRyTl0cU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/q4PlRyTl0cU" height="200" width="300"></iframe>
 - language: Spanish
@@ -337,7 +377,8 @@
   title: Witness I Count 2020 Census Campaign Video
   name: Evie Litwok
   link: https://www.youtube.com/watch?v=lNMSPSO6vJk&feature=youtu.be
-  category: Racial and Ethnic Minorities, Homeless, Mobile
+  community: Racial and Ethnic Minorities, Homeless, Mobile
+  id: lNMSPSO6vJk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/lNMSPSO6vJk" height="200" width="300"></iframe>
 - language: Spanish
@@ -346,7 +387,9 @@
   title: If We Don't Get Counted, We Don't Count!
   name: Krystal Garner
   link: https://www.youtube.com/watch?v=sBAATA7h4-g
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -355,7 +398,7 @@
   title: Get Out the Count
   name: Zain Nadeem
   link: https://vimeo.com/416173715
-  category: Racial and Ethnic Minorities, Children
+  community: Racial and Ethnic Minorities, Children
   prize: General
 - language: Spanish
   team: null
@@ -363,7 +406,7 @@
   title: We Count
   name: Matthew Arruda
   link: https://drive.google.com/open?id=1r_Ufk1gpamDw6PMVAOdaYLp5tLebTNwp
-  category: ''
+  community: ''
   prize: General
 - language: Spanish
   team: null
@@ -371,7 +414,7 @@
   title: el Censo 2020
   name: Leonard Donjuan
   link: https://vimeo.com/386244357
-  category: Hispanic
+  community: Hispanic
   prize: General
 - language: Spanish
   team: null
@@ -379,7 +422,8 @@
   title: I Count, You Count, We Count
   name: Mary Garcia
   link: https://youtu.be/AoYSTU6tjJo
-  category: Hispanic, Young, Mobile
+  community: Hispanic, Young, Mobile
+  id: AoYSTU6tjJo
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/AoYSTU6tjJo" height="200" width="300"></iframe>
 - language: Spanish
@@ -388,7 +432,8 @@
   title: Bishop Flores on Census 2020 - Children
   name: Xochitl Mora
   link: https://youtu.be/Qq70le2pF0s
-  category: Hispanic, Rural
+  community: Hispanic, Rural
+  id: Qq70le2pF0s
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/Qq70le2pF0s" height="200" width="300"></iframe>
 - language: Spanish
@@ -397,7 +442,8 @@
   title: Bishop Flores Be Counted
   name: Xochitl Mora
   link: https://youtu.be/yubf8K43e_k
-  category: Hispanic, Rural
+  community: Hispanic, Rural
+  id: yubf8K43e_k
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/yubf8K43e_k" height="200" width="300"></iframe>
 - language: Spanish
@@ -406,7 +452,8 @@
   title: Census Movie
   name: Elisa Clark
   link: https://www.youtube.com/watch?v=NEczrWQ2my4&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: NEczrWQ2my4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/NEczrWQ2my4" height="200" width="300"></iframe>
 - language: Spanish
@@ -415,7 +462,8 @@
   title: "#2020 Census"
   name: Vicky Palacios
   link: https://www.youtube.com/watch?v=l-xyRnicaS4&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: l-xyRnicaS4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/l-xyRnicaS4" height="200" width="300"></iframe>
 - language: Spanish
@@ -424,7 +472,8 @@
   title: CMC Counts
   name: Jeffrey Tyndall
   link: https://youtu.be/T2BXfDZ8Vwc
-  category: Hispanic
+  community: Hispanic
+  id: T2BXfDZ8Vwc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/T2BXfDZ8Vwc" height="200" width="300"></iframe>
 - language: Spanish
@@ -433,7 +482,8 @@
   title: Soy Jesse
   name: Kali Bailey
   link: https://youtu.be/vPfDQ-0lWxM
-  category: Hispanic
+  community: Hispanic
+  id: vPfDQ-0lWxM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/vPfDQ-0lWxM" height="200" width="300"></iframe>
 - language: Spanish
@@ -442,7 +492,8 @@
   title: CENSATE, PORQUE TODOS CONTAMOS
   name: Leidys Quinonez
   link: https://youtu.be/fvd5VK0bBsA
-  category: Hispanic
+  community: Hispanic
+  id: fvd5VK0bBsA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/fvd5VK0bBsA" height="200" width="300"></iframe>
 - language: Spanish
@@ -451,7 +502,8 @@
   title: 2020 Census
   name: Veronica Escamez
   link: https://www.youtube.com/watch?v=CccZRLrytJQ&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: CccZRLrytJQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/CccZRLrytJQ" height="200" width="300"></iframe>
 - language: Spanish
@@ -460,7 +512,7 @@
   title: Census PSA (In Spanish /English)
   name: Domenica Castro
   link: https://vimeo.com/416136769 / https://vimeo.com/416198677
-  category: ''
+  community: ''
   prize: General
 - language: Spanish
   team: null
@@ -468,7 +520,8 @@
   title: JUNTOS CONTAMOS
   name: Luis Guereca
   link: https://youtu.be/pcb_4qPVF1g
-  category: Hispanic, Children
+  community: Hispanic, Children
+  id: pcb_4qPVF1g
   prize: General
   html: <iframe src="https://www.youtube.com/embed/pcb_4qPVF1g" height="200" width="300"></iframe>
 - language: Spanish
@@ -477,7 +530,8 @@
   title: "#cuentaconmigo"
   name: Brianna Perez
   link: https://www.youtube.com/watch?v=R2gepkR13eg&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: R2gepkR13eg
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/R2gepkR13eg" height="200" width="300"></iframe>
 - language: Spanish
@@ -486,7 +540,9 @@
   title: With People Census 2020
   name: The Maya Girls
   link: https://www.youtube.com/watch?v=4mIKpMJ-5wI
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: Spanish
@@ -495,7 +551,7 @@
   title: En el Censo Cuentas Tú
   name: Carlos Pagan
   link: https://bit.ly/39wb7bI
-  category: Hispanic, Young, Mobile
+  community: Hispanic, Young, Mobile
   prize: General
 - language: Spanish
   team: null
@@ -503,7 +559,8 @@
   title: 'Jolt Initiative, Why is the Census Important #2020Census'
   name: Shantel Suarez Avila
   link: https://youtu.be/hzZhKRD9Nv4
-  category: Hispanic, LGBTQ, Young, Mobile, Children
+  community: Hispanic, LGBTQ, Young, Mobile, Children
+  id: hzZhKRD9Nv4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/hzZhKRD9Nv4" height="200" width="300"></iframe>
 - language: Spanish
@@ -512,7 +569,8 @@
   title: When we say all... We mean All
   name: Monica Pirela
   link: https://www.youtube.com/watch?v=D4H6csW8-uc&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: D4H6csW8-uc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/D4H6csW8-uc" height="200" width="300"></iframe>
 - language: Spanish
@@ -521,7 +579,8 @@
   title: Complete the 2020 Census
   name: Sindhura Janjanam
   link: https://www.youtube.com/watch?v=Km_6VgwOlr8&feature=youtu.be&fbclid=IwAR2dqRHrTNoPrzserXaMrH5uk9Hsv__32Xan9XH7IhinSXy6UNWVMdku3pE
-  category: Asian-Americans, Hispanic
+  community: Asian-Americans, Hispanic
+  id: Km_6VgwOlr8
   prize: General & Student
   html: <iframe src="https://www.youtube.com/embed/Km_6VgwOlr8" height="200" width="300"></iframe>
 - language: Samoan
@@ -530,7 +589,8 @@
   title: Family Matters
   name: Xavier Cuevas
   link: https://www.youtube.com/watch?v=BeHLw8BBRxU&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: BeHLw8BBRxU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/BeHLw8BBRxU" height="200" width="300"></iframe>
 - language: Multi
@@ -539,7 +599,8 @@
   title: E Mafai with Census 2020
   name: Janna Wang
   link: https://www.youtube.com/watch?v=5sLmgYZ9TbE&t=13s
-  category: AANHPI
+  community: AANHPI
+  id: 5sLmgYZ9TbE
   prize: General
   html: <iframe src="https://www.youtube.com/embed/5sLmgYZ9TbE" height="200" width="300"></iframe>
 - language: Multi
@@ -548,7 +609,7 @@
   title: Twitter 2020 Census
   name: Brian Thomas
   link: https://twitter.com/ACDCNV/status/1241853109128671233
-  category: AANHPI
+  community: AANHPI
   prize: General
 - language: Multi
   team: null
@@ -556,7 +617,9 @@
   title: What is 2020 Census?
   name: RaJen Upreti
   link: https://www.youtube.com/watch?v=PTte9uEmkNQ
-  category: Asian-Americans
+  community: Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Multi
@@ -565,7 +628,7 @@
   title: All That Students
   name: Diego Estrada
   link: https://vimeo.com/405920056
-  category: Asian-Americans, Young, Mobile
+  community: Asian-Americans, Young, Mobile
   prize: General
 - language: Multi
   team: null
@@ -573,7 +636,8 @@
   title: Get Counted in 2020 Census - Utsav USA
   name: Utsav USA
   link: https://www.youtube.com/watch?v=NbJcmLgkNwU&feature=youtu.be
-  category: Asian-Americans
+  community: Asian-Americans
+  id: NbJcmLgkNwU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/NbJcmLgkNwU" height="200" width="300"></iframe>
 - language: Mandarin Chinese
@@ -582,7 +646,9 @@
   title: Census 2020 PSA
   name: Saffie Kallon
   link: https://www.youtube.com/watch?v=0SfVx4Y6wuw
-  category: African-Americans, Hispanic, MENA, Asian-Americans
+  community: African-Americans, Hispanic, MENA, Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Korean
@@ -591,7 +657,9 @@
   title: Keith Harris, ACDC 2020 Census
   name: Brian Thomas
   link: https://www.youtube.com/watch?v=8-OLU5EceqM
-  category: African-Americans, Children
+  community: African-Americans, Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Hindi
@@ -600,7 +668,9 @@
   title: Linda Ly's Census Video
   name: Brian Thomas
   link: https://www.youtube.com/watch?v=eLX51CslPn4
-  category: Asian-Americans
+  community: Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -609,7 +679,8 @@
   title: Yes to the Census 2020
   name: Elia Quiles
   link: https://youtu.be/lgJFL-X_nSs
-  category: Racial and Ethnic Minorities, African-Americans, LGBTQ+
+  community: Racial and Ethnic Minorities, African-Americans, LGBTQ+
+  id: lgJFL-X_nSs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/lgJFL-X_nSs" height="200" width="300"></iframe>
 - language: Creole
@@ -618,7 +689,8 @@
   title: Count Us In
   name: Crane Kim
   link: https://www.youtube.com/watch?v=Cjl9pwzaAkU&feature=youtu.be
-  category: Asian-Americans, Seniors
+  community: Asian-Americans, Seniors
+  id: Cjl9pwzaAkU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Cjl9pwzaAkU" height="200" width="300"></iframe>
 - language: Creole
@@ -627,7 +699,9 @@
   title: Make Kids Count
   name: Tara Canny
   link: https://www.youtube.com/watch?v=GWeFDOk4wK4
-  category: Children, Hispanic, Asian-Americans
+  community: Children, Hispanic, Asian-Americans
+
+  id: ''
   prize: ''
   html: <iframe src="' </iframe>"
 - language: Creole
@@ -636,7 +710,9 @@
   title: Census 2020 Kirsten Layguan
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=Q-OFu4ogc58
-  category: AANHPI, Low-income
+  community: AANHPI, Low-income
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Chinese
@@ -645,7 +721,9 @@
   title: Census 2020 Luke Dolorres
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=RMiQn5Q7mY4
-  category: AANHPI, Low-income
+  community: AANHPI, Low-income
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Chinese
@@ -654,7 +732,9 @@
   title: Census 2020 Natalie Pen
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=UsErtUvYMLM
-  category: AANHPI, Children, Young, Mobile
+  community: AANHPI, Children, Young, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: Chinese
@@ -663,7 +743,8 @@
   title: Count For A Better Future
   name: Jasmine Chen
   link: https://www.youtube.com/watch?v=WsLP-cbi47w&feature=youtu.be
-  category: Asian-Americans
+  community: Asian-Americans
+  id: WsLP-cbi47w
   prize: General
   html: <iframe src="https://www.youtube.com/embed/WsLP-cbi47w" height="200" width="300"></iframe>
 - language: Arabic
@@ -672,7 +753,8 @@
   title: 'Grateful #2020 Census'
   name: Yina Zhang
   link: https://www.youtube.com/watch?v=go1hh98UorE&feature=youtu.be
-  category: Asian-Americans
+  community: Asian-Americans
+  id: go1hh98UorE
   prize: General
   html: <iframe src="https://www.youtube.com/embed/go1hh98UorE" height="200" width="300"></iframe>
 - language: Arabic
@@ -681,7 +763,7 @@
   title: Le Fetua Samoan 2020 Census
   name: Anamalia Su’esu’e
   link: https://www.facebook.com/lefetuao/videos/678214309597553/
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: null
@@ -689,7 +771,8 @@
   title: Fellow Filipinos We Count
   name: Kat Iniba
   link: https://youtu.be/WmiGRTOB5dA
-  category: Asian-Americans
+  community: Asian-Americans
+  id: WmiGRTOB5dA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/WmiGRTOB5dA" height="200" width="300"></iframe>
 - language: ''
@@ -698,7 +781,8 @@
   title: '투머치토커 박찬호: 미주 한인 여러분, 2020 센서스 인구조사에 참여하세요!'
   name: Audrey Jang
   link: https://youtu.be/pF384G0hggA
-  category: Asian-Americans, Young, Mobile, Children
+  community: Asian-Americans, Young, Mobile, Children
+  id: pF384G0hggA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/pF384G0hggA" height="200" width="300"></iframe>
 - language: ''
@@ -707,7 +791,9 @@
   title: Don't Get F&$!#%d. Get Counted
   name: Kristin Brey
   link: https://www.youtube.com/watch?v=v_Qbm3JstV8
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -716,7 +802,7 @@
   title: Census 2020 Resans Man
   name: Aude Sicard
   link: MB attachment in email
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: null
@@ -724,7 +810,9 @@
   title: Shape Your Future 2020 Census
   name: Eniola Farotade
   link: https://www.youtube.com/watch?v=LFGzxJzUoNs
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -733,7 +821,7 @@
   title: Census 2020 Resans Man
   name: Aude Sicard
   link: MB attachment in email
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: null
@@ -741,7 +829,9 @@
   title: Cassie Census
   name: Yousef Shehadeh
   link: https://www.youtube.com/watch?v=MBuLOaFi27s
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -750,7 +840,9 @@
   title: Don't Be Afraid To Exist
   name: Amario Jara
   link: https://www.youtube.com/watch?v=8Uu7QYcKGw4
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -759,7 +851,9 @@
   title: US Census 2020 Promo
   name: Keith O'Derek
   link: https://www.youtube.com/watch?v=8PdYUMGLwXo
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -768,7 +862,8 @@
   title: Ravynne Oliver, You count, be counted
   name: Ravynne Oliver
   link: https://youtu.be/0Uhoaae18Os
-  category: Hispanic
+  community: Hispanic
+  id: 0Uhoaae18Os
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/0Uhoaae18Os" height="200" width="300"></iframe>
 - language: ''
@@ -777,7 +872,7 @@
   title: Dr. Rissy 2020 Census Video
   name: Morissa Schwartz
   link: ttps://youtu.be/mMVEL6L5JuU
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: null
@@ -785,7 +880,9 @@
   title: Team KC, Stand Up and Be Counted
   name: Jacob Clark
   link: https://www.youtube.com/watch?v=bMM40-Qi6h0
-  category: Children, Young
+  community: Children, Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -794,7 +891,8 @@
   title: "“Maine and the 2020 U.S. Census: We Count!"
   name: Kristen Muszynski
   link: https://www.youtube.com/watch?v=7J0iEsAO9L0&feature=emb_logo.
-  category: Children, Young
+  community: Children, Young
+  id: 7J0iEsAO9L0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7J0iEsAO9L0" height="200" width="300"></iframe>
 - language: ''
@@ -803,7 +901,8 @@
   title: " CENSUS YOU MATTER What If Song"
   name: Susie Aramony
   link: https://www.youtube.com/watch?v=x2FRRmhMjto&feature=youtu.be
-  category: ''
+  community: ''
+  id: x2FRRmhMjto
   prize: General
   html: <iframe src="https://www.youtube.com/embed/x2FRRmhMjto" height="200" width="300"></iframe>
 - language: ''
@@ -812,7 +911,9 @@
   title: The Austin Alumnae Chapter of Delta Sigma Theta Sorority, Inc.
   name: ''
   link: https://www.youtube.com/watch?v=CjFGKpeGGlc
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -821,7 +922,8 @@
   title: LPYP for the Community
   name: Venis Gilmore
   link: https://youtu.be/JhcVA20ITrU
-  category: African-Americans
+  community: African-Americans
+  id: JhcVA20ITrU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/JhcVA20ITrU" height="200" width="300"></iframe>
 - language: ''
@@ -830,7 +932,9 @@
   title: Census 2020 Tryston Stark
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=ga4Yh5G1eJ4
-  category: African-Americans, Mobile
+  community: African-Americans, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -839,7 +943,7 @@
   title: We All Count
   name: Andrea Degette
   link: https://vimeo.com/399681900
-  category: ''
+  community: ''
   prize: General
 - language: ''
   team: null
@@ -847,7 +951,8 @@
   title: We Count
   name: Cora Garner
   link: https://youtu.be/XvL1ttneoQg
-  category: African-Americans, Young, Mobile
+  community: African-Americans, Young, Mobile
+  id: XvL1ttneoQg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/XvL1ttneoQg" height="200" width="300"></iframe>
 - language: ''
@@ -856,7 +961,8 @@
   title: Census 2020- The Census Needs You
   name: Jason Summerfield
   link: https://youtu.be/U25dmPcP-9Q
-  category: Children
+  community: Children
+  id: U25dmPcP-9Q
   prize: General
   html: <iframe src="https://www.youtube.com/embed/U25dmPcP-9Q" height="200" width="300"></iframe>
 - language: ''
@@ -865,7 +971,8 @@
   title: Don't Risk the Census
   name: Charles Peterson
   link: https://youtu.be/hvw2VPs5Wws
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: hvw2VPs5Wws
   prize: General
   html: <iframe src="https://www.youtube.com/embed/hvw2VPs5Wws" height="200" width="300"></iframe>
 - language: ''
@@ -874,7 +981,8 @@
   title: Take The Census
   name: Kim Sillen
   link: https://www.youtube.com/watch?v=VyAQ13BrZuc&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: VyAQ13BrZuc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/VyAQ13BrZuc" height="200" width="300"></iframe>
 - language: ''
@@ -883,7 +991,8 @@
   title: Sense Us
   name: Michelle Bascome
   link: https://www.youtube.com/watch?v=yNMH6ahPBvw&feature=youtu.be
-  category: ''
+  community: ''
+  id: yNMH6ahPBvw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/yNMH6ahPBvw" height="200" width="300"></iframe>
 - language: ''
@@ -892,7 +1001,9 @@
   title: 'Census 2020 : We Are A People'
   name: D'andre Lampkin
   link: https://www.youtube.com/watch?v=gvgPRP53xao
-  category: LGBTQ, Homeless, African-Americans, Hispanic
+  community: LGBTQ, Homeless, African-Americans, Hispanic
+
+  id: ''
   prize: ''
   html: <iframe src="' </iframe>"
 - language: ''
@@ -901,7 +1012,8 @@
   title: Queer the Census PSA
   name: JR Russ
   link: https://www.youtube.com/watch?v=POQiczuBQO0&feature=youtu.be
-  category: LGBTQ
+  community: LGBTQ
+  id: POQiczuBQO0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/POQiczuBQO0" height="200" width="300"></iframe>
 - language: ''
@@ -910,7 +1022,8 @@
   title: Come to Your Census
   name: Shaiwna Adams
   link: https://www.youtube.com/watch?v=29wjZ7lt4-k&feature=youtu.be
-  category: African American, LGBTQ, Racial and Ethnic Minorities
+  community: African American, LGBTQ, Racial and Ethnic Minorities
+  id: 29wjZ7lt4-k
   prize: General
   html: <iframe src="https://www.youtube.com/embed/29wjZ7lt4-k" height="200" width="300"></iframe>
 - language: ''
@@ -919,7 +1032,8 @@
   title: Let's Queer The Census
   name: Julia Byron
   link: https://www.youtube.com/watch?v=tv3SJd_tREY&t=4s
-  category: LGBTQ
+  community: LGBTQ
+  id: tv3SJd_tREY
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/tv3SJd_tREY" height="200" width="300"></iframe>
 - language: ''
@@ -928,7 +1042,8 @@
   title: Why the Census is Important for LGBTQ+
   name: Sarah Prager
   link: https://www.youtube.com/watch?v=D5c6sl8O1Jg&t=7s
-  category: LGBTQ
+  community: LGBTQ
+  id: D5c6sl8O1Jg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/D5c6sl8O1Jg" height="200" width="300"></iframe>
 - language: ''
@@ -937,7 +1052,7 @@
   title: LGBTQ+ Census PSA
   name: Regan Sonnabend
   link: https://vimeo.com/416137901
-  category: LGBTQ
+  community: LGBTQ
   prize: General
 - language: ''
   team: null
@@ -945,7 +1060,7 @@
   title: Be Counted
   name: Jerome Keith
   link: https://vimeo.com/416194203
-  category: LGBTQ
+  community: LGBTQ
   prize: General
 - language: ''
   team: null
@@ -953,7 +1068,9 @@
   title: LGBTQ+ What Does That Mean For You
   name: DRAICSTER McConville
   link: https://www.youtube.com/watch?v=FGt85ln_4Gc
-  category: LGBTQ
+  community: LGBTQ
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -962,7 +1079,7 @@
   title: Kids Count, Too
   name: Sue-Ellen Sanders
   link: https://spark.adobe.com/video/fR1Z3n5a95VMe
-  category: Children
+  community: Children
   prize: General
 - language: ''
   team: null
@@ -970,7 +1087,8 @@
   title: RnB Census Song
   name: Plustopher Columbus
   link: https://youtu.be/cUQRJqjimo0
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: cUQRJqjimo0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/cUQRJqjimo0" height="200" width="300"></iframe>
 - language: ''
@@ -979,7 +1097,8 @@
   title: You Count
   name: Anu Annam
   link: https://www.youtube.com/watch?v=326nqf5TNLU&feature=youtu.be
-  category: Elderly, Young
+  community: Elderly, Young
+  id: 326nqf5TNLU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/326nqf5TNLU" height="200" width="300"></iframe>
 - language: ''
@@ -988,7 +1107,8 @@
   title: GOTC Video submission- Bart Vandever
   name: Bart Vandever
   link: https://youtu.be/uNF4xvhJFTg
-  category: ''
+  community: ''
+  id: uNF4xvhJFTg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/uNF4xvhJFTg" height="200" width="300"></iframe>
 - language: ''
@@ -997,7 +1117,7 @@
   title: Census 2020
   name: Kelley Shaw
   link: https://vimeo.com/416003389/06787f43bb#
-  category: Young, Racial and Ethnic Minorities
+  community: Young, Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: Texas Network of Youth Services
@@ -1005,7 +1125,8 @@
   title: 'Census 101: Help Your Community Count'
   name: Sarah Prager
   link: https://www.youtube.com/watch?v=hxrjJFoH1ZQ&t=34s
-  category: ''
+  community: ''
+  id: hxrjJFoH1ZQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/hxrjJFoH1ZQ" height="200" width="300"></iframe>
 - language: ''
@@ -1014,7 +1135,8 @@
   title: 'Count All Kids: 2020 Census'
   name: ''
   link: https://www.youtube.com/watch?v=RkPeAeAJW8k&feature=youtu.be
-  category: Children
+  community: Children
+  id: RkPeAeAJW8k
   prize: General
   html: <iframe src="https://www.youtube.com/embed/RkPeAeAJW8k" height="200" width="300"></iframe>
 - language: ''
@@ -1023,7 +1145,9 @@
   title: 'Census 2020: The Power of Being Counted'
   name: Kristen Dohle
   link: https://www.youtube.com/watch?v=SqSXIXd_fbU
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1032,7 +1156,8 @@
   title: Census In Color
   name: Elizabeth Rohe
   link: https://youtu.be/bhW-vyae79Q
-  category: LGBTQ, Children, Racial and Ethnic Minorities, Low-income, Mobile
+  community: LGBTQ, Children, Racial and Ethnic Minorities, Low-income, Mobile
+  id: bhW-vyae79Q
   prize: General
   html: <iframe src="https://www.youtube.com/embed/bhW-vyae79Q" height="200" width="300"></iframe>
 - language: ''
@@ -1041,7 +1166,8 @@
   title: Be Counted, Cathedral City (English)
   name: Christopher Parman
   link: https://www.youtube.com/watch?v=_3sA05A9IYM&t=3s
-  category: LGBTQ, Hispanic
+  community: LGBTQ, Hispanic
+  id: _3sA05A9IYM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/_3sA05A9IYM" height="200" width="300"></iframe>
 - language: ''
@@ -1050,7 +1176,7 @@
   title: Guia para ser Contados! Censo en Español
   name: Hector Fong
   link: https://www.facebook.com/MakeTheRoadNV/videos/232555764700137/
-  category: Young, Hispanic
+  community: Young, Hispanic
   prize: General
 - language: ''
   team: null
@@ -1058,7 +1184,7 @@
   title: Teen Census
   name: Craig Lloyd
   link: https://vimeo.com/414502139
-  category: Young, Mobile
+  community: Young, Mobile
   prize: General
 - language: ''
   team: null
@@ -1066,7 +1192,7 @@
   title: Census Pukuu
   name: Eric Sanchez
   link: https://vimeo.com/406390086
-  category: LGBTQ, Native American
+  community: LGBTQ, Native American
   prize: ''
 - language: ''
   team: null
@@ -1074,7 +1200,8 @@
   title: BNC 2020 Census
   name: Joe Brown Thunder
   link: https://www.youtube.com/watch?v=VV0QkOZTwFQ&feature=youtu.be
-  category: Native American
+  community: Native American
+  id: VV0QkOZTwFQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/VV0QkOZTwFQ" height="200" width="300"></iframe>
 - language: ''
@@ -1083,7 +1210,8 @@
   title: You count for your Tribe
   name: Katherine Long
   link: https://www.youtube.com/watch?v=bBqZhn43nEQ&feature=youtu.be
-  category: Native American, Hispanic
+  community: Native American, Hispanic
+  id: bBqZhn43nEQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/bBqZhn43nEQ" height="200" width="300"></iframe>
 - language: ''
@@ -1092,7 +1220,8 @@
   title: You Count for Kay County
   name: Katherine Long
   link: https://youtu.be/RKiXJU_EL7c
-  category: Native American, Hispanic
+  community: Native American, Hispanic
+  id: RKiXJU_EL7c
   prize: General
   html: <iframe src="https://www.youtube.com/embed/RKiXJU_EL7c" height="200" width="300"></iframe>
 - language: ''
@@ -1101,7 +1230,9 @@
   title: Census Star Quilt
   name: Gemma Lockhart
   link: https://www.youtube.com/watch?v=RngU1lNBFBo
-  category: Native American
+  community: Native American
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1110,7 +1241,8 @@
   title: 'Census: This or That'
   name: Angela Petersons
   link: https://youtu.be/afTb4lAxbsg
-  category: AANHPI, Children, Rural
+  community: AANHPI, Children, Rural
+  id: afTb4lAxbsg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/afTb4lAxbsg" height="200" width="300"></iframe>
 - language: ''
@@ -1119,7 +1251,8 @@
   title: We Count
   name: Reena Oxendine
   link: https://youtu.be/VnHQOaObP7o
-  category: Native American
+  community: Native American
+  id: VnHQOaObP7o
   prize: General
   html: <iframe src="https://www.youtube.com/embed/VnHQOaObP7o" height="200" width="300"></iframe>
 - language: ''
@@ -1128,7 +1261,8 @@
   title: 10 Facts for Natives
   name: Ginny Underwood
   link: https://youtu.be/cW5gZx-Ylvc
-  category: Native American
+  community: Native American
+  id: cW5gZx-Ylvc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/cW5gZx-Ylvc" height="200" width="300"></iframe>
 - language: ''
@@ -1137,7 +1271,9 @@
   title: Census 2020 PSA – Roxanna Foste
   name: Ginny Underwood
   link: https://www.youtube.com/watch?v=hpSHGx51coE
-  category: Native American
+  community: Native American
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1146,7 +1282,8 @@
   title: Census 2020 PSA - Star Yellow Fish
   name: Ginny Underwood
   link: https://youtu.be/rT66S9AIm9U
-  category: Native American
+  community: Native American
+  id: rT66S9AIm9U
   prize: General
   html: <iframe src="https://www.youtube.com/embed/rT66S9AIm9U" height="200" width="300"></iframe>
 - language: ''
@@ -1155,7 +1292,7 @@
   title: 20202 Paiute Indian Tribe
   name: Tamra Borchardt-Slayton
   link: https://vimeo.com/415606129
-  category: Native American
+  community: Native American
   prize: General
 - language: ''
   team: null
@@ -1163,7 +1300,9 @@
   title: Census 2020 Victor Feng
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=6GcogARPWZY
-  category: Low-income, Children
+  community: Low-income, Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1172,7 +1311,9 @@
   title: Count Me In
   name: Kelsee Lee
   link: https://www.youtube.com/watch?v=785V40P59gM
-  category: Racial and Ethnic Minorities, Young, Children
+  community: Racial and Ethnic Minorities, Young, Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1181,7 +1322,8 @@
   title: Census 2020- An Incredible Opportunity
   name: Simon Rivera
   link: https://www.youtube.com/watch?v=f-bMDflEO_U&feature=youtu.be
-  category: Children
+  community: Children
+  id: f-bMDflEO_U
   prize: General
   html: <iframe src="https://www.youtube.com/embed/f-bMDflEO_U" height="200" width="300"></iframe>
 - language: ''
@@ -1190,7 +1332,8 @@
   title: Trell Mix Count Me In
   name: Trell Lee
   link: https://www.youtube.com/watch?v=ro-xg4Qsdyc&feature=youtu.be
-  category: Homeless
+  community: Homeless
+  id: ro-xg4Qsdyc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ro-xg4Qsdyc" height="200" width="300"></iframe>
 - language: ''
@@ -1199,7 +1342,9 @@
   title: Promo Video Mask
   name: Fernando Mendez
   link: https://www.youtube.com/watch?v=t5QtLWRBK34
-  category: Racial and Ethnic Minorities, LGBTQ
+  community: Racial and Ethnic Minorities, LGBTQ
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1208,7 +1353,8 @@
   title: I'm Gonna Count
   name: Kira Bryant
   link: https://www.youtube.com/watch?v=ZsxDRpwp5uY&feature=youtu.be
-  category: African-American
+  community: African-American
+  id: ZsxDRpwp5uY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ZsxDRpwp5uY" height="200" width="300"></iframe>
 - language: ''
@@ -1217,7 +1363,8 @@
   title: People with Disabilities Count
   name: Erica Dennison
   link: https://youtu.be/7je8FzEOnTs
-  category: People with disabilities
+  community: People with disabilities
+  id: 7je8FzEOnTs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7je8FzEOnTs" height="200" width="300"></iframe>
 - language: ''
@@ -1226,7 +1373,8 @@
   title: Census Time
   name: Martin Burciaga
   link: https://www.youtube.com/watch?v=oXCI9OezCm8&feature=youtu.be
-  category: Seniors, Children, Mobile, Homeless
+  community: Seniors, Children, Mobile, Homeless
+  id: oXCI9OezCm8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/oXCI9OezCm8" height="200" width="300"></iframe>
 - language: ''
@@ -1235,7 +1383,7 @@
   title: Census Magic!
   name: Magical Nathaniel
   link: http://youtu.be/N_CXfymrNC0
-  category: Young
+  community: Young
   prize: General
 - language: ''
   team: null
@@ -1243,7 +1391,8 @@
   title: Divine Nine Census Don't Rush Challenge
   name: Michelle R Smith, PhD, MPH (ADH
   link: https://youtu.be/56VWtq_LvFk
-  category: African-Americans
+  community: African-Americans
+  id: 56VWtq_LvFk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/56VWtq_LvFk" height="200" width="300"></iframe>
 - language: ''
@@ -1252,7 +1401,8 @@
   title: It Can't Wait
   name: Ray Jones TV
   link: https://youtu.be/530ysD-ewNc
-  category: African-Americans
+  community: African-Americans
+  id: 530ysD-ewNc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/530ysD-ewNc" height="200" width="300"></iframe>
 - language: ''
@@ -1261,7 +1411,8 @@
   title: Not A Statistic, Rise Up and Count
   name: Dayana Jiselle
   link: https://www.youtube.com/watch?v=kCTduK9ScQ0&feature=emb_logo
-  category: ''
+  community: ''
+  id: kCTduK9ScQ0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/kCTduK9ScQ0" height="200" width="300"></iframe>
 - language: ''
@@ -1270,7 +1421,8 @@
   title: 'This is the Motherhood #Census2020'
   name: Angie White (Rumpf)
   link: https://www.youtube.com/watch?v=obja9t_8qcw&feature=youtu.be
-  category: ''
+  community: ''
+  id: obja9t_8qcw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/obja9t_8qcw" height="200" width="300"></iframe>
 - language: ''
@@ -1279,7 +1431,9 @@
   title: I Count, You Count, We all count
   name: Adrian Rivers
   link: https://www.youtube.com/watch?v=uEZHoHxjpOM
-  category: Rural
+  community: Rural
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1288,7 +1442,8 @@
   title: ''
   name: Saronda Williams
   link: https://www.youtube.com/watch?v=wqneILBXquU&feature=youtu.be
-  category: African-Americans, Rural
+  community: African-Americans, Rural
+  id: wqneILBXquU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/wqneILBXquU" height="200" width="300"></iframe>
 - language: ''
@@ -1297,7 +1452,9 @@
   title: Count Me in Bastrop County
   name: Chris White
   link: https://www.youtube.com/watch?v=WtW9FFt9eDg
-  category: Rural
+  community: Rural
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1306,7 +1463,8 @@
   title: City of Mesquite Census
   name: Janice Ridondo
   link: https://www.youtube.com/watch?v=ZizwlWpHSJM&feature=youtu.be
-  category: Rural, Children
+  community: Rural, Children
+  id: ZizwlWpHSJM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ZizwlWpHSJM" height="200" width="300"></iframe>
 - language: ''
@@ -1315,7 +1473,8 @@
   title: Census 2020 Spectracare Health
   name: Candy Gaff
   link: https://www.youtube.com/watch?v=48k3r-SjyhU&feature=youtu.be
-  category: Rural, Children, African-Americans, Hispanic
+  community: Rural, Children, African-Americans, Hispanic
+  id: 48k3r-SjyhU
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/48k3r-SjyhU" height="200" width="300"></iframe>
 - language: ''
@@ -1324,7 +1483,8 @@
   title: Census Save the Dates
   name: Craig Lloyd
   link: https://youtu.be/jzNbV7QsXq8
-  category: Rural, Hispanic
+  community: Rural, Hispanic
+  id: jzNbV7QsXq8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/jzNbV7QsXq8" height="200" width="300"></iframe>
 - language: ''
@@ -1333,7 +1493,8 @@
   title: Everyone Counts Heard Co. Census 2020
   name: Rachel Schory
   link: https://youtu.be/m6tewvXbUZk
-  category: Young, Rural
+  community: Young, Rural
+  id: m6tewvXbUZk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/m6tewvXbUZk" height="200" width="300"></iframe>
 - language: ''
@@ -1342,7 +1503,8 @@
   title: Rural Counts - NC Rural Center, Census 101
   name: Tiffany Gladney
   link: https://www.youtube.com/watch?v=B5XFvWg4P4U&t=4s
-  category: Rural
+  community: Rural
+  id: B5XFvWg4P4U
   prize: General
   html: <iframe src="https://www.youtube.com/embed/B5XFvWg4P4U" height="200" width="300"></iframe>
 - language: ''
@@ -1351,7 +1513,7 @@
   title: Video Submission
   name: Sydney Bleiweiss
   link: https://www.dropbox.com/s/agqdu6v655t1oye/CC_CensusVideo_All_FINAL.mp4?dl=0
-  category: ''
+  community: ''
   prize: General
 - language: ''
   team: null
@@ -1359,7 +1521,9 @@
   title: Brea Census 2020
   name: Melissa Davis
   link: https://www.youtube.com/watch?v=1biRF21ZPTo
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1368,7 +1532,7 @@
   title: We Should All Count
   name: Elana Mugdan
   link: https://vimeo.com/406359163
-  category: Young
+  community: Young
   prize: General
 - language: ''
   team: null
@@ -1376,7 +1540,8 @@
   title: 'We All Count: The Rap'
   name: Aya Hayashi
   link: https://www.youtube.com/watch?v=W_1L29_uSAw&feature=youtu.be
-  category: Racial and Ethnic Minorities, Young
+  community: Racial and Ethnic Minorities, Young
+  id: W_1L29_uSAw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/W_1L29_uSAw" height="200" width="300"></iframe>
 - language: ''
@@ -1385,7 +1550,9 @@
   title: Respond to the Census
   name: Colin Miletich
   link: https://www.youtube.com/watch?v=N8rsYIXYa9E
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1394,7 +1561,8 @@
   title: 'Unite Oregon 2020: Census'
   name: David Hansen
   link: https://www.youtube.com/watch?v=TN5WpAOzgrg&feature=youtu.be
-  category: ''
+  community: ''
+  id: TN5WpAOzgrg
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/TN5WpAOzgrg" height="200" width="300"></iframe>
 - language: ''
@@ -1403,7 +1571,7 @@
   title: Get Out The Count- Town Crier
   name: Ben Park
   link: https://vimeo.com/410674477
-  category: Young
+  community: Young
   prize: General
 - language: ''
   team: null
@@ -1411,7 +1579,9 @@
   title: 'Census 2020: It''s Not Too Late to be Counted'
   name: Jessica Buford
   link: https://www.youtube.com/watch?v=1UU-de8xDF4
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1420,7 +1590,8 @@
   title: ATX Black/African American Awareness  Video
   name: Jonny Blackburn
   link: https://www.youtube.com/watch?v=3TGbIiXwj7g&t=3s&fbclid=IwAR1OiTIBuCN0KsdBC-a971mD8pONBttD0LOP5CoDpM1opAszLI6zjRgrjBw
-  category: African-Americans
+  community: African-Americans
+  id: 3TGbIiXwj7g
   prize: General
   html: <iframe src="https://www.youtube.com/embed/3TGbIiXwj7g" height="200" width="300"></iframe>
 - language: ''
@@ -1429,7 +1600,9 @@
   title: '2020 Census: Milwaukee Counts'
   name: Tom Loppnow
   link: https://www.youtube.com/watch?v=16VU4-t1Lds
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1438,7 +1611,8 @@
   title: The Major Family, Census Slide
   name: Leonard McCrary
   link: https://www.youtube.com/watch?v=drTRm2kYRJc&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: drTRm2kYRJc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/drTRm2kYRJc" height="200" width="300"></iframe>
 - language: ''
@@ -1447,7 +1621,8 @@
   title: 2020 Census Get Out the Count
   name: Shareef Allman
   link: https://www.youtube.com/watch?v=FwngsnIPgCg&t=23s
-  category: African-Americans
+  community: African-Americans
+  id: FwngsnIPgCg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/FwngsnIPgCg" height="200" width="300"></iframe>
 - language: ''
@@ -1456,7 +1631,8 @@
   title: Make Your Black Count
   name: Arleana Waller
   link: https://www.youtube.com/watch?v=OoGtaTF1sCc&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: OoGtaTF1sCc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/OoGtaTF1sCc" height="200" width="300"></iframe>
 - language: ''
@@ -1465,7 +1641,8 @@
   title: 2020Census POC
   name: Dr. Trina Coleman
   link: https://www.youtube.com/watch?v=w8_3hteEXmo&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: w8_3hteEXmo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/w8_3hteEXmo" height="200" width="300"></iframe>
 - language: ''
@@ -1474,7 +1651,9 @@
   title: Standing Together While Apart
   name: Justin Castille
   link: https://www.youtube.com/watch?v=xn9BmIk6guk
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1483,7 +1662,9 @@
   title: 2020 Census Shape Your Future
   name: Lacora White
   link: https://www.youtube.com/watch?v=z8UUiwKK8dk
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1492,7 +1673,8 @@
   title: The 2020 Census- It's Online!
   name: Lance Greene
   link: https://www.youtube.com/watch?v=fdulY7bv--M&feature=youtu.be
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+  id: fdulY7bv--M
   prize: General
   html: <iframe src="https://www.youtube.com/embed/fdulY7bv--M" height="200" width="300"></iframe>
 - language: ''
@@ -1501,7 +1683,8 @@
   title: 2020 Census Pirate
   name: Jonathan Green
   link: https://www.youtube.com/watch?v=IB7EO1AFrfs&feature=youtu.be
-  category: African American, Young
+  community: African American, Young
+  id: IB7EO1AFrfs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/IB7EO1AFrfs" height="200" width="300"></iframe>
 - language: ''
@@ -1510,7 +1693,9 @@
   title: African and Caribbean Immigrant Community Philadelphia Census promotion Video
   name: Ducor Media and Prince Roberts
   link: https://www.youtube.com/watch?v=5abshhzZ-Jk
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1519,7 +1704,9 @@
   title: Census Slide
   name: Census Submission (Eriq Glenn)
   link: https://www.youtube.com/watch?v=YGWUf06QKDw
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1528,7 +1715,8 @@
   title: '2020 Census #MyBlackCounts'
   name: Arleana Waller
   link: https://www.youtube.com/watch?v=zO48VXRlBGU&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: zO48VXRlBGU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/zO48VXRlBGU" height="200" width="300"></iframe>
 - language: ''
@@ -1537,7 +1725,8 @@
   title: Shape Your Future Census
   name: Christopher Crossley
   link: https://youtu.be/F7CLpEPUMLU
-  category: African-Americans
+  community: African-Americans
+  id: F7CLpEPUMLU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/F7CLpEPUMLU" height="200" width="300"></iframe>
 - language: ''
@@ -1546,7 +1735,8 @@
   title: Mind MN Census 2020
   name: MN Institute for Nigerian Development
   link: https://www.youtube.com/watch?v=ix5cZaNjsmo&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: ix5cZaNjsmo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ix5cZaNjsmo" height="200" width="300"></iframe>
 - language: ''
@@ -1555,7 +1745,8 @@
   title: Gallatin Hipster
   name: Jeff Hentschel
   link: https://youtu.be/JWuq2ewDwdc
-  category: African-Americans
+  community: African-Americans
+  id: JWuq2ewDwdc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/JWuq2ewDwdc" height="200" width="300"></iframe>
 - language: ''
@@ -1564,7 +1755,8 @@
   title: US Census For All
   name: Bala Bikono
   link: https://www.youtube.com/watch?v=vU9mWk6zG4Y&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: vU9mWk6zG4Y
   prize: General
   html: <iframe src="https://www.youtube.com/embed/vU9mWk6zG4Y" height="200" width="300"></iframe>
 - language: ''
@@ -1573,7 +1765,8 @@
   title: 'Count Me In! #2020Census #NCCCommit2BCounted'
   name: ''
   link: https://youtu.be/ztnDj9fKn6c
-  category: African-Americans
+  community: African-Americans
+  id: ztnDj9fKn6c
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ztnDj9fKn6c" height="200" width="300"></iframe>
 - language: ''
@@ -1582,7 +1775,8 @@
   title: You Count
   name: Willem van Vark
   link: https://youtu.be/rsG2ZYpTHco
-  category: ''
+  community: ''
+  id: rsG2ZYpTHco
   prize: General
   html: <iframe src="https://www.youtube.com/embed/rsG2ZYpTHco" height="200" width="300"></iframe>
 - language: ''
@@ -1591,7 +1785,7 @@
   title: The Year of the Census
   name: Betsy Robbins
   link: https://www.facebook.com/betsy.robbins.1/videos/10159444318083989/
-  category: Racial and Ethnic Minorities, Low-income
+  community: Racial and Ethnic Minorities, Low-income
   prize: General
 - language: ''
   team: null
@@ -1599,7 +1793,8 @@
   title: We All Count
   name: Will McCord
   link: https://www.youtube.com/watch?v=ad81-ul9e4Q&feature=youtu.be
-  category: Young, Mobile
+  community: Young, Mobile
+  id: ad81-ul9e4Q
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ad81-ul9e4Q" height="200" width="300"></iframe>
 - language: ''
@@ -1608,7 +1803,9 @@
   title: I Will Survive Parody (2020 Census)
   name: Kelly
   link: https://www.youtube.com/watch?v=VD1paNHzjOQ
-  category: Young, Mobile
+  community: Young, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1617,7 +1814,9 @@
   title: Warren County Counts!
   name: Cara Greenslade
   link: https://www.youtube.com/watch?v=CzcAVe8Ze_4
-  category: Young, Mobile, Rural
+  community: Young, Mobile, Rural
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1626,7 +1825,8 @@
   title: Stand Up and Be Counted
   name: Tyler Wursta
   link: https://www.youtube.com/watch?v=o-gYmkItoEY&feature=youtu.be
-  category: Young, Mobile
+  community: Young, Mobile
+  id: o-gYmkItoEY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/o-gYmkItoEY" height="200" width="300"></iframe>
 - language: ''
@@ -1635,7 +1835,7 @@
   title: Get out the Count Census 2020
   name: Elaine Harris-Fulton
   link: https://drive.google.com/file/d/1lZ3LZPTB-uAGUb5Tk-dFXe7FDDq_k3cS/view?usp=drive_web
-  category: Mobile
+  community: Mobile
   prize: General
 - language: ''
   team: null
@@ -1643,7 +1843,8 @@
   title: Everyone Included
   name: Javier Martinez
   link: https://www.youtube.com/watch?v=Zb6JQCS0u64&feature=youtu.be
-  category: Children
+  community: Children
+  id: Zb6JQCS0u64
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Zb6JQCS0u64" height="200" width="300"></iframe>
 - language: ''
@@ -1652,8 +1853,9 @@
   title: NCNW SoCal
   name: Brenda Anderson
   link: https://youtu.be/U1TlcFLJRi4
-  category: Children, Elderly, Mobile Racial and ethnic minorities, Low income, People
+  community: Children, Elderly, Mobile Racial and ethnic minorities, Low income, People
     with disabilities
+  id: U1TlcFLJRi4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/U1TlcFLJRi4" height="200" width="300"></iframe>
 - language: ''
@@ -1662,7 +1864,7 @@
   title: 2020 Cenuss Tik Tok
   name: Audrey Hayes
   link: https://www.tiktok.com/@audhayes/video/6821593417890401541?u_code=dbdmjfk57l69b3&preview_pb=0&language=en&_d=dbdmjj4a7jmiii&timestamp=1588601961&utm_campaign=client_share&app=musically&utm_medium=ios&user_id=6806866949478925317&tt_from=copy&utm_source=copy&source=h5_m
-  category: Mobile
+  community: Mobile
   prize: General
 - language: ''
   team: Candace Kita
@@ -1672,7 +1874,9 @@
   link: |-
     https://www.youtube.com/watch?v=RA8yGWw0vKQ
     https://www.youtube.com/watch?v=Bd0HN6KKqN8
-  category: AANHPI, Mobile
+  community: AANHPI, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1681,7 +1885,8 @@
   title: En el Censo Cuentas Tu
   name: Carlos Pagan
   link: https://www.youtube.com/watch?v=mFpRweAdBUo&feature=youtu.be
-  category: Hispanic, Young, Mobile
+  community: Hispanic, Young, Mobile
+  id: mFpRweAdBUo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/mFpRweAdBUo" height="200" width="300"></iframe>
 - language: ''
@@ -1690,7 +1895,8 @@
   title: Your Community Depend on You
   name: Natalie Detherage
   link: https://youtu.be/YTUPU3LsKEs
-  category: Young, Mobile
+  community: Young, Mobile
+  id: YTUPU3LsKEs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/YTUPU3LsKEs" height="200" width="300"></iframe>
 - language: ''
@@ -1699,7 +1905,8 @@
   title: Do Your Part
   name: Mikaela Mosley
   link: https://youtu.be/Zpbdx6jJpd8
-  category: African-Americans
+  community: African-Americans
+  id: Zpbdx6jJpd8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
 - language: ''
@@ -1708,7 +1915,9 @@
   title: Grandma, what is the Census
   name: Jessica Turner
   link: https://www.youtube.com/watch?v=bBnsLQLqdoQ
-  category: African-Americans, Children
+  community: African-Americans, Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1717,7 +1926,8 @@
   title: 'Sunny Side Up: Curtis the Census Taker'
   name: Brandon Rains
   link: https://youtu.be/oSJVOP0giQ4
-  category: ''
+  community: ''
+  id: oSJVOP0giQ4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/oSJVOP0giQ4" height="200" width="300"></iframe>
 - language: ''
@@ -1726,7 +1936,8 @@
   title: "#becounted"
   name: Princess Stephanie Donato
   link: https://www.youtube.com/watch?v=jN-qUCGF9ss&feature=youtu.be
-  category: Young
+  community: Young
+  id: jN-qUCGF9ss
   prize: General
   html: <iframe src="https://www.youtube.com/embed/jN-qUCGF9ss" height="200" width="300"></iframe>
 - language: ''
@@ -1735,7 +1946,8 @@
   title: Let's Get this MONEY
   name: Lee Diamo
   link: https://www.youtube.com/watch?v=bKD1O7wJC2g&feature=youtu.be
-  category: Young
+  community: Young
+  id: bKD1O7wJC2g
   prize: General
   html: <iframe src="https://www.youtube.com/embed/bKD1O7wJC2g" height="200" width="300"></iframe>
 - language: ''
@@ -1744,7 +1956,9 @@
   title: Rock the Census!
   name: Thomas Strowe
   link: https://www.youtube.com/watch?v=C9dkFEzlYbE
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1753,7 +1967,9 @@
   title: Do You Want to be Included
   name: Saloni Nahar
   link: https://www.youtube.com/watch?v=XbYmhLOFaH4
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1762,7 +1978,7 @@
   title: Census 2020
   name: Austin-Furtak-Cole
   link: https://vimeo.com/402433010
-  category: Young
+  community: Young
   prize: ''
 - language: ''
   team: Korean American Coalition Los Angeles
@@ -1770,7 +1986,8 @@
   title: Tell Your Mom to get counted
   name: Audrey Jang
   link: https://youtu.be/y5H4rZYOoUY
-  category: Asian-Americans, Young, Mobile, Children
+  community: Asian-Americans, Young, Mobile, Children
+  id: y5H4rZYOoUY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/y5H4rZYOoUY" height="200" width="300"></iframe>
 - language: ''
@@ -1779,7 +1996,8 @@
   title: 10 Minutes for a Better 10 years
   name: Ignatius Lin
   link: https://youtu.be/dfoBXhSpjbs
-  category: Asian-Americans, Children
+  community: Asian-Americans, Children
+  id: dfoBXhSpjbs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/dfoBXhSpjbs" height="200" width="300"></iframe>
 - language: ''
@@ -1788,7 +2006,8 @@
   title: If Asian Americans Don't Take the Census
   name: Hanna Huang
   link: https://youtu.be/wIsZBUxmIVQ
-  category: Asian-Americans
+  community: Asian-Americans
+  id: wIsZBUxmIVQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/wIsZBUxmIVQ" height="200" width="300"></iframe>
 - language: ''
@@ -1797,7 +2016,9 @@
   title: Census 2020 Christian Bondoc
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=xpH8D7__uZM
-  category: AANHPI, Young, Mobile
+  community: AANHPI, Young, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1806,7 +2027,9 @@
   title: Wake Up, Atlanta
   name: Kavi Vu
   link: https://www.youtube.com/watch?v=ZDZk9wToZm8
-  category: Asian-Americans
+  community: Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1815,7 +2038,8 @@
   title: Census Tunes - When you get counted
   name: Audrey Jang
   link: https://youtu.be/pwZyoIwj4L0
-  category: Asian-Americans, Young, Mobile, Children
+  community: Asian-Americans, Young, Mobile, Children
+  id: pwZyoIwj4L0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/pwZyoIwj4L0" height="200" width="300"></iframe>
 - language: ''
@@ -1824,7 +2048,9 @@
   title: ACDC Census PSA
   name: Brian Thomas
   link: https://www.youtube.com/watch?v=OovHp6vwg7g
-  category: AANHPI, Young, Mobile
+  community: AANHPI, Young, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1833,7 +2059,8 @@
   title: PASSi Census 2020
   name: So Young Jung
   link: https://www.youtube.com/watch?v=tLRPKDsGTe4&feature=youtu.be
-  category: Asian-Americans
+  community: Asian-Americans
+  id: tLRPKDsGTe4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/tLRPKDsGTe4" height="200" width="300"></iframe>
 - language: ''
@@ -1842,7 +2069,8 @@
   title: Cruz Kim Wants you to get counted
   name: Audrey Jang
   link: https://youtu.be/8uZwqsIFyIk
-  category: Asian-Americans, Young, Mobile, Children
+  community: Asian-Americans, Young, Mobile, Children
+  id: 8uZwqsIFyIk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/8uZwqsIFyIk" height="200" width="300"></iframe>
 - language: ''
@@ -1851,7 +2079,9 @@
   title: Census 2020 Kristina Llagan
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=GwIAt_U-6Cw
-  category: AANHPI, Low income, Mobile
+  community: AANHPI, Low income, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1860,7 +2090,9 @@
   title: Census 2020 Kristen Llagan
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=GwIAt_U-6Cw
-  category: AANHPI, Children, Mobile
+  community: AANHPI, Children, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1869,7 +2101,9 @@
   title: Census 2020 Kelly Tay
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=LYUoSn4_9vc
-  category: Asian-Americans, Mobile
+  community: Asian-Americans, Mobile
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1878,7 +2112,9 @@
   title: Raise Our Voice:Make Our Choice
   name: Jasmine Chen
   link: https://www.youtube.com/watch?v=ni1iaxxP8Fc
-  category: Asian-Americans
+  community: Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1887,7 +2123,8 @@
   title: 'Census 2020: Houston Vietnamese Community'
   name: Quoc-Anh-Tran
   link: https://www.youtube.com/watch?v=njhAoJEHIa8&feature=youtu.be
-  category: Asian-Americans
+  community: Asian-Americans
+  id: njhAoJEHIa8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/njhAoJEHIa8" height="200" width="300"></iframe>
 - language: ''
@@ -1896,7 +2133,9 @@
   title: 2021 Census - Chad Calugay, ACDC
   name: ''
   link: https://www.youtube.com/watch?v=9RCkrgcYClA
-  category: AANHPI
+  community: AANHPI
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1905,7 +2144,9 @@
   title: I Count, everyone counts
   name: Karen Montgomery
   link: https://www.youtube.com/watch?v=qZmSUlPfD-U
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1914,7 +2155,8 @@
   title: Mi Rialiti Census 2020 We Count!
   name: M Nkosi
   link: https://youtu.be/ihVAoeQnvHw
-  category: African-Americans, Young
+  community: African-Americans, Young
+  id: ihVAoeQnvHw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ihVAoeQnvHw" height="200" width="300"></iframe>
 - language: ''
@@ -1923,7 +2165,8 @@
   title: Don't Leave The Money on The Table
   name: David Ivy
   link: https://youtu.be/h8wgaxBfGv0
-  category: ''
+  community: ''
+  id: h8wgaxBfGv0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/h8wgaxBfGv0" height="200" width="300"></iframe>
 - language: ''
@@ -1932,7 +2175,8 @@
   title: Get Out The Count - Shape Your Future
   name: Susie Canda
   link: https://youtu.be/7n9l76U4R2k
-  category: ''
+  community: ''
+  id: 7n9l76U4R2k
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7n9l76U4R2k" height="200" width="300"></iframe>
 - language: ''
@@ -1941,7 +2185,7 @@
   title: 2020 Census
   name: Kiyanna Gayle
   link: https://drive.google.com/file/d/1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ/view?usp=drive_web
-  category: African-Americans, Low income
+  community: African-Americans, Low income
   prize: General
 - language: ''
   team: null
@@ -1949,7 +2193,8 @@
   title: 2020 Census
   name: Amany Jondy
   link: https://www.youtube.com/watch?v=F4jHLqUslBk&feature=youtu.be
-  category: ''
+  community: ''
+  id: F4jHLqUslBk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/F4jHLqUslBk" height="200" width="300"></iframe>
 - language: ''
@@ -1958,7 +2203,8 @@
   title: BAMA Kids, Count Me In!
   name: Jas Angion
   link: https://youtu.be/rRe9yQEzYts
-  category: Low income
+  community: Low income
+  id: rRe9yQEzYts
   prize: General
   html: <iframe src="https://www.youtube.com/embed/rRe9yQEzYts" height="200" width="300"></iframe>
 - language: ''
@@ -1967,7 +2213,8 @@
   title: Everyone Counts Census 2020
   name: Amy Rose
   link: https://www.youtube.com/watch?v=Kt4uoiIt2ak&feature=youtu.be
-  category: Children
+  community: Children
+  id: Kt4uoiIt2ak
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Kt4uoiIt2ak" height="200" width="300"></iframe>
 - language: ''
@@ -1976,7 +2223,8 @@
   title: Census 2020 According to a 4 Year Old
   name: Lester Perkins
   link: https://www.youtube.com/watch?v=tdKhHUUEgdc&feature=youtu.be
-  category: Children
+  community: Children
+  id: tdKhHUUEgdc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/tdKhHUUEgdc" height="200" width="300"></iframe>
 - language: ''
@@ -1985,7 +2233,9 @@
   title: Bee Counted in 2020 Census
   name: Amy Rose
   link: https://www.youtube.com/watch?v=zl7eLJOZdvA
-  category: Children
+  community: Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -1994,7 +2244,8 @@
   title: Count All Kids 2020
   name: Dan Sachoff
   link: https://www.youtube.com/watch?v=ElxBx3BUz3U&feature=youtu.be
-  category: Children
+  community: Children
+  id: ElxBx3BUz3U
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ElxBx3BUz3U" height="200" width="300"></iframe>
 - language: ''
@@ -2003,7 +2254,9 @@
   title: Who Counts?
   name: Natalie Detherage
   link: https://www.youtube.com/watch?v=pb8esrRFmrk
-  category: Children
+  community: Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2012,7 +2265,8 @@
   title: Haitian Mother Encourages Community to complete Census
   name: Success Jr
   link: https://youtu.be/iiVpu4BLdaY
-  category: Children
+  community: Children
+  id: iiVpu4BLdaY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/iiVpu4BLdaY" height="200" width="300"></iframe>
 - language: Urdu
@@ -2021,7 +2275,9 @@
   title: 2020 Census
   name: Ferkhanda Najib
   link: https://www.youtube.com/watch?v=I1ra0jdxvR0
-  category: Children
+  community: Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2030,7 +2286,9 @@
   title: Measure of America, Why the Census Matters
   name: Renee King
   link: https://www.youtube.com/watch?v=8HducyiTQTg
-  category: Children
+  community: Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2039,7 +2297,9 @@
   title: Census PSA (Children Edition)
   name: Joe Doria
   link: https://www.youtube.com/watch?v=RCKispvo_mo
-  category: Children
+  community: Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2048,7 +2308,8 @@
   title: Everyone Counts
   name: Robert Styles
   link: https://youtu.be/d-4cfE5ixEo
-  category: Children
+  community: Children
+  id: d-4cfE5ixEo
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/d-4cfE5ixEo" height="200" width="300"></iframe>
 - language: ''
@@ -2057,7 +2318,8 @@
   title: Why We Count - Census 2020
   name: Johnny McDonald
   link: https://www.youtube.com/watch?v=WUQuaRU72Y8&feature=youtu.be
-  category: Children
+  community: Children
+  id: WUQuaRU72Y8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/WUQuaRU72Y8" height="200" width="300"></iframe>
 - language: ''
@@ -2066,7 +2328,7 @@
   title: Census 2020 for the next 10 years
   name: Rasha Clark
   link: https://vimeo.com/416181851
-  category: Children
+  community: Children
   prize: General
 - language: ''
   team: null
@@ -2074,7 +2336,8 @@
   title: We All Count in East Stuart
   name: Jessica Tharp
   link: https://youtu.be/iG4XzCeJsWg
-  category: Children
+  community: Children
+  id: iG4XzCeJsWg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/iG4XzCeJsWg" height="200" width="300"></iframe>
 - language: ''
@@ -2083,7 +2346,8 @@
   title: One Shoe Run
   name: Desiree Ducasa
   link: https://www.youtube.com/watch?v=hW6nsO_Qykg&feature=youtu.be
-  category: Racial and Ethnic Minority, Young
+  community: Racial and Ethnic Minority, Young
+  id: hW6nsO_Qykg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/hW6nsO_Qykg" height="200" width="300"></iframe>
 - language: ''
@@ -2092,7 +2356,8 @@
   title: If You Could Help
   name: Simon Rivera
   link: https://www.youtube.com/watch?v=KyEI0F_elnU&feature=youtu.be
-  category: Children
+  community: Children
+  id: KyEI0F_elnU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/KyEI0F_elnU" height="200" width="300"></iframe>
 - language: ''
@@ -2101,7 +2366,8 @@
   title: A Brighter Future
   name: Simon Rivera
   link: https://www.youtube.com/watch?v=omPJEowMEMA&feature=youtu.be
-  category: Children
+  community: Children
+  id: omPJEowMEMA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/omPJEowMEMA" height="200" width="300"></iframe>
 - language: ''
@@ -2110,7 +2376,7 @@
   title: Census Movie
   name: John Schaff
   link: https://vimeo.com/416182844
-  category: Children
+  community: Children
   prize: General
 - language: ''
   team: null
@@ -2118,7 +2384,8 @@
   title: The 2020 Census Song!
   name: Austyn Malynn
   link: https://youtu.be/wYEyH7ciZ54
-  category: Young, Mobile
+  community: Young, Mobile
+  id: wYEyH7ciZ54
   prize: student
   html: <iframe src="https://www.youtube.com/embed/wYEyH7ciZ54" height="200" width="300"></iframe>
 - language: ''
@@ -2127,7 +2394,8 @@
   title: Your Respnse Matters
   name: Dr. Meagan Pollock
   link: https://youtu.be/1JJa2LNBT4Y
-  category: Young, Mobile
+  community: Young, Mobile
+  id: 1JJa2LNBT4Y
   prize: General
   html: <iframe src="https://www.youtube.com/embed/1JJa2LNBT4Y" height="200" width="300"></iframe>
 - language: ''
@@ -2136,7 +2404,8 @@
   title: Be Counted
   name: Erin Guinup
   link: https://www.youtube.com/watch?v=n1qh_yjFqgQ&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: n1qh_yjFqgQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/n1qh_yjFqgQ" height="200" width="300"></iframe>
 - language: ''
@@ -2145,7 +2414,8 @@
   title: Get Out the Count
   name: Noah Toumert
   link: https://www.youtube.com/watch?v=FVluaQzPAvw&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: FVluaQzPAvw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/FVluaQzPAvw" height="200" width="300"></iframe>
 - language: ''
@@ -2154,7 +2424,9 @@
   title: ''
   name: Yara Ismael
   link: https://www.youtube.com/watch?v=ikdJt43-rFg
-  category: MENA
+  community: MENA
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2163,7 +2435,7 @@
   title: Census Shelter In Place
   name: David Spungen
   link: https://vimeo.com/402937309
-  category: African-Americans, MENA
+  community: African-Americans, MENA
   prize: General
 - language: ''
   team: null
@@ -2171,7 +2443,7 @@
   title: MYPI Census
   name: ''
   link: https://www.youtube.com/watch?time_continue=11&v=Z2OFzQS_oKw&feature=emb_logo
-  category: MENA
+  community: MENA
   prize: General
 - language: ''
   team: null
@@ -2179,7 +2451,9 @@
   title: Muslims Respond Today
   name: Ermina Mustafic
   link: https://www.youtube.com/watch?v=Yk9sto6CDA4
-  category: MENA
+  community: MENA
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2188,7 +2462,9 @@
   title: 2020 Census Music Video
   name: Reema Kahmran
   link: https://www.youtube.com/watch?v=GvGeQBVbmZ8
-  category: MENA
+  community: MENA
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2197,7 +2473,8 @@
   title: Blue Mountain Council Scout Troop Census Video
   name: Jay Scott
   link: https://www.youtube.com/watch?v=PwpCJxTbiPg&feature=youtu.be // https://www.youtube.com/watch?v=sk1XShszVaE&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: PwpCJxTbiPg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/PwpCJxTbiPg" height="200" width="300"></iframe>
 - language: ''
@@ -2206,7 +2483,9 @@
   title: 'Census 2020: Act Now- Fill Out the Form'
   name: M Das
   link: https://www.youtube.com/watch?v=QhvXyO1MT9k
-  category: Asian-Americans
+  community: Asian-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2215,7 +2494,7 @@
   title: Census COPO
   name: Abigail Rose
   link: https://www.facebook.com/copousa/videos/535555333801151/
-  category: MENA
+  community: MENA
   prize: General
 - language: ''
   team: null
@@ -2223,7 +2502,7 @@
   title: Census Selfe Count
   name: David Spungen
   link: https://vimeo.com/415771754
-  category: African-Americans, MENA
+  community: African-Americans, MENA
   prize: General
 - language: ''
   team: null
@@ -2231,7 +2510,8 @@
   title: We Count, We lead our Future
   name: Jawad Mahmood
   link: https://www.youtube.com/watch?v=5HEjlJumCoQ&t=26s
-  category: MENA, Hispanic, African-Americans
+  community: MENA, Hispanic, African-Americans
+  id: 5HEjlJumCoQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/5HEjlJumCoQ" height="200" width="300"></iframe>
 - language: ''
@@ -2240,7 +2520,9 @@
   title: Census 2020 Nada Ramadan
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=-cT0V9FPaZI
-  category: MENA, Young, Children
+  community: MENA, Young, Children
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2249,7 +2531,8 @@
   title: Macomb Census Count Committee
   name: Kristin Terry
   link: https://www.youtube.com/watch?v=fGTUs2tCCIw&t=6s
-  category: ''
+  community: ''
+  id: fGTUs2tCCIw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/fGTUs2tCCIw" height="200" width="300"></iframe>
 - language: ''
@@ -2258,7 +2541,8 @@
   title: We All Count
   name: Cole Wellendorf
   link: https://www.youtube.com/watch?v=ln2zFVZifiM&feature=youtu.be
-  category: ''
+  community: ''
+  id: ln2zFVZifiM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ln2zFVZifiM" height="200" width="300"></iframe>
 - language: ''
@@ -2267,7 +2551,8 @@
   title: Why Should I Do That?
   name: Keith George
   link: https://www.youtube.com/watch?v=mxVmCj73raU&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: mxVmCj73raU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/mxVmCj73raU" height="200" width="300"></iframe>
 - language: ''
@@ -2276,7 +2561,8 @@
   title: I Am Love
   name: Danielle Duplechan
   link: https://www.youtube.com/watch?v=tYCt6cq9k6E&feature=youtu.be
-  category: ''
+  community: ''
+  id: tYCt6cq9k6E
   prize: General
   html: <iframe src="https://www.youtube.com/embed/tYCt6cq9k6E" height="200" width="300"></iframe>
 - language: ''
@@ -2285,7 +2571,8 @@
   title: I Don't Know
   name: Keith George
   link: https://www.youtube.com/watch?v=ySzNayiB6s0&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: ySzNayiB6s0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ySzNayiB6s0" height="200" width="300"></iframe>
 - language: ''
@@ -2294,7 +2581,8 @@
   title: Census 101
   name: Paul Thomas
   link: https://youtu.be/QzhTpGC-9Ek
-  category: Racial and Ethnic Minorities, Low income
+  community: Racial and Ethnic Minorities, Low income
+  id: QzhTpGC-9Ek
   prize: General
   html: <iframe src="https://www.youtube.com/embed/QzhTpGC-9Ek" height="200" width="300"></iframe>
 - language: ''
@@ -2303,7 +2591,8 @@
   title: GBCA Get out the Count
   name: Andrea Borja
   link: https://www.youtube.com/watch?v=1pAABcn1TYA&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: 1pAABcn1TYA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/1pAABcn1TYA" height="200" width="300"></iframe>
 - language: ''
@@ -2312,7 +2601,8 @@
   title: Census Census
   name: Ben Lu
   link: https://www.youtube.com/watch?v=tRZGarxoKY0&feature=youtu.be
-  category: Children
+  community: Children
+  id: tRZGarxoKY0
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/tRZGarxoKY0" height="200" width="300"></iframe>
 - language: ''
@@ -2321,7 +2611,8 @@
   title: Censusanne
   name: Ben Lu
   link: https://www.youtube.com/watch?v=VYPZI6iD-VA&feature=youtu.be
-  category: Young
+  community: Young
+  id: VYPZI6iD-VA
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/VYPZI6iD-VA" height="200" width="300"></iframe>
 - language: ''
@@ -2330,7 +2621,7 @@
   title: Census in Under 1 Minute
   name: ''
   link: https://www.facebook.com/UTRGVStreetTeam/posts/2858191614261415
-  category: Young, Mobile, Hispanic
+  community: Young, Mobile, Hispanic
   prize: Student
 - language: ''
   team: null
@@ -2338,7 +2629,8 @@
   title: I Count in the Census!
   name: Ben Lu
   link: https://www.youtube.com/watch?v=BSw93DLfOOc&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: BSw93DLfOOc
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/BSw93DLfOOc" height="200" width="300"></iframe>
 - language: ''
@@ -2347,7 +2639,9 @@
   title: We Count, We Rise
   name: Ryan Kellogg
   link: https://www.youtube.com/watch?v=mV7txs5P_uI
-  category: ''
+  community: ''
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2356,7 +2650,9 @@
   title: We All Count
   name: Ethan Weldon
   link: https://www.youtube.com/watch?v=CnqeYt34D6c
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2365,7 +2661,9 @@
   title: Dukes Count
   name: Anna Connole
   link: https://www.youtube.com/watch?v=prx_0HYP8aQ
-  category: Young
+  community: Young
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2374,7 +2672,8 @@
   title: Student-to-Student Census PSA
   name: Caroline Wolinsky
   link: https://www.youtube.com/watch?v=tS__gvdb-Ig&t=
-  category: Young
+  community: Young
+  id: tS__gvdb-Ig
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/tS__gvdb-Ig" height="200" width="300"></iframe>
 - language: ''
@@ -2383,7 +2682,7 @@
   title: Shape your future. Start here.
   name: Mariah Barrera
   link: https://www.instagram.com/tv/B_3MALrhH7m/?utm_source=ig_web_button_share_sheet
-  category: Young
+  community: Young
   prize: ''
 - language: ''
   team: null
@@ -2391,7 +2690,8 @@
   title: Many Voices, One Message
   name: Marc Bosworth
   link: https://youtu.be/0PHmJEXlWdI
-  category: LGBTQ, Racial and Ethnic Minorities
+  community: LGBTQ, Racial and Ethnic Minorities
+  id: 0PHmJEXlWdI
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/0PHmJEXlWdI" height="200" width="300"></iframe>
 - language: ''
@@ -2400,7 +2700,9 @@
   title: 2020 Census With Bunnies
   name: ''
   link: https://www.youtube.com/watch?v=QHmkRBIzUMs
-  category: Rural
+  community: Rural
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2409,7 +2711,9 @@
   title: Census 2020 Commercial
   name: Maximillian LeDoux
   link: https://www.youtube.com/watch?v=OC1Txhjz1ao
-  category: LGBTQ, Racial and Ethnic Minorities
+  community: LGBTQ, Racial and Ethnic Minorities
+
+  id: ''
   prize: ''
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2418,7 +2722,9 @@
   title: Count Us In and Shape Your Future Start Here in Census 2020
   name: The Davis Family
   link: https://www.youtube.com/watch?v=URKkuURFA-g
-  category: African-Americans, Children
+  community: African-Americans, Children
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2427,7 +2733,8 @@
   title: Why the 2020 Census is so important
   name: Hannah Niara
   link: https://youtu.be/o2JVQ8SIjhQ
-  category: ''
+  community: ''
+  id: o2JVQ8SIjhQ
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/o2JVQ8SIjhQ" height="200" width="300"></iframe>
 - language: ''
@@ -2436,7 +2743,8 @@
   title: Do Your part - Get Out The Count
   name: Mikaela Mosley
   link: https://youtu.be/Zpbdx6jJpd8
-  category: ''
+  community: ''
+  id: Zpbdx6jJpd8
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
 - language: ''
@@ -2445,7 +2753,9 @@
   title: Census 2020
   name: Scheiby Gonzalez Fisher
   link: https://www.youtube.com/watch?v=cCvKNx0y378
-  category: Young
+  community: Young
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2454,7 +2764,8 @@
   title: Count Us In
   name: Jason He
   link: https://youtu.be/_wub47WIKFY
-  category: Hispanic
+  community: Hispanic
+  id: _wub47WIKFY
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/_wub47WIKFY" height="200" width="300"></iframe>
 - language: ''
@@ -2463,7 +2774,9 @@
   title: Get Counted Census 2020
   name: Jordan Brewton
   link: https://www.youtube.com/watch?v=U1nYuagGAHY
-  category: Young, Racial and Ethnic Minorities, Rural, Children
+  community: Young, Racial and Ethnic Minorities, Rural, Children
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2472,7 +2785,8 @@
   title: Who Is the 2020 Census for
   name: Jannat Begum
   link: https://youtu.be/9zrUEChE6Gc
-  category: LGBTQ, MENA
+  community: LGBTQ, MENA
+  id: 9zrUEChE6Gc
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/9zrUEChE6Gc" height="200" width="300"></iframe>
 - language: ''
@@ -2481,7 +2795,8 @@
   title: 2020 Census - West Hartford, CT
   name: Dana Martin
   link: https://www.youtube.com/watch?v=MOLiZm56nO0&t=9s
-  category: ''
+  community: ''
+  id: MOLiZm56nO0
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/MOLiZm56nO0" height="200" width="300"></iframe>
 - language: ''
@@ -2490,7 +2805,8 @@
   title: Census Girl
   name: Conor Casey
   link: https://www.youtube.com/watch?v=VVuZWKEUE-g&feature=youtu.be
-  category: Children
+  community: Children
+  id: VVuZWKEUE-g
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/VVuZWKEUE-g" height="200" width="300"></iframe>
 - language: ''
@@ -2499,7 +2815,9 @@
   title: Revival Town- Counted
   name: Carol Reiser
   link: https://www.youtube.com/watch?v=mYZWdLBiwOg
-  category: AfricanAmericans, Hispanic
+  community: AfricanAmericans, Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2508,7 +2826,8 @@
   title: 'Remote Meeting: 2020 Census'
   name: Lisa Sargent
   link: https://www.youtube.com/watch?v=oxtL-ofQk5Q&feature=youtu.be
-  category: Young, Mobile, Racial and Ethnic Minorities, low income
+  community: Young, Mobile, Racial and Ethnic Minorities, low income
+  id: oxtL-ofQk5Q
   prize: General
   html: <iframe src="https://www.youtube.com/embed/oxtL-ofQk5Q" height="200" width="300"></iframe>
 - language: ''
@@ -2517,7 +2836,8 @@
   title: Shape Your Future
   name: Kamari Fuller
   link: https://www.youtube.com/watch?v=gX9oVKnBqHc&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: gX9oVKnBqHc
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/gX9oVKnBqHc" height="200" width="300"></iframe>
 - language: ''
@@ -2526,7 +2846,8 @@
   title: Country Census Song
   name: Plustopher Columbus
   link: https://youtu.be/4r9SDsbeHgY
-  category: African-Americans
+  community: African-Americans
+  id: 4r9SDsbeHgY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/4r9SDsbeHgY" height="200" width="300"></iframe>
 - language: ''
@@ -2535,7 +2856,8 @@
   title: Come To Your Census
   name: Shilo Melendez
   link: https://www.youtube.com/watch?v=PCxrwQBUYGw&feature=youtu.be
-  category: Children
+  community: Children
+  id: PCxrwQBUYGw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/PCxrwQBUYGw" height="200" width="300"></iframe>
 - language: ''
@@ -2544,7 +2866,8 @@
   title: The Census Counts you too
   name: Kathy O'Connell Hines
   link: https://youtu.be/72Cw2mEh-OA
-  category: Children
+  community: Children
+  id: 72Cw2mEh-OA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/72Cw2mEh-OA" height="200" width="300"></iframe>
 - language: ''
@@ -2553,7 +2876,8 @@
   title: There is Always that one sibling
   name: Anaund Alex
   link: https://youtu.be/7V89ddI0oeQ
-  category: Children
+  community: Children
+  id: 7V89ddI0oeQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7V89ddI0oeQ" height="200" width="300"></iframe>
 - language: ''
@@ -2562,7 +2886,8 @@
   title: Unofficial Census Taker
   name: Eric Simons
   link: https://youtu.be/pDdiiK2tyfg
-  category: Young
+  community: Young
+  id: pDdiiK2tyfg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/pDdiiK2tyfg" height="200" width="300"></iframe>
 - language: ''
@@ -2571,7 +2896,8 @@
   title: Get Out the Count (Soul Food Cypher)
   name: LaRon Bell
   link: https://www.youtube.com/watch?v=Lj80iccknvg&feature=youtu.be
-  category: African-Americans
+  community: African-Americans
+  id: Lj80iccknvg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Lj80iccknvg" height="200" width="300"></iframe>
 - language: ''
@@ -2580,7 +2906,8 @@
   title: Take The Census
   name: Andrew Klein
   link: https://www.youtube.com/watch?v=WL9ziCoHpwM&feature=youtu.be
-  category: Racial and Ethnic Minorites, Children
+  community: Racial and Ethnic Minorites, Children
+  id: WL9ziCoHpwM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/WL9ziCoHpwM" height="200" width="300"></iframe>
 - language: ''
@@ -2589,7 +2916,8 @@
   title: Make A Difference
   name: Lashonda Henderson
   link: https://youtu.be/qYg_F3F0FdU
-  category: African-Americans
+  community: African-Americans
+  id: qYg_F3F0FdU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/qYg_F3F0FdU" height="200" width="300"></iframe>
 - language: ''
@@ -2598,7 +2926,9 @@
   title: 2020 Census
   name: Erin Zalaoras
   link: https://www.youtube.com/watch?v=Kw0Qk4Ff24A
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2607,7 +2937,8 @@
   title: Where It Counts 2020 Census
   name: Marcus Burke
   link: https://www.youtube.com/watch?v=ve8CeCjy28c&feature=youtu.be
-  category: Young, African-Americans
+  community: Young, African-Americans
+  id: ve8CeCjy28c
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ve8CeCjy28c" height="200" width="300"></iframe>
 - language: ''
@@ -2616,7 +2947,9 @@
   title: Counting on Z
   name: ''
   link: https://www.youtube.com/watch?v=vqrY2ZLU150
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2625,7 +2958,8 @@
   title: PSA Census 2020-Be Counted
   name: Hernan Molina
   link: https://www.youtube.com/watch?v=bxIIoIKkCV8&feature=youtu.be
-  category: ''
+  community: ''
+  id: bxIIoIKkCV8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/bxIIoIKkCV8" height="200" width="300"></iframe>
 - language: ''
@@ -2634,7 +2968,9 @@
   title: Study Break 2020 Census
   name: Mike Hogan
   link: https://www.youtube.com/watch?v=dlS3FWtO6aE
-  category: Young
+  community: Young
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2643,7 +2979,8 @@
   title: You're One of Them
   name: Nickolas Nikolic
   link: https://www.youtube.com/watch?v=PK1fcAR7lkc&feature=youtu.be
-  category: Young
+  community: Young
+  id: PK1fcAR7lkc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/PK1fcAR7lkc" height="200" width="300"></iframe>
 - language: ''
@@ -2652,7 +2989,8 @@
   title: 'Lawrence: Get Out the Count'
   name: Daniel Beyer
   link: https://www.youtube.com/watch?v=PlVLBaxSnsw&feature=youtu.be
-  category: ''
+  community: ''
+  id: PlVLBaxSnsw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/PlVLBaxSnsw" height="200" width="300"></iframe>
 - language: ''
@@ -2661,7 +2999,8 @@
   title: Together We Count
   name: Gabriel Garcia
   link: https://youtu.be/5mITTqlT_cw
-  category: ''
+  community: ''
+  id: 5mITTqlT_cw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/5mITTqlT_cw" height="200" width="300"></iframe>
 - language: ''
@@ -2670,7 +3009,8 @@
   title: Your Hands can Make a Difference
   name: Andrew Mislinski
   link: https://youtu.be/uGDOwHKs2k0
-  category: Children, Young, Hispanic
+  community: Children, Young, Hispanic
+  id: uGDOwHKs2k0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/uGDOwHKs2k0" height="200" width="300"></iframe>
 - language: ''
@@ -2679,7 +3019,7 @@
   title: Census Tik Tok
   name: Holli Holliday
   link: https://www.facebook.com/blackyouthvote/videos/539479503668689/
-  category: African-Americans
+  community: African-Americans
   prize: General
 - language: ''
   team: null
@@ -2687,7 +3027,8 @@
   title: Haitian Mother Encourages Community to complete Census
   name: Success Jr
   link: https://youtu.be/iiVpu4BLdaY
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: iiVpu4BLdaY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/iiVpu4BLdaY" height="200" width="300"></iframe>
 - language: ''
@@ -2696,7 +3037,8 @@
   title: This is Census
   name: Greg Padden
   link: https://youtu.be/UMytblarbLI
-  category: Children
+  community: Children
+  id: UMytblarbLI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/UMytblarbLI" height="200" width="300"></iframe>
 - language: ''
@@ -2706,7 +3048,7 @@
   name: Angela Kuhn
   link: "Facebook: https://www.facebook.com/ahugepro/videos/552314149047313/ \n    YouTube
     compatible file: https://drive.google.com/drive/folders/1T0eq9DBvhMVg1mg-mGUTzn6xrKAlpyZb?usp=sharing"
-  category: Children, Low income
+  community: Children, Low income
   prize: General
 - language: ''
   team: null
@@ -2714,7 +3056,8 @@
   title: Everyone Counts
   name: Giselle Valentin
   link: https://www.youtube.com/watch?v=53peuyhFIkM&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 53peuyhFIkM
   prize: General
   html: <iframe src="https://www.youtube.com/embed/53peuyhFIkM" height="200" width="300"></iframe>
 - language: ''
@@ -2723,7 +3066,8 @@
   title: Todos Contamos
   name: Abraham Duenas
   link: https://www.youtube.com/watch?v=MUIqK5AARrY&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: MUIqK5AARrY
   prize: General
   html: <iframe src="https://www.youtube.com/embed/MUIqK5AARrY" height="200" width="300"></iframe>
 - language: ''
@@ -2732,7 +3076,8 @@
   title: Important Work- Williams Plaza
   name: Giselle Valentin
   link: https://www.youtube.com/watch?v=M605xwfNHoI&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: M605xwfNHoI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/M605xwfNHoI" height="200" width="300"></iframe>
 - language: ''
@@ -2741,7 +3086,8 @@
   title: Clarissa PSA
   name: Giselle Valentin
   link: https://www.youtube.com/watch?v=65dcDO8tbQI&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 65dcDO8tbQI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/65dcDO8tbQI" height="200" width="300"></iframe>
 - language: ''
@@ -2750,7 +3096,8 @@
   title: Abuela Don't Play That
   name: Giselle Valentin
   link: https://www.youtube.com/watch?v=6AzSyAxZHds&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 6AzSyAxZHds
   prize: General
   html: <iframe src="https://www.youtube.com/embed/6AzSyAxZHds" height="200" width="300"></iframe>
 - language: ''
@@ -2759,7 +3106,8 @@
   title: El Puente on Census
   name: Giselle Valentin
   link: https://www.youtube.com/watch?v=g_OQQ3-d4Fk&feature=youtu.be
-  category: Hispanic, African-American
+  community: Hispanic, African-American
+  id: g_OQQ3-d4Fk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/g_OQQ3-d4Fk" height="200" width="300"></iframe>
 - language: ''
@@ -2768,7 +3116,8 @@
   title: Census Facts with Natalie and Giselle
   name: Giselle Valentin
   link: https://youtu.be/TYg15gdYmdQ
-  category: Hispanic
+  community: Hispanic
+  id: TYg15gdYmdQ
   prize: 'No'
   html: <iframe src="https://www.youtube.com/embed/TYg15gdYmdQ" height="200" width="300"></iframe>
 - language: ''
@@ -2779,7 +3128,8 @@
   link: |-
     https://youtu.be/lSySghFdH2Y
     https://youtu.be/L5YCg5bGoMM
-  category: Hispanic, Children
+  community: Hispanic, Children
+  id: |
   prize: General
   html: |-
     <iframe width='420' height='315'src='https://www.youtube.com/embed/lSySghFdH2Y
@@ -2790,7 +3140,7 @@
   title: Complete The Census Today
   name: Cesilia Acevedo
   link: https://www.facebook.com/doloreshuertafoundation/videos/228885028410750/
-  category: Children, Racial and Ethnic Minorities
+  community: Children, Racial and Ethnic Minorities
   prize: General
 - language: ''
   team: null
@@ -2798,7 +3148,8 @@
   title: 2020 Census is Still Here
   name: Christopher Jalamo
   link: https://www.youtube.com/watch?v=f9dtYpKDnds&feature=youtu.be
-  category: Hispanic, Children, Low income
+  community: Hispanic, Children, Low income
+  id: f9dtYpKDnds
   prize: General
   html: <iframe src="https://www.youtube.com/embed/f9dtYpKDnds" height="200" width="300"></iframe>
 - language: ''
@@ -2807,7 +3158,9 @@
   title: Census Roots
   name: Samuel Bernal
   link: https://www.youtube.com/watch?v=TCR3s_g3vcE
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2816,7 +3169,8 @@
   title: 'You Count: Be the Difference'
   name: Amanda Mitrani
   link: https://www.youtube.com/watch?v=z9Vqa02u7Qg&feature=youtu.be
-  category: African-Americans, Hispanic
+  community: African-Americans, Hispanic
+  id: z9Vqa02u7Qg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/z9Vqa02u7Qg" height="200" width="300"></iframe>
 - language: ''
@@ -2825,7 +3179,8 @@
   title: Be Counted
   name: Mari Caminiti
   link: https://www.youtube.com/watch?v=4J_FPgxyn2g&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 4J_FPgxyn2g
   prize: General
   html: <iframe src="https://www.youtube.com/embed/4J_FPgxyn2g" height="200" width="300"></iframe>
 - language: ''
@@ -2834,7 +3189,8 @@
   title: Make It Count
   name: Keaton Davis
   link: https://youtu.be/0PZTkWXLC_Y
-  category: Hispanic
+  community: Hispanic
+  id: 0PZTkWXLC_Y
   prize: General
   html: <iframe src="https://www.youtube.com/embed/0PZTkWXLC_Y" height="200" width="300"></iframe>
 - language: ''
@@ -2843,7 +3199,8 @@
   title: Team Mercer Counts
   name: Jay Kountree
   link: https://youtu.be/QypwXedAPX8
-  category: ''
+  community: ''
+  id: QypwXedAPX8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/QypwXedAPX8" height="200" width="300"></iframe>
 - language: ''
@@ -2852,7 +3209,8 @@
   title: Count Me in With Fox and Franky
   name: Vanessa Hankins and Juan Garantiva
   link: https://www.youtube.com/watch?v=ln2r-APImTU&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: ln2r-APImTU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/ln2r-APImTU" height="200" width="300"></iframe>
 - language: ''
@@ -2861,7 +3219,8 @@
   title: 2020 Census Balch Springs
   name: Santosha Pratt
   link: https://www.youtube.com/watch?v=slJPoIcaHKI&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: slJPoIcaHKI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/slJPoIcaHKI" height="200" width="300"></iframe>
 - language: ''
@@ -2870,7 +3229,9 @@
   title: Census 2020 - Celine Ochoa
   name: Aleks Baker
   link: https://www.youtube.com/watch?v=ZQU2syVYh-M
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2879,7 +3240,9 @@
   title: Census and Roots
   name: Samuel Bernal
   link: https://www.youtube.com/watch?v=TCR3s_g3vcE
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2888,7 +3251,8 @@
   title: '2020 Census: Why We Count'
   name: Andrew Oh
   link: https://www.youtube.com/watch?v=NinZSYCXyeE&feature=youtu.be
-  category: Young, Racial and Ethnic Minorities
+  community: Young, Racial and Ethnic Minorities
+  id: NinZSYCXyeE
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/NinZSYCXyeE" height="200" width="300"></iframe>
 - language: ''
@@ -2897,7 +3261,8 @@
   title: 10 minutes to improve the next 10 years
   name: Jon Bentley
   link: https://www.youtube.com/watch?v=1dMT--37nxk&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: 1dMT--37nxk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/1dMT--37nxk" height="200" width="300"></iframe>
 - language: ''
@@ -2906,7 +3271,8 @@
   title: Everybody Counts
   name: Paul Tabayoyoyn
   link: https://youtu.be/DwIIQJCKPKU
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: DwIIQJCKPKU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/DwIIQJCKPKU" height="200" width="300"></iframe>
 - language: ''
@@ -2915,7 +3281,7 @@
   title: What is Census
   name: Sahej Kochhar
   link: https://www.facebook.com/khalsagurmatcenter/videos/200598194548921/
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
   prize: Student
 - language: ''
   team: null
@@ -2923,7 +3289,8 @@
   title: 2020 Census
   name: Megan Arendt
   link: https://youtu.be/8gxnDQvsF0c
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: 8gxnDQvsF0c
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/8gxnDQvsF0c" height="200" width="300"></iframe>
 - language: ''
@@ -2932,7 +3299,8 @@
   title: Be Counted 2020!
   name: ''
   link: https://youtu.be/fOrsCCfTAZ0
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: fOrsCCfTAZ0
   prize: General
   html: <iframe src="https://www.youtube.com/embed/fOrsCCfTAZ0" height="200" width="300"></iframe>
 - language: ''
@@ -2941,7 +3309,7 @@
   title: Census  School Poster
   name: David Spungen
   link: https://vimeo.com/415715666
-  category: African-Americans, MENA
+  community: African-Americans, MENA
   prize: General
 - language: ''
   team: null
@@ -2949,7 +3317,8 @@
   title: Count Us In
   name: Andrea Hilburn
   link: https://www.youtube.com/watch?v=7kPYrqjTuqo&feature=youtu.be
-  category: African-Americans, Children
+  community: African-Americans, Children
+  id: 7kPYrqjTuqo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7kPYrqjTuqo" height="200" width="300"></iframe>
 - language: ''
@@ -2958,7 +3327,8 @@
   title: Misssion Impossible
   name: Shannon Ciszek
   link: https://www.youtube.com/watch?v=oYCmqRJeZwk&feature=youtu.be
-  category: African-Americans, Children, Young
+  community: African-Americans, Children, Young
+  id: oYCmqRJeZwk
   prize: General
   html: <iframe src="https://www.youtube.com/embed/oYCmqRJeZwk" height="200" width="300"></iframe>
 - language: ''
@@ -2967,7 +3337,7 @@
   title: Martin Census 2020
   name: Jessica Godard
   link: https://www.facebook.com/martincensus2020/videos/811912329286098
-  category: Racial and Ethnic Minorities, Hispanic
+  community: Racial and Ethnic Minorities, Hispanic
   prize: General
 - language: ''
   team: null
@@ -2975,7 +3345,9 @@
   title: The Census is Elementary - You Count
   name: Keith and Corie Wilson
   link: https://www.youtube.com/watch?v=EiUZolth3Uw
-  category: African-Americans
+  community: African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -2984,7 +3356,8 @@
   title: Dad educates with Census Song
   name: Success Jr
   link: https://youtu.be/Ge0l_vlJkOc
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: Ge0l_vlJkOc
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Ge0l_vlJkOc" height="200" width="300"></iframe>
 - language: ''
@@ -2993,7 +3366,8 @@
   title: Stand Up and Be Counted
   name: Brother Charles Productions
   link: https://youtu.be/InlFjMqC8E8
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: InlFjMqC8E8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/InlFjMqC8E8" height="200" width="300"></iframe>
 - language: ''
@@ -3002,7 +3376,8 @@
   title: Stillwater Mayor Talks about the 2020 census
   name: Alisa Hines
   link: https://youtu.be/dlAsejG0ACI
-  category: Young, Children
+  community: Young, Children
+  id: dlAsejG0ACI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/dlAsejG0ACI" height="200" width="300"></iframe>
 - language: ''
@@ -3011,7 +3386,8 @@
   title: 10 Minutes Well Spent
   name: Madelyn Harris
   link: https://www.youtube.com/watch?v=jO2CtxIOOuo&feature=youtu.be
-  category: Young
+  community: Young
+  id: jO2CtxIOOuo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/jO2CtxIOOuo" height="200" width="300"></iframe>
 - language: ASL
@@ -3020,7 +3396,8 @@
   title: What's the Purpose of Census
   name: Bart Williams
   link: https://www.youtube.com/watch?v=oOwo_XVJiRg&feature=youtu.be
-  category: People with Disabilities
+  community: People with Disabilities
+  id: oOwo_XVJiRg
   prize: General
   html: <iframe src="https://www.youtube.com/embed/oOwo_XVJiRg" height="200" width="300"></iframe>
 - language: ''
@@ -3029,7 +3406,8 @@
   title: Counting On My Sistahs
   name: Kelly Owens
   link: https://youtu.be/d2jPTAAxMAE
-  category: African Americans
+  community: African Americans
+  id: d2jPTAAxMAE
   prize: General
   html: <iframe src="https://www.youtube.com/embed/d2jPTAAxMAE" height="200" width="300"></iframe>
 - language: ''
@@ -3038,7 +3416,7 @@
   title: 2020 Everybody Counts
   name: Brennan Strader
   link: https://vimeo.com/415413068
-  category: Young
+  community: Young
   prize: ''
 - language: ''
   team: null
@@ -3046,7 +3424,8 @@
   title: Hungry be Counted
   name: Esteban Gast
   link: https://www.youtube.com/watch?v=4dQnv-2NJd0&t=1s
-  category: Young
+  community: Young
+  id: 4dQnv-2NJd0
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/4dQnv-2NJd0" height="200" width="300"></iframe>
 - language: ''
@@ -3055,7 +3434,8 @@
   title: We All Count
   name: Essence Wilson
   link: https://youtu.be/R0B9L-b072w
-  category: Young
+  community: Young
+  id: R0B9L-b072w
   prize: General
   html: <iframe src="https://www.youtube.com/embed/R0B9L-b072w" height="200" width="300"></iframe>
 - language: ''
@@ -3064,7 +3444,8 @@
   title: Come to Your Census!
   name: Mariah Badal
   link: https://www.youtube.com/watch?v=q6zAnq8q3g4&feature=youtu.be
-  category: ''
+  community: ''
+  id: q6zAnq8q3g4
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/q6zAnq8q3g4" height="200" width="300"></iframe>
 - language: ''
@@ -3073,7 +3454,8 @@
   title: "#becounted"
   name: Jordan Stephenson
   link: https://www.youtube.com/watch?v=tdrNsytSGdE&feature=youtu.be
-  category: ''
+  community: ''
+  id: tdrNsytSGdE
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/tdrNsytSGdE" height="200" width="300"></iframe>
 - language: ''
@@ -3082,7 +3464,8 @@
   title: Get Out the Count
   name: Isaac Palmer
   link: https://youtu.be/AiTNtI5SGno
-  category: Young and mobile/ Millennials/ Gen Z communities
+  community: Young and mobile/ Millennials/ Gen Z communities
+  id: AiTNtI5SGno
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/AiTNtI5SGno" height="200" width="300"></iframe>
 - language: ''
@@ -3091,7 +3474,8 @@
   title: Gardena Census 2020 Reminder
   name: Smith, Darren
   link: https://youtu.be/PbQCPjOU20w
-  category: ''
+  community: ''
+  id: PbQCPjOU20w
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/PbQCPjOU20w" height="200" width="300"></iframe>
 - language: ''
@@ -3100,7 +3484,8 @@
   title: We All Count
   name: Angeline Vuong
   link: https://youtu.be/rgem9BClfe4
-  category: Young
+  community: Young
+  id: rgem9BClfe4
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/rgem9BClfe4" height="200" width="300"></iframe>
 - language: ''
@@ -3109,7 +3494,8 @@
   title: Do Your Part
   name: Mikaela Mosley
   link: https://youtu.be/Zpbdx6jJpd8
-  category: ''
+  community: ''
+  id: Zpbdx6jJpd8
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
 - language: Arabic
@@ -3118,7 +3504,9 @@
   title: Get Out the Count
   name: Christian Adler
   link: https://www.youtube.com/watch?v=YhCOyM2ngio
-  category: MENA
+  community: MENA
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3127,7 +3515,7 @@
   title: "[2020 census commercial"
   name: Brady
   link: Https://youtu.be/Rk6J85dNWJM
-  category: Young
+  community: Young
   prize: Student
 - language: ''
   team: null
@@ -3135,7 +3523,8 @@
   title: We Count
   name: Stephanie Guzman
   link: https://www.youtube.com/watch?v=gTwe8ggdW-0&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: gTwe8ggdW-0
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/gTwe8ggdW-0" height="200" width="300"></iframe>
 - language: ''
@@ -3144,7 +3533,9 @@
   title: Making Sense of the Census
   name: Kayla Faustino
   link: https://www.youtube.com/watch?v=-hMt6bxAaOI
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3153,7 +3544,9 @@
   title: Be Counted
   name: Carolina Lopez
   link: https://www.youtube.com/watch?v=rqtMGGzEjiU
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3162,7 +3555,9 @@
   title: Census Kitchen
   name: Amber Primus
   link: https://www.youtube.com/watch?v=SvkhZfSdLMo
-  category: ''
+  community: ''
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3171,7 +3566,9 @@
   title: Safety Census
   name: Annette Hernandez Encarnacion
   link: https://www.youtube.com/watch?v=pMvuwuJ9QnI
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3180,7 +3577,7 @@
   title: ''
   name: Angela Kang
   link: https://www.tiktok.com/@ngkang8/video/6810563826338041094
-  category: AANHPI
+  community: AANHPI
   prize: Student
 - language: ''
   team: null
@@ -3188,7 +3585,8 @@
   title: Training for the Census
   name: Marc Bosworth
   link: https://www.youtube.com/watch?v=d2oNlx_SVNk&feature=youtu.be
-  category: Young
+  community: Young
+  id: d2oNlx_SVNk
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/d2oNlx_SVNk" height="200" width="300"></iframe>
 - language: ''
@@ -3197,7 +3595,9 @@
   title: 'We All Count: The Rap'
   name: Lindsey Zifzal
   link: https://www.youtube.com/watch?v=H34gPf_7ha8
-  category: Children
+  community: Children
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3206,7 +3606,8 @@
   title: 2020 Census Contest Entry
   name: Ryan Smith
   link: https://www.youtube.com/watch?v=nccHZtgEviA&feature=youtu.be
-  category: ''
+  community: ''
+  id: nccHZtgEviA
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/nccHZtgEviA" height="200" width="300"></iframe>
 - language: ''
@@ -3215,7 +3616,8 @@
   title: Census Get Out The Count
   name: Meghna Sunku
   link: https://youtu.be/mqJBSOM0I9E
-  category: Racial and Ethnic Minorites, Children, LGBTQ
+  community: Racial and Ethnic Minorites, Children, LGBTQ
+  id: mqJBSOM0I9E
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/mqJBSOM0I9E" height="200" width="300"></iframe>
 - language: ''
@@ -3224,7 +3626,9 @@
   title: 2020 Census With Bunnies
   name: Kevin Langdon
   link: https://www.youtube.com/watch?v=QHmkRBIzUMs
-  category: Rural, Children, African-Americans, Hispanic
+  community: Rural, Children, African-Americans, Hispanic
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3233,7 +3637,8 @@
   title: What Is It
   name: Jake Rothman
   link: https://www.youtube.com/watch?v=DLwSxts9NgM&feature=youtu.be
-  category: ''
+  community: ''
+  id: DLwSxts9NgM
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/DLwSxts9NgM" height="200" width="300"></iframe>
 - language: ''
@@ -3242,7 +3647,7 @@
   title: Let's Get Counted!
   name: Charlie Fischetti
   link: https://vimeo.com/415651970
-  category: Racial and Ethnic minorities, LGBTQ
+  community: Racial and Ethnic minorities, LGBTQ
   prize: Student
 - language: ''
   team: null
@@ -3250,7 +3655,9 @@
   title: Count Yourself In
   name: Sydni Wolpert
   link: https://www.youtube.com/watch?v=Q91UfRDZedQ
-  category: Racial and Ethnic Minorities, Young
+  community: Racial and Ethnic Minorities, Young
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3259,7 +3666,8 @@
   title: How Hometown Heros Can Help
   name: Zander Betterton
   link: https://www.youtube.com/watch?v=BIcktBPCFNc&feature=youtu.be
-  category: Rural
+  community: Rural
+  id: BIcktBPCFNc
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/BIcktBPCFNc" height="200" width="300"></iframe>
 - language: ''
@@ -3268,7 +3676,9 @@
   title: Get Out the Count Video Challenge
   name: Lauren Jackson
   link: https://www.youtube.com/watch?v=qrzDzRF5gqU
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3277,7 +3687,8 @@
   title: 'Daizha Moton, 2020 Census: A Brighter Tomorrow'
   name: Daizha Morton
   link: https://youtu.be/y0YFspcdw_o
-  category: African-Americans
+  community: African-Americans
+  id: y0YFspcdw_o
   prize: Student Prize
   html: <iframe src="https://www.youtube.com/embed/y0YFspcdw_o" height="200" width="300"></iframe>
 - language: ''
@@ -3286,7 +3697,9 @@
   title: The 2020 Census
   name: Kelsey Rush
   link: https://www.youtube.com/watch?v=IrsOB6eotNI
-  category: Asian-Americans, Young
+  community: Asian-Americans, Young
+
+  id: ''
   prize: Student Prize
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3295,7 +3708,8 @@
   title: Share the Census
   name: Porter Christensen
   link: https://www.youtube.com/watch?v=pV44Zu2z6ms&feature=youtu.be
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+  id: pV44Zu2z6ms
   prize: Student Prize
   html: <iframe src="https://www.youtube.com/embed/pV44Zu2z6ms" height="200" width="300"></iframe>
 - language: ''
@@ -3304,7 +3718,9 @@
   title: Why You Should Take The 2020 Census
   name: Isaac Kim
   link: https://www.youtube.com/watch?v=LUuMQ3IAojI
-  category: Racial and Ethnic Minorities
+  community: Racial and Ethnic Minorities
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3313,7 +3729,9 @@
   title: '2020 Census: What is it?'
   name: Draicster McConville
   link: https://www.youtube.com/watch?v=OW3j3sTLDBs
-  category: Young, Mobile
+  community: Young, Mobile
+
+  id: ''
   prize: Student
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3322,7 +3740,8 @@
   title: Census BC HD
   name: Debbie Martin
   link: https://youtu.be/1YNesKBOJUg
-  category: Young, Mobile
+  community: Young, Mobile
+  id: 1YNesKBOJUg
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/1YNesKBOJUg" height="200" width="300"></iframe>
 - language: ''
@@ -3331,7 +3750,7 @@
   title: wanwan@sbcglobal.net
   name: NAACP Witchita
   link: NAACP Witchita Youth Census
-  category: https://www.youtube.com/watch?v=v2jindlZvdo&feature=youtu.be
+  community: https://www.youtube.com/watch?v=v2jindlZvdo&feature=youtu.be
   prize: 'No'
 - language: ''
   team: Community Access Unlimited
@@ -3339,7 +3758,8 @@
   title: '2020 Census: You Count Too'
   name: Gregory Makely
   link: https://www.youtube.com/watch?v=YVukX_NGC0A&feature=youtu.be
-  category: People with disabilities
+  community: People with disabilities
+  id: YVukX_NGC0A
   prize: General
   html: <iframe src="https://www.youtube.com/embed/YVukX_NGC0A" height="200" width="300"></iframe>
 - language: ''
@@ -3348,7 +3768,8 @@
   title: Stand Up and Be Counted
   name: GruvGate Records
   link: https://www.youtube.com/watch?v=InlFjMqC8E8&feature=youtu.be
-  category: Racial and ethnic minorities, Low income, Mobile
+  community: Racial and ethnic minorities, Low income, Mobile
+  id: InlFjMqC8E8
   prize: General
   html: <iframe src="https://www.youtube.com/embed/InlFjMqC8E8" height="200" width="300"></iframe>
 - language: ''
@@ -3357,7 +3778,9 @@
   title: 2020 Census-A message from your kids in the USA
   name: Alessandra Roberts
   link: https://www.youtube.com/watch?v=4Vy6CTDK-qk
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3366,7 +3789,7 @@
   title: Census Contest Youth Volunteers
   name: Keith Whitney
   link: https://vimeo.com/415654328
-  category: Low Income
+  community: Low Income
   prize: General
 - language: ''
   team: null
@@ -3374,7 +3797,7 @@
   title: Census Contest Backpack Giveaway Block Party
   name: Keith Whitney
   link: https://vimeo.com/415654403
-  category: Low Income
+  community: Low Income
   prize: General
 - language: ''
   team: null
@@ -3382,7 +3805,8 @@
   title: What is the Census?
   name: Danielle Krebs
   link: https://www.youtube.com/watch?v=_8EKqGe8Acs&feature=youtu.be
-  category: ''
+  community: ''
+  id: _8EKqGe8Acs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/_8EKqGe8Acs" height="200" width="300"></iframe>
 - language: ''
@@ -3391,7 +3815,8 @@
   title: It's Up To Us
   name: Joseph Garcia
   link: https://www.youtube.com/watch?v=lxpG8A4TzbI&feature=youtu.be
-  category: ''
+  community: ''
+  id: lxpG8A4TzbI
   prize: General
   html: <iframe src="https://www.youtube.com/embed/lxpG8A4TzbI" height="200" width="300"></iframe>
 - language: ''
@@ -3400,7 +3825,8 @@
   title: Be Counted in the 2020 Census
   name: Martha Younger White
   link: https://www.youtube.com/watch?v=QDXaMSC0nxs&feature=youtu.be
-  category: People with disabilities
+  community: People with disabilities
+  id: QDXaMSC0nxs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/QDXaMSC0nxs" height="200" width="300"></iframe>
 - language: ''
@@ -3409,7 +3835,8 @@
   title: Have YOU Been Counted?
   name: Danny Morrison
   link: https://www.youtube.com/watch?v=RHRd5pLOlbs&feature=youtu.be
-  category: Low income
+  community: Low income
+  id: RHRd5pLOlbs
   prize: General
   html: <iframe src="https://www.youtube.com/embed/RHRd5pLOlbs" height="200" width="300"></iframe>
 - language: ''
@@ -3418,7 +3845,8 @@
   title: EHCC Census PSA
   name: Brooke Orner
   link: https://www.youtube.com/watch?v=wV0BilOlrQA&feature=youtu.be
-  category: Children
+  community: Children
+  id: wV0BilOlrQA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/wV0BilOlrQA" height="200" width="300"></iframe>
 - language: ''
@@ -3427,7 +3855,7 @@
   title: Everyone Counts San Luis Valley
   name: Carmille Garcia
   link: https://vimeo.com/416112683
-  category: Rural, Hispanic,  Children
+  community: Rural, Hispanic,  Children
   prize: General
 - language: ''
   team: null
@@ -3435,7 +3863,7 @@
   title: US Census 2020
   name: Joseph P. A. Villescas, Ph.D.
   link: https://vimeo.com/416156509
-  category: Hispanic, Children, Young
+  community: Hispanic, Children, Young
   prize: General
 - language: ''
   team: null
@@ -3443,7 +3871,9 @@
   title: The 2020 Census is Safe
   name: Maya Contreras
   link: https://www.youtube.com/watch?v=y-U3poPmRAs
-  category: People with disabilities
+  community: People with disabilities
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3452,7 +3882,8 @@
   title: Get Out the Count
   name: Stacey Bahri
   link: https://youtu.be/bl4erHSRV7g
-  category: Racial and Ethnic minorities
+  community: Racial and Ethnic minorities
+  id: bl4erHSRV7g
   prize: General
   html: <iframe src="https://www.youtube.com/embed/bl4erHSRV7g" height="200" width="300"></iframe>
 - language: ''
@@ -3461,7 +3892,7 @@
   title: AAMA on the Importance of Census
   name: ''
   link: https://vimeo.com/405058400
-  category: Hispanic
+  community: Hispanic
   prize: General
 - language: ''
   team: null
@@ -3469,7 +3900,7 @@
   title: Census Plainfield
   name: Nevlon Duguid
   link: https://drive.google.com/open?id=1vC1ZM6Om31aSdtvsCdWEGQADd_07efs8
-  category: Children
+  community: Children
   prize: General
 - language: ''
   team: null
@@ -3477,7 +3908,9 @@
   title: Abuela!
   name: Aryana Garza
   link: https://www.youtube.com/watch?v=I3S1qnKeF48
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3486,7 +3919,8 @@
   title: Dale Forma A Tu Futuro - CDR Listo Para El Censo 2020
   name: Julio Alcala
   link: https://youtu.be/KDshonMrY0s
-  category: Hispanic
+  community: Hispanic
+  id: KDshonMrY0s
   prize: General
   html: <iframe src="https://www.youtube.com/embed/KDshonMrY0s" height="200" width="300"></iframe>
 - language: ''
@@ -3495,7 +3929,8 @@
   title: Sick of being invisible
   name: Anaund Alex
   link: https://youtu.be/rUbb_uBIVOo
-  category: MENA
+  community: MENA
+  id: rUbb_uBIVOo
   prize: General
   html: '<iframe width="420" height="315" src="https://www.youtube.com/embed/rUbb_uBIVOo" </iframe>'
 - language: ''
@@ -3504,7 +3939,9 @@
   title: 'The Present is Latina: Our Presence is Power'
   name: Jennifer Spurling
   link: https://www.youtube.com/watch?v=kKwr6LkYwlU
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3513,7 +3950,8 @@
   title: ''
   name: Stephanie Serrano
   link: https://www.youtube.com/watch?v=4E0ePTT7tRU&feature=youtu.be
-  category: Young, Mobile, Hispanic
+  community: Young, Mobile, Hispanic
+  id: 4E0ePTT7tRU
   prize: General
   html: <iframe src="https://www.youtube.com/embed/4E0ePTT7tRU" height="200" width="300"></iframe>
 - language: ''
@@ -3522,7 +3960,8 @@
   title: 你的参与至关重要
   name: Andrew Mislinski
   link: https://youtu.be/27ci_mdtMlw
-  category: Young, Mobile, Hispanic
+  community: Young, Mobile, Hispanic
+  id: 27ci_mdtMlw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/27ci_mdtMlw" height="200" width="300"></iframe>
 - language: ''
@@ -3531,7 +3970,8 @@
   title: Our Concensus to Fill Out the Census
   name: Luis Munive
   link: https://www.youtube.com/watch?v=cqvbuqhYbnA&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: cqvbuqhYbnA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/cqvbuqhYbnA" height="200" width="300"></iframe>
 - language: ''
@@ -3540,7 +3980,8 @@
   title: CASA Census Campaign
   name: Mynellies Negron
   link: https://drive.google.com/open?id=1zxO1gK9W1MlQlCKr6T4PDA8GcdjMZW2r  AND  https://www.youtube.com/watch?v=zvGX8nyvwuA&list=PLuoV3PZuHFXefNaCViZn2LZt5ec3vyA2J&index=9
-  category: Hispanic
+  community: Hispanic
+  id: ''
   prize: General
   html: <iframe src="https://drive.google.com/open?id=1zxO1gK9W1MlQlCKr6T4PDA8GcdjMZW2r
     \ AND  https://www.youtube.com/embed/zvGX8nyvwuA' </iframe>"
@@ -3550,7 +3991,8 @@
   title: Together, We Count
   name: Antonio Hernandez
   link: https://www.youtube.com/watch?v=BMZkmZRV2X4&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: BMZkmZRV2X4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/BMZkmZRV2X4" height="200" width="300"></iframe>
 - language: ''
@@ -3559,7 +4001,8 @@
   title: Cuenta Conmigo
   name: Gary Alvarez
   link: https://www.youtube.com/watch?v=cZPl9gSpsvU
-  category: Hispanic
+  community: Hispanic
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3568,7 +4011,8 @@
   title: Todos Contamos
   name: Amy Rose
   link: https://www.youtube.com/watch?v=Jpbff66hVlA&feature=youtu.be
-  category: Hispanic, Children
+  community: Hispanic, Children
+  id: Jpbff66hVlA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Jpbff66hVlA" height="200" width="300"></iframe>
 - language: ''
@@ -3577,7 +4021,9 @@
   title: Census 2020 Count Me In
   name: Bishop Clarence B Harris
   link: https://www.youtube.com/watch?v=6zlyRIULEN8
-  category: ''
+  community: ''
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3586,7 +4032,8 @@
   title: I Count. You Count. We Count. Census 2020.
   name: Exchange House
   link: https://youtu.be/Ntu3MFc7oPo
-  category: Racial and ethnic minorities
+  community: Racial and ethnic minorities
+  id: Ntu3MFc7oPo
   prize: General
   html: <iframe src="https://www.youtube.com/embed/Ntu3MFc7oPo" height="200" width="300"></iframe>
 - language: ''
@@ -3595,7 +4042,7 @@
   title: A Story About Carl
   name: Jason Silva
   link: https://vimeo.com/407325102/e84f6e1373
-  category: Hispanic, Young
+  community: Hispanic, Young
   prize: General
 - language: ''
   team: null
@@ -3603,7 +4050,8 @@
   title: Our Vibes Media
   name: Caroline Salinas
   link: https://www.youtube.com/watch?v=lrGdi3F2bKc&feature=youtu.be
-  category: Hispanic, Young
+  community: Hispanic, Young
+  id: lrGdi3F2bKc
   prize: ''
   html: <iframe src="https://www.youtube.com/embed/lrGdi3F2bKc" height="200" width="300"></iframe>
 - language: ''
@@ -3612,7 +4060,9 @@
   title: Feliz Censo de Mayo
   name: Gloria Penagos
   link: https://www.youtube.com/watch?v=9ONmT_2CBqw
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3621,7 +4071,9 @@
   title: Información del Censo 2020
   name: Luis Urrea
   link: https://www.youtube.com/watch?v=yCQONaA7JYQ
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3630,7 +4082,8 @@
   title: Census Plena
   name: Raquel Ortiz
   link: https://youtu.be/NboYpdOv57w
-  category: Hispanic
+  community: Hispanic
+  id: NboYpdOv57w
   prize: General
   html: <iframe src="https://www.youtube.com/embed/NboYpdOv57w" height="200" width="300"></iframe>
 - language: ''
@@ -3639,7 +4092,7 @@
   title: Stronger Than Maria
   name: Myriam Lorenzo
   link: https://www.facebook.com/strongerthanmaria/
-  category: ''
+  community: ''
   prize: General
 - language: ''
   team: null
@@ -3647,7 +4100,8 @@
   title: Juntos Contamos FINAL V2
   name: Luis Guereca
   link: https://youtu.be/hBxskqSdLLA
-  category: Children, Hispanic
+  community: Children, Hispanic
+  id: hBxskqSdLLA
   prize: General
   html: <iframe src="https://www.youtube.com/embed/hBxskqSdLLA" height="200" width="300"></iframe>
 - language: ''
@@ -3656,7 +4110,8 @@
   title: "¡Hazte contar!"
   name: Kennett Multimedia
   link: https://youtu.be/uc0Kz0BS8qw
-  category: Hispanic, Young, LGBTQ
+  community: Hispanic, Young, LGBTQ
+  id: uc0Kz0BS8qw
   prize: General
   html: <iframe src="https://www.youtube.com/embed/uc0Kz0BS8qw" height="200" width="300"></iframe>
 - language: ''
@@ -3665,7 +4120,9 @@
   title: 'Censo 2020: Nosotros Contamos'
   name: Dena Spanos
   link: https://www.youtube.com/watch?v=25pZ5BinAqQ
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3674,7 +4131,8 @@
   title: Census 2020 Team Alegria
   name: Jose Carlos Medina Jr
   link: https://www.youtube.com/watch?v=FI59VkOtMe4&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: FI59VkOtMe4
   prize: General
   html: <iframe src="https://www.youtube.com/embed/FI59VkOtMe4" height="200" width="300"></iframe>
 - language: ''
@@ -3683,7 +4141,9 @@
   title: Be Counted , Join Team NMB
   name: Edenia Hernandez
   link: https://www.youtube.com/watch?v=oV0I8SKf61I
-  category: Hispanic, African-Americans
+  community: Hispanic, African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3692,7 +4152,9 @@
   title: Participa en el Censo 2020!
   name: Rivas Music & Video
   link: https://www.youtube.com/watch?v=vmQBaA-bmeI
-  category: Hispanic, African-Americans
+  community: Hispanic, African-Americans
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3701,7 +4163,8 @@
   title: Tu estatus migratorio no se delata, cénsate por tu futuro y el de los tuyos
   name: Alpha Entertainment Services/ KerlyRuiz
   link: https://www.youtube.com/watch?v=gjGODNGnc2c&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: gjGODNGnc2c
   prize: General
   html: <iframe src="https://www.youtube.com/embed/gjGODNGnc2c" height="200" width="300"></iframe>
 - language: ''
@@ -3710,7 +4173,7 @@
   title: Unidos en Rio Arriba
   name: Patricia Romero
   link: https://www.facebook.com/DivinoNM
-  category: Low income, Hispanic
+  community: Low income, Hispanic
   prize: General
 - language: ''
   team: null
@@ -3718,7 +4181,8 @@
   title: Count Me In
   name: Tiffany Blossom
   link: https://youtu.be/SkyOPDrrFco
-  category: Hispanic
+  community: Hispanic
+  id: SkyOPDrrFco
   prize: General
   html: <iframe src="https://www.youtube.com/embed/SkyOPDrrFco" height="200" width="300"></iframe>
 - language: ''
@@ -3727,7 +4191,8 @@
   title: Census 2020 Addison Stone Family
   name: The Stone Family
   link: https://youtu.be/SkyOPDrrFco
-  category: Hispanic
+  community: Hispanic
+  id: SkyOPDrrFco
   prize: General
   html: <iframe src="https://www.youtube.com/embed/SkyOPDrrFco" height="200" width="300"></iframe>
 - language: ''
@@ -3736,7 +4201,8 @@
   title: Tus Manos Pueden Hacer La Diferencia
   name: Andrew Mislinski
   link: https://youtu.be/7eOHWtkDXzQ
-  category: Hispanic
+  community: Hispanic
+  id: 7eOHWtkDXzQ
   prize: General
   html: <iframe src="https://www.youtube.com/embed/7eOHWtkDXzQ" height="200" width="300"></iframe>
 - language: ''
@@ -3745,7 +4211,9 @@
   title: Todos Contamos
   name: Daisy Richmond
   link: https://www.youtube.com/watch?v=fK0KmF7B4kc
-  category: Hispanic
+  community: Hispanic
+
+  id: ''
   prize: General
   html: <iframe src="' </iframe>"
 - language: ''
@@ -3754,7 +4222,8 @@
   title: City of Greenville 2020 Census
   name: Bridget Saxton
   link: https://www.youtube.com/watch?v=4zP8YDws7IE&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: 4zP8YDws7IE
   prize: General
   html: <iframe src="https://www.youtube.com/embed/4zP8YDws7IE" height="200" width="300"></iframe>
 - language: ''
@@ -3763,6 +4232,7 @@
   title: 2020 Get Out the Count
   name: Brenda Perez-Palacios
   link: https://www.youtube.com/watch?v=YECIJ9SKqHM&feature=youtu.be
-  category: Hispanic
+  community: Hispanic
+  id: YECIJ9SKqHM
   prize: Student
   html: <iframe src="https://www.youtube.com/embed/YECIJ9SKqHM" height="200" width="300"></iframe>
