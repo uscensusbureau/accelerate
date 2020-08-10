@@ -6,3 +6,33 @@
 .video-hidden {
   display: none;
 }
+
+#video-filter-form {
+  position: absolute;
+  z-index: 500;
+
+  .usa-accordion-button {
+    margin-right: 120px;
+  }
+
+  .filters-box {
+    height: 150px;
+    width: 300px;
+    overflow: auto;
+    z-index: 500;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+
+    .filter-checkbox {
+      width: auto;
+    }
+  }
+}
+
+.video-grid {
+  margin-top: 350px;
+  @include media($large-screen) {
+    margin-top: 200px;
+  }
+}
