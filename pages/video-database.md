@@ -59,7 +59,7 @@ hero:
     </div>
     <div class="usa-width-one-fourth">
       <input type="submit" value="Filter">
-      <p style="display:inline-block;" id="reset-filter">Reset &#127335;</p>
+      <button type="button" name="button" id="reset-filter">Reset &#127335;</button>
     </div>
   </div>
 </form>
@@ -81,14 +81,17 @@ hero:
       <h5 class="video-hidden">{{submission.community}}</h5>
       <h6 class="video-hidden">{{submission.id}}</h6>
       {% if submission.team != null %}
-        <p>Created by: {{submission.team}}</p>
+        <p>{{submission.team}}</p>
       {% else %}
-        <p>Created by: {{submission.name}}</p>
+        <p>{{submission.name}}</p>
+      {% endif %}
+      {% if submission.best-of != null %}
+        <p class="best-of">{{submission.best-of}}</p>
       {% endif %}
     </div>
   {% endif %}
   {% endfor %}
-  <h2> Search Results </h2>
+  <h2 style="margin-top:150px;"> Complete Search Results </h2>
   {% for submission in site.data.video-playlist %}
   <div id="video-card-{{submission.id}}" class="video-div title-card video-hidden usa-width-one-third finalist-block">
     <div>
@@ -98,9 +101,9 @@ hero:
         <h5 class="video-hidden">{{submission.community}}</h5>
         <h6 class="video-hidden">{{submission.id}}</h6>
         {% if submission.team != null %}
-          <p>Created by: {{submission.team}}</p>
+          <p>{{submission.team}}</p>
         {% else %}
-          <p>Created by: {{submission.name}}</p>
+          <p>{{submission.name}}</p>
         {% endif %}
       </div>
     </div>
