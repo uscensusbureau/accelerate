@@ -90,8 +90,8 @@ hero:
   {% endfor %}
   <h2> Search Results </h2>
   {% for submission in site.data.video-playlist %}
-  <div id="video-card-{{submission.id}}" class="video-div video-hidden usa-width-one-third finalist-block">
-    <div class="finalists">
+  <div id="video-card-{{submission.id}}" class="video-div title-card video-hidden usa-width-one-third finalist-block">
+    <div>
       <div class="finalists-text">
         <a href="{{ submission.link }}" target="_blank"><h3>{{ submission.title }}</h3></a>
         <h4 class="video-hidden">{{submission.language}}</h4>
