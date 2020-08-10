@@ -1,6 +1,8 @@
 .video-div {
   height: 350px;
   margin-bottom: $space-m;
+  background-color: $color-blue-light;
+
 }
 
 .video-hidden {
@@ -28,11 +30,21 @@
       width: auto;
     }
   }
+  form [type=submit] {
+    display: inline !important;
+  }
 }
 
 .video-grid {
   margin-top: 350px;
+  margin-bottom: 350px;
   @include media($large-screen) {
-    margin-top: 200px;
+    margin-top: 250px;
+  }
+
+  .title-card {
+    background-color: $color-blue-light;
+    height: 200px;
+    padding:20px;
   }
 }
