@@ -398,7 +398,7 @@
     title: "2020 Census: Why We Count"
     name: Andrew Oh
     link: https://www.youtube.com/watch?v=NinZSYCXyeE&feature=youtu.be
-    community: Young, Racial and Ethnic Minorities
+    community: Racial and Ethnic Minorities, Young
     id: NinZSYCXyeE
     prize: Student
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/NinZSYCXyeE" height="200" width="300"></iframe>
@@ -3711,7 +3711,7 @@
     title: Not A Statistic, Rise Up and Count
     name: Dayana Jiselle
     link: https://www.youtube.com/watch?v=kCTduK9ScQ0&feature=emb_logo
-    community: general
+    community: Hispanic
     id: kCTduK9ScQ0
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/kCTduK9ScQ0" height="200" width="300"></iframe>
@@ -4239,14 +4239,14 @@
     title: "Sunny Side Up: Curtis the Census Taker"
     name: Brandon Rains
     link: https://youtu.be/oSJVOP0giQ4
-    community: general
+    community:
     id: oSJVOP0giQ4
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/oSJVOP0giQ4" height="200" width="300"></iframe>
     top-pick: TRUE
     image: curtis-the-census-taker.png
     image-alt: Cartoon of a census taker walking with a clipboard and badge
-    best-of:
+    best-of: kids
 -
     language:
     team:
