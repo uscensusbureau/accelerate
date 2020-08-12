@@ -4970,7 +4970,7 @@
     id: 1r_Ufk1gpamDw6PMVAOdaYLp5tLebTNwp
     prize: General
     html:
-    top-pick:
+    top-pick: TRUE
     best-of: kids
 -
     language:
