@@ -7,7 +7,7 @@
     name: Brady
     link: Https://youtu.be/Rk6J85dNWJM
     community: Young
-    id:
+    id: Rk6J85dNWJM
     prize: Student
     html:
     top-pick:
@@ -128,6 +128,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/jO2CtxIOOuo" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: 10-min-well-spent.png
+    image-alt: Woman at the computer filling out the census online
     best-of:
 -
     language: Spanish
@@ -150,7 +152,7 @@
     name: Kiyanna Gayle
     link: https://drive.google.com/file/d/1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ/view?usp=drive_web
     community: African-Americans, Low income
-    id:
+    id: 1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ
     prize: General
     html:
     top-pick:
@@ -354,19 +356,6 @@
     language:
     team:
     state:
-    title: 2020 Census With Bunnies
-    name: Kevin Langdon
-    link: https://www.youtube.com/watch?v=QHmkRBIzUMs
-    community: Rural, Children, African-Americans, Hispanic
-    id: QHmkRBIzUMs
-    prize: Student
-    html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
     title: "2020 Census-A message from your kids in the USA"
     name: Alessandra Roberts
     link: https://www.youtube.com/watch?v=4Vy6CTDK-qk
@@ -414,6 +403,8 @@
     prize: Student
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/NinZSYCXyeE" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: why-we-count.png
+    image-alt: Cartoon of a kid standing outside with trees
     best-of: student
 -
     language:
@@ -436,7 +427,7 @@
     name: Audrey Hayes
     link: https://www.tiktok.com/@audhayes/video/6821593417890401541?u_code=dbdmjfk57l69b3&preview_pb=0&language=en&_d=dbdmjj4a7jmiii&timestamp=1588601961&utm_campaign=client_share&app=musically&utm_medium=ios&user_id=6806866949478925317&tt_from=copy&utm_source=copy&source=h5_m
     community: Mobile
-    id:
+    id: "6821593417890401541"
     prize: General
     html:
     top-pick:
@@ -449,7 +440,7 @@
     name: Brennan Strader
     link: https://vimeo.com/415413068
     community: Young
-    id:
+    id: "415413068"
     prize:
     html:
     top-pick:
@@ -475,7 +466,7 @@
     name: Tamra Borchardt-Slayton
     link: https://vimeo.com/415606129
     community: Native American
-    id:
+    id: "415606129"
     prize: General
     html:
     top-pick:
@@ -520,10 +511,10 @@
     top-pick:
     best-of:
 -
-    language: Spanish
+    language:
     team: Guru Productions
     state:
-    title: A New Swing #WeCount
+    title: "A New Swing #WeCount"
     name: Jabari Jefferson
     link: https://www.youtube.com/watch?v=Yaay3cbpwsc
     community: Racial and Ethnic Minorities
@@ -540,23 +531,12 @@
     name: Jason Silva
     link: https://vimeo.com/407325102/e84f6e1373
     community: Hispanic, Young
-    id:
-    prize: General
-    html:
-    top-pick:
-    best-of:
--
-    language: Spanish
-    team:
-    state:
-    title: A Story About Carl
-    name: Jason Silva
-    link: https://vimeo.com/407325102/e84f6e1373
-    community: Hispanic, Young
     id: e84f6e1373
     prize: General
     html: <iframe frameborder="0" src="https://player.vimeo.com/video/407325102" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: carl.png
+    image-alt: Person wearing a sheet over their head as a ghost costume, sitting on the sofa typing at a laptop
     best-of:
 -
     language:
@@ -566,7 +546,7 @@
     name:
     link: https://vimeo.com/405058400
     community: Hispanic
-    id:
+    id: "405058400"
     prize: General
     html:
     top-pick:
@@ -631,10 +611,12 @@
     name: Diego Estrada
     link: https://vimeo.com/405920056
     community: Asian-Americans, Young, Mobile
-    id: 405920056
+    id: "405920056"
     prize: General
     html: <iframe frameborder="0" src="https://player.vimeo.com/video/405920056" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: all-that-and-more.png
+    image-alt: Closeup of a girl with a flower in her hair
     best-of: student
 -
     language: Spanish
@@ -683,7 +665,7 @@
     name: Jerome Keith
     link: https://vimeo.com/416194203
     community: LGBTQ
-    id: 416194203
+    id: "416194203"
     prize: General
     html:
     top-pick:
@@ -752,6 +734,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/fOrsCCfTAZ0" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: be-counted-2020.png
+    image-alt: The Statue of Liberty
     best-of:
 -
     language:
@@ -930,7 +914,7 @@
     name: David Spungen
     link: https://vimeo.com/415715666
     community: African-Americans, Middle Eastern and North African
-    id:
+    id: "415715666"
     prize: General
     html:
     top-pick:
@@ -986,6 +970,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://player.vimeo.com/video/416003389" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-2020.png
+    image-alt: Photo of a lake with a forest of pinetrees visible across the water. Over the photo is a sketch of four people, facing away from the viewer, sitting in a row with their arms interlocked around each other
     best-of:
 -
     language:
@@ -995,7 +981,7 @@
     name: Austin-Furtak-Cole
     link: https://vimeo.com/402433010
     community: Young
-    id:
+    id: "402433010"
     prize:
     html:
     top-pick:
@@ -1051,20 +1037,22 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/tdKhHUUEgdc" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: according-to-a-4-yo.png
+    image-alt: Smiling little girl, with a caption underneat that reads I am four years old and I love ice cream
     best-of:
--
-    language:
-    team:
-    state:
-    title: Census 2020 Addison Stone Family
-    name: The Stone Family
-    link: https://youtu.be/SkyOPDrrFco
-    community: Hispanic
-    id: SkyOPDrrFco
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/SkyOPDrrFco" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
+# -
+#     language:
+#     team:
+#     state:
+#     title: Census 2020 Addison Stone Family
+#     name: The Stone Family
+#     link: https://youtu.be/SkyOPDrrFco
+#     community: Hispanic
+#     id: SkyOPDrrFco
+#     prize: General
+#     html: <iframe frameborder="0" src="https://www.youtube.com/embed/SkyOPDrrFco" height="200" width="300"></iframe>
+#     top-pick:
+#     best-of:
 -
     language:
     team:
@@ -1125,10 +1113,12 @@
     name: Rasha Clark
     link: https://vimeo.com/416181851
     community: Children
-    id: 416181851
+    id: "416181851"
     prize: General
     html: <iframe frameborder="0" src="https://player.vimeo.com/video/416181851" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: next-10-years.png
+    image-alt: View of a dad and four children as through a webcam, close up to the camera and smiling
     best-of:
 -
     language:
@@ -1247,32 +1237,32 @@
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick:
     best-of:
--
-    language:
-    team: Women Alliance of Miami-Dade & Broward, Inc
-    state: FL
-    title: Census 2020 Resans Man
-    name: Aude Sicard
-    link: MB attachment in email
-    community: Racial and Ethnic Minorities
-    id:
-    prize: General
-    html:
-    top-pick:
-    best-of:
--
-    language:
-    team: Women Alliance of Miami-Dade & Broward, Inc
-    state: FL
-    title: Census 2020 Resans Man
-    name: Aude Sicard
-    link: MB attachment in email
-    community: Racial and Ethnic Minorities
-    id:
-    prize: General
-    html:
-    top-pick:
-    best-of:
+# -
+#     language:
+#     team: Women Alliance of Miami-Dade & Broward, Inc
+#     state: FL
+#     title: Census 2020 Resans Man
+#     name: Aude Sicard
+#     link: MB attachment in email
+#     community: Racial and Ethnic Minorities
+#     id:
+#     prize: General
+#     html:
+#     top-pick:
+#     best-of:
+# -
+#     language:
+#     team: Women Alliance of Miami-Dade & Broward, Inc
+#     state: FL
+#     title: Census 2020 Resans Man
+#     name: Aude Sicard
+#     link: MB attachment in email
+#     community: Racial and Ethnic Minorities
+#     id:
+#     prize: General
+#     html:
+#     top-pick:
+#     best-of:
 -
     language:
     team:
@@ -1428,6 +1418,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/TCR3s_g3vcE" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-and-roots.png
+    image-alt: A forest of birch trees with the sun visible through the trunks
     best-of:
 -
     language:
@@ -1463,7 +1455,7 @@
     name: Keith Whitney
     link: https://vimeo.com/415654403
     community: Low Income
-    id:
+    id: "415654403"
     prize: General
     html:
     top-pick:
@@ -1476,7 +1468,7 @@
     name: Keith Whitney
     link: https://vimeo.com/415654328
     community: Low Income
-    id:
+    id: "415654328"
     prize: General
     html:
     top-pick:
@@ -1489,7 +1481,7 @@
     name: Abigail Rose
     link: https://www.facebook.com/copousa/videos/535555333801151/
     community: Middle Eastern and North African
-    id:
+    id: "535555333801151"
     prize: General
     html:
     top-pick:
@@ -1554,7 +1546,7 @@
     name:
     link: https://www.facebook.com/UTRGVStreetTeam/posts/2858191614261415
     community: Young, Mobile, Hispanic
-    id:
+    id: "2858191614261415"
     prize: Student
     html:
     top-pick:
@@ -1606,7 +1598,7 @@
     name: John Schaff
     link: https://vimeo.com/416182844
     community: Children
-    id:
+    id: "416182844"
     prize: General
     html:
     top-pick:
@@ -1619,7 +1611,7 @@
     name: Nevlon Duguid
     link: https://drive.google.com/open?id=1vC1ZM6Om31aSdtvsCdWEGQADd_07efs8
     community: Children
-    id:
+    id: "1vC1ZM6Om31aSdtvsCdWEGQADd_07efs8"
     prize: General
     html:
     top-pick:
@@ -1643,12 +1635,14 @@
     state:
     title: Census PSA
     name: Domenica Castro
-    link: https://vimeo.com/416136769
+    link: https://vimeo.com/416198677
     community: general
-    id: 416136769
+    id: "416136769"
     prize: General
-    html: <iframe frameborder="0" src="https://player.vimeo.com/video/416136769" height="200" width="300"></iframe>
+    html: <iframe frameborder="0" src="https://player.vimeo.com/video/416198677" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-psa.png
+    image-alt: It's not too late to reply online, by phone, or by mail
     best-of:
 -
     language:
@@ -1671,7 +1665,7 @@
     name: Eric Sanchez
     link: https://vimeo.com/406390086
     community: LGBTQ, Native American
-    id:
+    id: "406390086"
     prize:
     html:
     top-pick:
@@ -1684,7 +1678,7 @@
     name: Samuel Bernal
     link: https://www.youtube.com/watch?v=TCR3s_g3vcE
     community: Hispanic
-    id: TCR3s_g3vcE
+    id: TCR3sg3vcE
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick:
@@ -1710,7 +1704,7 @@
     name: David Spungen
     link: https://vimeo.com/415771754
     community: African-Americans, Middle Eastern and North African
-    id:
+    id: "415771754"
     prize: General
     html:
     top-pick:
@@ -1723,7 +1717,7 @@
     name: David Spungen
     link: https://vimeo.com/402937309
     community: African-Americans, Middle Eastern and North African
-    id:
+    id: "402937309"
     prize: General
     html:
     top-pick:
@@ -1766,6 +1760,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/RngU1lNBFBo" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-star-quilt.png
+    image-alt: Woman holding a star-patterned quilt outside
     best-of:
 -
     language:
@@ -1775,7 +1771,7 @@
     name: Holli Holliday
     link: https://www.facebook.com/blackyouthvote/videos/539479503668689/
     community: African-Americans
-    id:
+    id: "539479503668689"
     prize: General
     html:
     top-pick:
@@ -1805,6 +1801,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/pwZyoIwj4L0" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-tunes.png
+    image-alt: Photo of a smiling man doing a thumbs up with an animated background of houses on hills.
     best-of:
 -
     language:
@@ -1922,6 +1920,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/29wjZ7lt4-k" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: come-to-your-census.png
+    image-alt: Woman standing in front of a colorful print background, with the text $2,800 per person per year overlaid
     best-of: music
 -
     language:
@@ -1970,22 +1970,9 @@
     name: Cesilia Acevedo
     link: https://www.facebook.com/doloreshuertafoundation/videos/228885028410750/
     community: Children, Racial and Ethnic Minorities
-    id:
+    id: "228885028410750"
     prize: General
     html:
-    top-pick:
-    best-of:
--
-    language: Spanish
-    team:
-    state:
-    title: Count All Kids 2020
-    name: Dan Sachoff
-    link: https://www.youtube.com/watch?v=ElxBx3BUz3U&feature=youtu.be
-    community: Children
-    id: ElxBx3BUz3U
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/ElxBx3BUz3U" height="200" width="300"></iframe>
     top-pick:
     best-of:
 -
@@ -2013,6 +2000,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/RkPeAeAJW8k" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: count-all-kids.png
+    image-alt: Close up of a smiling girl
     best-of: kids
 -
     language: Spanish
@@ -2022,7 +2011,7 @@
     name: Levina Kim
     link: https://www.dropbox.com/s/ec7drv6wujjhaz5/Census_2020_mp4.mp4?dl=0
     community: general
-    id:
+    id: ec7drv6wujjhaz5
     prize: General
     html:
     top-pick:
@@ -2044,7 +2033,7 @@
     language:
     team:
     state:
-    title: Count Me In
+    title: (Kelsee Lee) Count Me In
     name: Kelsee Lee
     link: https://www.youtube.com/watch?v=785V40P59gM
     community: Racial and Ethnic Minorities, Young, Children
@@ -2057,7 +2046,7 @@
     language:
     team:
     state:
-    title: Count Me In
+    title: (Tiffany Blossom) Count Me In
     name: Tiffany Blossom
     link: https://youtu.be/SkyOPDrrFco
     community: Hispanic
@@ -2096,7 +2085,7 @@
     language:
     team: 'Don''t Judge Me Productions'
     state:
-    title: Count Me In! #2020Census #NCCCommit2BCounted
+    title: "Count Me In! #2020Census #NCCCommit2BCounted"
     name:
     link: https://youtu.be/ztnDj9fKn6c
     community: African-Americans
@@ -2269,7 +2258,7 @@
     name: Mariana Matheus Gonzalez
     link: https://youtu.be/lSySghFdH2Y
     community: Hispanic, Children
-    id: "\n"
+    id: lSySghFdH2Y
     prize: General
     html: "<iframe width='420' height='315'src='https://www.youtube.com/embed/lSySghFdH2Y\nhttps://youtu.be/L5YCg5bGoMM' </iframe>"
     top-pick:
@@ -2325,33 +2314,22 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: do-your-part.png
+    image-alt: Family of three standing together and holding an American flag
     best-of: student
--
-    language:
-    team:
-    state:
-    title: Do Your Part
-    name: Mikaela Mosley
-    link: https://youtu.be/Zpbdx6jJpd8
-    community: general
-    id: Zpbdx6jJpd8
-    prize: Student
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title: Do Your part - Get Out The Count
-    name: Mikaela Mosley
-    link: https://youtu.be/Zpbdx6jJpd8
-    community: general
-    id: Zpbdx6jJpd8
-    prize: Student
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
+# -
+#     language:
+#     team:
+#     state:
+#     title: Do Your part - Get Out The Count
+#     name: Mikaela Mosley
+#     link: https://youtu.be/Zpbdx6jJpd8
+#     community: general
+#     id: Zpbdx6jJpd8
+#     prize: Student
+#     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Zpbdx6jJpd8" height="200" width="300"></iframe>
+#     top-pick:
+#     best-of:
 -
     language:
     team:
@@ -2377,6 +2355,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/v_Qbm3JstV8" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: get-counted.png
+    image-alt: Closeup photo of a smiling woman in a blazer
     best-of:
 -
     language:
@@ -2390,6 +2370,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/h8wgaxBfGv0" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: dont-leave-money-on-the-table.png
+    image-alt: Two rubber ducks wearing gold chains, one wearing a beanie and the other wearing headphones,
     best-of: music
 -
     language:
@@ -2442,6 +2424,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/5sLmgYZ9TbE" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: e-mafai.png
+    image-alt: Older woman sitting on a sofa wearing a bright shirt, with house plants visible in the background
     best-of:
 -
     language:
@@ -2464,7 +2448,7 @@
     name: Leonard Donjuan
     link: https://vimeo.com/386244357
     community: Hispanic
-    id: 386244357
+    id: "386244357"
     prize: General
     html: <iframe frameborder="0" src="https://vimeo.com/386244357" height="200" width="300"></iframe>
     top-pick:
@@ -2533,6 +2517,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/mFpRweAdBUo" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: en-el-censo-cuentas-tu.png
+    image-alt: Graphic that reads Este es un llamado por todos los Latinos with an illustration featuring people's silhouettes in various colors
     best-of: music
 -
     language: Spanish
@@ -2542,7 +2528,7 @@
     name: Carlos Pagan
     link: https://bit.ly/39wb7bI
     community: Hispanic, Young, Mobile
-    id:
+    id: 39wb7bI
     prize: General
     html: <iframe frameborder="0" src="https://bit.ly/39wb7bI" height="200" width="300"></iframe>
     top-pick:
@@ -2620,7 +2606,7 @@
     name: Carmille Garcia
     link: https://vimeo.com/416112683
     community: Rural, Hispanic,  Children
-    id:
+    id: "416112683"
     prize: General
     html:
     top-pick:
@@ -2763,7 +2749,7 @@
     name: Zain Nadeem
     link: https://vimeo.com/416173715
     community: Racial and Ethnic Minorities, Children
-    id: 416173715
+    id: "416173715"
     prize: General
     html: <iframe frameborder="0" src="https://vimeo.com/416173715" height="200" width="300"></iframe>
     top-pick:
@@ -2845,6 +2831,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Lj80iccknvg" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: soul-food.png
+    image-alt: Man in a blazer, tie, and glasses, with a sticker that reads Census Man
     best-of: music
 -
     language:
@@ -2854,7 +2842,7 @@
     name: Elaine Harris-Fulton
     link: https://drive.google.com/file/d/1lZ3LZPTB-uAGUb5Tk-dFXe7FDDq_k3cS/view?usp=drive_web
     community: Mobile
-    id:
+    id: 1lZ3LZPTB-uAGUb5Tk
     prize: General
     html:
     top-pick:
@@ -2880,7 +2868,7 @@
     name: Ben Park
     link: https://vimeo.com/410674477
     community: Young
-    id:
+    id: "410674477"
     prize: General
     html:
     top-pick:
@@ -2893,7 +2881,7 @@
     name: Arturo Castro
     link: https://vimeo.com/397108868
     community: Hispanic
-    id:
+    id: "397108868"
     prize: General
     html:
     top-pick:
@@ -2928,7 +2916,7 @@
     language: Arabic
     team:
     state:
-    title: Grateful #2020 Census
+    title: "Grateful #2020 Census"
     name: Yina Zhang
     link: https://www.youtube.com/watch?v=go1hh98UorE&feature=youtu.be
     community: Asian-Americans
@@ -2945,7 +2933,7 @@
     name: Hector Fong
     link: https://www.facebook.com/MakeTheRoadNV/videos/232555764700137/
     community: Young, Hispanic
-    id:
+    id: "232555764700137"
     prize: General
     html:
     top-pick:
@@ -2957,20 +2945,7 @@
     title: Haitian Mother Encourages Community to complete Census
     name: Success Jr
     link: https://youtu.be/iiVpu4BLdaY
-    community: Children
-    id: iiVpu4BLdaY
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/iiVpu4BLdaY" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title: Haitian Mother Encourages Community to complete Census
-    name: Success Jr
-    link: https://youtu.be/iiVpu4BLdaY
-    community: Racial and Ethnic Minorities
+    community: Racial and Ethnic Minorities, Children
     id: iiVpu4BLdaY
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/iiVpu4BLdaY" height="200" width="300"></iframe>
@@ -2982,9 +2957,9 @@
     state:
     title: Happy Mail and the Census
     name: Angela Kuhn
-    link: "Facebook: https://www.facebook.com/ahugepro/videos/552314149047313/ \n    YouTube\ncompatible file: https://drive.google.com/drive/folders/1T0eq9DBvhMVg1mg-mGUTzn6xrKAlpyZb?usp=sharing"
+    link: "https://drive.google.com/drive/folders/1T0eq9DBvhMVg1mg-mGUTzn6xrKAlpyZb?usp=sharing"
     community: Children, Low income
-    id:
+    id: 1T0eq9DBvhMVg1mg
     prize: General
     html:
     top-pick:
@@ -3001,6 +2976,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/RHRd5pLOlbs" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: have-you-been-counted.png
+    image-alt: Photo of a man in a white button up shirt, overlaid on a green screen background that is blue with white sparkles. On the right side of the frame is a vintage television set with an indistinct image
     best-of:
 -
     language: Spanish
@@ -3092,6 +3069,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/vX8JAWMXTaQ" height="200" width="300" poster="{{site.baseurl}}/assets/img/video-posters/i-count.png"></iframe>
     top-pick: TRUE
+    image: i-count.png
+    image-alt: Mom and Dad sitting in front of a sofa on tablets, with their young daughter on the sofa sitting between them, holding a smartphone
     best-of: music
 -
     language:
@@ -3183,6 +3162,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/ZsxDRpwp5uY" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: im-gonna-count.png
+    image-alt: Grid of women participating in a zoom call
     best-of: music
 -
     language:
@@ -3387,7 +3368,7 @@
     name: Anamalia Su’esu’e
     link: https://www.facebook.com/lefetuao/videos/678214309597553/
     community: Racial and Ethnic Minorities
-    id:
+    id: "678214309597553"
     prize: General
     html:
     top-pick:
@@ -3400,7 +3381,7 @@
     name: Charlie Fischetti
     link: https://vimeo.com/415651970
     community: Racial and Ethnic minorities, LGBTQ
-    id:
+    id: "415651970"
     prize: Student
     html:
     top-pick:
@@ -3439,7 +3420,7 @@
     name: Regan Sonnabend
     link: https://vimeo.com/416137901
     community: LGBTQ
-    id: 416137901
+    id: "416137901"
     prize: General
     html:
     top-pick:
@@ -3534,6 +3515,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/0PZTkWXLC_Y" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: make-it-count.png
+    image-alt: Older woman holding a soccer ball
     best-of: kids
 -
     language: Creole
@@ -3595,7 +3578,7 @@
     name: Jessica Godard
     link: https://www.facebook.com/martincensus2020/videos/811912329286098
     community: Racial and Ethnic Minorities, Hispanic
-    id:
+    id: "811912329286098"
     prize: General
     html:
     top-pick:
@@ -3612,6 +3595,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/FOJgHfu3L1I" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: me-toca-a-mi.png
+    image-alt: Woman and man, both wearing dark jackets, outside with sidewalk and cars out of focus in the background
     best-of: music
 -
     language:
@@ -3693,7 +3678,7 @@
     best-of:
 -
     language:
-    team:
+    team: MYPI
     state:
     title: MYPI Census
     name:
@@ -3703,6 +3688,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Z2OFzQS_oKw" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: mypi-census.png
+    image-alt: Woman in a hijab against a white background
     best-of:
 -
     language:
@@ -3729,6 +3716,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/kCTduK9ScQ0" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: not-a-statistic.png
+    image-alt: Father walking outside holding his young daugher, with a building and car visible in the background
     best-of:
 -
     language:
@@ -3842,7 +3831,7 @@
     name: Abbie Kretz
     link: https://www.heartlandworkerscenter.org/video-sabe-que-es-un-censo
     community: Hispanic
-    id:
+    id: "video-sabe-que-es-un-censo"
     prize: General
     html:
     top-pick:
@@ -3898,6 +3887,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/oxtL-ofQk5Q" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: remote-meeting.png
+    image-alt: Illustration of a computer monitor with a video call open, with photos of participants
     best-of:
 -
     language:
@@ -3924,6 +3915,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/mYZWdLBiwOg" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: revival-town.png
+    image-alt: Two men sitting on bleachers
     best-of: music
 -
     language:
@@ -3975,6 +3968,8 @@
     id: yNMH6ahPBvw
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/yNMH6ahPBvw" height="200" width="300"></iframe>
+    image: sense-us.png
+    image-alt: Teacher and two young students sitting together
     top-pick: TRUE
     best-of: music
 -
@@ -4037,7 +4032,7 @@
     name: Mariah Barrera
     link: https://www.instagram.com/tv/B_3MALrhH7m/?utm_source=ig_web_button_share_sheet
     community: Young
-    id:
+    id: B_3MALrhH7m
     prize:
     html:
     top-pick:
@@ -4098,7 +4093,7 @@
     language: Spanish
     team:
     state:
-    title: Stand Up and Be Counted
+    title: (Jules Corriere) Stand Up and Be Counted
     name: Jules Corriere
     link: https://www.youtube.com/watch?v=jO1MjPWOJpI
     community: Hispanic, African-Americans, Young
@@ -4111,7 +4106,7 @@
     language: Spanish
     team:
     state:
-    title: Stand Up and Be Counted
+    title: (Gary Alvarez) Stand Up and Be Counted
     name: Gary Alvarez
     link: https://www.youtube.com/watch?v=pND-ZRRJ9RM
     community: general
@@ -4124,7 +4119,7 @@
     language: Spanish
     team:
     state:
-    title: Stand Up and Be Counted
+    title: (Cassandra Hollis) Stand Up and Be Counted
     name: Cassandra Hollis
     link: https://www.youtube.com/watch?v=8keShsd4zxk&feature=youtu.be
     community: Hispanic, African-Americans
@@ -4137,7 +4132,7 @@
     language:
     team:
     state:
-    title: Stand Up and Be Counted
+    title: (Tyler Wursta) Stand Up and Be Counted
     name: Tyler Wursta
     link: https://www.youtube.com/watch?v=o-gYmkItoEY&feature=youtu.be
     community: Young, Mobile
@@ -4150,23 +4145,10 @@
     language:
     team:
     state:
-    title: Stand Up and Be Counted
+    title: (Brother Charles Productions) Stand Up and Be Counted
     name: Brother Charles Productions
     link: https://youtu.be/InlFjMqC8E8
     community: Racial and Ethnic Minorities
-    id: InlFjMqC8E8
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/InlFjMqC8E8" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title: Stand Up and Be Counted
-    name: GruvGate Records
-    link: https://www.youtube.com/watch?v=InlFjMqC8E8&feature=youtu.be
-    community: Racial and ethnic minorities, Low income, Mobile
     id: InlFjMqC8E8
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/InlFjMqC8E8" height="200" width="300"></iframe>
@@ -4219,7 +4201,7 @@
     name: Myriam Lorenzo
     link: https://www.facebook.com/strongerthanmaria/
     community: general
-    id:
+    id: "strongerthanmaria"
     prize: General
     html:
     top-pick:
@@ -4262,6 +4244,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/oSJVOP0giQ4" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: curtis-the-census-taker.png
+    image-alt: Cartoon of a census taker walking with a clipboard and badge
     best-of:
 -
     language:
@@ -4275,6 +4259,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/VyAQ13BrZuc" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: take-the-census.png
+    image-alt: 9 square grid of pencil drawn faces, each on a colorful square. The center square reads everybody counts
     best-of: kids
 -
     language:
@@ -4288,6 +4274,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/WL9ziCoHpwM" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: take-the-census-animated.png
+    image-alt: Illustration of a bear wearing a Census shirt
     best-of: kids
 -
     language:
@@ -4323,7 +4311,7 @@
     name: Craig Lloyd
     link: https://vimeo.com/414502139
     community: Young, Mobile
-    id:
+    id: "414502139"
     prize: General
     html:
     top-pick:
@@ -4379,6 +4367,8 @@
     prize: student
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/wYEyH7ciZ54" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: the-census-song.png
+    image-alt: Illustration of a group of people standing together
     best-of: student
 -
     language:
@@ -4432,19 +4422,19 @@
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick:
     best-of:
--
-    language: Spanish
-    team:
-    state: MA
-    title: The Census Needs You!
-    name: Jason Summerfield
-    link: https://www.youtube.com/watch?v=U25dmPcP-9Q&feature=youtu.be
-    community: general
-    id: U25dmPcP-9Q
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/U25dmPcP-9Q" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
+# -
+#     language: Spanish
+#     team:
+#     state: MA
+#     title: The Census Needs You!
+#     name: Jason Summerfield
+#     link: https://www.youtube.com/watch?v=U25dmPcP-9Q&feature=youtu.be
+#     community: general
+#     id: U25dmPcP-9Q
+#     prize: General
+#     html: <iframe frameborder="0" src="https://www.youtube.com/embed/U25dmPcP-9Q" height="200" width="300"></iframe>
+#     top-pick:
+#     best-of:
 -
     language:
     team:
@@ -4457,6 +4447,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/drTRm2kYRJc" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: major-family.png
+    image-alt: Little girl outside in a grassy area wearing a safari costume. She wears a yellow shirt, a hat, and looks through binoculars. Her pants are a giraffe costume, with her legs acting as the back legs of the giraffe, and a stuffed animal of the torso, head, and front legs extending in front
     best-of: music
 -
     language:
@@ -4479,7 +4471,7 @@
     name: Betsy Robbins
     link: https://www.facebook.com/betsy.robbins.1/videos/10159444318083989/
     community: Racial and Ethnic Minorities, Low-income
-    id:
+    id: "10159444318083989"
     prize: General
     html:
     top-pick:
@@ -4521,19 +4513,6 @@
     id: obja9t_8qcw
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/obja9t_8qcw" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title:
-    name:
-    link:
-    community:
-    id:
-    prize:
-    html:
     top-pick:
     best-of:
 -
@@ -4626,6 +4605,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/ro-xg4Qsdyc" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: count-me-in.png
+    image-alt: Two kids holding up hand written signs about the census
     best-of: music
 -
     language: Spanish
@@ -4674,7 +4655,7 @@
     name: Brian Thomas
     link: https://twitter.com/ACDCNV/status/1241853109128671233
     community: AANHPI
-    id:
+    id: "1241853109128671233"
     prize: General
     html:
     top-pick:
@@ -4700,7 +4681,7 @@
     name: Patricia Romero
     link: https://www.facebook.com/DivinoNM
     community: Low income, Hispanic
-    id:
+    id: DivinoNM
     prize: General
     html:
     top-pick:
@@ -4752,7 +4733,7 @@
     name: Joseph P. A. Villescas, Ph.D.
     link: https://vimeo.com/416156509
     community: Hispanic, Children, Young
-    id:
+    id: "416156509"
     prize: General
     html:
     top-pick:
@@ -4791,7 +4772,7 @@
     name: Sydney Bleiweiss
     link: https://www.dropbox.com/s/agqdu6v655t1oye/CC_CensusVideo_All_FINAL.mp4?dl=0
     community: general
-    id:
+    id: agqdu6v655t1oye
     prize: General
     html:
     top-pick:
@@ -4817,7 +4798,7 @@
     name: NAACP Witchita
     link: NAACP Witchita Youth Census
     community: https://www.youtube.com/watch?v=v2jindlZvdo&feature=youtu.be
-    id:
+    id: "v2jindlZvdo"
     prize: No
     html:
     top-pick:
@@ -4843,7 +4824,7 @@
     name: Andrea Degette
     link: https://vimeo.com/399681900
     community: general
-    id:
+    id: "399681900"
     prize: General
     html:
     top-pick:
@@ -5051,7 +5032,7 @@
     name: Elana Mugdan
     link: https://vimeo.com/406359163
     community: Young
-    id: 406359163
+    id: "406359163"
     prize: General
     html:
     top-pick:
@@ -5077,7 +5058,7 @@
     name: Sahej Kochhar
     link: https://www.facebook.com/khalsagurmatcenter/videos/200598194548921/
     community: Racial and Ethnic Minorities
-    id:
+    id: "200598194548921"
     prize: Student
     html:
     top-pick:
@@ -5441,7 +5422,7 @@
     name: Sarai  Bejarano
     link: https://www.facebook.com/ElCentrodeIgualdadyDerechos/videos/204894010954865/
     community: Hispanic
-    id:
+    id: "204894010954865"
     prize: General
     html:
     top-pick:
@@ -5480,7 +5461,7 @@
     name: Angela Kang
     link: https://www.tiktok.com/@ngkang8/video/6810563826338041094
     community: AANHPI
-    id:
+    id: "6810563826338041094"
     prize: Student
     html:
     top-pick:
