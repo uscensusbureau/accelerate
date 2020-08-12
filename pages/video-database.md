@@ -1,21 +1,22 @@
 ---
-title: Get Out The Count Video Submission Database
+title: Get Out The Count Video Database
 permalink: /video-database/
 layout: interior
 description: Video Prize Submission Database
 nav:
+  color: light
   page: about
-image: /assets/img/graphics/video-prize-preview.png
 hero:
-  color: multi
+  color: blue
   callout:
-    text: Get Out The Count Video Submission Database
+    text: Get Out The Count Video Database
     subtext: We received hundreds of video submissions in over a dozen languages from all across the United States. Search and share videos below.
 
 
 ---
 <div  class="usa-section usa-content usa-grid bottom-space" markdown="1" style="margin-top:-75px; margin-bottom:100px;">
 # Browse and share from hundreds of video submissions
+
 <form id="video-filter-form">
   <div class="grid-row">
     <div class=" usa-width-one-fourth">
