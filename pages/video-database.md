@@ -80,8 +80,9 @@ hero:
           <p class="card-text">{{submission.name}}</p>
         {% endif %}
       </div>
-      <!-- {{ submission.html }} -->
-      <img src="{{site.baseurl}}/assets/img/video-posters/{{submission.image}}" alt="{{ submission.image-alt}}">
+      <div class="preview-img">
+        <a href="{{ submission.link }}" target="_blank" class="title-link"><img src="{{site.baseurl}}/assets/img/video-posters/{{submission.image}}" alt="{{ submission.image-alt}}"></a>
+      </div>
       <div class="footer">
         {% if submission.language %}
           <span class="tag language-tag">{{submission.language | upcase }}</span>
