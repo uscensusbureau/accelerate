@@ -81,6 +81,7 @@ hero:
         {% endif %}
       </div>
       <!-- {{ submission.html }} -->
+      <img src="{{site.baseurl}}/assets/img/video-posters/{{submission.image}}" alt="{{ submission.image-alt}}">
       <div class="footer">
         {% if submission.language %}
           <span class="tag language-tag">{{submission.language | upcase }}</span>
@@ -105,6 +106,7 @@ hero:
     </button>
     <div id="view-more" class="usa-accordion-content view-more-content">
     {% for submission in site.data.video-playlist %}
+    {% if submission.top-pick != true %}
     <div id="video-card-{{submission.id}}" class="video-div video-list">
       <div>
         <div class="finalists-text">
@@ -132,6 +134,7 @@ hero:
         </div>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
     </div>
   </div>
