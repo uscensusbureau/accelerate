@@ -17,22 +17,31 @@ $(function() {
 // filter
 $('#video-filter-form').submit(function (e) {
   e.preventDefault();
-  console.log("hello world")
+  // console.log("hello world")
   var selectedValues = document.getElementsByName('filter-checkbox');
-  var videos = document.getElementsByClassName('video-div');
+  var videos = document.getElementsByClassName('video-div video-list');
   for (i = 0; i < selectedValues.length; i++) {
     for (j = 0; j < videos.length; j++ ) {
-      videoLanguage = videos[ j ].getElementsByTagName('h4')[ 0 ].innerText.toLowerCase().split(' ').join("-");
-      videoCommunity = videos[ j ].getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
-      videoID = videos[ j ].getElementsByTagName('h6')[ 0 ].innerText;
-      if (videos[ j ].getElementsByClassName('best-of') && videos[ j ].getElementsByClassName('best-of')[ 0 ]) {
-        best = videos[ j ].getElementsByClassName('best-of')[ 0 ].innerText.toLowerCase();
+      if (videos[ j ].getElementsByClassName('language-tag')[0]) {
+        videoLanguage = videos[ j ].getElementsByClassName('language-tag')[ 0 ].innerText.toLowerCase().split(' ').join("-");
       } else {
-        best = null
+        videoLanguage = "English";
+      }
+      if (videos[ j ].getElementsByClassName('communities-tag')[0]) {
+        videoCommunity = videos[ j ].getElementsByClassName('communities-tag')[ 0 ].innerText.toLowerCase().split(' ').join("-");
+      } else {
+        videoCommunity = "general";
+      }
+      videoID = videos[ j ].getElementsByTagName('h6')[ 0 ].innerText;
+      if (videos[ j ].getElementsByClassName('best-of-tag')[ 0 ]) {
+        best = videos[ j ].getElementsByClassName('best-of-tag')[ 0 ].innerText.toLowerCase();
+        console.log(best)
+      } else {
+        best = ''
       }
       if (selectedValues[ i ].checked == true ) {
         var filter = selectedValues[ i ].value.toLowerCase();
-        if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best == filter || filter.includes(videoCommunity)) {
+        if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best.includes(filter) || filter.includes(videoCommunity)) {
           console.log(best, filter)
           $('#video-card-' + videoID).removeClass('video-hidden');
         } else {
