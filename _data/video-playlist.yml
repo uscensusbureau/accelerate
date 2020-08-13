@@ -1016,6 +1016,19 @@
     language:
     team:
     state:
+    title: "Census 2020 #kurdscount"
+    name: Yara Ismael
+    link: https://www.youtube.com/watch?v=ikdJt43-rFg
+    community: Middle Eastern and North African
+    id: ikdJt43-rFg
+    prize: General
+    html: '<iframe frameborder="0" src="'' </iframe>"'
+    top-pick:
+    best-of:
+-
+    language:
+    team:
+    state:
     title: "Census 2020: We Are A People"
     name: 'D''andre Lampkin'
     link: https://www.youtube.com/watch?v=gvgPRP53xao
@@ -5418,7 +5431,7 @@
     language: Spanish
     team:
     state:
-    title:
+    title: Video by Sarai  Bejarano
     name: Sarai  Bejarano
     link: https://www.facebook.com/ElCentrodeIgualdadyDerechos/videos/204894010954865/
     community: Hispanic
@@ -5431,7 +5444,7 @@
     language:
     team: Greater Augusta Interfaith Coalition
     state: ME
-    title:
+    title: Video by Greater Augusta Interfaith Coalition
     name: Saronda Williams
     link: https://www.youtube.com/watch?v=wqneILBXquU&feature=youtu.be
     community: African-Americans, Rural
@@ -5444,20 +5457,7 @@
     language:
     team:
     state:
-    title:
-    name: Yara Ismael
-    link: https://www.youtube.com/watch?v=ikdJt43-rFg
-    community: Middle Eastern and North African
-    id: ikdJt43-rFg
-    prize: General
-    html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title:
+    title: Video by Angela Kang
     name: Angela Kang
     link: https://www.tiktok.com/@ngkang8/video/6810563826338041094
     community: AANHPI
