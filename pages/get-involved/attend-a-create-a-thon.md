@@ -9,7 +9,7 @@ sidenav: create-a-thon
 hero:
   color: red
   callout:
-    text: Attend a <br> Create-a-thon
+    text: Create-a-thon Events
     subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation. Events are now virtual.
 
 ---
@@ -24,8 +24,8 @@ At these engaging workshops, creative students and professionals collaborate wit
 
 <div class="usa-width-three-fourths bottom-space" markdown="1" id="upcoming-events">
 <div class="divider"></div>
-#### Upcoming Virtual Events
-Find an event near you to help your community receive the representation and resources it depends on.
+#### See Past Events
+See examples of how community  partners used the create -a-thon model to develop resources  needed to get out the count.
 </div>
 <div class="button-wrapper usa-width-one-half">
   <div class="button-bg yellow" style="width:45%;"></div>
@@ -100,7 +100,7 @@ Need our support? <a href="https://coil992463.typeform.com/to/N2daiF" target="_b
   <a class="usa-button usa-button-big usa-button-primary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank">Get the toolkit</a>
 </div>
 <p class="text-small">Don't have access to Google Docs?<br>
-Download the toolkit <a href="{{site.baseurl}}/assets/files/CreativesForTheCount_Toolkit.zip">here</a></p>
+Download the toolkit <a href="{{site.baseurl}}/assets/files/virtual-toolkit.pdf">here</a></p>
 
 <div class="divider"></div>
 </div>
