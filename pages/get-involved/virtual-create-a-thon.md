@@ -10,13 +10,13 @@ hero:
   color: blue
   callout:
     text: Host a Virtual <br> Create-a-thon
-    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation.
+    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness.
 
 ---
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths bottom-space" markdown="1" id="about" >
-# WHAT IS A CENSUS CREATE-A-THON?
+# What is a Census Create-a-thon?
 Starting in 2018 the Census Open Innovation Labs (COIL) began hosting create-a-thons across the country to support and amplify outreach efforts of organizations that have limited creative and/or digital capacity. With the ultimate goal of increasing self-response rates among the hardest to count communities, these organizations are paired with a range of creative talent who can collaboratively generate digital media and compelling messages that spread awareness about the 2020 Census, tailored to their specific needs.
 </div>
 
@@ -46,8 +46,8 @@ Initial Considerations:
 <section class="usa-section usa-content  top-space bottom-space">
 <div class="usa-width-three-fourths top-space bottom-space" markdown="1"  id="run-your-own">
 <div class="divider"></div>
-# Still want to host your own?
-Awesome! Create-a-thons are hosted by the Census Bureau, Complete Count Committees, advocacy groups, community organizers, students, and the public.  If you haven’t already, <a href="https://coil992463.typeform.com/to/N2daiF" target="_blank">start by filling out this form to let our team know you’re interested.</a>
+# Host a virtual createathon
+Create-a-thons are hosted by the Census Bureau, Complete Count Committees, advocacy groups, community organizers, students, and the public.  If you haven’t already, <a href="https://coil992463.typeform.com/to/N2daiF" target="_blank">start by filling out this form to let our team know you’re interested.</a>
 
 You can take this toolkit and run with it, or reach out to us for extra support.
 

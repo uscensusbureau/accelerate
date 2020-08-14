@@ -17,26 +17,25 @@ hero:
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Galvanize Your Community
-Ready to help your community get counted through creative content? We’re here to support you. Learn how you can become a creative ambassador for Census Accelerate.
+Ready to use creative content to help your community get counted? We’re here to support you.
 <div class="divider"></div>
 </div>
 
 <div class="usa-grid">
   <div class="usa-width-three-fourths">
     <ul class="list-reset list-circle">
-      <li><div class="step-circle">1</div>
+      <li class="bottom-space"><div class="step-circle">1</div>
           <div class="text">
-            <h4 id="run">Run your own create-a-thon</h4>
-            <p>Are you a creative or community leader raring to bring a create-a-thon to your community? Don’t worry if you haven’t figured it all out. We’ve created a toolkit to help you get started. </p>
+            <h4 id="run">Share Co-Created Content with your Community </h4>
 
-            <p>Need our support? <a href="https://coil992463.typeform.com/to/N2daiF" target="_blank">Fill out the interest form</a></p>
-
-            <a class="usa-button usa-button-big usa-button-secondary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
-
-            <p class="text-small">Don't have access to Google Docs?<br>
-            Download the toolkit <a href="{{site.baseurl}}/assets/files/Create-a-thon_Toolkit.pdf">here</a><br><br></p>
+            <p>Check out our Creatives for the Count gallery and download memes and digital content to encourage your community to get out the count.</p>
           </div>
-
+          {% include memes.html %}
+            <div class="button-wrapper">
+              <div class="button-bg blue" style="width:50%;"></div>
+              <a class="usa-button usa-button-big usa-button-primary" href="https://www.creativesforthecount.org/" target="_blank">See more co-created content</a>
+            </div>
+            <div class="divider"></div>
       </li>
       <li><div class="step-circle">2</div>
         <div class="text">
@@ -66,27 +65,18 @@ Ready to help your community get counted through creative content? We’re here 
       </li>
       <li><div class="step-circle">3</div>
         <div class="text">
-          <h4 id="respond">Respond to calls for content</h4>
-          <p>Become part of a grassroots rapid response network that responds to virtual calls for content from community organizations. We match creatives with community organizations that need content, especially in response evolving events and situational needs.</p>
-          <a class="usa-button usa-button-big usa-button-secondary" href="mailto:census.accelerate@census.gov" target="_blank"><span>Email us</span></a>
+          <h4 id="respond">Run your own virtual create-a-thon</h4>
+          <p>Are you a creative or community leader ready  to bring a virtual create-a-thon to your community? Don’t worry if you haven’t figured it all out. We’ve created a toolkit to help you get started.</p>
+
+          <p>Need our support? <a href="https://coil992463.typeform.com/to/N2daiF" target="_blank">Fill out the interest form</a></p>
+
+          <a class="usa-button usa-button-big usa-button-secondary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
+
+          <p class="text-small">Don't have access to Google Docs?<br>
+          Download the toolkit <a href="{{site.baseurl}}/assets/files/virtual-toolkit.pdf">here</a><br><br></p>
         </div>
       </li>
     </ul>
-    <div class="divider"></div>
-  </div>
-</div>
-</section>
-
-<section class="usa-section usa-content">
-<div class="usa-grid">
-  <div class="usa-width-three-fourths meme-section">
-  {% include memes.html %}
-  <div class="button-wrapper">
-    <div class="button-bg blue" style="width:50%;"></div>
-    <a class="usa-button usa-button-big usa-button-primary" href="https://www.creativesforthecount.org/" target="_blank">See more co-created content</a>
-  </div>
-  </div>
-  <div class="usa-width-one-fourth">
   </div>
 </div>
 </section>
