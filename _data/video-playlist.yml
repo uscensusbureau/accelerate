@@ -76,6 +76,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/cW5gZx-Ylvc" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: "10-facts-for-natives.png"
+    image-alt: Little girl outside with the number 10 and the word seminole overlaid on the photo
     best-of:
 -
     language:
@@ -312,6 +314,8 @@
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: 2020-census-music-video.png
+    image-alt: Cartoon woman in hijab with an American flag and green background, with a speech bubble that reads Count, Yaar! and has the caption And I know when you need us you can
     best-of:
 -
     language:
@@ -351,6 +355,8 @@
     prize: Student
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: census-with-bunnies.png
+    image-alt: Adult and baby bunny, on astroturf with a white fabric backdrop. The adult bunny has a toy stethoscope around it's nect, and a toy syringe beside it.
     best-of:
 -
     language:
@@ -423,7 +429,7 @@
     language:
     team:
     state:
-    title: 2020 Cenuss Tik Tok
+    title: 2020 Census Tik Tok
     name: Audrey Hayes
     link: https://www.tiktok.com/@audhayes/video/6821593417890401541?u_code=dbdmjfk57l69b3&preview_pb=0&language=en&_d=dbdmjj4a7jmiii&timestamp=1588601961&utm_campaign=client_share&app=musically&utm_medium=ios&user_id=6806866949478925317&tt_from=copy&utm_source=copy&source=h5_m
     community: Mobile
@@ -470,6 +476,8 @@
     prize: General
     html:
     top-pick: TRUE
+    image: paiute-indian-tribe.png
+    image-alt: Little girl standing in front of a stone wall, wearing a black shirt that reads I am American Indian and I count
     best-of:
 -
     language:
@@ -749,6 +757,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/QDXaMSC0nxs" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: be-counted-in-the-2020-census.png
+    image-alt: Screenshot of a video conference call of a man wearing a plaid button up shirt. The closed captioning on reads I'm being counted because I need public transportation to get to and from work.
     best-of:
 -
     language:
@@ -840,6 +850,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/VV0QkOZTwFQ" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: bnc-census.png
+    image-alt: A black and white photo of a woman against a plain white background, with a flower tucked behind her ear. The bottom left corner of woman is pixilated
     best-of:
 -
     language:
@@ -990,14 +1002,16 @@
     language:
     team:
     state:
-    title: Census 2020
+    title: Census 2020 - txamiu
     name: Scheiby Gonzalez Fisher
     link: https://www.youtube.com/watch?v=cCvKNx0y378
-    community: Young, Mobile
+    community: Mobile, Young
     id: cCvKNx0y378
     prize: Student
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: census-2020-2.png
+    image-alt: Image of a young man in a blue striped polo shirt on a white background. On the right, overlaid text reads It does not inquire about citizenship
     best-of:
 -
     language:
@@ -1024,6 +1038,8 @@
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: kurds-count.png
+    image-alt: Woman sitting in a wood chair in fron of a window, with house plants around her. A Kurds Count logo is overlaid in the top left corner
     best-of:
 -
     language:
@@ -1036,7 +1052,9 @@
     id: gvgPRP53xao
     prize:
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
+    image: we-are-a-people.png
+    image-alt: Woman wearing an American flag over her shoulders, slightly in profile, looking at the camera
     best-of:
 -
     language:
@@ -1801,6 +1819,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/oXCI9OezCm8" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: census-time.png
+    image-alt: Cartoon of a girl with pigtails
     best-of:
 -
     language:
@@ -2610,6 +2630,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/m6tewvXbUZk" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: everyone-counts-heard-co.png
+    image-alt: Woman and girl sitting at a table with a microphone in front of them. There is a red background that reads Every. One Counts, which is only partially visible.
     best-of:
 -
     language:
@@ -3018,19 +3040,19 @@
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/VZTw-tMPc50" height="200" width="300"></iframe>
     top-pick:
     best-of:
--
-    language:
-    team:
-    state:
-    title: How Hometown Heros Can Help
-    name: Zander Betterton
-    link: https://www.youtube.com/watch?v=BIcktBPCFNc&feature=youtu.be
-    community: Rural, Seniors
-    id: BIcktBPCFNc
-    prize: Student
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/BIcktBPCFNc" height="200" width="300"></iframe>
-    top-pick: TRUE
-    best-of:
+# -
+#     language:
+#     team:
+#     state:
+#     title: How Hometown Heros Can Help
+#     name: Zander Betterton
+#     link: https://www.youtube.com/watch?v=BIcktBPCFNc&feature=youtu.be
+#     community: Rural, Seniors
+#     id: BIcktBPCFNc
+#     prize: Student
+#     html: <iframe frameborder="0" src="https://www.youtube.com/embed/BIcktBPCFNc" height="200" width="300"></iframe>
+#     top-pick: TRUE
+#     best-of:
 -
     language:
     team:
@@ -3110,6 +3132,8 @@
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: i-count-you-count-we-all-count.png
+    image-alt: Two men standing outside in front of tall green bushes, with a woman standing between them. They all look relaxed and happy.
     best-of:
 -
     language: Spanish
@@ -3688,6 +3712,8 @@
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick: TRUE
+    image: muslims-respond-today.png
+    image-alt: Two women, looking into the camera, seated in front of a dark grey backdrop.
     best-of:
 -
     language:
@@ -3860,7 +3886,9 @@
     id: POQiczuBQO0
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/POQiczuBQO0" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
+    image: queer-the-census-psa.png
+    image-alt: Screenshot of a video call. Two people are in the video frame on the left, and four sit on a sofa in the frame on the right.
     best-of:
 -
     language:
@@ -3959,9 +3987,9 @@
     best-of:
 -
     language:
-    team:
+    team: NC Rural Center
     state: NC
-    title: Rural Counts - NC Rural Center, Census 101
+    title: Rural Counts - Census 101
     name: Tiffany Gladney
     link: https://www.youtube.com/watch?v=B5XFvWg4P4U&t=4s
     community: Rural
@@ -3969,6 +3997,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/B5XFvWg4P4U" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: rural-counts.png
+    image-alt: Illustration collage that includes drawings of money, roads, books, an agenda, a police car, a building, and a tornado
     best-of:
 -
     language:
@@ -5296,6 +5326,8 @@
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/326nqf5TNLU" height="200" width="300"></iframe>
     top-pick: TRUE
+    image: you-count.png
+    image-alt: Closeup of a graphic novel. A girl is asking with her librarian about the census, and the librarian explains why it's important
     best-of:
 -
     language:
