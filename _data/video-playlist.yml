@@ -75,7 +75,7 @@
     id: cW5gZx-Ylvc
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/cW5gZx-Ylvc" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -311,7 +311,7 @@
     id: GvGeQBVbmZ8
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -350,7 +350,7 @@
     id: QHmkRBIzUMs
     prize: Student
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -469,7 +469,7 @@
     id: "415606129"
     prize: General
     html:
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -748,7 +748,7 @@
     id: QDXaMSC0nxs
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/QDXaMSC0nxs" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -839,7 +839,7 @@
     id: VV0QkOZTwFQ
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/VV0QkOZTwFQ" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -993,11 +993,11 @@
     title: Census 2020
     name: Scheiby Gonzalez Fisher
     link: https://www.youtube.com/watch?v=cCvKNx0y378
-    community: Young
+    community: Young, Mobile
     id: cCvKNx0y378
     prize: Student
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -1023,7 +1023,7 @@
     id: ikdJt43-rFg
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -1800,7 +1800,7 @@
     id: oXCI9OezCm8
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/oXCI9OezCm8" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -2609,7 +2609,7 @@
     id: m6tewvXbUZk
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/m6tewvXbUZk" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -3025,11 +3025,11 @@
     title: How Hometown Heros Can Help
     name: Zander Betterton
     link: https://www.youtube.com/watch?v=BIcktBPCFNc&feature=youtu.be
-    community: Rural
+    community: Rural, Seniors
     id: BIcktBPCFNc
     prize: Student
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/BIcktBPCFNc" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -3109,7 +3109,7 @@
     id: uEZHoHxjpOM
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language: Spanish
@@ -3687,7 +3687,7 @@
     id: Yk9sto6CDA4
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -3968,7 +3968,7 @@
     id: B5XFvWg4P4U
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/B5XFvWg4P4U" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
@@ -5291,11 +5291,11 @@
     title: You Count
     name: Anu Annam
     link: https://www.youtube.com/watch?v=326nqf5TNLU&feature=youtu.be
-    community: seniors, Young
+    community: Seniors, Young, People with disabilities
     id: 326nqf5TNLU
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/326nqf5TNLU" height="200" width="300"></iframe>
-    top-pick:
+    top-pick: TRUE
     best-of:
 -
     language:
