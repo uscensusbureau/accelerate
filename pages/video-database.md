@@ -17,7 +17,9 @@ hero:
 <div  class="usa-section usa-content usa-grid bottom-space" markdown="1" style="margin-top:-75px; margin-bottom:100px;">
 # Browse and share from hundreds of video submissions
 <p>Videos sorted alphabetically. You can use the filters to refine your results. </p>
-<p>This content is NOT produced by the U.S. Census Bureau. These videos were submitted by the public in response to the Get Out the Count Video Prize Challenge (see: <a href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/">https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/</a>), under the authority of the America Competes Reauthorization Act of 2010- PUBLIC LAW 111–358—JAN. 4, 2011. The challenge opened on 03/12/2020 12:00 PM ET and closed on 05/07/2020 11:59 PM ET. </p>
+<div class="divider"></div>
+<p class="disclaimer-text">The videos listed below have passed compliance and met all Get Out the Count Video Challenge rules and guidelines. Any video submissions not listed here did not meet the requirements of the competition as stated on the official challenge.gov prize website, (see: <a href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/">https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/</a>). </p>
+<p class="disclaimer-text">This content is NOT produced by the U.S. Census Bureau. These videos were submitted by the public in response to the Get Out the Count Video Prize Challenge (see: <a href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/">https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/</a>), under the authority of the America Competes Reauthorization Act of 2010- PUBLIC LAW 111–358—JAN. 4, 2011. The challenge opened on 03/12/2020 12:00 PM ET and closed on 05/07/2020 11:59 PM ET. </p>
 <form id="video-filter-form" class="top-space">
   <div class="grid-row">
     <div class=" usa-width-one-fourth">
@@ -105,7 +107,7 @@ hero:
   </div>
   <div id="view-more" class="view-more-container">
   <h2> Complete Search Results </h2>
-  <p>Search results show a list of video submissions that passed compliance, sorted alphabetically.</p>
+  <p>Search results are sorted alphabetically.</p>
   {% for submission in site.data.video-playlist %}
   {% if submission.top-pick != true %}
   <div id="video-card-{{submission.id}}" class="video-div video-list">

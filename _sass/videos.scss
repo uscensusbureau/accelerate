@@ -144,3 +144,9 @@ p {
   max-width: 90rem !important;
   margin-bottom: 40px;
 }
+
+.disclaimer-text {
+  font-size: $font-size-xs;
+  color: $color-gray;
+  font-style: italic;
+}
