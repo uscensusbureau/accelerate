@@ -105,7 +105,7 @@ hero:
   </div>
   <div id="view-more" class="view-more-container">
   <h2> Complete Search Results </h2>
-  <p>Search results show a list of all video submissions that passed compliance, sorted alphabetically.</p>
+  <p>Search results show a list of video submissions that passed compliance, sorted alphabetically.</p>
   {% for submission in site.data.video-playlist %}
   {% if submission.top-pick != true %}
   <div id="video-card-{{submission.id}}" class="video-div video-list">
