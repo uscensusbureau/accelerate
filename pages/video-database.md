@@ -1,23 +1,24 @@
 ---
-title: Get Out The Count Video Database
+title: Get Out The Count Challenge Videos
 permalink: /video-database/
 layout: interior
-description: Video Prize Submission Database
+description: Get Out The Count Challenge Videos
 nav:
   color: light
   page: about
 hero:
   color: blue
   callout:
-    text: Get Out The Count Video Database
+    text: Get Out The Count Challenge Videos
     subtext: We received hundreds of video submissions in over a dozen languages from all across the United States. Search and share videos below.
 
 
 ---
 <div  class="usa-section usa-content usa-grid bottom-space" markdown="1" style="margin-top:-75px; margin-bottom:100px;">
 # Browse and share from hundreds of video submissions
-
-<form id="video-filter-form">
+<p>Videos sorted alphabetically. You can use the filters to refine your results. </p>
+<p>This content is NOT produced by the U.S. Census Bureau. These videos were submitted by the public in response to the Get Out the Count Video Prize Challenge (see: <a href="https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/">https://www.challenge.gov/challenge/2020-census-get-out-the-count-video-challenge/</a>), under the authority of the America Competes Reauthorization Act of 2010- PUBLIC LAW 111–358—JAN. 4, 2011. The challenge opened on 03/12/2020 12:00 PM ET and closed on 05/07/2020 11:59 PM ET. </p>
+<form id="video-filter-form" class="top-space">
   <div class="grid-row">
     <div class=" usa-width-one-fourth">
       <div class="usa-accordion video-filter-form">
@@ -102,41 +103,38 @@ hero:
   {% endif %}
   {% endfor %}
   </div>
-  <div class="usa-accordion view-more-container">
-    <button class="usa-accordion-button view-more-button" aria-expanded="false" aria-controls="view-more">
-      See complete search results
-    </button>
-    <div id="view-more" class="usa-accordion-content view-more-content">
-    {% for submission in site.data.video-playlist %}
-    {% if submission.top-pick != true %}
-    <div id="video-card-{{submission.id}}" class="video-div video-list">
-      <div>
-        <div class="finalists-text">
-          <h3><a href="{{ submission.link }}" target="_blank">{{ submission.title }}</a></h3>
-          <h6 class="video-hidden">{{submission.id}}</h6>
-          {% if submission.team != null %}
-            <p>{{submission.team}}
-          {% else %}
-            <p>{{submission.name}}
-          {% endif %}
-          <br>
-          {% if submission.language %}
-            <span class="tag language-tag">{{submission.language | upcase }}</span>
-          {% endif %}
-          {% if submission.community != '' and submission.community != 'general'%}
-            {% assign communities = submission.community | split: ", " %}
-            {% for item in communities %}
-              <span class="tag communities-tag">{{item | upcase }}</span>
-            {% endfor %}
-          {% endif %}
-          {% if submission.best-of != null %}
-            <span class="best-of-tag tag">BEST OF {{submission.best-of | upcase }}</span>
-          {% endif %}
-          </p>
-        </div>
+  <div id="view-more" class="view-more-container">
+  <h2> Complete Search Results </h2>
+  <p>Search results show a list of all video submissions that passed compliance, sorted alphabetically.</p>
+  {% for submission in site.data.video-playlist %}
+  {% if submission.top-pick != true %}
+  <div id="video-card-{{submission.id}}" class="video-div video-list">
+    <div>
+      <div class="finalists-text">
+        <h3><a href="{{ submission.link }}" target="_blank">{{ submission.title }}</a></h3>
+        <h6 class="video-hidden">{{submission.id}}</h6>
+        {% if submission.team != null %}
+          <p>{{submission.team}}
+        {% else %}
+          <p>{{submission.name}}
+        {% endif %}
+        <br>
+        {% if submission.language %}
+          <span class="tag language-tag">{{submission.language | upcase }}</span>
+        {% endif %}
+        {% if submission.community != '' and submission.community != 'general'%}
+          {% assign communities = submission.community | split: ", " %}
+          {% for item in communities %}
+            <span class="tag communities-tag">{{item | upcase }}</span>
+          {% endfor %}
+        {% endif %}
+        {% if submission.best-of != null %}
+          <span class="best-of-tag tag">BEST OF {{submission.best-of | upcase }}</span>
+        {% endif %}
+        </p>
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
-    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
   </div>
