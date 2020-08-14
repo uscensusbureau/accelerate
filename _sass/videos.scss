@@ -119,26 +119,28 @@
 }
 
 .view-more-container {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  margin-top: 100px;
   margin-bottom: 350px;
-  .usa-content p:not(.usa-font-lead) {
-    max-width: 100%;
 }
-  text-align: center;
-}
-
-.view-more-button {
-  width: 30%;
-  background-color: transparent;
-  text-align: center;
-  font-weight: 400;
-  text-decoration: underline;
-  display: inline-block;
-}
+//
+// .view-more-button {
+//   width: 30%;
+//   background-color: transparent;
+//   text-align: center;
+//   font-weight: 400;
+//   text-decoration: underline;
+//   display: inline-block;
+// }
 
 .view-more-content {
   background-color: white;
   margin-left: $space-m;
   text-align: left;
+}
+
+p {
+  max-width: 90rem !important;
+  margin-bottom: 40px;
 }
