@@ -3,6 +3,8 @@ title: Census Accelerate
 permalink: /
 layout: landing
 
+banner: true
+
 hero:
   video:
     horizontal: /assets/img/graphics/video-04.mp4
