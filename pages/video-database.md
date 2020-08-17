@@ -10,7 +10,7 @@ hero:
   color: blue
   callout:
     text: Get Out The Count Challenge Videos
-    subtext: We received hundreds of video submissions in over a dozen languages from all across the United States. Search and share videos below.
+    subtext: We received hundreds of video submissions in many languages from all across the United States. Search and share videos below.
 
 
 ---
