@@ -1230,7 +1230,7 @@
     top-pick:
     best-of:
 -
-    language: Chinese
+    language:
     team:
     state:
     title: Census 2020 PSA
@@ -2050,7 +2050,7 @@
     top-pick:
     best-of:
 -
-    language: Chinese
+    language:
     team:
     state:
     title: Count For A Better Future
