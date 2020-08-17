@@ -1165,7 +1165,7 @@
     top-pick:
     best-of:
 -
-    language: Creole
+    language:
     team:
     state:
     title: Census 2020 Kirsten Layguan
@@ -1191,7 +1191,7 @@
     top-pick:
     best-of:
 -
-    language: Chinese
+    language:
     team:
     state:
     title: Census 2020 Luke Dolorres
@@ -1217,7 +1217,7 @@
     top-pick:
     best-of:
 -
-    language: Chinese
+    language:
     team:
     state:
     title: Census 2020 Natalie Pen
@@ -2128,7 +2128,7 @@
     top-pick:
     best-of:
 -
-    language: Creole
+    language: Korean
     team:
     state:
     title: Count Us In
@@ -2500,7 +2500,7 @@
     top-pick:
     best-of:
 -
-    language: Tagalog
+    language:
     team: City of El Mirage
     state: AZ
     title: El Mirage 2020 Census
@@ -2660,7 +2660,7 @@
     top-pick:
     best-of:
 -
-    language: Samoan
+    language:
     team:
     state:
     title: Family Matters
@@ -2816,7 +2816,7 @@
     top-pick:
     best-of:
 -
-    language: Arabic
+    language: Chinese
     team:
     state:
     title: Get Out the Count
@@ -2948,7 +2948,7 @@
     top-pick:
     best-of:
 -
-    language: Arabic
+    language: Chinese
     team:
     state:
     title: "Grateful #2020 Census"
@@ -3333,7 +3333,7 @@
     top-pick:
     best-of:
 -
-    language: Korean
+    language:
     team: Asian Community Development Council
     state:
     title: Keith Harris, ACDC 2020 Census
@@ -3398,7 +3398,7 @@
     top-pick:
     best-of:
 -
-    language: Arabic
+    language: Samoan
     team: Le Fetuao Samoan Language Center
     state: HI
     title: Le Fetua Samoan 2020 Census
@@ -3476,7 +3476,7 @@
     top-pick:
     best-of:
 -
-    language: Hindi
+    language:
     team: Asian Community Development Council
     state:
     title: 'Linda Ly''s Census Video'
@@ -3556,7 +3556,7 @@
     image-alt: Older woman holding a soccer ball
     best-of: kids
 -
-    language: Creole
+    language:
     team:
     state:
     title: Make Kids Count
@@ -5042,7 +5042,7 @@
     top-pick:
     best-of:
 -
-    language: Spanish / Hindi
+    language: Spanish
     team: Compass Community Center
     state:
     title: We Count, We Matter! The Compass 2020 Census Video)
