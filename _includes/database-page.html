@@ -89,3 +89,38 @@
   {% endif %}
   {% endfor %}
   </div>
+<div id="view-more-default" class="view-more-container">
+<h2> Complete Search Results </h2>
+<p>Search results are sorted alphabetically.</p>
+{% for submission in site.data.video-playlist %}
+{% if submission.top-pick != true %}
+<div id="video-card-{{submission.id}}" class="video-div video-list">
+  <div>
+    <div class="finalists-text">
+      <h3><a href="{{ submission.link }}" target="_blank">{{ submission.title }}</a></h3>
+      <h6 class="video-hidden">{{submission.id}}</h6>
+      {% if submission.team != null %}
+        <p>{{submission.team}}
+      {% else %}
+        <p>{{submission.name}}
+      {% endif %}
+      <br>
+      {% if submission.language %}
+        <span class="tag language-tag">{{submission.language | upcase }}</span>
+      {% endif %}
+      {% if submission.community != '' and submission.community != 'general'%}
+        {% assign communities = submission.community | split: ", " %}
+        {% for item in communities %}
+          <span class="tag communities-tag">{{item | upcase }}</span>
+        {% endfor %}
+      {% endif %}
+      {% if submission.best-of != null %}
+        <span class="best-of-tag tag">BEST OF {{submission.best-of | upcase }}</span>
+      {% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
