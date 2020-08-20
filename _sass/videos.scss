@@ -13,6 +13,9 @@
       text-decoration: none;
       border-bottom: 0;
       background: transparent !important;
+      &:focus {
+        outline-color: $color-blue;
+      }
     }
 
     .title-link {
@@ -34,6 +37,9 @@
       text-decoration: none;
       border-bottom: 0;
       background: transparent !important;
+      &:focus {
+        outline-color: $color-blue;
+      }
     }
   }
 
@@ -116,6 +122,9 @@
   border: none;
   color: $color-blue;
   cursor: pointer;
+  &:focus {
+    outline-color: $color-blue;
+  }
 }
 
 .view-more-container {

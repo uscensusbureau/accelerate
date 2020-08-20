@@ -49,6 +49,13 @@ $('#video-filter-form').submit(function (e) {
         var filter = selectedValues[ i ].value.toLowerCase();
         if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best.includes(filter) || filter.includes(videoCommunity, best )) {
           selectedVideos.push(videoID)
+          var tags = $('#filter-' + filterClass).find('span.tag')
+          tags.map(function(x){
+            console.log(tags[x])
+            if (tags[x].innerText.toLowerCase() == filterClass) {
+              $(this).addClass('tag-selected')
+            }
+          })
         }
       }
     }
