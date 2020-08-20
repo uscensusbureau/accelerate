@@ -1,4 +1,118 @@
 ---
+- African-Americans:
+  - language:
+    team:
+    state:
+    title: 2020 Census
+    name: Kiyanna Gayle
+    link: https://drive.google.com/file/d/1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ/view?usp=drive_web
+    community: African-Americans, Low income
+    id: 1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ
+    prize: General
+    html:
+    top-pick:
+    best-of:
+  - language:
+    team: Shareef Allman TV
+    state:
+    title: 2020 Census Get Out the Count
+    name: Shareef Allman
+    link: https://www.youtube.com/watch?v=FwngsnIPgCg&t=23s
+    community: African-Americans
+    id: FwngsnIPgCg
+    prize: General
+    html: <iframe frameborder="0" src="https://www.youtube.com/embed/FwngsnIPgCg" height="200" width="300"></iframe>
+    top-pick:
+    best-of:
+  - language:
+    team: SHE Power
+    state:
+    title: "2020 Census #MyBlackCounts"
+    name: Arleana Waller
+    link: https://www.youtube.com/watch?v=zO48VXRlBGU&feature=youtu.be
+    community: African-Americans
+    id: zO48VXRlBGU
+    prize: General
+    html: <iframe frameborder="0" src="https://www.youtube.com/embed/zO48VXRlBGU" height="200" width="300"></iframe>
+    top-pick:
+    best-of:
+  - language:
+    team:
+    state:
+    title: 2020 Census Pirate
+    name: Jonathan Green
+    link: https://www.youtube.com/watch?v=IB7EO1AFrfs&feature=youtu.be
+    community: African American, Young
+    id: IB7EO1AFrfs
+    prize: General
+    html: <iframe frameborder="0" src="https://www.youtube.com/embed/IB7EO1AFrfs" height="200" width="300"></iframe>
+    top-pick:
+    best-of:
+  - language:
+    team:
+    state:
+    title: 2020 Census Shape Your Future
+    name: Lacora White
+    link: https://www.youtube.com/watch?v=z8UUiwKK8dk
+    community: African-Americans, Hispanic
+    id: z8UUiwKK8dk
+    prize: General
+    html: '<iframe frameborder="0" src="'' </iframe>"'
+    top-pick:
+    best-of:
+  - language:
+    team: Milwaukee Counts
+    state: WI
+    title: "2020 Census: Milwaukee Counts"
+    name: Tom Loppnow
+    link: https://www.youtube.com/watch?v=16VU4-t1Lds
+    community: African-Americans
+    id: 16VU4-t1Lds
+    prize: General
+    html: '<iframe frameborder="0" src="'' </iframe>"'
+    top-pick:
+    best-of:
+  - language:
+    team:
+    state:
+    title: 2020Census POC
+    name: Dr. Trina Coleman
+    link: https://www.youtube.com/watch?v=w8_3hteEXmo&feature=youtu.be
+    community: African-Americans
+    id: w8_3hteEXmo
+    prize: General
+    html: <iframe frameborder="0" src="https://www.youtube.com/embed/w8_3hteEXmo" height="200" width="300"></iframe>
+    top-pick:
+    best-of:
+
+      
+- Asian-Americans/AANHPI:
+
+- LGBTQ:
+
+- Hispanic:
+
+- Young:
+
+- Mobile:
+
+- Children:
+
+- Racial and Ethnic Minorities:
+
+- Rural:
+
+- Low Income:
+
+- People with disabilities:
+
+- Native Americans:
+
+- People experiencing homelessness:
+
+- Seniors:
+
+- Middle Eastern and North African:
 -
     language:
     team: Team Weaver
@@ -86,7 +200,7 @@
     title: 10 Minutes for a Better 10 years
     name: Ignatius Lin
     link: https://youtu.be/dfoBXhSpjbs
-    community: AANHPI, Children
+    community: Asian-Americans, Children
     id: dfoBXhSpjbs
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/dfoBXhSpjbs" height="200" width="300"></iframe>
@@ -146,19 +260,7 @@
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/CccZRLrytJQ" height="200" width="300"></iframe>
     top-pick:
     best-of:
--
-    language:
-    team:
-    state:
-    title: 2020 Census
-    name: Kiyanna Gayle
-    link: https://drive.google.com/file/d/1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ/view?usp=drive_web
-    community: African-Americans, Low income
-    id: 1CKHXTvDIQ9FttpgZfuDHHna5yB0bMlJJ
-    prize: General
-    html:
-    top-pick:
-    best-of:
+
 -
     language:
     team:
@@ -224,19 +326,7 @@
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/MOLiZm56nO0" height="200" width="300"></iframe>
     top-pick:
     best-of:
--
-    language:
-    team: SHE Power
-    state:
-    title: 2020 Census #MyBlackCounts
-    name: Arleana Waller
-    link: https://www.youtube.com/watch?v=zO48VXRlBGU&feature=youtu.be
-    community: African-Americans
-    id: zO48VXRlBGU
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/zO48VXRlBGU" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
+
 -
     language:
     team:
@@ -276,19 +366,7 @@
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/nccHZtgEviA" height="200" width="300"></iframe>
     top-pick:
     best-of:
--
-    language:
-    team: Shareef Allman TV
-    state:
-    title: 2020 Census Get Out the Count
-    name: Shareef Allman
-    link: https://www.youtube.com/watch?v=FwngsnIPgCg&t=23s
-    community: African-Americans
-    id: FwngsnIPgCg
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/FwngsnIPgCg" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
+
 -
     language:
     team:
@@ -317,32 +395,7 @@
     image: 2020-census-music-video.png
     image-alt: Cartoon woman in hijab with an American flag and green background, with a speech bubble that reads Count, Yaar! and has the caption And I know when you need us you can
     best-of:
--
-    language:
-    team:
-    state:
-    title: 2020 Census Pirate
-    name: Jonathan Green
-    link: https://www.youtube.com/watch?v=IB7EO1AFrfs&feature=youtu.be
-    community: African-Americans, Young
-    id: IB7EO1AFrfs
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/IB7EO1AFrfs" height="200" width="300"></iframe>
-    top-pick:
-    best-of:
--
-    language:
-    team:
-    state:
-    title: 2020 Census Shape Your Future
-    name: Lacora White
-    link: https://www.youtube.com/watch?v=z8UUiwKK8dk
-    community: African-Americans, Hispanic
-    id: z8UUiwKK8dk
-    prize: General
-    html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
-    best-of:
+
 -
     language:
     team: Milton School District
@@ -371,19 +424,7 @@
     html: '<iframe frameborder="0" src="'' </iframe>"'
     top-pick:
     best-of:
--
-    language:
-    team: Milwaukee Counts
-    state: WI
-    title: "2020 Census: Milwaukee Counts"
-    name: Tom Loppnow
-    link: https://www.youtube.com/watch?v=16VU4-t1Lds
-    community: African-Americans
-    id: 16VU4-t1Lds
-    prize: General
-    html: '<iframe frameborder="0" src="'' </iframe>"'
-    top-pick:
-    best-of:
+
 -
     language:
     team:
@@ -478,19 +519,6 @@
     top-pick: TRUE
     image: paiute-indian-tribe.png
     image-alt: Little girl standing in front of a stone wall, wearing a black shirt that reads I am American Indian and I count
-    best-of:
--
-    language:
-    team:
-    state:
-    title: 2020Census POC
-    name: Dr. Trina Coleman
-    link: https://www.youtube.com/watch?v=w8_3hteEXmo&feature=youtu.be
-    community: African-Americans
-    id: w8_3hteEXmo
-    prize: General
-    html: <iframe frameborder="0" src="https://www.youtube.com/embed/w8_3hteEXmo" height="200" width="300"></iframe>
-    top-pick:
     best-of:
 -
     language:
@@ -618,7 +646,7 @@
     title: All That and More
     name: Diego Estrada
     link: https://vimeo.com/405920056
-    community: AANHPI, Young, Mobile
+    community: Asian-Americans, Young, Mobile
     id: "405920056"
     prize: General
     html: <iframe frameborder="0" src="https://player.vimeo.com/video/405920056" height="200" width="300"></iframe>
@@ -643,7 +671,7 @@
     language:
     team: Leadfeather Productions
     state:
-    title: ATX Black/African-Americans Awareness  Video
+    title: ATX Black/African American Awareness  Video
     name: Jonny Blackburn
     link: https://www.youtube.com/watch?v=3TGbIiXwj7g&t=3s&fbclid=IwAR1OiTIBuCN0KsdBC-a971mD8pONBttD0LOP5CoDpM1opAszLI6zjRgrjBw
     community: African-Americans
@@ -1158,7 +1186,7 @@
     title: Census 2020 Kelly Tay
     name: Aleks Baker
     link: https://www.youtube.com/watch?v=LYUoSn4_9vc
-    community: AANHPI, Mobile
+    community: Asian-Americans, Mobile
     id: LYUoSn4_9vc
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -1236,7 +1264,7 @@
     title: Census 2020 PSA
     name: Saffie Kallon
     link: https://www.youtube.com/watch?v=0SfVx4Y6wuw
-    community: African-Americans, Hispanic, Middle Eastern and North African, AANHPI
+    community: African-Americans, Hispanic, Middle Eastern and North African, Asian-Americans
     id: 0SfVx4Y6wuw
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -1379,7 +1407,7 @@
     title: "Census 2020: Act Now- Fill Out the Form"
     name: M Das
     link: https://www.youtube.com/watch?v=QhvXyO1MT9k
-    community: AANHPI
+    community: Asian-Americans
     id: QhvXyO1MT9k
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -1392,7 +1420,7 @@
     title: "Census 2020: Houston Vietnamese Community"
     name: Quoc-Anh-Tran
     link: https://www.youtube.com/watch?v=njhAoJEHIa8&feature=youtu.be
-    community: AANHPI
+    community: Asian-Americans
     id: njhAoJEHIa8
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/njhAoJEHIa8" height="200" width="300"></iframe>
@@ -1829,7 +1857,7 @@
     title: Census Tunes - When you get counted
     name: Audrey Jang
     link: https://youtu.be/pwZyoIwj4L0
-    community: AANHPI, Young, Mobile, Children
+    community: Asian-Americans, Young, Mobile, Children
     id: pwZyoIwj4L0
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/pwZyoIwj4L0" height="200" width="300"></iframe>
@@ -1948,7 +1976,7 @@
     title: Come to Your Census
     name: Shaiwna Adams
     link: https://www.youtube.com/watch?v=29wjZ7lt4-k&feature=youtu.be
-    community: African-Americans, LGBTQ, Racial and Ethnic Minorities
+    community: African American, LGBTQ, Racial and Ethnic Minorities
     id: 29wjZ7lt4-k
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/29wjZ7lt4-k" height="200" width="300"></iframe>
@@ -1989,7 +2017,7 @@
     title: Complete the 2020 Census
     name: Sindhura Janjanam
     link: https://www.youtube.com/watch?v=Km_6VgwOlr8&feature=youtu.be&fbclid=IwAR2dqRHrTNoPrzserXaMrH5uk9Hsv__32Xan9XH7IhinSXy6UNWVMdku3pE
-    community: AANHPI, Hispanic
+    community: Asian-Americans, Hispanic
     id: Km_6VgwOlr8
     prize: General & Student
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Km_6VgwOlr8" height="200" width="300"></iframe>
@@ -2056,7 +2084,7 @@
     title: Count For A Better Future
     name: Jasmine Chen
     link: https://www.youtube.com/watch?v=WsLP-cbi47w&feature=youtu.be
-    community: AANHPI
+    community: Asian-Americans
     id: WsLP-cbi47w
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/WsLP-cbi47w" height="200" width="300"></iframe>
@@ -2134,7 +2162,7 @@
     title: Count Us In
     name: Crane Kim
     link: https://www.youtube.com/watch?v=Cjl9pwzaAkU&feature=youtu.be
-    community: AANHPI, Seniors
+    community: Asian-Americans, Seniors
     id: Cjl9pwzaAkU
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/Cjl9pwzaAkU" height="200" width="300"></iframe>
@@ -2199,7 +2227,7 @@
     title: Counting On My Sistahs
     name: Kelly Owens
     link: https://youtu.be/d2jPTAAxMAE
-    community: African-Americanss
+    community: African Americans
     id: d2jPTAAxMAE
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/d2jPTAAxMAE" height="200" width="300"></iframe>
@@ -2238,7 +2266,7 @@
     title: Cruz Kim Wants you to get counted
     name: Audrey Jang
     link: https://youtu.be/8uZwqsIFyIk
-    community: AANHPI, Young, Mobile, Children
+    community: Asian-Americans, Young, Mobile, Children
     id: 8uZwqsIFyIk
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/8uZwqsIFyIk" height="200" width="300"></iframe>
@@ -2692,7 +2720,7 @@
     title: Fellow Filipinos We Count
     name: Kat Iniba
     link: https://youtu.be/WmiGRTOB5dA
-    community: AANHPI
+    community: Asian-Americans
     id: WmiGRTOB5dA
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/WmiGRTOB5dA" height="200" width="300"></iframe>
@@ -2770,7 +2798,7 @@
     title: Get Counted in 2020 Census - Utsav USA
     name: Utsav USA
     link: https://www.youtube.com/watch?v=NbJcmLgkNwU&feature=youtu.be
-    community: AANHPI
+    community: Asian-Americans
     id: NbJcmLgkNwU
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/NbJcmLgkNwU" height="200" width="300"></iframe>
@@ -2954,7 +2982,7 @@
     title: "Grateful #2020 Census"
     name: Yina Zhang
     link: https://www.youtube.com/watch?v=go1hh98UorE&feature=youtu.be
-    community: AANHPI
+    community: Asian-Americans
     id: go1hh98UorE
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/go1hh98UorE" height="200" width="300"></iframe>
@@ -3194,7 +3222,7 @@
     title: 'I''m Gonna Count'
     name: Kira Bryant
     link: https://www.youtube.com/watch?v=ZsxDRpwp5uY&feature=youtu.be
-    community: African-Americans
+    community: African-American
     id: ZsxDRpwp5uY
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/ZsxDRpwp5uY" height="200" width="300"></iframe>
@@ -3209,7 +3237,7 @@
     title: 'If Asian Americans Don''t Take the Census'
     name: Hanna Huang
     link: https://youtu.be/wIsZBUxmIVQ
-    community: AANHPI
+    community: Asian-Americans
     id: wIsZBUxmIVQ
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/wIsZBUxmIVQ" height="200" width="300"></iframe>
@@ -3482,7 +3510,7 @@
     title: 'Linda Ly''s Census Video'
     name: Brian Thomas
     link: https://www.youtube.com/watch?v=eLX51CslPn4
-    community: AANHPI
+    community: Asian-Americans
     id: eLX51CslPn4
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -3562,7 +3590,7 @@
     title: Make Kids Count
     name: Tara Canny
     link: https://www.youtube.com/watch?v=GWeFDOk4wK4
-    community: Children, Hispanic, AANHPI
+    community: Children, Hispanic, Asian-Americans
     id: GWeFDOk4wK4
     prize:
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -3817,7 +3845,7 @@
     title: PASSi Census 2020
     name: So Young Jung
     link: https://www.youtube.com/watch?v=tLRPKDsGTe4&feature=youtu.be
-    community: AANHPI
+    community: Asian-Americans
     id: tLRPKDsGTe4
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/tLRPKDsGTe4" height="200" width="300"></iframe>
@@ -3897,7 +3925,7 @@
     title: Raise Our Voice:Make Our Choice
     name: Jasmine Chen
     link: https://www.youtube.com/watch?v=ni1iaxxP8Fc
-    community: AANHPI
+    community: Asian-Americans
     id: ni1iaxxP8Fc
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -4366,7 +4394,7 @@
     title: Tell Your Mom to get counted
     name: Audrey Jang
     link: https://youtu.be/y5H4rZYOoUY
-    community: AANHPI, Young, Mobile, Children
+    community: Asian-Americans, Young, Mobile, Children
     id: y5H4rZYOoUY
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/y5H4rZYOoUY" height="200" width="300"></iframe>
@@ -4379,7 +4407,7 @@
     title: The 2020 Census
     name: Kelsey Rush
     link: https://www.youtube.com/watch?v=IrsOB6eotNI
-    community: AANHPI, Young
+    community: Asian-Americans, Young
     id: IrsOB6eotNI
     prize: Student Prize
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -4827,7 +4855,7 @@
     title: Wake Up, Atlanta
     name: Kavi Vu
     link: https://www.youtube.com/watch?v=ZDZk9wToZm8
-    community: AANHPI
+    community: Asian-Americans
     id: ZDZk9wToZm8
     prize: General
     html: '<iframe frameborder="0" src="'' </iframe>"'
@@ -5087,7 +5115,7 @@
     title: What is 2020 Census?
     name: RaJen Upreti
     link: https://www.youtube.com/watch?v=PTte9uEmkNQ
-    community: AANHPI
+    community: Asian-Americans
     id: PTte9uEmkNQ
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/PTte9uEmkNQ" height="200" width="300"></iframe>
@@ -5440,7 +5468,7 @@
     title: "투머치토커 박찬호: 미주 한인 여러분, 2020 센서스 인구조사에 참여하세요!"
     name: Audrey Jang
     link: https://youtu.be/pF384G0hggA
-    community: AANHPI, Young, Mobile, Children
+    community: Asian-Americans, Young, Mobile, Children
     id: pF384G0hggA
     prize: General
     html: <iframe frameborder="0" src="https://www.youtube.com/embed/pF384G0hggA" height="200" width="300"></iframe>
