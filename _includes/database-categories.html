@@ -1,0 +1,73 @@
+<div id="view-more-sorted" class="view-more-container video-hidden">
+  <h2> Complete Search Results </h2>
+  <p>Search results are sorted alphabetically.</p>
+  {% for community-filter in site.data.filters.communities %}
+  <div id="filter-{{ community-filter | slugify }}" class="video-hidden">
+    <h3>{{ community-filter }}</h3>
+    {% for submission in site.data.video-playlist %}
+    {% if submission.top-pick != true and submission.community == community-filter %}
+    <div class="video-div video-list">
+        <div class="finalists-text">
+          <h3><a href="{{ submission.link }}" target="_blank">{{ submission.title }}</a></h3>
+          <h6 class="video-hidden">{{submission.id}}</h6>
+          {% if submission.team != null %}
+            <p>{{submission.team}}
+          {% else %}
+            <p>{{submission.name}}
+          {% endif %}
+          <br>
+          {% if submission.language %}
+            <span class="tag language-tag">{{submission.language | upcase }}</span>
+          {% endif %}
+          {% if submission.community != '' and submission.community != 'general'%}
+            {% assign communities = submission.community | split: ", " %}
+            {% for item in communities %}
+              <span class="tag communities-tag">{{item | upcase }}</span>
+            {% endfor %}
+          {% endif %}
+          {% if submission.best-of != null %}
+            <span class="best-of-tag tag">BEST OF {{submission.best-of | upcase }}</span>
+          {% endif %}
+          </p>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  {% for language-filter in site.data.filters.languages %}
+  <div id="filter-{{ language-filter | slugify }}" class="video-hidden">
+    <h3>{{ language-filter }}</h3>
+    {% for submission in site.data.video-playlist %}
+    {% if submission.top-pick != true and submission.language == language-filter %}
+    <div class="video-div video-list">
+        <div class="finalists-text">
+          <h3><a href="{{ submission.link }}" target="_blank">{{ submission.title }}</a></h3>
+          <h6 class="video-hidden">{{submission.id}}</h6>
+          {% if submission.team != null %}
+            <p>{{submission.team}}
+          {% else %}
+            <p>{{submission.name}}
+          {% endif %}
+          <br>
+          {% if submission.language %}
+            <span class="tag language-tag">{{submission.language | upcase }}</span>
+          {% endif %}
+          {% if submission.community != '' and submission.community != 'general'%}
+            {% assign communities = submission.community | split: ", " %}
+            {% for item in communities %}
+              <span class="tag communities-tag">{{item | upcase }}</span>
+            {% endfor %}
+          {% endif %}
+          {% if submission.best-of != null %}
+            <span class="best-of-tag tag">BEST OF {{submission.best-of | upcase }}</span>
+          {% endif %}
+          </p>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+  </div>
