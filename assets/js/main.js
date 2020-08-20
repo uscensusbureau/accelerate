@@ -17,9 +17,13 @@ $(function() {
 // filter
 $('#video-filter-form').submit(function (e) {
   e.preventDefault();
-  // console.log("hello world")
   var selectedValues = document.getElementsByName('filter-checkbox');
   var videos = document.getElementsByClassName('video-div');
+  var selectedVideos = []
+  if (selectedValues.length > 0 ) {
+    $('#view-more-default').addClass('video-hidden');
+    $('#view-more-sorted').removeClass('video-hidden');
+  }
   for (i = 0; i < selectedValues.length; i++) {
     for (j = 0; j < videos.length; j++ ) {
       if (videos[ j ].getElementsByClassName('language-tag')[0]) {
@@ -33,34 +37,58 @@ $('#video-filter-form').submit(function (e) {
         videoCommunity = "general";
       }
       videoID = videos[ j ].getElementsByTagName('h6')[ 0 ].innerText;
+      $('#video-card-' + videoID).addClass('video-hidden');
       if (videos[ j ].getElementsByClassName('best-of-tag')[ 0 ]) {
         best = videos[ j ].getElementsByClassName('best-of-tag')[ 0 ].innerText.toLowerCase();
       } else {
         best = ''
       }
       if (selectedValues[ i ].checked == true ) {
+        var filterClass = selectedValues[i].id
+        $('#filter-' + filterClass).removeClass('video-hidden');
         var filter = selectedValues[ i ].value.toLowerCase();
-        if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best.includes(filter) || filter.includes(videoCommunity)) {
-          console.log("language", videoLanguage, "community", videoCommunity, "best", best, "filter", filter)
-          $('#video-card-' + videoID).removeClass('video-hidden');
-        } else {
-          $('#video-card-' + videoID).addClass('video-hidden');
+        if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best.includes(filter) || filter.includes(videoCommunity, best )) {
+          selectedVideos.push(videoID)
+          var tags = $('#filter-' + filterClass).find('span.tag')
+          tags.map(function(x){
+            if (tags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
+              $(this).addClass('tag-selected')
+            }
+          })
+          var topPicksTags = $('#video-card-' + videoID).find('span.tag')
+          topPicksTags.map(function(x){
+            // console.log(topPicksTags[x].innerText.toLowerCase(), filterClass)
+            if (topPicksTags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
+              $(this).addClass('tag-selected')
+            }
+          })
         }
       }
     }
   }
+  for (i = 0; i < selectedVideos.length; i++) {
+    $('#video-card-' + selectedVideos[i]).removeClass('video-hidden');
+  }
 });
+
 
 // reset filter
 
 $('#reset-filter').click(function (e) {
   var selectedValues = document.getElementsByName('filter-checkbox');
   for (i = 0; i < selectedValues.length; i++) {
+    var communityClass = selectedValues[i].id
     selectedValues[i].checked = false;
+    $('#filter-' + communityClass).addClass('video-hidden');
   }
   var videos = document.getElementsByClassName('video-div');
   for (i = 0; i < videos.length; i++) {
     videoID = videos[ i ].getElementsByTagName('h6')[ 0 ].innerText;
     $('#video-card-' + videoID).removeClass('video-hidden');
   }
+  $("#view-more-sorted span").removeClass("tag-selected");
+  $("#view-more-default span").removeClass("tag-selected");
+  $(".video-grid span").removeClass("tag-selected");
+  $('#view-more-sorted').addClass('video-hidden');
+  $('#view-more-default').removeClass('video-hidden');
 });
