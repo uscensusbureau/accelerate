@@ -19,7 +19,8 @@ $('#video-filter-form').submit(function (e) {
   e.preventDefault();
   var selectedValues = document.getElementsByName('filter-checkbox');
   var videos = document.getElementsByClassName('video-div');
-  var selectedVideos = []
+  var selectedVideos = [];
+  var filterClasses = [];
   if (selectedValues.length > 0 ) {
     $('#view-more-default').addClass('video-hidden');
     $('#view-more-sorted').removeClass('video-hidden');
@@ -44,30 +45,29 @@ $('#video-filter-form').submit(function (e) {
         best = ''
       }
       if (selectedValues[ i ].checked == true ) {
-        var filterClass = selectedValues[i].id
-        $('#filter-' + filterClass).removeClass('video-hidden');
-        var filter = selectedValues[ i ].value.toLowerCase();
+        var filter = selectedValues[i].id
+        filterClasses.push(filter)
+        $('#filter-' + filter).removeClass('video-hidden');
         if ( videoLanguage.includes(filter) || videoCommunity.includes(filter) || best.includes(filter) || filter.includes(videoCommunity, best )) {
           selectedVideos.push(videoID)
-          var tags = $('#filter-' + filterClass).find('span.tag')
-          tags.map(function(x){
-            if (tags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
-              $(this).addClass('tag-selected')
-            }
-          })
-          var topPicksTags = $('#video-card-' + videoID).find('span.tag')
-          topPicksTags.map(function(x){
-            // console.log(topPicksTags[x].innerText.toLowerCase(), filterClass)
-            if (topPicksTags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
-              $(this).addClass('tag-selected')
-            }
-          })
         }
       }
     }
   }
   for (i = 0; i < selectedVideos.length; i++) {
     $('#video-card-' + selectedVideos[i]).removeClass('video-hidden');
+    var topPicksTags = $('#video-card-' + selectedVideos[i]).find('span.tag')
+    topPicksTags.map(function(x) {
+      if (filterClasses.includes(topPicksTags[x].innerText.toLowerCase().split(' ').join('-'))) {
+        $(this).addClass('tag-selected')
+      }
+    })
+    var seeAllTags = $('#view-more-sorted').find('span.tag')
+    seeAllTags.map(function(x) {
+      if (filterClasses.includes(seeAllTags[x].innerText.toLowerCase().split(' ').join('-'))) {
+        $(this).addClass('tag-selected')
+      }
+    })
   }
 });
 
