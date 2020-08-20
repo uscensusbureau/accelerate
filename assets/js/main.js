@@ -51,8 +51,15 @@ $('#video-filter-form').submit(function (e) {
           selectedVideos.push(videoID)
           var tags = $('#filter-' + filterClass).find('span.tag')
           tags.map(function(x){
-            console.log(tags[x])
+            // console.log(tags[x])
             if (tags[x].innerText.toLowerCase() == filterClass) {
+              $(this).addClass('tag-selected')
+            }
+          })
+          var topPicksTags = $('#video-card-' + videoID).find('span.tag')
+          topPicksTags.map(function(x){
+            console.log(topPicksTags[x])
+            if (topPicksTags[x].innerText.toLowerCase() == filterClass) {
               $(this).addClass('tag-selected')
             }
           })
