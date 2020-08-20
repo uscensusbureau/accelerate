@@ -51,15 +51,14 @@ $('#video-filter-form').submit(function (e) {
           selectedVideos.push(videoID)
           var tags = $('#filter-' + filterClass).find('span.tag')
           tags.map(function(x){
-            // console.log(tags[x])
-            if (tags[x].innerText.toLowerCase() == filterClass) {
+            if (tags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
               $(this).addClass('tag-selected')
             }
           })
           var topPicksTags = $('#video-card-' + videoID).find('span.tag')
           topPicksTags.map(function(x){
-            console.log(topPicksTags[x])
-            if (topPicksTags[x].innerText.toLowerCase() == filterClass) {
+            // console.log(topPicksTags[x].innerText.toLowerCase(), filterClass)
+            if (topPicksTags[x].innerText.toLowerCase().split(' ').join('-') == filterClass) {
               $(this).addClass('tag-selected')
             }
           })
@@ -78,15 +77,18 @@ $('#video-filter-form').submit(function (e) {
 $('#reset-filter').click(function (e) {
   var selectedValues = document.getElementsByName('filter-checkbox');
   for (i = 0; i < selectedValues.length; i++) {
-    selectedValues[i].checked = false;
     var communityClass = selectedValues[i].id
-    $('#community-' + communityClass).addClass('video-hidden');
+    selectedValues[i].checked = false;
+    $('#filter-' + communityClass).addClass('video-hidden');
   }
   var videos = document.getElementsByClassName('video-div');
   for (i = 0; i < videos.length; i++) {
     videoID = videos[ i ].getElementsByTagName('h6')[ 0 ].innerText;
     $('#video-card-' + videoID).removeClass('video-hidden');
   }
+  $("#view-more-sorted span").removeClass("tag-selected");
+  $("#view-more-default span").removeClass("tag-selected");
+  $(".video-grid span").removeClass("tag-selected");
   $('#view-more-sorted').addClass('video-hidden');
   $('#view-more-default').removeClass('video-hidden');
 });

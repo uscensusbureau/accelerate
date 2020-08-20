@@ -2,7 +2,7 @@
   <h2> Complete Search Results </h2>
   <p>Search results are sorted alphabetically.</p>
   {% for community-filter in site.data.filters.communities %}
-  <div id="filter-{{ community-filter | downcase }}" class="video-hidden">
+  <div id="filter-{{ community-filter | slugify }}" class="video-hidden">
     <h3>{{ community-filter }}</h3>
     {% for submission in site.data.video-playlist %}
     {% if submission.top-pick != true and submission.community == community-filter %}
@@ -37,7 +37,7 @@
   {% endfor %}
 
   {% for language-filter in site.data.filters.languages %}
-  <div id="filter-{{ language-filter | downcase }}" class="video-hidden">
+  <div id="filter-{{ language-filter | slugify }}" class="video-hidden">
     <h3>{{ language-filter }}</h3>
     {% for submission in site.data.video-playlist %}
     {% if submission.top-pick != true and submission.language == language-filter %}
