@@ -7,7 +7,7 @@
 # `primary.links` to "primary":
 #
 # primary:
-#   links: primary
+#   links: primarys
 #
 primary:
   - text: About
@@ -18,8 +18,10 @@ primary:
         href: /video-challenge/
       - text: Meet the Judges
         href: /judges/
-      - text: Winners
+      - text: Award Winners
         href: /awards/
+      - text: All Videos
+        href: /video-database/
   - text: Showcase
     href: /showcase/
   - text: Partner With Us
@@ -28,7 +30,7 @@ primary:
     href: /get-involved/virtual-create-a-thon/
   - text: Get Involved
     links:
-      - text: Attend a Create-a-thon
+      - text: Create-a-thon Events
         href: /get-involved/attend-a-create-a-thon/
       - text: Become an Ambassador
         href: /get-involved/become-an-ambassador/

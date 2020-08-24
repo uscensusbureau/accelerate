@@ -1,0 +1,161 @@
+.video-div {
+  height: 350px;
+  margin-bottom: $space-m;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $color-navy;
+  border-radius: 5px;
+
+  .header {
+    margin-top: $space-m;
+
+    a {
+      text-decoration: none;
+      border-bottom: 0;
+      background: transparent !important;
+      &:focus {
+        outline-color: $color-blue;
+      }
+    }
+
+    .title-link {
+      color: white;
+      font-size: 16px;
+      &:hover {
+        text-decoration: underline;
+      }
+
+    }
+    .card-text {
+      color: white;
+      font-size: 14px;
+    }
+  }
+
+  .preview-img {
+    a {
+      text-decoration: none;
+      border-bottom: 0;
+      background: transparent !important;
+      &:focus {
+        outline-color: $color-blue;
+      }
+    }
+  }
+
+  .footer {
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+
+.video-list {
+  height: 120px;
+  background-color: white;
+  text-align: left;
+  a {
+    background: transparent !important;
+    border-bottom: 0;
+    text-decoration: underline;
+  }
+}
+
+.tag {
+  background-color: gray;
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  margin: 3px;
+  white-space: nowrap;
+}
+
+.tag-selected {
+  background-color: $color-secondary;
+  padding: 3px 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  margin: 3px;
+}
+
+.video-hidden {
+  display: none;
+}
+
+#video-filter-form {
+  position: absolute;
+  z-index: 500;
+
+  .usa-accordion-button {
+    margin-right: 120px;
+  }
+
+  .filters-box {
+    height: 150px;
+    width: 300px;
+    overflow: auto;
+    z-index: 500;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+
+    .filter-checkbox {
+      width: auto;
+    }
+  }
+
+  .filter-button {
+    display: inline-block;
+}
+}
+
+.video-grid {
+  margin-top: 350px;
+  @include media($large-screen) {
+    margin-top: 250px;
+  }
+}
+
+#reset-filter {
+  background-color: transparent;
+  border: none;
+  color: $color-blue;
+  cursor: pointer;
+  &:focus {
+    outline-color: $color-blue;
+  }
+}
+
+.view-more-container {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 350px;
+}
+//
+// .view-more-button {
+//   width: 30%;
+//   background-color: transparent;
+//   text-align: center;
+//   font-weight: 400;
+//   text-decoration: underline;
+//   display: inline-block;
+// }
+
+.view-more-content {
+  background-color: white;
+  margin-left: $space-m;
+  text-align: left;
+}
+
+p {
+  max-width: 90rem !important;
+  margin-bottom: 40px;
+}
+
+.disclaimer-text {
+  font-size: $font-size-xs;
+  color: $color-gray;
+  font-style: italic;
+}
