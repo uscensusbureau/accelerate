@@ -1,0 +1,4320 @@
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color: red
+  id: 16
+- color: red
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color: red
+  id: 16
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color: red
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color:
+  id: 6
+- color: blue
+  id: 2
+- color:
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 6
+- color: blue
+  id: 2
+- color:
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color:
+  id: 6
+- color: red
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color:
+  id: 6
+- color: blue
+  id: 2
+- color:
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color:
+  id: 16
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 7
+- color:
+  id: 8
+- color:
+  id: 8
+- color:
+  id: 9
+- color: red
+  id: 10
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: yellow
+  id: 11
+- color:
+  id: 12
+- color:
+  id: 13
+- color:
+  id: 7
+- color:
+  id: 8
+- color: blue
+  id: 14
+- color: yellow
+  id: 15
+- color:
+  id: 16
+- color:
+  id: 1
+- color: blue
+  id: 2
+- color: red
+  id: 3
+- color:
+  id: 4
+- color:
+  id: 5
+- color: yellow
+  id: 6
+- color:
+  id: 7
+- color:
+  id: 8
