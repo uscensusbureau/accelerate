@@ -1,9 +1,9 @@
 <div class="container">
-  {% for item in site.data.map-viz %}
-    <div id="grid">
-       <div>
-         <div id="{{item.id}}" class="{{item.color}}"></div>
-       </div>
-    </div>
-  {% endfor %}
+  <div class="grid-container">
+    {% for item in site.data.map-viz %}
+      <div id="{{item.id}}" class="grid-square {{item.border}} {{item.color}}">
+        <!-- {{forloop.index}} -->
+      </div>
+    {% endfor %}
+  </div>
 </div>

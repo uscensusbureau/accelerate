@@ -1,5 +1,5 @@
 h1, h2, h3, p, a {
-  font-family: 'Poppins', sans-serif;
+  font-family: $font-sans-alt;
 }
 
 .impact {
@@ -72,16 +72,16 @@ h1, h2, h3, p, a {
 
   .interior {
     h1, h2 {
-      background-color: rgb(249, 198, 66);
+      background-color: #13192F;
       padding: 20px;
     }
 
     @include media($large-screen) {
       h1 {
-        font-size: 5rem;
+        font-size: 24px;
         margin-bottom: 60rem;
-        max-width: 800px;
-        margin-left: 30rem;
+        max-width: 600px;
+        margin-left: 42rem;
         padding: 30px;
       }
 
@@ -89,14 +89,6 @@ h1, h2, h3, p, a {
         // position: absolute;
         margin-top: 70rem;
         // margin-bottom: 60rem;
-      }
-
-      h2 {
-        background-color: rgb(249, 198, 66);
-        margin-top: 20rem;
-        font-size: 4rem;
-        margin-bottom: 60rem;
-        width: fit-content;
       }
 
       #scrolling-header-1 {
@@ -197,34 +189,67 @@ h1, h2, h3, p, a {
 // map
 
 .container {
+  // background-image: url("../img/backgrounds/map-01.png");
+  background-repeat: no-repeat;
+  background-color: #3e7a43;
   -webkit-perspective: 900;
-  margin-top: 100px;
-  margin-bottom: 300px;
-  padding-bottom: 350px;
-}
-#grid {
+  -webkit-transform: rotate3d(0.5, 0, 0, 20deg);
+  -webkit-transform-style: preserve-3d;
   margin: auto;
-  width: 900px;
-  -webkit-transform: rotate3d(0.5, 0, 0, 30deg);
+  margin-top: 100px;
+  height: 800px;
+  width: 100vw;
+}
+.grid-container {
+  margin: auto;
+  padding-top: 50px;
+  width: 1000px;
+  -webkit-transform: rotate3d(0.5, 0, 0, 15deg);
   -webkit-transform-style: preserve-3d;
   margin-top: 50px;
   -moz-border-radius:500px;
   -webkit-border-radius:500px;
   border-radius:500px;
 }
-#grid > div {
-  height: 16px;
-  width: 16px;
+
+.grid-square {
+  // -webkit-transform: rotate3d(0.5, 0, 0, 20deg);
+  height: 20px;
+  width: 20px;
+  font-size: 8px;
+  text-align: center;
   float: left;
   position: relative;
-  border: solid #a6a6a6 1px;
-  margin-left: -1px;
-  margin-top: -1px;
-
+  // border: solid #a2a2a2 1px;
+  // margin-left: -1px;
+  // margin-top: -1px;
 }
-#grid > div > div {
-  width: 100%;
-  height: 100%;
+
+
+  .border-left {
+    border-left: solid #a6a6a6 1px;
+  }
+
+  .border-right {
+    border-right: solid #a6a6a6 1px;
+  }
+
+  .border-top {
+    border-top: solid #a6a6a6 1px;
+  }
+
+  .border-bottom {
+    border-bottom: solid #a6a6a6 1px;
+  }
+
+  .transparent {
+    background-color: transparent;
+  }
+
+  .white {
+    background-color: white;
+  }
+
   .yellow {
     background-color: $color-secondary
   }
@@ -234,4 +259,3 @@ h1, h2, h3, p, a {
   .blue {
     background-color: $color-blue
   }
-}
