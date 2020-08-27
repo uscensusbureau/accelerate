@@ -3301,7 +3301,7 @@
     notes:
 -
     id: 330
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -3314,7 +3314,7 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
@@ -3324,7 +3324,7 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
@@ -3334,24 +3334,24 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 334
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 335
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color:
@@ -3364,7 +3364,7 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
@@ -3374,7 +3374,7 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
@@ -3384,24 +3384,24 @@
     border:
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 339
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 340
-    border:
+    border: border-right border-top
     year:
     fade-rate:
     color:
@@ -3411,7 +3411,7 @@
     notes:
 -
     id: 341
-    border:
+    border: border-right border-top
     year:
     fade-rate:
     color:
@@ -3421,7 +3421,7 @@
     notes:
 -
     id: 342
-    border:
+    border: border-right border-top
     year:
     fade-rate:
     color:
@@ -3431,7 +3431,7 @@
     notes:
 -
     id: 343
-    border:
+    border: border-right border-top
     year:
     fade-rate:
     color:
@@ -3441,57 +3441,57 @@
     notes:
 -
     id: 344
-    border:
+    border: border-top
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 345
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 346
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 347
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 348
-    border:
+    border: border-right
     year:
     fade-rate:
-    color:
+    color: white
     community:
     text:
     state:
     notes:
 -
     id: 349
-    border:
+    border: border-top
     year:
     fade-rate:
     color:
