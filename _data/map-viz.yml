@@ -5311,7 +5311,7 @@
     notes:
 -
     id: 531
-    border: border-right
+    border:
     year:
     fade-rate:
     color: white
@@ -5321,7 +5321,7 @@
     notes:
 -
     id: 532
-    border: border-top
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -5821,7 +5821,7 @@
     notes:
 -
     id: 582
-    border:
+    border: border-left border-top
     year:
     fade-rate:
     color: white
@@ -5851,7 +5851,7 @@
     notes:
 -
     id: 585
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -5871,7 +5871,7 @@
     notes:
 -
     id: 587
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -5881,7 +5881,7 @@
     notes:
 -
     id: 588
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -5891,7 +5891,7 @@
     notes:
 -
     id: 589
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -5901,7 +5901,7 @@
     notes:
 -
     id: 590
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -6311,7 +6311,7 @@
     notes:
 -
     id: 631
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -6351,7 +6351,7 @@
     notes:
 -
     id: 635
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -6381,7 +6381,7 @@
     notes:
 -
     id: 638
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -6791,7 +6791,7 @@
     notes:
 -
     id: 679
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -6801,7 +6801,7 @@
     notes:
 -
     id: 680
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -6811,7 +6811,7 @@
     notes:
 -
     id: 681
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -6821,7 +6821,7 @@
     notes:
 -
     id: 682
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -6851,7 +6851,7 @@
     notes:
 -
     id: 685
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -6881,7 +6881,7 @@
     notes:
 -
     id: 688
-    border:
+    border: border-bottom border-right
     year:
     fade-rate:
     color: white
@@ -7321,7 +7321,7 @@
     notes:
 -
     id: 732
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -7351,7 +7351,7 @@
     notes:
 -
     id: 735
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -7361,7 +7361,7 @@
     notes:
 -
     id: 736
-    border:
+    border: border-bottom
     year:
     fade-rate:
     color: white
@@ -7371,7 +7371,7 @@
     notes:
 -
     id: 737
-    border:
+    border: border-right border-bottom
     year:
     fade-rate:
     color: white
@@ -7391,7 +7391,7 @@
     notes:
 -
     id: 739
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -7831,7 +7831,7 @@
     notes:
 -
     id: 783
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -7851,7 +7851,7 @@
     notes:
 -
     id: 785
-    border:
+    border: border-left border-top
     year:
     fade-rate:
     color: white
@@ -7901,7 +7901,7 @@
     notes:
 -
     id: 790
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -8331,7 +8331,7 @@
     notes:
 -
     id: 833
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -8341,7 +8341,7 @@
     notes:
 -
     id: 834
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -8401,7 +8401,7 @@
     notes:
 -
     id: 840
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -8831,7 +8831,7 @@
     notes:
 -
     id: 883
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -8841,7 +8841,7 @@
     notes:
 -
     id: 884
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -8901,7 +8901,7 @@
     notes:
 -
     id: 890
-    border:
+    border: border-left border-top
     year:
     fade-rate:
     color: white
@@ -9301,7 +9301,7 @@
     notes:
 -
     id: 930
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9311,7 +9311,7 @@
     notes:
 -
     id: 931
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9321,7 +9321,7 @@
     notes:
 -
     id: 932
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9331,7 +9331,7 @@
     notes:
 -
     id: 933
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -9341,7 +9341,7 @@
     notes:
 -
     id: 934
-    border:
+    border:  border-top
     year:
     fade-rate:
     color: white
@@ -9351,7 +9351,7 @@
     notes:
 -
     id: 935
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9361,7 +9361,7 @@
     notes:
 -
     id: 936
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9371,7 +9371,7 @@
     notes:
 -
     id: 937
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9381,7 +9381,7 @@
     notes:
 -
     id: 938
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9391,7 +9391,7 @@
     notes:
 -
     id: 939
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -9401,7 +9401,7 @@
     notes:
 -
     id: 940
-    border:
+    border: border-top border-right border-bottom
     year:
     fade-rate:
     color: white
@@ -9831,7 +9831,7 @@
     notes:
 -
     id: 983
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -9891,7 +9891,7 @@
     notes:
 -
     id: 989
-    border:
+    border: border-right border-bottom
     year:
     fade-rate:
     color: white
@@ -10321,7 +10321,7 @@
     notes:
 -
     id: 1032
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -10331,7 +10331,7 @@
     notes:
 -
     id: 1033
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -10381,7 +10381,7 @@
     notes:
 -
     id: 1038
-    border:
+    border: border-right border-bottom
     year:
     fade-rate:
     color: white
@@ -10391,7 +10391,7 @@
     notes:
 -
     id: 1039
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -10821,7 +10821,7 @@
     notes:
 -
     id: 1082
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -10831,7 +10831,7 @@
     notes:
 -
     id: 1083
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -10841,7 +10841,7 @@
     notes:
 -
     id: 1084
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -10851,7 +10851,7 @@
     notes:
 -
     id: 1085
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -10861,7 +10861,7 @@
     notes:
 -
     id: 1086
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -10871,7 +10871,7 @@
     notes:
 -
     id: 1087
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -10881,7 +10881,7 @@
     notes:
 -
     id: 1088
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -10901,7 +10901,7 @@
     notes:
 -
     id: 1090
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -11311,7 +11311,7 @@
     notes:
 -
     id: 1131
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -11321,7 +11321,7 @@
     notes:
 -
     id: 1132
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -11351,7 +11351,7 @@
     notes:
 -
     id: 1135
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -11381,7 +11381,7 @@
     notes:
 -
     id: 1138
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -11411,7 +11411,7 @@
     notes:
 -
     id: 1141
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -11821,7 +11821,7 @@
     notes:
 -
     id: 1182
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -11851,7 +11851,7 @@
     notes:
 -
     id: 1185
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -11881,7 +11881,7 @@
     notes:
 -
     id: 1188
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -11921,7 +11921,7 @@
     notes:
 -
     id: 1192
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -12321,7 +12321,7 @@
     notes:
 -
     id: 1232
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12351,7 +12351,7 @@
     notes:
 -
     id: 1235
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12381,7 +12381,7 @@
     notes:
 -
     id: 1238
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12431,10 +12431,10 @@
     notes:
 -
     id: 1243
-    border:
+    border: border-top border-right
     year:
     fade-rate:
-    color: white
+    color:
     community:
     text:
     state:
@@ -12821,7 +12821,7 @@
     notes:
 -
     id: 1282
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12851,7 +12851,7 @@
     notes:
 -
     id: 1285
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12881,7 +12881,7 @@
     notes:
 -
     id: 1288
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -12921,20 +12921,20 @@
     notes:
 -
     id: 1292
-    border:
+    border: border-top border-right
     year:
     fade-rate:
-    color: white
+    color:
     community:
     text:
     state:
     notes:
 -
     id: 1293
-    border:
+    border: border-top border-right
     year:
     fade-rate:
-    color: white
+    color:
     community:
     text:
     state:
@@ -13331,7 +13331,7 @@
     notes:
 -
     id: 1333
-    border:
+    border: border-top border-right
     year:
     fade-rate:
     color: white
@@ -13351,7 +13351,7 @@
     notes:
 -
     id: 1335
-    border:
+    border: border-right
     year:
     fade-rate:
     color: white
@@ -13371,7 +13371,7 @@
     notes:
 -
     id: 1337
-    border:
+    border: border-left border-top
     year:
     fade-rate:
     color: white
@@ -13381,7 +13381,7 @@
     notes:
 -
     id: 1338
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -13391,7 +13391,7 @@
     notes:
 -
     id: 1339
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -13401,7 +13401,7 @@
     notes:
 -
     id: 1340
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -13411,7 +13411,7 @@
     notes:
 -
     id: 1341
-    border:
+    border: border-top
     year:
     fade-rate:
     color: white
@@ -13421,10 +13421,10 @@
     notes:
 -
     id: 1342
-    border:
+    border: border-top border-right
     year:
     fade-rate:
-    color: white
+    color:
     community:
     text:
     state:
@@ -15934,7 +15934,7 @@
     border: border-top border-right
     year:
     fade-rate:
-    color: 
+    color:
     community:
     text:
     state:
