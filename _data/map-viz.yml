@@ -1711,8 +1711,8 @@
     border: border-top
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state: WA
@@ -2904,7 +2904,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
@@ -3359,7 +3360,8 @@
     border: border-top
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
@@ -3370,7 +3372,8 @@
     border: border-top
     year:
     fade-rate:
-    color: white
+    color: yellow
+    organizer: census
     community:
     text:
     state:
@@ -4927,8 +4930,8 @@
     border: border-top
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -5447,8 +5450,8 @@
     border: border-right
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -5459,8 +5462,8 @@
     border: border-top
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -6444,8 +6447,8 @@
     border: border-top border-right
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -8199,8 +8202,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -9463,8 +9466,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -10896,7 +10899,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: 8
     community:
     text:
     state:
@@ -11153,8 +11157,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -11265,7 +11269,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
@@ -11707,8 +11712,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -11787,8 +11792,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -12594,7 +12599,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
@@ -12639,8 +12645,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -13026,8 +13032,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -14056,8 +14062,8 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    organizer: accelerate
+    color: blue
     community:
     text:
     state:
@@ -14135,7 +14141,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
@@ -17046,7 +17053,8 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: blue
+    organizer: accelerate
     community:
     text:
     state:
