@@ -1701,7 +1701,8 @@
     fade-rate:
     organizer: census
     color: yellow
-    community:
+    community:year: 2018
+    year: 2018
     text:
     state: WA
     notes:
@@ -1934,6 +1935,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state: ND
@@ -2250,7 +2252,7 @@
     new-id: 205
     id: 207
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -2267,6 +2269,7 @@
     organizer: census
     color: yellow
     community:
+    year: 2020
     text:
     state: WA
     notes:
@@ -2454,6 +2457,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state: MT
@@ -3057,7 +3061,7 @@
     new-id: 277
     id: 279
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -3245,7 +3249,7 @@
     new-id: 294
     id: 296
     border: border-right border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -3257,7 +3261,7 @@
     new-id: 295
     id: 297
     border: border-right border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -3269,7 +3273,7 @@
     new-id: 296
     id: 298
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -3370,7 +3374,7 @@
     new-id: 305
     id: 307
     border: border-top
-    year:
+    year: 2019
     fade-rate:
     color: yellow
     organizer: census
@@ -3624,7 +3628,7 @@
     new-id: 328
     id: 330
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -4340,7 +4344,7 @@
     new-id: 393
     id: 395
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -4374,7 +4378,7 @@
     new-id: 396
     id: 398
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -4859,7 +4863,7 @@
     new-id: 440
     id: 442
     border: border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -4882,7 +4886,7 @@
     new-id: 442
     id: 444
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -4905,7 +4909,7 @@
     new-id: 444
     id: 446
     border: border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -5105,7 +5109,7 @@
     new-id: 462
     id: 464
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -5359,7 +5363,7 @@
     new-id: 485
     id: 487
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -5483,7 +5487,7 @@
     new-id: 496
     id: 498
     border: border-top border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -5818,6 +5822,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -5980,7 +5985,7 @@
     new-id: 541
     id: 543
     border: border-top
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -6003,7 +6008,7 @@
     new-id: 543
     id: 545
     border: border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -6438,6 +6443,7 @@
     organizer: census
     color: yellow
     community:
+    year: 2018
     text:
     state:
     notes:
@@ -6505,6 +6511,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -6517,6 +6524,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -6525,7 +6533,7 @@
     new-id: 590
     id: 592
     border: border-left
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -6537,9 +6545,10 @@
     new-id: 591
     id: 593
     border:
-    year:
     fade-rate:
-    color: white
+    color: yellow
+    organizer: census
+    year: 2020
     community:
     text:
     state:
@@ -6783,6 +6792,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -6912,7 +6922,7 @@
     new-id: 625
     id: 627
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -7056,7 +7066,7 @@
     new-id: 638
     id: 640
     border:
-    year:
+    year:  2019
     fade-rate:
     organizer: census
     color: yellow
@@ -7101,7 +7111,7 @@
     new-id: 642
     id: 644
     border: border-bottom
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -7392,6 +7402,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -7400,7 +7411,7 @@
     new-id: 669
     id: 671
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -7577,7 +7588,7 @@
     new-id: 685
     id: 687
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -7600,7 +7611,7 @@
     new-id: 687
     id: 689
     border:
-    year:
+    year:  2019
     fade-rate:
     organizer: census
     color: yellow
@@ -7611,8 +7622,8 @@
 -
     new-id: 688
     id: 690
+    year: 2020
     border:
-    year:
     fade-rate:
     organizer: census
     color: yellow
@@ -7661,6 +7672,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2018
     community:
     text:
     state:
@@ -7926,6 +7938,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -7956,7 +7969,7 @@
     new-id: 719
     id: 721
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -8144,7 +8157,7 @@
     new-id: 736
     id: 738
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -8223,7 +8236,7 @@
     new-id: 743
     id: 745
     border: border-left
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -8576,7 +8589,7 @@
     new-id: 775
     id: 777
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -8592,6 +8605,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -8688,7 +8702,7 @@
     new-id: 785
     id: 787
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -8744,7 +8758,7 @@
     new-id: 790
     id: 792
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -8767,7 +8781,7 @@
     new-id: 792
     id: 794
     border: border-top
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -9032,7 +9046,7 @@
     new-id: 816
     id: 818
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -9070,6 +9084,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -9135,7 +9150,9 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: yellow
+    organizer: census
+    year: 2020
     community:
     text:
     state:
@@ -9269,6 +9286,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2018
     community:
     text:
     state:
@@ -9476,7 +9494,7 @@
     new-id: 856
     id: 858
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -9752,7 +9770,7 @@
     new-id: 881
     id: 883
     border: border-right
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -9775,7 +9793,7 @@
     new-id: 883
     id: 885
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -9798,7 +9816,7 @@
     new-id: 885
     id: 887
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -9821,7 +9839,7 @@
     new-id: 887
     id: 889
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -10020,7 +10038,7 @@
     new-id: 905
     id: 907
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -10032,7 +10050,7 @@
     new-id: 906
     id: 908
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -10352,7 +10370,7 @@
     new-id: 935
     id: 937
     border: border-top
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -10386,7 +10404,7 @@
     new-id: 938
     id: 940
     border: border-top border-right border-bottom
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -10431,7 +10449,7 @@
     new-id: 942
     id: 944
     border: border-top
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -10610,8 +10628,7 @@
     border:
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    color: white
     community:
     text:
     state:
@@ -10811,6 +10828,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -10889,6 +10907,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -10913,6 +10932,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -10934,8 +10954,7 @@
     border: border-right border-bottom
     year:
     fade-rate:
-    organizer: census
-    color: yellow
+    color: white
     community:
     text:
     state:
@@ -10966,7 +10985,7 @@
     new-id: 990
     id: 992
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -11143,7 +11162,7 @@
     new-id: 1006
     id: 1008
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow
@@ -11200,7 +11219,7 @@
     new-id: 1011
     id: 1013
     border: border-left border-bottom border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -11470,6 +11489,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -11522,7 +11542,7 @@
     new-id: 1040
     id: 1042
     border: border-top
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -11724,8 +11744,9 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: yellow
     community:
+    year: 2020
     text:
     state:
     notes:
@@ -11738,6 +11759,7 @@
     organizer: census
     color: yellow
     community:
+    year: 2020
     text:
     state:
     notes:
@@ -11782,6 +11804,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -11947,7 +11970,9 @@
     border:
     year:
     fade-rate:
-    color: white
+    color: yellow
+    organizer: census
+    year: 2020
     community:
     text:
     state:
@@ -12268,6 +12293,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2018
     community:
     text:
     state:
@@ -12342,7 +12368,7 @@
     new-id: 1114
     id: 1116
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -12534,6 +12560,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -12631,7 +12658,7 @@
     new-id: 1140
     id: 1142
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -12901,6 +12928,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -13064,7 +13092,7 @@
     new-id: 1179
     id: 1181
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -13197,7 +13225,7 @@
     new-id: 1191
     id: 1193
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -13462,7 +13490,7 @@
     new-id: 1215
     id: 1217
     border: border-right
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -13540,7 +13568,7 @@
     new-id: 1222
     id: 1224
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -13589,6 +13617,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2018
     community:
     text:
     state:
@@ -13656,6 +13685,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -14072,7 +14102,7 @@
     new-id: 1270
     id: 1272
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -14646,7 +14676,7 @@
     new-id: 1322
     id: 1324
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -14669,7 +14699,7 @@
     new-id: 1324
     id: 1326
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -14685,6 +14715,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -14708,6 +14739,7 @@
     fade-rate:
     organizer: census
     color: yellow
+    year: 2020
     community:
     text:
     state:
@@ -15222,7 +15254,7 @@
     new-id: 1374
     id: 1376
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -15938,7 +15970,7 @@
     new-id: 1439
     id: 1441
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -17039,7 +17071,7 @@
     new-id: 1539
     id: 1541
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -17437,7 +17469,7 @@
     new-id: 1575
     id: 1577
     border:
-    year:
+    year: 2019
     fade-rate:
     organizer: census
     color: yellow
@@ -17592,9 +17624,10 @@
     new-id: 1589
     id: 1591
     border:
-    year:
+    year: 2020
     fade-rate:
-    color: white
+    organizer: census
+    color: yellow
     community:
     text:
     state:
@@ -17603,7 +17636,7 @@
     new-id: 1590
     id: 1592
     border:
-    year:
+    year: 2020
     fade-rate:
     organizer: census
     color: yellow

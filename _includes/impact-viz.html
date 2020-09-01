@@ -3,7 +3,7 @@
     <div class="grid-container">
       {% for item in site.data.map-viz %}
         <div id="{{item.id}}" class="grid-square {{item.border}} {{item.color}}">
-          <!-- {{forloop.index}} -->
+          {{item.year}}
         </div>
       {% endfor %}
     </div>
@@ -14,5 +14,5 @@
   <h1 class="viz-header">viz testing </h1>
   <h1 class="viz-header">viz testing </h1>
   <h1 class="viz-header">viz testing </h1>
-  <h1 class="viz-header">viz testing </h1>
+  <h1 class="viz-header hidden">viz testing </h1>
 </div>

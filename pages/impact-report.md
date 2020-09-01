@@ -10,3 +10,4 @@ layout: interior
 <!-- {% include impact-scrolling-images.html %} -->
 {% include impact-body-2.html %}
 {% include impact-viz.html %}
+<!-- {% include impact-body-2.html %} -->
