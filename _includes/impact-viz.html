@@ -1,18 +1,24 @@
 <div class="map-viz">
   <div class="container">
     <div class="grid-container">
+      <h3 class="map-header" id="map-header-1">Lorem ipsum dolor sit amet</h3>
+      <h3 class="map-header hidden" id="map-header-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</h3>
+      <h3 class="map-header hidden" id="map-header-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </h3>
+      <h3 class="map-header hidden" id="map-header-4">Excepteur sint occaecat cupidatat non proident</h3>
       {% for item in site.data.map-viz %}
-        <div id="{{item.id}}" class="grid-square {{item.border}} {{item.color}}">
-          {{item.year}}
+        <div id="{{item.id}}" class="grid-square {{item.border}} {{item.bg-color}}  {{item.year}} {{item.organizer}}">
+          <!-- {{item.year}} -->
         </div>
       {% endfor %}
     </div>
   </div>
 
+  <h1 class="viz-header">viz testing: this will be about one event and have some content here</h1>
+  <h1 class="viz-header">viz testing: this will be about one event and have some content here </h1>
+  <h1 class="viz-header">viz testing: this will be about one event and have some content here </h1>
+  <h1 class="viz-header">viz testing: this will be about one event and have some content here </h1>
   <h1 class="viz-header">viz testing </h1>
   <h1 class="viz-header">viz testing </h1>
-  <h1 class="viz-header">viz testing </h1>
-  <h1 class="viz-header">viz testing </h1>
-  <h1 class="viz-header">viz testing </h1>
-  <h1 class="viz-header hidden">viz testing </h1>
+  <h1 class="viz-header show-none">viz testing </h1>
+  <h1 class="viz-header show-none"></h1>
 </div>

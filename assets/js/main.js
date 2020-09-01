@@ -14,6 +14,7 @@ $(function() {
 
 
   $(window).scroll(function(){
+    //  for hero section
     offsetSlowest = window.setTimeout(function() {
       $(".slowest").css("opacity", 0 + $(window).scrollTop() / 8000);
   	}, 7500);
@@ -26,10 +27,30 @@ $(function() {
   	}, 1000);
     $(".fastest").css("opacity", 0 + $(window).scrollTop() / 200);
 
-    // var distance = $("#data-viz-1").offset().top;
-    // var currentPosition = $(window).scrollTop();
-    // var difference = distance - currentPosition;
-    // console.log(distance, currentPosition, difference);
+    //  for map viz - fade in by year
+
+    $(".accelerate").addClass("blue");
+
+    var topOfMap = $(".map-viz").offset().top;
+
+    if (($(window).scrollTop() - topOfMap) / 1500  > 1 ) {
+      $(".2018").addClass("yellow")
+      $("#map-header-2").removeClass("hidden")
+      $("#map-header-1").addClass("hidden")
+    }
+
+    if (($(window).scrollTop() - topOfMap) / 3000  > 1 ) {
+      $(".2019").addClass("yellow")
+      $("#map-header-3").removeClass("hidden")
+      $("#map-header-2").addClass("hidden")
+    }
+
+    if (($(window).scrollTop() - topOfMap) / 5000  > 1 ) {
+      $(".2020").addClass("yellow")
+      $("#map-header-4").removeClass("hidden")
+      $("#map-header-3").addClass("hidden")
+    }
+
   });
 });
 
