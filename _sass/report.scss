@@ -1,5 +1,71 @@
-h1, h2, h3, p, a {
-  font-family: $font-sans-alt;
+.report {
+    h1, h2, h3, p, a, li {
+    font-family: $font-sans-alt;
+  }
+
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+
+  li {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    max-width: 90%;
+  }
+
+  .small-header {
+    font-size: 24px;
+  }
+}
+
+.column {
+  display: table-cell;
+}
+
+.green-stripe {
+  width: 13px;
+  display: inline-block;
+  background-color: $color-impact-report-bright-green;
+}
+
+.blue-stripe {
+  width: 13px;
+  display: inline-block;
+  background-color: $color-impact-report-bright-blue;
+}
+
+.red-stripe {
+  width: 13px;
+  display: inline-block;
+  background-color: $color-impact-report-bright-red;
+}
+
+.impact-title {
+  height: 110vh;
+  background-color: $color-impact-report-navy;
+  color: white;
+  text-transform: uppercase;
+  .title-text {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    width: 500px;
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
 }
 
 .map-header {
@@ -18,8 +84,10 @@ h1, h2, h3, p, a {
 }
 
 .impact {
+  background-color: $color-impact-report-navy;
   margin: auto;
-  // width: 920px;
+  height: 100%;
+
   h1 {
     padding: 5rem;
     width: 920px;
@@ -27,10 +95,27 @@ h1, h2, h3, p, a {
   }
 }
 
-.impact-body {
+.impact-card-container {
+  margin: auto;
   background-color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  width: 1045px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+
+  .column {
+    flex: 1;
+  }
+
+  .text {
+    margin: auto;
+    .card-body {
+      width: 553px;
+      margin: auto;
+    }
+  }
+
 }
 
 

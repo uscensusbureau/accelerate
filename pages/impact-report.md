@@ -4,10 +4,10 @@ permalink: /impact-report/
 layout: interior
 
 ---
-
-{% include impact-hero.html %}
-{% include impact-body-2.html %}
-<!-- {% include impact-scrolling-images.html %} -->
-{% include impact-body-2.html %}
-{% include impact-viz.html %}
-<!-- {% include impact-body-2.html %} -->
+<div class="report">
+{% include impact-report/impact-hero.html %}
+{% include impact-report/impact-title.html %}
+{% include impact-report/impact-letter.html %}
+{% include impact-report/impact-body-2.html %}
+{% include impact-report/impact-viz.html %}
+</div>

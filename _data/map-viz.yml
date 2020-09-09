@@ -1702,7 +1702,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:year: 2018
+    community: homeless-services
     year: 2018
     text:
     state: WA
@@ -2273,7 +2273,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: faith-based
     year: 2020
     text:
     state: WA
@@ -9558,7 +9558,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: children
     text:
     state:
     notes:
@@ -10120,7 +10120,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: faith-based
     text:
     state:
     notes:
@@ -11300,7 +11300,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: race-ethnicity
     text:
     state:
     notes:
@@ -11827,7 +11827,7 @@
     fade-rate:
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: college-students
     year: 2020
     text:
     state:
@@ -11841,7 +11841,7 @@
     organizer: census
     top-color: yellow
     bg-color: bg-white
-    community:
+    community: college-students
     year: 2020
     text:
     state:
