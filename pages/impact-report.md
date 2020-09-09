@@ -8,6 +8,6 @@ layout: interior
 {% include impact-report/impact-hero.html %}
 {% include impact-report/impact-title.html %}
 {% include impact-report/impact-letter.html %}
-{% include impact-report/impact-body-2.html %}
+{% include impact-report/impact-the-challenge.html %}
 {% include impact-report/impact-viz.html %}
 </div>

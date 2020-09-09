@@ -1,15 +1,19 @@
 .report {
-    h1, h2, h3, p, a, li {
+  h1 {
+    font-family: "Time New Roman"
+  }
+
+  h2, h3, p, a, li {
     font-family: $font-sans-alt;
   }
 
   h1 {
-    margin-top: 100px;
+    // margin-top: 100px;
     margin-bottom: 30px;
   }
 
   h2, h3 {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
 
@@ -23,11 +27,18 @@
 
   .small-header {
     font-size: 24px;
+    margin-bottom: 0;
+    padding-left: 140px;
+    padding-bottom: 14px;
+    font-family: $font-sans-alt;
   }
-}
 
-.column {
-  display: table-cell;
+  hr {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 650px;
+    border-top: 1px solid #c8c8c8;
+  }
 }
 
 .green-stripe {
@@ -46,6 +57,20 @@
   width: 13px;
   display: inline-block;
   background-color: $color-impact-report-bright-red;
+}
+
+.border-stripe-thin {
+  width: 7px;
+  display: inline-block;
+  background-color: white;
+  border-right: 1px solid #bdd0db;
+}
+
+.border-stripe-regular {
+  width: 11px;
+  display: inline-block;
+  background-color: white;
+  border-right: 1px solid #bdd0db;
 }
 
 .impact-title {
@@ -87,6 +112,7 @@
   background-color: $color-impact-report-navy;
   margin: auto;
   height: 100%;
+  padding-bottom: 120px;
 
   h1 {
     padding: 5rem;
@@ -103,6 +129,7 @@
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  border-radius: 5px;
 
   .column {
     flex: 1;
@@ -110,9 +137,28 @@
 
   .text {
     margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 0;
+
     .card-body {
-      width: 553px;
+      width: 650px;
       margin: auto;
+      padding-left: 90px;
+      padding-right: 0;
+    }
+    .the-challenge {
+      padding: 0;
+      margin: 0;
+      padding-left: 150px;
+      margin-bottom: 14px;
+      margin-top: 30px;
+    }
+
+    .the-challenge-subheader {
+      padding-left: 150px;
+      margin: 0;
+      width: 750px;
     }
   }
 
