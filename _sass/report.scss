@@ -165,6 +165,53 @@
 }
 
 
+// theory of change interactive
+
+.theory-of-change {
+  background-color: $color-impact-report-bright-blue;
+  height: 110vh;
+  width: 100vw;
+  color: white;
+
+  .title-and-graphic {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-family: $font-sans-alt;
+  }
+
+  .scrolling-slides {
+    display: inline-block;
+
+    #slide-2 {
+      display: none;
+      position: relative;
+      top: 0;
+    }
+
+    #slide-3 {
+      display: none;
+      position: relative;
+      top: 0;
+    }
+
+    .slide {
+      background-color: $color-impact-report-light-blue;
+      height: 110vh;
+      width: 750px;
+      padding: 65px;
+      p {
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+
 .impact-callout {
   background-color: #004280;
   margin-left: calc(50% - 50vw);
@@ -301,7 +348,6 @@
     -webkit-transform: rotate3d(0.5, 0, 0, 20deg);
     -webkit-transform-style: preserve-3d;
     margin: auto;
-    margin-top: 100px;
     height: 800px;
     width: 100vw;
     position: sticky;
@@ -314,7 +360,7 @@
     width: 1000px;
     -webkit-transform: rotate3d(0.5, 0, 0, 15deg);
     -webkit-transform-style: preserve-3d;
-    margin-top: 50px;
+    // margin-top: 50px;
   }
 
   .grid-square {
