@@ -11,4 +11,5 @@ layout: interior
 {% include impact-report/impact-the-challenge.html %}
 {% include impact-report/impact-theory-of-change.html %}
 {% include impact-report/impact-the-process.html %}
+{% include impact-report/impact-our-impact.html %}
 </div>
