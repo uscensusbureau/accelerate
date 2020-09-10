@@ -59,6 +59,12 @@
   background-color: $color-impact-report-bright-red;
 }
 
+.navy-stripe {
+  width: 13px;
+  display: inline-block;
+  background-color: $color-impact-report-navy;
+}
+
 .border-stripe-thin {
   width: 7px;
   display: inline-block;
@@ -108,11 +114,25 @@
   visibility: hidden;
 }
 
+.large-padding-top {
+  padding-top: 120px;
+
+}
+
+.large-margin-top {
+  margin-top: 175px;
+
+}
+
+.large-padding-bottom {
+  padding-bottom: 120px;
+
+}
+
 .impact {
   background-color: $color-impact-report-navy;
   margin: auto;
   height: 100%;
-  padding-bottom: 120px;
 
   h1 {
     padding: 5rem;
@@ -327,7 +347,7 @@
 
 // map
 .map-viz {
-  background: none;
+  background-color: $color-impact-report-bright-blue;
 
   h1.viz-header {
     font-size: 24px;
@@ -343,7 +363,6 @@
 
   .container {
     // z-index: -1;
-    background-color: #3e7a43;
     -webkit-perspective: 900;
     -webkit-transform: rotate3d(0.5, 0, 0, 20deg);
     -webkit-transform-style: preserve-3d;

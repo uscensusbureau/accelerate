@@ -10,5 +10,5 @@ layout: interior
 {% include impact-report/impact-letter.html %}
 {% include impact-report/impact-the-challenge.html %}
 {% include impact-report/impact-theory-of-change.html %}
-{% include impact-report/impact-viz.html %}
+{% include impact-report/impact-the-process.html %}
 </div>
