@@ -196,38 +196,36 @@
   height: 110vh;
   width: 100vw;
   color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
 
-  .title-and-graphic {
-    width: 500px;
-    display: inline-block;
-    text-align: center;
-    font-size: 24px;
-    font-family: $font-sans-alt;
-  }
+.title-and-graphic {
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  position: sticky;
+  top: 0;
+  // font-family: $font-sans-alt;
+}
 
-  .scrolling-slides {
-    display: inline-block;
+.scrolling-slides {
+  display: inline-block;
 
-    #slide-2 {
-      display: none;
-      position: relative;
-      top: 0;
-    }
-
-    #slide-3 {
-      display: none;
-      position: relative;
-      top: 0;
-    }
-
-    .slide {
-      background-color: $color-impact-report-light-blue;
-      height: 110vh;
-      width: 750px;
-      padding: 65px;
-      p {
-        color: white;
-      }
+  .slide {
+    background-color: $color-impact-report-light-blue;
+    top: -110vh;
+    height: 110vh;
+    width: 750px;
+    padding: 65px;
+    float: right;
+    position: sticky;
+    top: 0;
+    p {
+      color: white;
     }
   }
 }
