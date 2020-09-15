@@ -209,24 +209,42 @@
   font-size: 24px;
   position: sticky;
   top: 0;
+
   // font-family: $font-sans-alt;
 }
 
 .scrolling-slides {
   display: inline-block;
+  position: relative;
+  top: -110vh;
 
   .slide {
     background-color: $color-impact-report-light-blue;
-    top: -110vh;
     height: 110vh;
-    width: 750px;
+    // top: -110vh;
+    width: 700px;
     padding: 65px;
+    padding-left: 105px;
     float: right;
     position: sticky;
     top: 0;
+    border: solid 1px $color-impact-report-navy;
+    border-right: solid 3px $color-impact-report-navy;
     p {
       color: white;
     }
+  }
+
+  #slide-1 {
+    margin-right: 200px;
+  }
+
+  #slide-2 {
+    margin-right: 100px;
+
+  }
+  #slide-3 {
+    // margin-right: 50px;
   }
 }
 
@@ -346,6 +364,10 @@
     padding: 10px;
 }
 
+.the-process {
+  position: relative;
+  top: -111vh;
+}
 
 // map
 .map-viz {
