@@ -236,15 +236,30 @@
   }
 
   #slide-1 {
-    margin-right: 200px;
+    margin-right: 250px;
   }
 
   #slide-2 {
-    margin-right: 100px;
-
+    margin-right: 150px;
+    opacity: 0;
+    transition: opacity .7s;
+    p {
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
   }
   #slide-3 {
-    // margin-right: 50px;
+    margin-right: 50px;
+    opacity: 0;
+    transition: opacity .7s;
+    p {
+      opacity: 0;
+      transition: opacity 1.5s;
+    }
+  }
+
+  #slide-4 {
+    opacity: 0;
   }
 }
 
