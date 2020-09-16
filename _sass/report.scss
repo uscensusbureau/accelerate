@@ -114,6 +114,11 @@
   visibility: hidden;
 }
 
+.large-margin-top {
+  margin-top: 120px;
+
+}
+
 .large-padding-top {
   padding-top: 120px;
 
@@ -145,6 +150,18 @@
     width: 920px;
     margin: auto;
   }
+}
+
+.impact-card-spacer {
+  position: relative;
+  margin: auto;
+  background-color: $color-impact-report-navy;
+  height: 120px;
+  width: 1045px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
 }
 
 .impact-card-container {
