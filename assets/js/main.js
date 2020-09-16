@@ -54,7 +54,9 @@ $(function() {
     var topOfSlide2 = $("#slide-2").offset().top;
     if (($(window).scrollTop() - topOfSlide2) == 0) {
       $("#slide-2").css("opacity", 1)
-      $("#slide-2").children("p").css("opacity", 1)
+      window.setTimeout(function() {
+        $("#slide-2").children("p").css("opacity", 1);
+    	}, 1000);
     }
     if (($(window).scrollTop() - topOfSlide2) < 0) {
       $("#slide-2").css("opacity", 0)
@@ -63,7 +65,9 @@ $(function() {
     var topOfSlide3 = $("#slide-3").offset().top;
     if (($(window).scrollTop() - topOfSlide3) == 0) {
       $("#slide-3").css("opacity", 1)
-      $("#slide-3").children("p").css("opacity", 1)
+      window.setTimeout(function() {
+        $("#slide-3").children("p").css("opacity", 1);
+      }, 1000);
     }
     if (($(window).scrollTop() - topOfSlide3) < 0) {
       $("#slide-3").css("opacity", 0)
