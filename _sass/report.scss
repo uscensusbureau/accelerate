@@ -172,7 +172,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 5px;
 
   .column {
@@ -216,8 +216,9 @@
   border: solid 1px #979797;
   max-width: 255px;
   position: absolute;
-  right: 100px;
-  z-index: 100;
+  right: -100px;
+  visibility: visible;
+  // z-index: 1000 !important;
   p {
     font-size: 12px;
     // margin-left: 18px;
