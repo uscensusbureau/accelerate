@@ -119,8 +119,10 @@
 
 }
 
-.large-margin-top {
-  margin-top: 175px;
+.offset-top {
+  position: absolute;
+  top: 175px;
+  bottom: 0;
 
 }
 
@@ -146,6 +148,7 @@
 }
 
 .impact-card-container {
+  position: relative;
   margin: auto;
   background-color: #fff;
   width: 1045px;
