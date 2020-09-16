@@ -17,6 +17,16 @@
     margin-bottom: 20px;
   }
 
+  h2 {
+    font-size: 24px;
+    font-family: $font-sans-alt-bold;
+  }
+
+  h3, h4 {
+    font-size: 18px;
+    font-family: $font-sans-alt-bold;
+  }
+
 
   li {
     font-size: 16px;
@@ -36,7 +46,8 @@
   hr {
     margin-top: 0;
     margin-bottom: 50px;
-    width: 650px;
+    width: 625px;
+    // margin-left: 10px;
     border-top: 1px solid #c8c8c8;
   }
 }
@@ -81,7 +92,8 @@
 
 .impact-title {
   height: 110vh;
-  background-color: $color-impact-report-navy;
+  // background-color: $color-impact-report-navy;
+  background-image: url("../img/backgrounds/impact_report_intro_background.png");
   color: white;
   text-transform: uppercase;
   .title-text {
@@ -157,7 +169,7 @@
   margin: auto;
   background-color: $color-impact-report-navy;
   height: 120px;
-  width: 1045px;
+  width: 1134px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -168,12 +180,13 @@
   position: relative;
   margin: auto;
   background-color: #fff;
-  width: 1045px;
+  width: 1134px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
   border-radius: 5px;
+
 
   .column {
     flex: 1;
@@ -190,6 +203,7 @@
       margin: auto;
       padding-left: 90px;
       padding-right: 0;
+
     }
     .the-challenge {
       padding: 0;
@@ -217,6 +231,8 @@
   max-width: 255px;
   position: absolute;
   right: -100px;
+  margin-top: -50px;
+  // bottom: 50px;
   visibility: visible;
   // z-index: 1000 !important;
   p {
@@ -399,29 +415,6 @@
       }
     }
   }
-}
-
-.sticky-container {
-  background-color: skyblue;
-  .data-viz {
-    visibility: hidden;
-    height: 100vh;
-    width: 100%;
-    position: sticky;
-    top: 0;
-  }
-
-}
-
-.fadeIn {
-    -webkit-animation: animat_show .8s;
-    animation: animat_show .8s;
-    visibility: visible !important;
-}
-
-@-webkit-keyframes animat_show{
-    0%{opacity:0}
-    100%{opacity:1}
 }
 
 
