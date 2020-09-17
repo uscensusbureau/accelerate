@@ -52,6 +52,9 @@
   }
 }
 
+
+// stripes
+
 .green-stripe {
   width: 13px;
   display: inline-block;
@@ -89,6 +92,8 @@
   background-color: white;
   border-right: 1px solid #bdd0db;
 }
+
+//  title section after scrolling hero
 
 .impact-title {
   height: 110vh;
@@ -133,7 +138,6 @@
 
 .large-padding-top {
   padding-top: 120px;
-
 }
 
 .offset-top {
@@ -145,7 +149,6 @@
 
 .large-padding-bottom {
   padding-bottom: 120px;
-
 }
 
 .background-navy {
@@ -203,6 +206,27 @@
       margin: auto;
       padding-left: 90px;
       padding-right: 0;
+
+      .callout-image {
+        padding-top: 48px;
+      }
+
+      .callout-image-description {
+        padding: 2rem;
+        line-height: 1.8;
+        margin: auto;
+        margin-top: -55px;
+        margin-bottom: 20px;
+        text-align: center;
+        max-width: 450px;
+        span {
+          font-size: 21px;
+          padding: 1rem 2rem;
+          color: #fff;
+          background: #0048ad;
+          box-decoration-break: clone;
+        }
+      }
 
     }
     .the-challenge {
