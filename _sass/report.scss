@@ -12,19 +12,26 @@
     margin-bottom: 30px;
   }
 
-  h2, h3 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-
   h2 {
+    margin-top: 50px;
     font-size: 24px;
     font-family: $font-sans-alt-bold;
   }
 
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+
   h3, h4 {
     font-size: 18px;
     font-family: $font-sans-alt-bold;
+  }
+
+  p {
+    line-height: normal;
+    font-size: 18px;
   }
 
   .bold {
@@ -48,7 +55,7 @@
 
   hr {
     margin-top: 0;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     width: 625px;
     // margin-left: 10px;
     border-top: 1px solid #c8c8c8;
@@ -116,9 +123,13 @@
     h1 {
       font-weight: 600;
       font-size: 36px;
+      font-family: $font-sans-alt;
+      margin-bottom: 0;
     }
     h2 {
+      margin-top: 0;
       font-size: 18px;
+      font-family: $font-sans-alt;
     }
   }
 }
@@ -202,8 +213,13 @@
     flex: 1;
   }
 
+  .challenge-part-2 {
+    // margin:auto;
+    padding-left: 150px;
+  }
+
   .text {
-    margin: auto;
+    // margin: auto;
     padding-top: 120px;
     padding-bottom: 120px;
     padding-right: 0;
@@ -216,13 +232,13 @@
 
       .callout-image {
         padding-top: 48px;
+        margin: auto;
       }
 
       .callout-image-description {
         padding: 2rem;
         line-height: 1.8;
         margin: auto;
-        margin-top: -55px;
         margin-bottom: 20px;
         text-align: center;
         max-width: 450px;
@@ -242,12 +258,15 @@
       padding-left: 150px;
       margin-bottom: 14px;
       margin-top: 30px;
+      p {
+        padding: 0;
+      }
     }
 
     .the-challenge-subheader {
       padding-left: 150px;
       margin: 0;
-      width: 750px;
+      width: 900px;
     }
   }
 
@@ -262,23 +281,28 @@
   max-width: 255px;
   position: absolute;
   right: -100px;
-  margin-top: -50px;
+  // margin-top: -50px;
   // bottom: 50px;
   visibility: visible;
   // z-index: 1000 !important;
   p {
     font-size: 12px;
-    // margin-left: 18px;
     padding-left: 28px !important;
+    padding-bottom: 5px;
   }
   h4 {
     font-size: 18px;
     font-weight: bold;
     padding-left: 28px;
   }
+  img {
+    padding: 25px;
+  }
   .case-study-body {
     margin: -1px;
-    padding-left: 10px;
+    padding: 10px;
+    padding-right: 28px;
+    padding-bottom: 28px;
     border-radius: 5px;
     border: solid 1px #979797;
     p {
@@ -299,6 +323,7 @@
   position: sticky;
   top: 0;
   z-index: -1;
+
 }
 
 .title-and-graphic {
@@ -461,6 +486,9 @@
   .collage-thumbnail {
     display: inline-block;
     width: 200px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
     z-index: 10;
     opacity: 0;
     // transition-delay: 1s;
@@ -489,6 +517,7 @@
 
       .scrolling-header-top {
         // position: absolute;
+        font-family: $font-sans-alt;
         margin-top: 70rem;
         // margin-bottom: 60rem;
         z-index: 1000;
@@ -511,12 +540,48 @@
 .usa-content p:not(.usa-font-lead) {
     max-width: 63rem;
     margin: auto;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .the-process {
   position: relative;
-  top: -111vh;
+  // top: -111vh;
+
+}
+
+//  quote styles
+
+.quote-callout {
+  margin-top: 48px;
+  margin-bottom: 48px;
+
+  .open-quote {
+    font-size: 100px;
+    color: #888888;
+    display: inline-block;
+
+  }
+
+  .close-quote {
+    font-size: 100px;
+    color: #888888;
+    display: inline-block;
+
+  }
+
+  img {
+    display: inline-block;
+  }
+
+  .quote-text {
+    display: inline-block;
+    p {
+      color: #888888;
+      font-size: 12px;
+      width: 300px;
+      padding-left: 22px;
+    }
+  }
 }
 
 // map
@@ -590,6 +655,8 @@
       background-color: white;
     }
 
+
+
     .yellow {
       background-color: $color-secondary;
       transition: 2s;
@@ -597,4 +664,125 @@
     .blue {
       background-color: $color-blue;
     }
+}
+
+
+// Final collage
+
+.final-collage {
+  background-color: $color-impact-report-bright-green;
+  height: 110vh;
+  width: 100vw;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  p {
+    color: white;
+    position: absolute;
+    left: 252px;
+    top: 83px;
+    width: 276px;
+  }
+
+  #collage-shapes {
+    position: absolute;
+    top: 100px;
+    left: 770px;
+  }
+
+  #collage-arrow-1 {
+    position: absolute;
+    top: 100px;
+    left: 770px;
+  }
+
+  #collage-arrow-2 {
+    position: absolute;
+    top: 100px;
+    left: 770px;
+  }
+
+  #collage-arrow-3 {
+    position: absolute;
+    top: 100px;
+    left: 770px;
+  }
+
+  #final-collage-1 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    margin-left: 770px;
+  }
+
+  #final-collage-2 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 170px;
+    margin-left: 1057px;
+  }
+
+  #final-collage-3 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 383px;
+    margin-left: 860px;
+  }
+
+  #final-collage-4 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 460px;
+    margin-left: 1057px;
+  }
+
+  #final-collage-5 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 654px;
+    margin-left: 1057px;
+  }
+
+  #final-collage-6 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 654px;
+    margin-left: 590px;
+  }
+
+  #final-collage-7 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 383px;
+    margin-left: 590px;
+  }
+
+  #final-collage-8 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 513px;
+    margin-left: 307px;
+  }
+
+  #final-collage-9 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 330px;
+    margin-left: 445px;
+  }
+
+  #final-collage-10 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 437px;
+    margin-left: 102px;
+  }
+
+  #final-collage-11 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 387px;
+    margin-left: 220px;
+  }
 }
