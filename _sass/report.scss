@@ -100,25 +100,52 @@
   border-right: 1px solid #bdd0db;
 }
 
-.border-stripe-regular {
-  width: 11px;
-  display: inline-block;
-  background-color: white;
-  border-right: 1px solid #bdd0db;
+.green-title-offset-top {
+  position: absolute;
+  top: 700px;
+  bottom: 0;
+  // margin-left: 1px;
+}
+
+.blue-title-offset-top {
+  position: absolute;
+  top: 640px;
+  bottom: 0;
+  // margin-left: 1px;
+}
+
+.red-title-offset-top {
+  position: absolute;
+  top: 600px;
+  bottom: 0;
+  margin-left: 1px;
 }
 
 //  title section after scrolling hero
 
 .impact-title {
   height: 110vh;
-  // background-color: $color-impact-report-navy;
-  background-image: url("../img/backgrounds/impact_report_intro_background.png");
+  width: 100%;
+  background-color: transparent;
   color: white;
   text-transform: uppercase;
+
+  #intro-arrow {
+    position: absolute;
+    left: 200px;
+    top: 398px;
+  }
+
+  #intro-shapes {
+    position: absolute;
+    left: 30px;
+    top: 458px;
+  }
+
   .title-text {
     position: relative;
-    top: 50%;
-    left: 30%;
+    top: 49%;
+    left: 26%;
     width: 500px;
     h1 {
       font-weight: 600;
@@ -127,7 +154,7 @@
       margin-bottom: 0;
     }
     h2 {
-      margin-top: 0;
+      margin-top: 18px;
       font-size: 18px;
       font-family: $font-sans-alt;
     }
@@ -162,7 +189,6 @@
   position: absolute;
   top: 175px;
   bottom: 0;
-
 }
 
 .large-padding-bottom {
@@ -185,6 +211,12 @@
   }
 }
 
+.impact-title-background {
+  background-image: url("../img/backgrounds/impact_report_intro_background.png");
+  margin: auto;
+  height: 100%;
+}
+
 .impact-card-spacer {
   position: relative;
   margin: auto;
@@ -195,6 +227,17 @@
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+}
+
+
+.impact-card-container-transparent {
+  position: relative;
+  margin: auto;
+  width: 1134px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
 }
 
 .impact-card-container {
