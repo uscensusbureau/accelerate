@@ -38,12 +38,28 @@
     font-family: $font-sans-alt-bold;
   }
 
+  ul {
+    list-style: none;
+
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  li:before {
+    content: "✓	 ";
+  }
+
   li {
     font-size: 16px;
     padding-left: 10px;
     margin-top: 10px;
     max-width: 90%;
+    line-height: normal;
+    color: inherit;
   }
+
 
   .small-header {
     font-size: 24px;
@@ -120,6 +136,57 @@
   bottom: 0;
   margin-left: 1px;
 }
+
+.header-sidebar-link {
+  position: absolute;
+  font-size: 8px;
+  width: 75px;
+  height: 12px;
+  margin-left: -200px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.header-star {
+  margin-left: -80px;
+  margin-right: 40px;
+}
+
+#challenge-link {
+  color: $color-impact-report-bright-red;
+  background-color: $color-impact-report-bright-red;
+  text-decoration: none;
+}
+
+#challenge-link-active {
+  color: $color-impact-report-bright-red;
+  background-color: $color-impact-report-bright-red;
+  top: 165px;
+  width: 175px;
+}
+
+#process-link {
+  color: $color-impact-report-bright-blue;
+  background-color: $color-impact-report-bright-blue;
+  top: 190px;
+}
+
+#process-link-active {
+  color: $color-impact-report-bright-blue;
+  background-color: $color-impact-report-bright-blue;
+}
+
+#impact-link {
+  color: $color-impact-report-bright-green;
+  background-color: $color-impact-report-bright-green;
+  top: 225px;
+}
+
+#impact-link-active {
+  color: $color-impact-report-bright-green;
+  background-color: $color-impact-report-bright-green;
+}
+
 
 //  title section after scrolling hero
 
@@ -262,7 +329,7 @@
   }
 
   .text {
-    // margin: auto;
+    margin: auto;
     padding-top: 120px;
     padding-bottom: 120px;
     padding-right: 0;
@@ -293,7 +360,6 @@
           box-decoration-break: clone;
         }
       }
-
     }
     .the-challenge {
       padding: 0;
@@ -588,9 +654,84 @@
 
 .the-process {
   position: relative;
-  // top: -111vh;
+  margin-top: -111vh;
 
 }
+
+//
+
+
+.gotc-challenge-winners {
+  width: 650px;
+  margin: auto;
+  padding-left: 40px;
+  .sticky-text {
+    position: sticky;
+    top: 10vh;
+  }
+}
+
+.challenge-winner-slide {
+  background-color: #f7f7f7;
+  height: 355px;
+  width: 548px;
+  border: solid 1px #000000;
+
+  position: sticky;
+  top: 35vh;
+
+  .header {
+    border-bottom: solid 1px #000000;
+    height: 45px;
+    p {
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  }
+
+  .reaction-image {
+    float: left;
+    width: 155px;
+    .winner-description {
+      padding-left: 22px;
+      padding-bottom: 12px;
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .video-gif {
+    float: left;
+  }
+}
+
+#gotc-slide-1 {
+
+}
+
+#gotc-slide-2 {
+  margin-left: 50px;
+  opacity: 0;
+  transition: opacity .7s;
+  p {
+    opacity: 0;
+    transition: opacity .7s;
+  }
+}
+
+#gotc-slide-3 {
+  margin-left: 100px;
+  opacity: 0;
+  transition: opacity .7s;
+  p {
+    opacity: 0;
+    transition: opacity .7s;
+  }
+}
+
+
+
 
 //  quote styles
 
@@ -716,10 +857,9 @@
   background-color: $color-impact-report-bright-green;
   height: 110vh;
   width: 100vw;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: -1;
+  // top: -110vh;
+  // z-index: -1;
+  position: relative;
   p {
     color: white;
     position: absolute;
@@ -753,78 +893,67 @@
   }
 
   #final-collage-1 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 100px;
     margin-left: 770px;
   }
 
   #final-collage-2 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 170px;
     margin-left: 1057px;
   }
 
   #final-collage-3 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 383px;
     margin-left: 860px;
   }
 
   #final-collage-4 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 460px;
     margin-left: 1057px;
   }
 
   #final-collage-5 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 654px;
     margin-left: 1057px;
   }
 
   #final-collage-6 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 654px;
     margin-left: 590px;
   }
 
   #final-collage-7 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 383px;
     margin-left: 590px;
   }
 
   #final-collage-8 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 513px;
     margin-left: 307px;
   }
 
   #final-collage-9 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 330px;
     margin-left: 445px;
   }
 
   #final-collage-10 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 437px;
     margin-left: 102px;
   }
 
   #final-collage-11 {
-    position: sticky;
-    position: -webkit-sticky;
+    position: absolute;
     top: 387px;
     margin-left: 220px;
   }

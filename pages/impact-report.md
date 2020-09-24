@@ -1,7 +1,7 @@
 ---
 title: Census Accelerate Impact Report
 permalink: /impact-report/
-layout: interior
+layout: impact-report
 
 ---
 <div class="report">
@@ -12,5 +12,9 @@ layout: interior
 {% include impact-report/impact-theory-of-change.html %}
 {% include impact-report/impact-the-process.html %}
 {% include impact-report/impact-our-impact.html %}
+{% include impact-report/video-challenge-winners.html %}
+{% include impact-report/impact-our-impact-2.html %}
 {% include impact-report/final-collage.html %}
 </div>
+{% assign footer = site.data.footer %}
+{% include components/footer.html %}

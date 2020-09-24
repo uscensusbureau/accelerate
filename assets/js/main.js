@@ -51,6 +51,7 @@ $(function() {
       $("#map-header-3").addClass("hidden")
     }
 
+//  theory of change
     var topOfSlide2 = $("#slide-2").offset().top;
     if (($(window).scrollTop() - topOfSlide2) == 0) {
       $("#slide-2").css("opacity", 1)
@@ -75,6 +76,38 @@ $(function() {
     }
     if (($(window).scrollTop() - topOfSlide3) < 0) {
       $("#slide-3").css("opacity", 0)
+    }
+
+
+// prize winners
+
+    var gotcSlideContainerTop = $("#gotc-slide-1").offset().top;
+
+    var topOfGOTCSlide2 = $("#gotc-slide-2").offset().top;
+
+    if (topOfGOTCSlide2 == gotcSlideContainerTop && topOfGOTCSlide3 !== gotcSlideContainerTop) {
+      $("#gotc-slide-1").find(".body").css("opacity", 0)
+      $("#gotc-slide-1").find(".header").css("opacity", 0)
+      $("#gotc-slide-2").css("opacity", 1)
+      window.setTimeout(function() {
+        $("#gotc-slide-2").find("p", "a", "img").css("opacity", 1);
+    	}, 1000);
+    }
+    if (topOfGOTCSlide2 < gotcSlideContainerTop) {
+      $("#gotc-slide-2").css("opacity", 0)
+    }
+
+    var topOfGOTCSlide3 = $("#gotc-slide-3").offset().top;
+    if (topOfGOTCSlide3 == gotcSlideContainerTop) {
+      $("#gotc-slide-2").find(".body").css("opacity", 0)
+      $("#gotc-slide-2").find(".header").css("opacity", 0)
+      $("#gotc-slide-3").css("opacity", 1)
+      window.setTimeout(function() {
+        $("#gotc-slide-3").find("p", "a", "img").css("opacity", 1);
+    	}, 1000);
+    }
+    if (topOfGOTCSlide2 < gotcSlideContainerTop) {
+      $("#gotc-slide-3").css("opacity", 0)
     }
 
   });
