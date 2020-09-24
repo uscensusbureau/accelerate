@@ -707,11 +707,10 @@
 }
 
 #gotc-slide-1 {
-
+  margin-left: -50px;
 }
 
 #gotc-slide-2 {
-  margin-left: 50px;
   opacity: 0;
   transition: opacity .7s;
   p {
@@ -721,7 +720,7 @@
 }
 
 #gotc-slide-3 {
-  margin-left: 100px;
+  margin-left: 50px;
   opacity: 0;
   transition: opacity .7s;
   p {

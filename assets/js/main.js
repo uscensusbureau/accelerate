@@ -106,7 +106,7 @@ $(function() {
         $("#gotc-slide-3").find("p", "a", "img").css("opacity", 1);
     	}, 1000);
     }
-    if (topOfGOTCSlide2 < gotcSlideContainerTop) {
+    if (topOfGOTCSlide3 < gotcSlideContainerTop) {
       $("#gotc-slide-3").css("opacity", 0)
     }
 
