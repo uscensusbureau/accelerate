@@ -37,18 +37,49 @@ $(function() {
       $(".2018").addClass("yellow")
       $("#map-header-2").removeClass("hidden")
       $("#map-header-1").addClass("hidden")
+      $("#map-header-3").addClass("hidden")
+
     }
 
     if (($(window).scrollTop() - topOfMap) / 3000  > 1 ) {
       $(".2019").addClass("yellow")
       $("#map-header-3").removeClass("hidden")
       $("#map-header-2").addClass("hidden")
+      $("#map-header-4").addClass("hidden")
+
     }
 
     if (($(window).scrollTop() - topOfMap) / 5000  > 1 ) {
       $(".2020").addClass("yellow")
       $("#map-header-4").removeClass("hidden")
       $("#map-header-3").addClass("hidden")
+    }
+
+    var topOfLogoGarden = $(".map-logo-garden").offset().top;
+    if (($(window).scrollTop() - topOfLogoGarden) == 0) {
+      $(".map-logo-garden").css("opacity", 1)
+      window.setTimeout(function() {
+        $("#map-logo-garden-hr").css("opacity", 0.7)
+        $(".map-logo-garden").find("h4").css("opacity", 1)
+        $("#rtv").css("opacity", 1);
+        $("#neue-south").css("opacity", 1);
+    	}, 2000);
+      window.setTimeout(function() {
+        $("#voto-latino").css("opacity", 1);
+        $("#shake-shack").css("opacity", 1);
+    	}, 4000);
+      window.setTimeout(function() {
+        $("#utep").css("opacity", 1);
+        $("#united").css("opacity", 1);
+    	}, 6000);
+      window.setTimeout(function() {
+        $("#lincoln-center").css("opacity", 1);
+        $("#pflag").css("opacity", 1);
+    	}, 8000);
+      window.setTimeout(function() {
+        $("#la2050").css("opacity", 1);
+        $("#ct-counts").css("opacity", 1);
+    	}, 10000);
     }
 
 //  theory of change
