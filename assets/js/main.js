@@ -27,6 +27,33 @@ $(function() {
   	}, 1000);
     $(".fastest").css("opacity", 0 + $(window).scrollTop() / 200);
 
+
+    // for callout image text fade in
+
+    if (($("#callout-1").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-1").find("span").css("opacity", 1)
+    }
+
+    if (($("#callout-2").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-2").find("span").css("opacity", 1)
+    }
+
+    if (($("#callout-3").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-3").find("span").css("opacity", 1)
+    }
+
+    if (($("#callout-4").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-4").find("span").css("opacity", 1)
+    }
+
+    if (($("#callout-5").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-5").find("span").css("opacity", 1)
+    }
+
+    if (($("#callout-6").offset().top) - ($(window).scrollTop()) < 200 ) {
+      $("#callout-text-6").find("span").css("opacity", 1)
+    }
+
     //  for map viz - fade in by year
 
     $(".accelerate").addClass("blue");

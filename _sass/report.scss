@@ -32,6 +32,7 @@
   p {
     line-height: normal;
     font-size: 18px;
+    margin-bottom: 18px;
   }
 
   .bold {
@@ -64,7 +65,7 @@
   .small-header {
     font-size: 24px;
     margin-bottom: 0;
-    padding-left: 140px;
+    padding-left: 150px;
     padding-bottom: 14px;
     font-family: $font-sans-alt;
   }
@@ -341,7 +342,7 @@
       padding-right: 0;
 
       .callout-image {
-        padding-top: 48px;
+        // padding-top: 48px;
         margin: auto;
       }
 
@@ -349,6 +350,7 @@
         padding: 2rem;
         line-height: 1.8;
         margin: auto;
+        margin-top: -65px;
         margin-bottom: 20px;
         text-align: center;
         max-width: 450px;
@@ -358,6 +360,8 @@
           color: #fff;
           background: #0048ad;
           box-decoration-break: clone;
+          opacity: 0;
+          transition: 0.7s;
         }
       }
     }
@@ -390,14 +394,13 @@
   max-width: 255px;
   position: absolute;
   right: -100px;
-  // margin-top: -50px;
-  // bottom: 50px;
   visibility: visible;
-  // z-index: 1000 !important;
   p {
     font-size: 12px;
     padding-left: 28px !important;
     padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-top: 12px;
   }
   h4 {
     font-size: 18px;
@@ -405,7 +408,10 @@
     padding-left: 28px;
   }
   img {
-    padding: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
   }
   .case-study-body {
     margin: -1px;
@@ -486,7 +492,7 @@
     hr {
       width: 465px;
       float: left;
-      margin-top: 0;
+      margin-top: 20px;
       margin-bottom: 20px;
     }
     .hr-transparent {
@@ -522,7 +528,7 @@
       .larger {
         font-size: 21px;
         margin-bottom: 0;
-        line-height: 33px;
+        line-height: 25px;
       }
     }
   }
@@ -764,6 +770,43 @@
       width: 300px;
       padding-left: 22px;
     }
+  }
+}
+
+.participants-text {
+  display: inline-block;
+  height: 350px;
+  width: 175px;
+  overflow: visible;
+  position: relative;
+
+  .offset-image-low {
+    position: absolute;
+    top:100px;
+  }
+
+  .offset-image-high {
+    position: absolute;
+    top: 0px;
+    width: 200px;
+  }
+
+  p {
+    color: #888888;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footer-text-low {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+  }
+
+  .footer-text-high {
+    position: absolute;
+    top: 250px;
+    left: 40px;
   }
 }
 
