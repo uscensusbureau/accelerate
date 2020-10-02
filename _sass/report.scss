@@ -743,19 +743,18 @@
 .quote-callout {
   margin-top: 48px;
   margin-bottom: 48px;
+  overflow: visible;
 
   .open-quote {
-    font-size: 100px;
-    color: #888888;
+    float: left;
+    margin-left: -50px;
+    padding-right: 10px;
     display: inline-block;
 
   }
 
   .close-quote {
-    font-size: 100px;
-    color: #888888;
     display: inline-block;
-
   }
 
   img {
@@ -764,6 +763,7 @@
 
   .quote-text {
     display: inline-block;
+    margin-bottom: 20px;
     p {
       color: #888888;
       font-size: 12px;
