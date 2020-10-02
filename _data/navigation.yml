@@ -49,14 +49,12 @@ about:
     href: /about/#coil-initiative
 
 impact-report:
-  - text: Section 1
-    # href: /about/#our-story
-  - text: Section 2
-    # href: /about/#2020-census
-  - text: Section 3
-    # href: /about/#meet-the-team
-  - text: Section 4
-    # href: /about/#coil-initiative
+  - text: The Challenge
+    href: /impact-report-low-motion/#the-challenge
+  - text: The Process
+    href: /impact-report-low-motion/#the-process
+  - text: Our Impact
+    href: /impact-report-low-motion/#our-impact
 
 video-challenge:
   - text: Get Out The Count - Video Challenge
