@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+<div class="map-viz large-padding-bottom">
+  <div class="container">
+    <h3>Creative Events and Workshops Growth</h3>
+    <hr class="map-hr"><br>
+    <p class="map-header" id="map-header-1">Census Accelerate facilitated 20 create-a-thons throughout the U.S.</p>
+    <p class="map-header hidden" id="map-header-2">The model spread to over 20 different states and 30 organizations. People were able to adapt the model to their own communities.</p>
+    <p class="map-header hidden" id="map-header-3">Over 400 creative events have been run, reaching every hard-to-count community.</p>
+    <p class="map-header hidden" id="map-header-4">Organizations have been able to use the content to share their message and story to the community.</p>
+    <div class="grid-container">
+      {% for item in site.data.map-viz %}
+        <div id="{{item.id}}" class="grid-square {{item.border}} {{item.bg-color}}  {{item.year}} {{item.organizer}}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="map-logo-garden" aria-label="Logo garden of partner organizations">
+    <h4 id="map-logo-garden-header">We've partnered with dozens of diverse organizations to bring these events to hard-to-count communities across the nation, here’s a snapshot of some of our collaborators:</h4>
+    <hr id="map-logo-garden-hr">
+    <div class="logo-row">
+      <img src="../assets/img/impact/05_logo-01.png" id="rtv" alt="Rock the Vote logo">
+      <img src="../assets/img/impact/05_logo-02.png" id="ct-counts" alt="Connecticut Counts 2020 logo">
+      <img src="../assets/img/impact/05_logo-03.png" id="neue-south" alt="Neue South logo">
+    </div>
+    <div class="logo-row">
+      <img src="../assets/img/impact/05_logo-04.png" id="lincoln-center" alt="Lincoln Center logo">
+      <img src="../assets/img/impact/05_logo-05.png" id="voto-latino" alt="Voto Latino logo">
+    </div>
+    <div class="logo-row">
+      <img src="../assets/img/impact/05_logo-06.png" id="shake-shack" alt="Shake Shack logo">
+      <img src="../assets/img/impact/05_logo-07.png" id="utep" alt="UTEP logo">
+      <img src="../assets/img/impact/05_logo-08.png" id="la2050" alt="LA2050 logo">
+    </div>
+    <div class="logo-row">
+      <img src="../assets/img/impact/05_logo-09.png" id="pflag" alt="PFLAG logo">
+      <img src="../assets/img/impact/05_logo-10.png" id="united" alt="United Way logo">
+    </div>
+  </div>
+  <div class="map-logo-garden-bottom show-none">
+  </div>
+</div>

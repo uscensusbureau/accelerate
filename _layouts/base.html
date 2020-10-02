@@ -8,6 +8,7 @@
     {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
 
   <body class="{{ layout.class }} page-{{ page.title | slugify }} {{ page.class }} {% if page.section_image %} page-background {% endif %} {% if page.hero.image %} page-background {% endif %}"

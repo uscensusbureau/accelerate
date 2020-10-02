@@ -7,7 +7,7 @@
 # `primary.links` to "primary":
 #
 # primary:
-#   links: primary
+#   links: primarys
 #
 primary:
   - text: About
@@ -20,7 +20,7 @@ primary:
         href: /judges/
       - text: Award Winners
         href: /awards/
-      - text: Video Database
+      - text: All Videos
         href: /video-database/
   - text: Showcase
     href: /showcase/
@@ -47,6 +47,16 @@ about:
     href: /about/#meet-the-team
   - text: An Initiative of COIL
     href: /about/#coil-initiative
+
+impact-report:
+  - text: Section 1
+    # href: /about/#our-story
+  - text: Section 2
+    # href: /about/#2020-census
+  - text: Section 3
+    # href: /about/#meet-the-team
+  - text: Section 4
+    # href: /about/#coil-initiative
 
 video-challenge:
   - text: Get Out The Count - Video Challenge

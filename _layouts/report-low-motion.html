@@ -1,0 +1,34 @@
+---
+layout: base
+class: interior
+---
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% assign hero = page.hero %}
+{% assign nav = page.nav %}
+{% assign id = page.id %}
+
+{% include components/interior-hero.html %}
+
+{% if sidenav %}
+<div class="usa-grid">
+<aside class="usa-width-one-fourth usa-layout-docs-sidenav">
+  <div class="usa-section" id="{{ page.id }}">
+    {% if sidenav != "nil" %}
+      {% include sidenav.html links=sidenav %}
+    {% endif %}
+</div>
+</aside>
+
+<div class="usa-width-three-fourths">
+  <div class="usa-section usa-content report">
+    {{ content }}
+  </div>
+</div>
+</div>
+
+{% else %}
+
+<div class="usa-layout-docs-main_content usa-content report">
+  {{ content }}
+</div>
+{% endif %}
