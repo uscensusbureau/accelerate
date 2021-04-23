@@ -1,0 +1,21 @@
+national-count:
+  generic-image:
+    image: 
+      title: United States
+      src: map.png
+      alt: A map of the United States
+    facebook: 'The first results of the #2020Census are here. 
+    Explore the latest U.S. population data and more:'
+    twitter: 'The first results of the #2020Census are here. 
+    Explore the latest U.S. population data and more:'
+    linkedin: 'The first results of the #2020Census are here. 
+    Explore the latest U.S. population data and more:'
+  instagram-image: 
+    text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
+    image: 
+      src: map.png
+      alt: A map of the United States
+      title: United States
+  video: 
+    src: USCB_50-States-Data-Viz_USA_v3.mp4
+    title: United States

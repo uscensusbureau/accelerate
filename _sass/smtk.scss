@@ -5,6 +5,14 @@ $dark-blue: #112E50;
   h1, h2, h3, h4, h5, h6, button, p {
     font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
   }
+  p, ul, li, span {
+    font-size: 1.25rem;
+  }
+
+  #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
+    background: none;
+    padding-right: initial;
+  }
 }
 
 .smtk-heading {
@@ -67,6 +75,7 @@ a .usa-icon {
 }
 
 .smtk-button {
+  min-width: 0;
   padding: .5rem .75rem;
   background-color: white;
   border-radius: 6px;
@@ -75,4 +84,7 @@ a .usa-icon {
     background-color: darken($color: white, $amount: 10%);
   }
   transition: background-color 100ms;
+  a {
+    border-bottom: none;
+  }
 }
