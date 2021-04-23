@@ -1,13 +1,29 @@
 <header class="smtk-header">
   <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col-4">
+    <div class="grid-row smtk-header-content">
+      <div class="tablet:grid-col-4">
         <img src="{{site.baseurl}}/assets/img/smtk/logos/USCB_LOGO-01-p3zsfx0nvns3q00duwvwijm5klbhxonb7w4r18xoeu.png" alt="The United States Census Bureau word art logo" title="USCB_LOGO-01"/>
       </div>
-      <div class="grid-col-4">
+      <div class="tablet:grid-col-4">
         <span class="text-uppercase text-white">Follow Us</span>
       </div>
-      <div class="grid-col-4">
+      <div class="tablet:grid-col-4 text-white">
+        
+        {% include sm-toolkit/icon-link.html 
+          href='https://www.facebook.com/uscensusbureau/' 
+          icon-class='facebook' %}
+        
+        {% include sm-toolkit/icon-link.html 
+          href='https://twitter.com/uscensusbureau' 
+          icon-class='twitter' %}
+
+        {% include sm-toolkit/icon-link.html 
+          href='https://youtube.com/uscensusbureau' 
+          icon-class='youtube' %}
+          <!-- http://www.linkedin.com/ -->
+        {% include sm-toolkit/icon-link.html 
+          href='https://instagram.com/uscensusbureau' 
+          icon-class='instagram' %}
       </div>
 
     </div>
