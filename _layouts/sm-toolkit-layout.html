@@ -1,0 +1,29 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    <link rel="stylesheet"
+  href="{{site.baseurl}}/assets/uswds/css/uswds.min.css"
+  media="screen">
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
+  </head>
+
+  <body>
+    {% include sm-toolkit/header.html %}
+
+    <main id="main-content">
+        {{ content }}
+    </main>
+
+    {% include sm-toolkit/footer.html %}
+    {% include scripts.html %}
+    {% if page.layout == 'landing' %}
+  </div>
+    {% endif %}
+  </body>
+</html>

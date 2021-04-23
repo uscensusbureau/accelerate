@@ -2,5 +2,6 @@
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.ruby-version
 node_modules
 _site
