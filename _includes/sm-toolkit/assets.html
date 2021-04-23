@@ -26,8 +26,16 @@
       </div>
       
       <div class="tablet:grid-col-4">
+        {% assign post = include.data.video %}
         <h2 class="font-sans-lg">Animations</h2>
         <h3 class="font-sans-md">Any Platform</h3>
+        <div>
+          <video controls class="maxw-full">
+            <source src="{{site.baseurl}}/assets/img/smtk/{{ post.src }}">
+          </video>
+        </div>
+        {% if post.image.title %}<p><strong>{{ post.title }}</strong></p>{% endif %}
+
       </div>
     </div>
   </div>
