@@ -5,10 +5,8 @@
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">
         <h2 class="font-sans-lg">Static Images</h2>
-        <h3 class="font-sans-md">Facebook / Twitter / LinkedIn</h3>
         {% assign post = include.data.generic-image %}
-        <img src="{{site.baseurl}}/assets/img/smtk/{{ post.image.src }}" alt="{{ post.image.alt }}"/>
-        {% if post.image.title %}<p><strong>{{ post.image.title }}</strong></p>{% endif %}
+        {% include sm-toolkit/static-asset.html data=post.image %}
         <p>
           <strong>FACEBOOK:</strong> {{ post.facebook }}
         </p>
@@ -16,11 +14,9 @@
         <p><strong>LINKEDIN:</strong> {{ post.linkedin }}</p>
       </div>
 
-      <div class="tablet:grid-col-4">
+      <div class="tablet:grid-col-4 tablet:padding-top-5">
         {% assign post = include.data.instagram-image %}
-        <h3 class="tablet:margin-top-5 font-sans-md">Instagram</h3>
-        <img src="{{site.baseurl}}/assets/img/smtk/{{ post.image.src }}" alt="{{ post.image.alt }}"/>
-        {% if post.image.title %}<p><strong>{{ post.image.title }}</strong></p>{% endif %}
+        {% include sm-toolkit/static-asset.html data=post.image %}
         <p><strong>INSTAGRAM:</strong> {{ post.text }}</p>
 
       </div>

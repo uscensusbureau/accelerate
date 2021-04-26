@@ -1,0 +1,10 @@
+{% assign data = include.data %}
+{% assign src= site.baseurl | append: "/assets/img/smtk/" | append: data.src %}
+
+<h3 class="font-sans-md">{{ data.category }}</h3>
+<img src="{{src}}" alt="{{ data.alt }}"/>
+<p>
+  {% if data.hasPreview %}PREVIEW | {% endif %}
+  <a href="{{src}}" download>DOWNLOAD</a>
+</p>
+{% if post.image.title %}<p><strong>{{ post.image.title }}</strong></p>{% endif %}

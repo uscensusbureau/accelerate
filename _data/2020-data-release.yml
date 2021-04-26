@@ -1,9 +1,11 @@
 national-count:
   generic-image:
     image: 
+      category: Facebook / Twitter / LinkedIn
       title: United States
       src: map.png
       alt: A map of the United States
+      hasPreview: true
     facebook: 'The first results of the #2020Census are here. 
     Explore the latest U.S. population data and more:'
     twitter: 'The first results of the #2020Census are here. 
@@ -13,9 +15,12 @@ national-count:
   instagram-image: 
     text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
     image: 
+      category: Instagram
       src: map.png
       alt: A map of the United States
       title: United States
+      hasPreview: true
   video: 
+    category: Any Platform
     src: USCB_50-States-Data-Viz_USA_v3.mp4
     title: United States
