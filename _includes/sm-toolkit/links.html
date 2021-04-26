@@ -1,4 +1,4 @@
-<section>
+<div class="grid-container">
   <h2>
     2020 Census Social Media Information
   </h2>
@@ -8,19 +8,17 @@
     Thank you for sharing the first 2020 Census results with your audience.
   </p>
 
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      {% for section in page.links %}
-        <div class="tablet:grid-col">
-          <h4>{{ section.title }}</h4>
-          {% for link in section.links %}
-            <p>{{ link.text }}{% if link.href %}<br/>
-                <a class="smtk-wrap" href="{{ link.href }}">{{ link.href }}</a>
-              {% endif %}
-            </p>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
+  <div class="grid-row grid-gap">
+    {% for section in page.links %}
+      <div class="tablet:grid-col sm-links">
+        <h4 class="font-sans-md">{{ section.title }}</h4>
+        {% for link in section.links %}
+          <p>{{ link.text }}{% if link.href %}<br/>
+              <a class="smtk-wrap" href="{{ link.href }}">{{ link.href }}</a>
+            {% endif %}
+          </p>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
-</section>
+</div>
