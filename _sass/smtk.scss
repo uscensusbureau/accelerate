@@ -1,17 +1,29 @@
 $tablet: 640px;
 $dark-blue: #112E50;
+$text-blue: #0F3062;
 
 .smtk-body {
+  color: $dark-blue;
   h1, h2, h3, h4, h5, h6, button, p {
     font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
   }
-  p, ul, li, span {
+  p, ul, li, span, select {
     font-size: 1.25rem;
   }
+
 
   #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
     background: none;
     padding-right: initial;
+  }
+}
+
+.sm-links {
+  p, a {
+    font-size: 1rem;
+  }
+  p {
+    color: $text-blue;
   }
 }
 
