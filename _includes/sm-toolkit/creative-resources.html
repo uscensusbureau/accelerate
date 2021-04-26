@@ -1,0 +1,43 @@
+<div>
+  <h2>
+    2020 Census Apportionment Creative Resources
+  </h2>
+  <p>
+    Our static posts and animations provide information and resources about apportionment.
+  </p>
+  <select id="cr-select">
+    {% assign data = site.data.2020-data-release.creative-resources %}
+    {% for option in data %}
+      <option value="{{ option.title }}">{{ option.title }}</option>
+    {% endfor %}
+  </select>
+
+  {% assign selected = data[0] %}
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        <h4>{{ selected.resource-name }}</h4>
+        <p><strong>Facebook/Twitter/LinkedIn</strong></p>
+        {% if selected.isVideo == true %}
+          {% include sm-toolkit/video-asset.html
+            data = selected.generic %}
+        {% else %}
+          {% include sm-toolkit/static-asset.html 
+            data = selected.generic %}
+        {% endif %}
+      </div>
+
+      <div class="tablet:grid-col">
+        <h4>{{ selected.resource-name }}</h4>
+        <p><strong>Instagram</strong></p>
+        {% if selected.isVideo == true %}
+          {% include sm-toolkit/video-asset.html
+            data = selected.instagram %}
+        {% else %}
+          {% include sm-toolkit/static-asset.html 
+            data = selected.instagram %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

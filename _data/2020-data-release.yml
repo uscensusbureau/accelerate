@@ -24,3 +24,71 @@ national-count:
     category: Any Platform
     src: USCB_50-States-Data-Viz_USA_v3.mp4
     title: United States
+
+
+creative-resources:
+  - title: Apportionment Animation
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: true
+    generic:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+    instagram:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+
+  - title: Apportionment Guide
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: false
+    generic:
+      src: map.png
+      alt: A map of the United States
+    instagram:
+      src: map.png
+      alt: A map of the United States
+
+  - title: Apportionment Video
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: true
+    generic:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+    instagram:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+  
+  - title: Data Quality Graphic
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: false
+    generic:
+      src: map.png
+      alt: A map of the United States
+    instagram:
+      src: map.png
+      alt: A map of the United States
+
+  - title: Data Quality Video
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: true
+    generic:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+    instagram:
+      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      alt: A map of the United States
+
+  - title: Total Population Graphic
+    resource-name: Total Population Count
+    isDraft: false
+    isVideo: false
+    generic:
+      src: map.png
+      alt: A map of the United States
+    instagram:
+      src: map.png
+      alt: A map of the United States
