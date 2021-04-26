@@ -13,30 +13,40 @@
   </select>
 
   {% assign selected = data[0] %}
+  {% assign isVideo = true %}
+  {% if selected.isVideo == false %}
+    {% assign isVideo = false %}
+  {% endif %}
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
-        <h4>{{ selected.resource-name }}</h4>
+        <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
         <p><strong>Facebook/Twitter/LinkedIn</strong></p>
-        {% if selected.isVideo == true %}
+        <div class="cr-asset__asset-container--video {% unless isVideo %}display-none{% endunless %}">
           {% include sm-toolkit/video-asset.html
-            data = selected.generic %}
-        {% else %}
+            data = selected.generic
+            class = "cr-asset__asset--video" %}
+        </div>
+        <div class="cr-asset__asset-container--image {% if isVideo %}display-none{% endif %}">
           {% include sm-toolkit/static-asset.html 
-            data = selected.generic %}
-        {% endif %}
+            data = selected.generic
+            class = "cr-asset__asset--image" %}
+        </div>
       </div>
 
       <div class="tablet:grid-col">
-        <h4>{{ selected.resource-name }}</h4>
+        <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
         <p><strong>Instagram</strong></p>
-        {% if selected.isVideo == true %}
+        <div class="cr-asset__asset-container--video {% unless isVideo %}display-none{% endunless %}">
           {% include sm-toolkit/video-asset.html
-            data = selected.instagram %}
-        {% else %}
+            data = selected.instagram
+            class = "cr-asset__asset--video" %}
+        </div>
+        <div class="cr-asset__asset-container--image {% if isVideo %}display-none{% endif %}">
           {% include sm-toolkit/static-asset.html 
-            data = selected.instagram %}
-        {% endif %}
+            data = selected.instagram
+            class = "cr-asset__asset--image" %}
+        </div>
       </div>
     </div>
   </div>

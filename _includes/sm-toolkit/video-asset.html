@@ -2,7 +2,7 @@
 {% assign src= site.baseurl | append: "/assets/img/smtk/" | append: data.src %}
 
 {% if data.category %}<h3 class="font-sans-md">{{ data.category }}</h3>{% endif %}
-<video controls class="maxw-full">
+<video controls class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
   <source src="{{ src }}">
 </video>
 <p>

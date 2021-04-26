@@ -54,10 +54,10 @@ creative-resources:
     isDraft: false
     isVideo: true
     generic:
-      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      src: USCB_50_2.mp4
       alt: A map of the United States
     instagram:
-      src: USCB_50-States-Data-Viz_USA_v3.mp4
+      src: USCB_50_2.mp4
       alt: A map of the United States
   
   - title: Data Quality Graphic
@@ -65,10 +65,10 @@ creative-resources:
     isDraft: false
     isVideo: false
     generic:
-      src: map.png
+      src: map2.png
       alt: A map of the United States
     instagram:
-      src: map.png
+      src: map2.png
       alt: A map of the United States
 
   - title: Data Quality Video
