@@ -2,7 +2,6 @@
 ---
 
 const creativeResources = {{ site.data.2020-data-release.creative-resources | jsonify }}
-// console.log(creativeResources)
 const crSelect = document.getElementById('cr-select')
 const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
 const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
@@ -11,9 +10,7 @@ const videoContainers = document.getElementsByClassName('cr-asset__asset-contain
 const imageContainers = document.getElementsByClassName('cr-asset__asset-container--image')
 
 crSelect.addEventListener('change', e => {
-  // console.log( crSelect.value )
   const match = creativeResources.find( el => el.title === crSelect.value )
-  console.log(match)
   if( match ){
     genericTitle.innerHTML = match['resource-name']
     igTitle.innerHTML = match['resource-name']
