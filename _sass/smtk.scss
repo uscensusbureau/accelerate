@@ -15,6 +15,10 @@ $dark-blue: #112E50;
   }
 }
 
+.smtk-wrap {
+  overflow-wrap: break-word;
+}
+
 .smtk-heading {
   &--h2 {
     font-weight: 400;
@@ -64,6 +68,10 @@ a .usa-icon {
 .cover-image {
   object-fit: cover;
   height: 100%;
+}
+
+.smtk-section {
+  padding: 0 1em;
 }
 
 .smtk-main-text {

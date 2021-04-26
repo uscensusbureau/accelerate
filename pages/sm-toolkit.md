@@ -10,6 +10,42 @@ national-count:
 state-counts: 
   title: 2020 Census Population Count by State/Territory
   subtile: Our static posts and animations provide population counts for all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census by geography.
+
+links:
+  - title: U.S. Census Bureau Official Social Media
+    links: 
+      - text: Facebook – @uscensusbureau
+        href: https://www.facebook.com/uscensusbureau/
+      - text: Instagram – @uscensusbureau
+        href: https://www.instagram.com/uscensusbureau/
+      - text: Twitter – @uscensusbureau
+        href: https://www.twitter.com/uscensusbureau/
+      - text: 'Hashtag – #2020Census'
+  - title: Key URLs – English Language
+    links:
+      - text: 2020 Census Homepage
+        href: https://2020census.gov/en
+      - text: What is the 2020 Census?
+        href: https://2020census.gov/en/what-is-2020-census.html
+      - text: Who to Count on Your Census?
+        href: https://2020census.gov/en/who-to-count.html
+      - text: Impact in Your Community
+        href: https://2020census.gov/en/community-impact.html
+      - text: How the Census Bureau Protects Your Data
+        href: https://2020census.gov/en/data-protection.html
+  - title: Key URLs – Spanish Language
+    links: 
+      - text: 2020 Census Homepage
+        href: https://2020census.gov/es
+      - text: ¿Qué es el Censo del 2020?
+        href: https://2020census.gov/es/what-is-2020-census.html
+      - text: ¿A Quién Contar en su Censo?
+        href: https://2020census.gov/es/who-to-count.html
+      - text: El Impacto en su Comunidad
+        href: https://2020census.gov/es/community-impact.html
+      - text: Cómo Protege su Información la Oficina del Censo
+        href: https://2020census.gov/es/data-protection.html
+
 ---
 # 2020 Census Data Release Social Media Toolkit
 Social media is a great way to help share the first results of the 2020 Census: state population counts used to apportion seats in the U.S. House of Representatives among the 50 states.
