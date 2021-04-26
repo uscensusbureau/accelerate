@@ -1,0 +1,14 @@
+<div>
+  <h2>
+    2020 Census Population Count by State/Territory
+  </h2>
+  <p>
+    Our static posts and animations provide population counts for all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census by geography.
+  </p>
+  <select id="territorySelect">
+    {% assign data = site.data.smtk-images | sort: "name" %}
+    {% for option in data %}
+      <option value="{{ option.name }}">{{ option.name }}</option>
+    {% endfor %}
+  </select>
+</div>

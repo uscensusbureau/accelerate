@@ -1,0 +1,4 @@
+---
+---
+
+data = {{ site.data.2020-data-release | jsonify }}
