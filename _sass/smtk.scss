@@ -37,6 +37,26 @@ $text-blue: #0F3062;
   }
 }
 
+.smtk-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 99em;
+  width: 40px;
+  height: 40px;
+  &--small {
+    @extend .smtk-icon-link;
+    width: 32px;
+    height: 32px;
+  }
+  
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 a .usa-icon {
   text-decoration: none;
 }
@@ -111,4 +131,21 @@ a .usa-icon {
   a {
     border-bottom: none;
   }
+}
+
+/************
+  * LIGHBOX SECTION
+  **************/
+.smtk-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  text-align: center;
+}
+.smtk-lightbox__controls {
+  text-align: right;
+  padding: .5em .5em 0 0;
 }
