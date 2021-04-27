@@ -84,6 +84,10 @@ a .usa-icon {
 
 .smtk-section {
   padding: 0 1em;
+  .grid-container {
+    padding-top: .5em;
+    border: 1px solid $dark-blue;
+  }
 }
 
 .smtk-main-text {
