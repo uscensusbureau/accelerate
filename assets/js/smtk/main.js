@@ -1,5 +1,6 @@
 ---
 ---
+const srcBase = "{{ site.baseurl }}/assets/img/smtk/"
 
 const creativeResources = {{ site.data.2020-data-release.creative-resources | jsonify }}
 const crSelect = document.getElementById('cr-select')
@@ -26,7 +27,6 @@ crSelect.addEventListener('change', e => {
       container.classList.add('display-none')
     }
 
-    const srcBase = "{{ site.baseurl }}/assets/img/smtk/"
     if( match.isVideo ){
       genericVideo.getElementsByTagName('source')[0].src = srcBase + match.generic.src
       igVideo.getElementsByTagName('source')[0].src = srcBase + match.instagram.src
@@ -40,3 +40,23 @@ crSelect.addEventListener('change', e => {
     }
   }
 })
+
+/**
+ * Lightbox controls
+ */
+const lightbox = document.getElementById("smtk-lightbox")
+const lbImage = lightbox.getElementsByTagName("img")[0]
+const closeButton = document.getElementById("smtk-lightbox__close")
+if( closeButton ){
+  closeButton.addEventListener( 'click', e => {
+    e.preventDefault()
+    lightbox.classList.add('display-none');
+  })
+}
+
+const openLightbox = (imgUrl, imgAlt) => {
+  lbImage.src = srcBase + imgUrl
+  lbImage.alt = imgAlt
+
+  lightbox.classList.remove('display-none')
+}
