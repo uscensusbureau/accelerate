@@ -4,7 +4,9 @@
 <h3 class="font-sans-md">{{ data.category }}</h3>
 <img src="{{src}}" alt="{{ data.alt }}" {% if include.class %}class="{{ include.class }}"{% endif %}/>
 <p>
-  {% if data.hasPreview %}PREVIEW | {% endif %}
+  {% if data.hasPreview %}
+    <a onclick="openLightbox('{{ data.src }}', '{{ data.alt }}')">PREVIEW</a> | 
+    {% endif %}
   <a href="{{src}}" download>DOWNLOAD</a>
 </p>
 {% if data.title %}<p><strong>{{ data.title }}</strong></p>{% endif %}
