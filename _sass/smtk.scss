@@ -112,3 +112,20 @@ a .usa-icon {
     border-bottom: none;
   }
 }
+
+/************
+  * LIGHBOX SECTION
+  **************/
+.smtk-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  text-align: center;
+}
+.smtk-lightbox__controls {
+  text-align: right;
+  padding: .5em .5em 0 0;
+}
