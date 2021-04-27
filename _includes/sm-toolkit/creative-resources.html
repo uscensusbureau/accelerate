@@ -6,8 +6,8 @@
     Our static posts and animations provide information and resources about apportionment.
   </p>
   <div class="grid-row margin-bottom-4">
-    <div class="tablet:grid-col-4">
-      <select id="cr-select">
+    <div class="">
+      <select id="cr-select" class="usa-select">
         {% assign data = site.data.2020-data-release.creative-resources %}
         {% for option in data %}
           <option value="{{ option.title }}">{{ option.title }}</option>
