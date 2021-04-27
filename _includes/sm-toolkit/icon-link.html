@@ -1,5 +1,5 @@
-<a {% if include.href %}href="{{include.href}}"{% endif %} class="border-bottom-0 hover:border-bottom-0" {% if include.id %}id="{{ include.id }}"{% endif %}>
-  <svg class="usa-icon text-white text-underline-none" aria-hidden="true" focusable="false" role="img">
-    <use xlink:href="{{site.baseurl}}/assets/uswds/img/sprite.svg#{{include.icon-class}}"></use>
-  </svg>
-</a>
+<div class="smtk-icon-link{% if include.subclass %}{{ include.subclass }}{% endif %}">
+  <a {% if include.href %}href="{{include.href}}"{% endif %} class="border-bottom-0 hover:border-bottom-0" {% if include.id %}id="{{ include.id }}"{% endif %}>
+    <i class="{{ include.icon-class }}"></i>
+  </a>
+</div>

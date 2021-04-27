@@ -37,6 +37,26 @@ $text-blue: #0F3062;
   }
 }
 
+.smtk-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 99em;
+  width: 40px;
+  height: 40px;
+  &--small {
+    @extend .smtk-icon-link;
+    width: 32px;
+    height: 32px;
+  }
+  
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 a .usa-icon {
   text-decoration: none;
 }

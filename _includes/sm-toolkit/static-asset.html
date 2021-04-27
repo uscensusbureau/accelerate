@@ -5,7 +5,7 @@
 <img src="{{src}}" alt="{{ data.alt }}" {% if include.class %}class="{{ include.class }}"{% endif %}/>
 <p>
   {% if data.hasPreview %}
-    <a onclick="openLightbox('{{ data.src }}', '{{ data.alt }}')">PREVIEW | </a>
+    <a onclick="openLightbox('{{ data.src }}', '{{ data.alt }}')">PREVIEW</a> | 
     {% endif %}
   <a href="{{src}}" download>DOWNLOAD</a>
 </p>
