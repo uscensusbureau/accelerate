@@ -8,5 +8,5 @@
     <a onclick="openLightbox('{{ data.src }}', '{{ data.alt }}')">PREVIEW</a> | 
     {% endif %}
   <a href="{{src}}" download>DOWNLOAD</a>
+  {% if data.title %}<br/><strong>{{ data.title }}</strong>{% endif %}
 </p>
-{% if data.title %}<p><strong>{{ data.title }}</strong></p>{% endif %}

@@ -21,16 +21,17 @@
   {% if selected.isVideo == false %}
     {% assign isVideo = false %}
   {% endif %}
-  <div class="grid-row grid-gap">
+  {% assign isGuide = false %}
+  {% if selected.isGuide == true %}
+    {% assign isGuide = true %}
+  {% endif %}
+
+  <div id="img-row" class="grid-row grid-gap {% if isVideo %}display-none{% endif %}">
     <div class="tablet:grid-col">
       <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
       <p><strong>Facebook/Twitter/LinkedIn</strong></p>
-      <div class="cr-asset__asset-container--video {% unless isVideo %}display-none{% endunless %}">
-        {% include sm-toolkit/video-asset.html
-          data = selected.generic
-          class = "cr-asset__asset--video" %}
-      </div>
-      <div class="cr-asset__asset-container--image {% if isVideo %}display-none{% endif %}">
+      
+      <div class="cr-asset__asset-container--image">
         {% include sm-toolkit/static-asset.html 
           data = selected.generic
           class = "cr-asset__asset--image" %}
@@ -40,16 +41,40 @@
     <div class="tablet:grid-col">
       <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
       <p><strong>Instagram</strong></p>
-      <div class="cr-asset__asset-container--video {% unless isVideo %}display-none{% endunless %}">
-        {% include sm-toolkit/video-asset.html
-          data = selected.instagram
-          class = "cr-asset__asset--video" %}
-      </div>
-      <div class="cr-asset__asset-container--image {% if isVideo %}display-none{% endif %}">
+
+      <div class="cr-asset__asset-container--image">
         {% include sm-toolkit/static-asset.html 
           data = selected.instagram
           class = "cr-asset__asset--image" %}
       </div>
+    </div>
+  </div>
+  
+  <div id="video-row" class="grid-row grid-gap {% unless isVideo %}display-none{% endunless %}">
+    <div class="tablet:grid-col">
+      <div class="cr-asset__asset-container--video">
+        {% include sm-toolkit/video-asset.html
+          data = selected.generic
+          class = "cr-asset__asset--video" %}
+      </div>
+    </div>
+  </div>
+  
+  <div id="guide-row" class="{% unless isGuide %}display-none{% endunless %}">
+    {% assign guide=include.data[1] %}
+    <div class="grid-row grid-gap ">
+      {% assign images = guide.images %}
+      {% for image in images %}
+        <div class="mobile-lg:grid-col-4">
+          <img src="{{ site.baseurl }}/assets/img/smtk/{{ image.src }}" alt="{{ image.alt }}" 
+            class="cr-asset__asset--image" />
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text-center">
+      <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
+        Download All Guide Assets
+      </a>
     </div>
   </div>
 </div>
