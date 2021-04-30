@@ -39,7 +39,6 @@ crSelect.addEventListener('change', e => {
 
     if( match.isVideo ){
       genericVideo.getElementsByTagName('source')[0].src = srcBase + match.generic.src
-      igVideo.getElementsByTagName('source')[0].src = srcBase + match.instagram.src
     }
     else {
       genericImage.src = srcBase + match.generic.src
