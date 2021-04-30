@@ -60,7 +60,7 @@ creative-resources:
     resource-name: Apportionment Video
     isVideo: true
     generic:
-      src: creativeResources/Census_Apportionment_Full_h264.mp4
+      src: creativeResources/Census_Apportionment_15_h264.mp4
       alt: A map of the United States
   
   - title: Data Quality Graphic
