@@ -4,16 +4,29 @@ const srcBase = "{{ site.baseurl }}/assets/img/smtk/"
 
 const creativeResources = {{ site.data.2020-data-release.creative-resources | jsonify }}
 const crSelect = document.getElementById('cr-select')
-const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
-const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
-const [genericImage, igImage] = document.getElementsByClassName('cr-asset__asset--image')
-const instaContainers = document.getElementsByClassName('cr-asset__asset-container--insta')
+// const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
+// const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
+// const [genericImage, igImage] = document.getElementsByClassName('cr-asset__asset--image')
+// const instaContainers = document.getElementsByClassName('cr-asset__asset-container--insta')
 
-const imgRow = document.getElementById('img-row')
-const videoRow = document.getElementById('video-row')
-const guideRow = document.getElementById('guide-row')
+// const imgRow = document.getElementById('img-row')
+// const videoRow = document.getElementById('video-row')
+// const guideRow = document.getElementById('guide-row')
+const allRows = document.getElementsByClassName('cr-asset__row')
 
 crSelect.addEventListener('change', e => {
+  console.log(crSelect.value);
+  for( row of allRows ){
+    if( row.id == crSelect.value ){
+      row.classList.remove('display-none')
+    }
+    else {
+      row.classList.add('display-none')
+    }
+  }
+})
+
+setContentsViaJS = function() {
   const match = creativeResources.find( el => el.title === crSelect.value )
   console.log(match)
   if( match ){
@@ -72,7 +85,7 @@ crSelect.addEventListener('change', e => {
     const toPostHTML = match.post;
     containerToShow.getElementsByClassName('cr-asset__post')[0].innerHTML = toPostHTML;
   }
-})
+}
 
 /**
  * Lightbox controls
