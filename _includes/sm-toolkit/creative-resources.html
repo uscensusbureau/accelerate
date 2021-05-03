@@ -68,16 +68,16 @@
           </div>
         {% endfor %}
       </div>
-      <div class="text-center">
-        <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
-          Download All Guide Assets
-        </a>
-      </div>
 
       <div class="grid-row">
         <span class="cr-asset__post">
           {{ selected.post | markdownify }}
         </span>
+      </div>
+      <div class="text-center margin-bottom-2">
+        <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
+          Download All Guide Assets
+        </a>
       </div>
     </div>
   {% else %}
