@@ -27,22 +27,22 @@
   {% endif %}
 
   <div id="img-row" class="grid-row grid-gap {% if isVideo %}display-none{% endif %}">
-    <div class="tablet:grid-col">
+    <div class="tablet:grid-col-4 cr-asset__asset-container--generic">
       <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
       <p><strong>Facebook/Twitter/LinkedIn</strong></p>
       
-      <div class="cr-asset__asset-container--image">
+      <div>
         {% include sm-toolkit/static-asset.html 
           data = selected.generic
           class = "cr-asset__asset--image" %}
       </div>
     </div>
 
-    <div class="tablet:grid-col">
+    <div class="tablet:grid-col-4 cr-asset__asset-container--insta">
       <h4 class="cr-asset__title">{{ selected.resource-name }}</h4>
       <p><strong>Instagram</strong></p>
 
-      <div class="cr-asset__asset-container--image">
+      <div>
         {% include sm-toolkit/static-asset.html 
           data = selected.instagram
           class = "cr-asset__asset--image" %}
@@ -51,10 +51,17 @@
   </div>
   
   <div id="video-row" class="grid-row grid-gap {% unless isVideo %}display-none{% endunless %}">
-    <div class="tablet:grid-col">
-      <div class="cr-asset__asset-container--video">
+    <div class="tablet:grid-col-4 cr-asset__asset-container--generic">
+      <div>
         {% include sm-toolkit/video-asset.html
           data = selected.generic
+          class = "cr-asset__asset--video" %}
+      </div>
+    </div>
+    <div class="tablet:grid-col-4 cr-asset__asset-container--insta">
+      <div>
+        {% include sm-toolkit/video-asset.html
+          data = selected.instagram
           class = "cr-asset__asset--video" %}
       </div>
     </div>

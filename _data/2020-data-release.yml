@@ -27,15 +27,15 @@ national-count:
 
 
 creative-resources:
-  - title: Apportionment Animation
-    resource-name: Apportionment Animation
+
+  - title: Apportionment Video
+    resource-name: Apportionment Video
     isVideo: true
     generic:
-      src: creativeResources/Apportionment-animation.mp4
+      src: creativeResources/Census_Apportionment_15_h264.mp4
       alt: A map of the United States
     instagram:
-      src: USCB_50-States-Data-Viz_USA_v3.mp4
-      alt: A map of the United States
+      src: creativeResources/Census_Apportionment_30_h264.mp4
 
   - title: Apportionment Guide
     resource-name: Apportionmnent Guide
@@ -55,21 +55,18 @@ creative-resources:
         alt: A map of the United States
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-F_v05-A.png
         alt: A map of the United States
-
-  - title: Apportionment Video
-    resource-name: Apportionment Video
+      
+  - title: Apportionment Animation
+    resource-name: Apportionment Animation
     isVideo: true
     generic:
-      src: creativeResources/Census_Apportionment_15_h264.mp4
+      src: creativeResources/Apportionment-animation.mp4
       alt: A map of the United States
   
   - title: Data Quality Graphic
     resource-name: Data Quality Graphic
     isVideo: false
     generic:
-      src: creativeResources/data-quality-graphic.png
-      alt: A map of the United States
-    instagram:
       src: creativeResources/data-quality-graphic.png
       alt: A map of the United States
 
@@ -87,8 +84,5 @@ creative-resources:
     resource-name: Total Population Graphic
     isVideo: false
     generic:
-      src: creativeResources/total-population-graphic.jpg
-      alt: A map of the United States
-    instagram:
       src: creativeResources/total-population-graphic.jpg
       alt: A map of the United States

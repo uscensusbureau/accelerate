@@ -7,8 +7,7 @@ const crSelect = document.getElementById('cr-select')
 const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
 const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
 const [genericImage, igImage] = document.getElementsByClassName('cr-asset__asset--image')
-const videoContainers = document.getElementsByClassName('cr-asset__asset-container--video')
-const imageContainers = document.getElementsByClassName('cr-asset__asset-container--image')
+const instaContainers = document.getElementsByClassName('cr-asset__asset-container--insta')
 
 const imgRow = document.getElementById('img-row')
 const videoRow = document.getElementById('video-row')
@@ -39,13 +38,34 @@ crSelect.addEventListener('change', e => {
 
     if( match.isVideo ){
       genericVideo.getElementsByTagName('source')[0].src = srcBase + match.generic.src
+      if( match.instagram ){
+        igVideo.getElementsByTagName('source')[0].src = srcBase + match.instagram.src
+        for( container of instaContainers ){
+          container.classList.remove('display-none')
+        }
+      }
+      else {
+        for( container of instaContainers ){
+          container.classList.add('display-none')
+        }
+      }
     }
     else {
       genericImage.src = srcBase + match.generic.src
       genericImage.alt = match.generic.alt
   
-      igImage.src = srcBase + match.instagram.src
-      igImage.alt = match.instagram.alt
+      if( match.instagram ){
+        igImage.src = srcBase + match.instagram.src
+        igImage.alt = match.instagram.alt
+        for( container of instaContainers ){
+          container.classList.remove('display-none')
+        }
+      }
+      else {
+        for( container of instaContainers ){
+          container.classList.add('display-none')
+        }
+      }
     }
   }
 })
