@@ -73,6 +73,8 @@ creative-resources:
     isVideo: false
     generic:
       title: Data Quality Graphic
+      category: Any Platform
+      hasPreview: true
       src: creativeResources/data-quality-graphic.png
       alt: A map of the United States
     post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality to provide specifics on how we achieved a complete and accurate count. To learn more about our commitment to data quality and transparency, visit [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
@@ -89,9 +91,11 @@ creative-resources:
   #     alt: A map of the United States
 
   - title: Total Population Graphic
-    resource-name: Total Population Graphic
     isVideo: false
     generic:
+      title: Total Population Graphic
+      category: Any Platform
+      hasPreview: true
       src: creativeResources/total-population-graphic.jpg
       alt: A map of the United States
     post: 'The first results of the #2020Census are in! As of April 1, 2020, the total U.S. population was 331,449,281. #Apportionment #CensusBureau'

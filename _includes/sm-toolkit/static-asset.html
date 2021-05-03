@@ -1,7 +1,7 @@
 {% assign data = include.data %}
 {% assign src= site.baseurl | append: "/assets/img/smtk/" | append: data.src %}
 
-{% if data.title %}<h3 class="cr-asset__title">{{ data.title }}</h3>{% endif %}
+{% if data.title %}<h3 class="cr-asset__title font-sans-md">{{ data.title }}</h3>{% endif %}
 {% if data.category %}<h3 class="cr-asset__platform font-sans-md">{{ data.category }}</h3>{% endif %}
 <img src="{{src}}" alt="{{ data.alt }}" {% if include.class %}class="{{ include.class }}"{% endif %}/>
 <p>
