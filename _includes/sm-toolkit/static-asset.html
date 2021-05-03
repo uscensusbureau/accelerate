@@ -1,12 +1,12 @@
 {% assign data = include.data %}
 {% assign src= site.baseurl | append: "/assets/img/smtk/" | append: data.src %}
 
-<h3 class="font-sans-md">{{ data.category }}</h3>
+{% if data.title %}<h3 class="cr-asset__title">{{ data.title }}</h3>{% endif %}
+{% if data.category %}<h3 class="cr-asset__platform font-sans-md">{{ data.category }}</h3>{% endif %}
 <img src="{{src}}" alt="{{ data.alt }}" {% if include.class %}class="{{ include.class }}"{% endif %}/>
 <p>
   {% if data.hasPreview %}
     <a onclick="openLightbox('{{ data.src }}', '{{ data.alt }}')">PREVIEW</a> | 
     {% endif %}
   <a href="{{src}}" download>DOWNLOAD</a>
-  {% if data.title %}<br/><strong>{{ data.title }}</strong>{% endif %}
 </p>

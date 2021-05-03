@@ -54,7 +54,7 @@ crSelect.addEventListener('change', e => {
       genericImage.src = srcBase + match.generic.src
       genericImage.alt = match.generic.alt
   
-      if( match.instagram ){
+      if( match.instagram ){ 
         igImage.src = srcBase + match.instagram.src
         igImage.alt = match.instagram.alt
         for( container of instaContainers ){
@@ -67,6 +67,10 @@ crSelect.addEventListener('change', e => {
         }
       }
     }
+
+    // update post text
+    const toPostHTML = match.post;
+    containerToShow.getElementsByClassName('cr-asset__post')[0].innerHTML = toPostHTML;
   }
 })
 

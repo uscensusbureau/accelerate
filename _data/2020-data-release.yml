@@ -2,7 +2,7 @@ national-count:
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
-      title: United States
+      # title: United States
       src: firstResults/censusmap.png
       alt: A map of the United States
       hasPreview: true
@@ -18,12 +18,12 @@ national-count:
       category: Instagram
       src: firstResults/instagram-national-section.jpg
       alt: A map of the United States
-      title: United States
+      # title: United States
       hasPreview: true
   video: 
     category: Any Platform
     src: firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
-    title: United States
+    # title: United States
 
 
 creative-resources:
@@ -32,10 +32,14 @@ creative-resources:
     resource-name: Apportionment Video
     isVideo: true
     generic:
+      title: Apportionment Video - 19 Second Version
+      category: Any Platform
       src: creativeResources/Census_Apportionment_15_h264.mp4
-      alt: A map of the United States
     instagram:
+      title: Apportionment Video - 2 Minute Version
+      category: Any Platform
       src: creativeResources/Census_Apportionment_30_h264.mp4
+    post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives.To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
 
   - title: Apportionment Guide
     resource-name: Apportionmnent Guide
@@ -56,19 +60,22 @@ creative-resources:
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-F_v05-A.png
         alt: A map of the United States
       
-  - title: Apportionment Animation
-    resource-name: Apportionment Animation
-    isVideo: true
-    generic:
-      src: creativeResources/Apportionment-animation.mp4
-      alt: A map of the United States
+  # - title: Apportionment Animation
+  #   resource-name: Apportionment Animation
+  #   isVideo: true
+  #   generic:
+  #     src: creativeResources/Apportionment-animation.mp4
+  #     alt: A map of the United States
   
   - title: Data Quality Graphic
     resource-name: Data Quality Graphic
     isVideo: false
     generic:
+      title: Data Quality Graphic
       src: creativeResources/data-quality-graphic.png
       alt: A map of the United States
+    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality to provide specifics on how we achieved a complete and accurate count. To learn more about our commitment to data quality and transparency, visit [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
+    
 
   # - title: Data Quality Video
   #   resource-name: Total Population Count
@@ -86,3 +93,4 @@ creative-resources:
     generic:
       src: creativeResources/total-population-graphic.jpg
       alt: A map of the United States
+    post: 'The first results of the #2020Census are in! As of April 1, 2020, the total U.S. population was 331,449,281. #Apportionment #CensusBureau'
