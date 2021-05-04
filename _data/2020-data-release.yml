@@ -46,7 +46,7 @@ creative-resources:
     resource-name: Apportionmnent Guide
     isVideo: false
     isGuide: true
-    download: apportionment-assets.zip
+    download: apportionment-pocket-guide.zip
     images:
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-A_v05-A.png
         alt: A map of the United States
