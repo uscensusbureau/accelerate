@@ -6,11 +6,11 @@
             src="{{ site.baseurl }}/assets/img/smtk/backgrounds/MicrosoftTeams-image-3.jpeg">
       </div>
       <div class="tablet:grid-col-4 padding-x-2 margin-x-auto text-center smtk-hero-content">
-        <h2 class="text-uppercase smtk-heading--h2">Sign Up</h2>
-        <p class="text-left">For the latest updates and news from the U.S. Census Bureau and partners:</p>
+        <h2 class="text-uppercase smtk-heading--h2">{{ page.hero.title }}</h2>
+        <p class="text-left">{{ page.hero.subtitle }}</p>
         <div>
           <button class="smtk-button">
-            <a href="https://public.govdelivery.com/accounts/USCENSUS/subscriber/new?topic_id=USCENSUS_11958">Sign Up</a>
+            <a href="{{ page.hero.cta.href }}">Sign Up</a>
           </button>
         </div>
       </div>

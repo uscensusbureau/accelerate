@@ -4,13 +4,17 @@ $text-blue: #0F3062;
 
 .smtk-body {
   color: $dark-blue;
-  h1, h2, h3, h4, h5, h6, button, p {
-    font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
+  h1, h2, h3, h4, h5, h6, button, p, ul, li, span, select {
+    // font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
   p, ul, li, span, select {
     font-size: 1.25rem;
+    color: $text-blue;
   }
-
+  p {
+    margin-bottom: 1em;
+  }
 
   #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
     background: none;
@@ -112,10 +116,13 @@ a .usa-icon {
 
 .smtk-main-text {
   max-width: 880px;
-  color: $dark-blue;
+  color: $text-blue !important;
   margin: 0 auto;
   padding: 0 1em;
 
+  li {
+    margin-bottom: .5em;
+  }
 }
 
 .smtk-button {
@@ -131,6 +138,10 @@ a .usa-icon {
   a {
     border-bottom: none;
   }
+}
+
+.what-is-apportionment {
+  margin-bottom: 0 !important;
 }
 
 /************
@@ -149,3 +160,4 @@ a .usa-icon {
   text-align: right;
   padding: .5em .5em 0 0;
 }
+
