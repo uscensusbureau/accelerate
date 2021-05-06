@@ -1,4 +1,6 @@
 national-count:
+  image-text: 'The first results of the #2020Census are here.
+Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH)'
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
@@ -6,14 +8,15 @@ national-count:
       src: firstResults/censusmap.png
       alt: A map of the United States
       hasPreview: true
-    facebook: 'The first results of the #2020Census are here. 
-    Explore the latest U.S. population data and more:'
-    twitter: 'The first results of the #2020Census are here. 
-    Explore the latest U.S. population data and more:'
-    linkedin: 'The first results of the #2020Census are here. 
-    Explore the latest U.S. population data and more:'
+    text: 'The number of people living in the United States, including the 50 states and the District of Columbia, was 331,449,281 as of April 1, 2020, an increase of 7.4% since the 2010 Census. #2020Census'
+    # facebook: 'The first results of the #2020Census are here. 
+    # Explore the latest U.S. population data and more:'
+    # twitter: 'The first results of the #2020Census are here. 
+    # Explore the latest U.S. population data and more:'
+    # linkedin: 'The first results of the #2020Census are here. 
+    # Explore the latest U.S. population data and more:'
   instagram-image: 
-    text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
+    # text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
     image: 
       category: Instagram
       src: firstResults/instagram-national-section.jpg

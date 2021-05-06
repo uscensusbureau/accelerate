@@ -11,8 +11,12 @@ hero:
     href: https://public.govdelivery.com/accounts/USCENSUS/signup/22611
 
 national-count:
-  title: 2020 Census National Population Count
-  subtitle: Our static posts and animations provide the national population count, including all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census. 
+  title: The First Results of the 2020 Census
+  subtitle: '<p>The 2020 Census took a snapshot of all people living in the United States on April 1, 2020 and the results are in. According to the 2020 Census, the number of people living in the United States was 331,449,281.</p>
+  <p>
+  Share these animations for the United States, each of the 50 states, the District of Columbia, and Puerto Rico.
+  <br/>
+  We encourage you to add your personal touch to these messages to align with the interests of your audience.</p>'
 
 state-counts: 
   title: 2020 Census Population Count by State/Territory

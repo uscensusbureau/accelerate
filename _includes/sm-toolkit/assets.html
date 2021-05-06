@@ -1,28 +1,28 @@
 <div class="grid-container">
   <h2>{{ include.header.title }}</h2>
-  <p>{{ include.header.subtitle }}</p>
+  {{ include.header.subtitle | markdownify }}
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-4">
       <h2 class="font-sans-lg">Static Images</h2>
       {% assign post = include.data.generic-image %}
       {% include sm-toolkit/static-asset.html data=post.image %}
-      <p>
-        <strong>FACEBOOK:</strong> {{ post.facebook }}
-      </p>
-      <p><strong>TWITTER:</strong> {{ post.twitter }}</p>
-      <p><strong>LINKEDIN:</strong> {{ post.linkedin }}</p>
+      <div class="font-sans-sm">
+        <strong>FACEBOOK:</strong> {{ include.data.image-text | markdownify }}
+      </div>
+      <div class="font-sans-sm"><strong>TWITTER:</strong> {{ include.data.image-text | markdownify }}</div>
+        <div class="font-sans-sm"><strong>LINKEDIN:</strong> {{ include.data.image-text | markdownify }}</div>
     </div>
 
     <div class="tablet:grid-col-4 tablet:padding-top-5">
       {% assign post = include.data.instagram-image %}
       {% include sm-toolkit/static-asset.html data=post.image %}
-      <p><strong>INSTAGRAM:</strong> {{ post.text }}</p>
+      <div class="font-sans-sm"><strong>INSTAGRAM:</strong> {{ include.data.image-text | markdownify }}</div>
     </div>
     
     <div class="tablet:grid-col-4">
       {% assign post = include.data.video %}
       <h2 class="font-sans-lg">Animations</h2>
-      <div>
+      <div class="font-sans-sm">
         {% include sm-toolkit/video-asset.html data=post %}
         <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
       </div>
