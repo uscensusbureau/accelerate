@@ -38,8 +38,8 @@ population-counts:
   videos:
     - src: populationCounts/Apportionment2020.gif
       hasPreview: true
-    - src: populationCounts/Density2020.gif
-      hasPreview: true
+    # - src: populationCounts/Density2020.gif
+    #   hasPreview: true
 
 links:
   

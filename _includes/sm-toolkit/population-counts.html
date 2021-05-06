@@ -3,18 +3,20 @@
   <p>{{ include.data.subtitle }}</p>
   <div class="grid-row grid-gap">
     
-    <div class="tablet:grid-col-6">
-      {% assign data = include.data.images %}
-      <h2>Graphic</h2>
-      <div class="grid-row grid-gap">
-        {% for img in data %}
-          <div class="tablet:grid-col-6">
-            {% include sm-toolkit/static-asset.html data=img %}
-          </div>
-        {% endfor %}
-      </div>
-      <span>{{ include.data.post | markdownify }}</span>
-    </div>
+    {% comment %}
+      <!-- <div class="tablet:grid-col-6">
+        {% assign data = include.data.images %}
+        <h2>Graphic</h2>
+        <div class="grid-row grid-gap">
+          {% for img in data %}
+            <div class="tablet:grid-col-6">
+              {% include sm-toolkit/static-asset.html data=img %}
+            </div>
+          {% endfor %}
+        </div>
+        <span>{{ include.data.post | markdownify }}</span>
+      </div> -->
+    {% endcomment %}
     
     <div class="tablet:grid-col-6">
       {% assign data = include.data.videos %}
