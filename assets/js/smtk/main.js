@@ -43,7 +43,7 @@ if( areaSelector ){
     const match = areaResources.find( el => el.AREA === areaName )
     if( match ){
       areaPost.innerHTML = match['GENERIC-TEXT']
-      const imgSrcSuffix = `/States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`
+      const imgSrcSuffix = `States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`
       areaGenImg.src = `${ srcBase }${imgSrcSuffix}`
       areaGenImg.alt = `A map of the USA with ${areaName} shaded lighter along with text indicating how much its population has changed since 2010`
   
