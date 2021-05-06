@@ -1,6 +1,7 @@
 $tablet: 640px;
 $dark-blue: #112E50;
 $text-blue: #0F3062;
+$smtk-teal: #0096a8;
 
 .smtk-body {
   color: $dark-blue;
@@ -128,14 +129,14 @@ a .usa-icon {
 .smtk-button {
   min-width: 0;
   padding: .5rem .75rem;
-  background-color: white;
+  background-color: $smtk-teal;
   border-radius: 6px;
-  color: $dark-blue;
   &:hover {
-    background-color: darken($color: white, $amount: 10%);
+    background-color: lighten($smtk-teal, $amount: 5%);
   }
   transition: background-color 100ms;
   a {
+    color: white;
     border-bottom: none;
   }
 }
