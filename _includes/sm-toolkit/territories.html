@@ -1,5 +1,5 @@
-{% assign data = site.data.smtk.Apportionment-2020-table | sort: "name" %}
-<div class="grid-container">
+{% assign data = site.data.smtk.Apportionment-2020-table | sort: "AREA" %}
+<div class="grid-container padding-bottom-4">
   <h2>
     2020 Census Population Count by State/Territory
   </h2>
@@ -7,7 +7,7 @@
     Our static posts and animations provide population counts for all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census by geography.
   </p>
   
-  <select id="areaAsset__select">
+  <select id="areaAsset__select" class="usa-select maxw-mobile">
     {% for option in data %}
       <option value="{{ option.AREA }}">{{ option.AREA }}</option>
     {% endfor %}
@@ -15,7 +15,7 @@
 
   <div class="grid-row grid-gap">
     {% assign name=data[0].AREA %}
-    <div class="grid-col-12">
+    <div class="grid-col-12 margin-top-2">
       <h3 id="areaAsset__title">{{ name }}</h3>
     </div>
 
@@ -26,17 +26,29 @@
     {% assign imgSrc = lightboxBase | append: imgSuffix %}
     {% assign imgAlt="An image of the USA with Alabama shaded lighter along with data indicating how much its population has changed since 2010" %}
 
+    {% assign vidSuffix = folder | append: "/USCB_50 States Data Viz_" | append: name | append: ".mp4" %}
+    {% assign vidSrc = lightboxBase | append: vidSuffix %}
+
+    
+    <div class="tablet:grid-col-6">
+      <h4>Any Platform</h4>
+      <video id="areaAsset__video" controls class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
+        <source src="{{ vidSrc }}">
+      </video>
+      <p>
+        <a id="areaAsset__download--video" href="{{ vidSrc }}" download>DOWNLOAD</a>
+      </p>
+    </div>
 
     <div class="tablet:grid-col-6">
+      <h4>Facebook / Twitter / LinkedIn</h4>
       <img src="{{ imgSrc }}" id="areaAsset__img" alt="{{ imgAlt }}"/>
       <p>
         <a id="areaAsset__preview">PREVIEW</a> |
         <a id="areaAsset__download--image" href="{{ imgSrc }}" download>DOWNLOAD</a>
       </p>
     </div>
-    <div class="tablet:grid-col-6">
-      
-    </div>
   </div>
+  
   <span id="areaAsset__post">{{ data[0].GENERIC-TEXT }}</span>
 </div>

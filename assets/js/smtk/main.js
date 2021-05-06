@@ -7,9 +7,11 @@ const areaResources = {{ site.data.smtk.Apportionment-2020-table | jsonify }}
 const crSelect = document.getElementById('cr-select')
 
 const areaSelector = document.getElementById('areaAsset__select')
+const areaTitle = document.getElementById('areaAsset__title')
 const areaGenImg = document.getElementById('areaAsset__img')
 const areaPost = document.getElementById('areaAsset__post')
-const areaTitle = document.getElementById('areaAsset__title')
+
+
 
 // const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
 // const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
@@ -49,6 +51,10 @@ if( areaSelector ){
   
       const imgDownload = document.getElementById('areaAsset__download--image')
       imgDownload.href = areaGenImg.src
+
+      const vidSrc = `${srcBase}States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}.mp4`
+      document.getElementById('areaAsset__video').src = vidSrc
+      document.getElementById('areaAsset__download--video').href = vidSrc
     }
   })
 
