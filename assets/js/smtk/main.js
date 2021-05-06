@@ -2,8 +2,15 @@
 ---
 const srcBase = "{{ site.baseurl }}/assets/img/smtk/"
 
-const creativeResources = {{ site.data.2020-data-release.creative-resources | jsonify }}
+// const creativeResources = {{ site.data.2020-data-release.creative-resources | jsonify }}
+const areaResources = {{ site.data.smtk.Apportionment-2020-table | jsonify }}
 const crSelect = document.getElementById('cr-select')
+
+const areaSelector = document.getElementById('areaAsset__select')
+const areaGenImg = document.getElementById('areaAsset__img')
+const areaPost = document.getElementById('areaAsset__post')
+const areaTitle = document.getElementById('areaAsset__title')
+
 // const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
 // const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
 // const [genericImage, igImage] = document.getElementsByClassName('cr-asset__asset--image')
@@ -14,17 +21,47 @@ const crSelect = document.getElementById('cr-select')
 // const guideRow = document.getElementById('guide-row')
 const allRows = document.getElementsByClassName('cr-asset__row')
 
-crSelect.addEventListener('change', e => {
-  console.log(crSelect.value);
-  for( row of allRows ){
-    if( row.id == crSelect.value ){
-      row.classList.remove('display-none')
+if( crSelect ){
+  crSelect.addEventListener('change', e => {
+    // console.log(crSelect.value);
+    for( row of allRows ){
+      if( row.id == crSelect.value ){
+        row.classList.remove('display-none')
+      }
+      else {
+        row.classList.add('display-none')
+      }
     }
-    else {
-      row.classList.add('display-none')
+  })
+}
+
+if( areaSelector ){
+  areaSelector.addEventListener( 'change', e => {
+    // console.log( areaSelector.value );
+    const areaName = areaSelector.value;
+    areaTitle.innerText = areaName
+    const match = areaResources.find( el => el.AREA === areaName )
+    if( match ){
+      areaPost.innerHTML = match['GENERIC-TEXT']
+      const imgSrcSuffix = `/States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`
+      areaGenImg.src = `${ srcBase }${imgSrcSuffix}`
+      areaGenImg.alt = `A map of the USA with ${areaName} shaded lighter along with text indicating how much its population has changed since 2010`
+  
+      const imgDownload = document.getElementById('areaAsset__download--image')
+      imgDownload.href = areaGenImg.src
     }
-  }
-})
+  })
+
+  const imgPreview = document.getElementById('areaAsset__preview')
+  imgPreview.addEventListener('click', e => {
+    e.preventDefault()
+    const areaName = areaSelector.value;
+    openLightbox( `/States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`, 
+      `An image of the USA with ${areaName} shaded lighter along with data indicating how much its population has changed since 2010` )
+  })
+
+  
+}
 
 setContentsViaJS = function() {
   const match = creativeResources.find( el => el.title === crSelect.value )
