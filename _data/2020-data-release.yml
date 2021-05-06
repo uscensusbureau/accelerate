@@ -16,7 +16,7 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
     # linkedin: 'The first results of the #2020Census are here. 
     # Explore the latest U.S. population data and more:'
   instagram-image: 
-    # text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
+    text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
     image: 
       category: Instagram
       src: firstResults/instagram-national-section.jpg

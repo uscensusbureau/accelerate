@@ -12,23 +12,30 @@
     {% for section in include.data %}
       {% assign outerIndex = forloop.index0 %}
       <div class="tablet:grid-col sm-links">
-        <h4 class="font-sans-md">{{ section.title }}</h4>
         {% case outerIndex %}
           {% when 0 %}
-            {% for link in section.links %}
-              <p>{{ link.text }}{% if link.href %}<br/>
-                  <a class="smtk-wrap" href="{{ link.href }}">{{ link.href }}</a>
-                {% endif %}
-              </p>
-            {% endfor %}
-          {% when 1 %}
-            <ul>
-              {% for link in section.links %}
-                <li class="margin-bottom-0">
-                  <a class="smtk-wrap" href="{{ link.href }}" target="_blank">{{ link.text }}</a>
-                </li>
+            {% for subsection in section %}
+              <h4 class="font-sans-md">{{ subsection.title }}</h4>
+              {% for link in subsection.links %}
+                <p>
+                    {% if link.href %}
+                      <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>
+                    {% else %}
+                      <span>{{ link.text }}</span>
+                    {% endif %}
+                </p>
               {% endfor %}
-            </ul>
+            {% endfor %}
+          
+          {% when 1 %}
+            {% for subsection in section %}
+              <h4 class="font-sans-md">{{ subsection.title }}</h4>
+                {% for link in subsection.links %}
+                  <p class="margin-bottom-0">
+                    <a class="smtk-wrap" href="{{ link.href }}" target="_blank">{{ link.text }}</a>
+                  </p>
+                {% endfor %}
+            {% endfor %}
           {% else %}
             {% assign link = section.links[0] %}
             <p>

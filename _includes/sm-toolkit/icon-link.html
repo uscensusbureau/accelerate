@@ -1,5 +1,5 @@
 <div class="smtk-icon-link{% if include.subclass %}{{ include.subclass }}{% endif %}">
-  <a {% if include.href %}href="{{include.href}}"{% endif %} class="border-bottom-0 hover:border-bottom-0" {% if include.id %}id="{{ include.id }}"{% endif %}>
+  <a {% if include.blank %}target="_blank"{% endif %} {% if include.href %}href="{{include.href}}"{% endif %} class="border-bottom-0 hover:border-bottom-0" {% if include.id %}id="{{ include.id }}"{% endif %}>
     <i class="{{ include.icon-class }}"></i>
   </a>
 </div>
