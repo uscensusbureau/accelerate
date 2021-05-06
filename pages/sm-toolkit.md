@@ -6,6 +6,8 @@ permalink: /2020-results-toolkit/
 hero:
   title: Stay Connected
   subtitle: Get the latest updates for partners and stakeholders from the U.S. Census Bureau.
+  # background-img: backgrounds/MicrosoftTeams-image-teal.png
+  background-img: backgrounds/MicrosoftTeams-image-3.png
   cta: 
     text: Sign Up
     href: https://public.govdelivery.com/accounts/USCENSUS/signup/22611
