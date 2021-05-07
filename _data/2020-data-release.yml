@@ -8,7 +8,7 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
       src: firstResults/censusmap.png
       alt: A map of the United States
       hasPreview: true
-    text: 'The number of people living in the United States, including the 50 states and the District of Columbia, was 331,449,281 as of April 1, 2020, an increase of 7.4% since the 2010 Census. #2020Census'
+    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. Here are the results: [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #Apportionment #CensusBureau'
     # facebook: 'The first results of the #2020Census are here. 
     # Explore the latest U.S. population data and more:'
     # twitter: 'The first results of the #2020Census are here. 
@@ -16,7 +16,7 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
     # linkedin: 'The first results of the #2020Census are here. 
     # Explore the latest U.S. population data and more:'
   instagram-image: 
-    text: 'We are excited to share the first results of the #2020Census. To explore the latest U.S. population data and more, follow the 🔗 in bio'
+    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. To explore the latest U.S. population data and more, follow the 🔗 in bio'
     image: 
       category: Instagram
       src: firstResults/instagram-national-section.jpg

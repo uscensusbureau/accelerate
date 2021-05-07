@@ -1,6 +1,6 @@
 <div class="grid-container">
   <h2>
-    2020 Census Social Media Information
+    {{ page.links.title }}
   </h2>
   <p>
     We encourage you to tag the U.S. Census Bureau and/or include a link to our posts whenever possible.
@@ -37,6 +37,8 @@
                 {% endfor %}
             {% endfor %}
           {% else %}
+            <h4 class="font-sans-md">{{ section.title }}</h4>
+
             {% assign link = section.links[0] %}
             <p>
               <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>

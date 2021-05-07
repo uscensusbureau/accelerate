@@ -14,15 +14,11 @@ hero:
 
 national-count:
   title: The First Results of the 2020 Census
-  subtitle: '<p>The 2020 Census took a snapshot of all people living in the United States on April 1, 2020 and the results are in. According to the 2020 Census, the number of people living in the United States was 331,449,281.</p>
-  <p>
-  Share these animations for the United States, each of the 50 states, the District of Columbia, and Puerto Rico.
-  <br/>
-  We encourage you to add your personal touch to these messages to align with the interests of your audience.</p>'
+  subtitle: 'The 2020 Census took a snapshot of all people living in the United States on April 1, 2020 and the results are in. According to the 2020 Census, the number of people living in the United States was 331,449,281. We encourage you to share the items in this toolkit and add your personal touch to these messages to align with the interests of your audience.'
 
 state-counts: 
-  title: 2020 Census Population Count by State/Territory
-  subtile: Our static posts and animations provide population counts for all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census by geography.
+  title: 2020 Census Population by State or Territory
+  subtitle: Share these animations and graphics for each of the 50 states, the District of Columbia, and Puerto Rico.
 
 population-counts:
   title: 2020 Census Apportionment Population Counts
@@ -44,6 +40,7 @@ population-counts:
     #   hasPreview: true
 
 links:
+  title: Helpful Links for Partners and Stakeholders
   
 
 ---

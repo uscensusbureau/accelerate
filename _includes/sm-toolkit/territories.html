@@ -1,11 +1,7 @@
 {% assign data = site.data.smtk.Apportionment-2020-table | sort: "AREA" %}
 <div class="grid-container padding-bottom-4">
-  <h2>
-    2020 Census Population Count by State/Territory
-  </h2>
-  <p>
-    Our static posts and animations provide population counts for all 50 states, the District of Columbia, and Puerto Rico. Each product shows changes from the 2010 Census to the 2020 Census by geography.
-  </p>
+  <h2>{{ page.state-counts.title }}</h2>
+  <p>{{ page.state-counts.subtitle }}</p>
   
   <select id="areaAsset__select" class="usa-select maxw-mobile">
     {% for option in data %}
