@@ -8,7 +8,7 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
       src: firstResults/censusmap.png
       alt: A map of the United States
       hasPreview: true
-    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. Here are the results: [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #Apportionment #CensusBureau'
+    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. Here are the results: [https://go.usa.gov/xHfDb](https://go.usa.gov/xHfDb) #Apportionment #CensusBureau'
     # facebook: 'The first results of the #2020Census are here. 
     # Explore the latest U.S. population data and more:'
     # twitter: 'The first results of the #2020Census are here. 
@@ -43,7 +43,7 @@ creative-resources:
       title: Apportionment Video - 45 Second Version
       category: Any Platform
       src: creativeResources/Census_Apportionment_30_h264.mp4
-    post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives.To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
+    post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives. To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
 
   - title: Apportionment Guide
     resource-name: Apportionmnent Guide
@@ -81,7 +81,7 @@ creative-resources:
       hasPreview: true
       src: creativeResources/data-quality-graphic.png
       alt: A map of the United States
-    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality to provide specifics on how we achieved a complete and accurate count. To learn more about our commitment to data quality and transparency, visit [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
+    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
     
 
   # - title: Data Quality Video

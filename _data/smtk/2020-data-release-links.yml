@@ -28,12 +28,12 @@
         href: https://www.census.gov/topics/public-sector/congressional-apportionment.html
       - text: Apportionment FAQs
         href: https://www.census.gov/topics/public-sector/congressional-apportionment/about/faqs.html
+      - text: 'Video: What is Apportionment? (Full Length)'
+        href: https://www.youtube.com/watch?v=Wi8fyMFS5H4
 - 
   - title: More 2020 Census Resources
     links:
-      - text: 'Video: What is Apportionment? (Full Length)'
-        href: https://www.youtube.com/watch?v=Wi8fyMFS5H4
-      - text: '2020 Census Blog Series Director’s Blog: The 2020 Census: Our Growing Nation'
+      - text: '2020 Census Blog Series'
         href: https://www.census.gov/programs-surveys/decennial-census/2020-census/news/blog-posts.html
       - text: 'America Counts: First 2020 Census Data Release Shows U.S. Resident Population of 331,449,281'
         href: https://www.census.gov/library/stories/2021/04/2020-census-data-release.html
@@ -45,6 +45,8 @@
         href: https://www.census.gov/library/visualizations/2021/dec/2020-resident-population-map.html
   - title: Data Quality Resources
     links:
+      - text: 'Video: Data Quality and the 2020 Census'
+        href: https://www.census.gov/library/video/2021/data-quality-2020-census.html
       - text: '2020 Census Quality and Data Processing Press Release'
         href: https://www.census.gov/newsroom/press-releases/2021/quality-indicators-on-2020-census.html
       - text: '2020 Census Quality and Data Processing Press Kit'
