@@ -23,11 +23,7 @@ state-counts:
 population-counts:
   title: 2020 Census Apportionment Population Counts
   subtitle: Apportionment is the process of distributing the 435 memberships, or seats, in the U.S. House of Representatives among the 50 states based on the apportionment population counts from the 2020 Census. The “Historical Apportionment Data Map” displays apportionment results for each census from 1910 to 2020.
-  post: 'View more than 10 decades of #apportionment and population data by exploring our updated, Interactive Historical Apportionment Data Map
-
-👉 [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) 
-
-#2020Census #CensusBureau'
+  post: 'View more than 10 decades of #apportionment and population data by exploring this interactive Historical Apportionment Data Map 👉 [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #2020Census #CensusBureau'
   images: 
     - src: populationCounts/graphic-1.png
       hasPreview: true
