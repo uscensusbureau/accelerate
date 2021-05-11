@@ -1,0 +1,50 @@
+{% assign data = site.data.smtk.Apportionment-2020-table | sort: "AREA" %}
+<div class="grid-container padding-bottom-4">
+  <h2>{{ page.state-counts.title }}</h2>
+  <p>{{ page.state-counts.subtitle }}</p>
+  
+  <select id="areaAsset__select" class="usa-select maxw-mobile" aria-label="territory">
+    {% for option in data %}
+      <option value="{{ option.AREA }}">{{ option.AREA }}</option>
+    {% endfor %}
+  </select>
+
+  <div class="grid-row grid-gap">
+    {% assign name=data[0].AREA %}
+    <div class="grid-col-12 margin-top-2">
+      <h3 id="areaAsset__title">{{ name }}</h3>
+    </div>
+
+    {% assign lightboxBase = site.baseurl | append: "/assets/img/smtk/" %}
+
+    {% assign folder = "States_Animations/" | append: name %}
+    {% assign imgSuffix = folder | append: "/USCB_50 States Data Viz_" | append: name | append: "Still001.jpg" %}
+    {% assign imgSrc = lightboxBase | append: imgSuffix %}
+    {% assign imgAlt="An image of the USA with Alabama shaded lighter along with data indicating how much its population has changed since 2010" %}
+
+    {% assign vidSuffix = folder | append: "/USCB_50 States Data Viz_" | append: name | append: ".mp4" %}
+    {% assign vidSrc = lightboxBase | append: vidSuffix %}
+
+    
+    <div class="tablet:grid-col-6">
+      <h4>Any Platform</h4>
+      <video id="areaAsset__video" controls class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
+        <source src="{{ vidSrc }}">
+      </video>
+      <p>
+        <a id="areaAsset__download--video" href="{{ vidSrc }}" download>DOWNLOAD</a>
+      </p>
+    </div>
+
+    <div class="tablet:grid-col-6">
+      <h4>Facebook / Twitter / LinkedIn</h4>
+      <img src="{{ imgSrc }}" id="areaAsset__img" alt="{{ imgAlt }}"/>
+      <p>
+        <a id="areaAsset__preview">PREVIEW</a> |
+        <a id="areaAsset__download--image" href="{{ imgSrc }}" download>DOWNLOAD</a>
+      </p>
+    </div>
+  </div>
+  
+  <span id="areaAsset__post">{{ data[0].GENERIC-TEXT }}</span>
+</div>

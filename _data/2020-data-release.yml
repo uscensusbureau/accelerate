@@ -1,0 +1,99 @@
+national-count:
+  image-text: 'The first results of the #2020Census are here.
+Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH)'
+  generic-image:
+    image: 
+      category: Facebook / Twitter / LinkedIn
+      src: firstResults/censusmap.png
+      alt: Landscape map of the United States with text showing population and percentage increase since 2010
+      hasPreview: true
+    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. Here are the results: [https://go.usa.gov/xHfDb](https://go.usa.gov/xHfDb) #Apportionment #CensusBureau'
+    
+  instagram-image: 
+    text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. To explore the latest U.S. population data and more, follow the 🔗 in bio'
+    image: 
+      category: Instagram
+      src: firstResults/instagram-national-section.jpg
+      alt: Square map of the United States with text showing population and percentage increase since 2010
+      # title: United States
+      hasPreview: true
+  video: 
+    category: Any Platform
+    src: firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
+    # title: United States
+    text: 'The number of people living in the United States, including the 50 states and the District of Columbia, was 331,449,281 as of April 1, 2020, an increase of 7.4% since the 2010 Census. #2020Census'
+
+
+creative-resources:
+
+  - title: Apportionment Video
+    resource-name: Apportionment Video
+    isVideo: true
+    generic:
+      title: Apportionment Video - 19 Second Version
+      category: Any Platform
+      src: creativeResources/Census_Apportionment_15_h264.mp4
+    instagram:
+      title: Apportionment Video - 45 Second Version
+      category: Any Platform
+      src: creativeResources/Census_Apportionment_30_h264.mp4
+    post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives. To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
+
+  - title: Apportionment Guide
+    resource-name: Apportionmnent Guide
+    isVideo: false
+    isGuide: true
+    download: apportionment-pocket-guide.zip
+    images:
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-A_v06-A.png
+        alt: Slide with words "United States Census 2020" and "What is apportionment?"
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-B_v06-A.png
+        alt: Slide with US map and text describing apportionment process
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-C_v06-A.png
+        alt: Slide with a legislative bill and text describing the census
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-D_v06-A.png
+        alt: Slide with icon of the US Senate
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-E_v06-A.png
+        alt: Slide with a calendar date and text saying the 2020 Census was released on April 26
+      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-F_v06-A.png
+        alt: White text on teal background reading United States Census 2020
+    post: 'On 4/26, the U.S. Census Bureau released the #2020Census state population counts, which are used to determine each state’s number of seats in the U.S. House of Representatives. #Apportionment #CensusBureau'
+      
+  # - title: Apportionment Animation
+  #   resource-name: Apportionment Animation
+  #   isVideo: true
+  #   generic:
+  #     src: creativeResources/Apportionment-animation.mp4
+  #     alt: A map of the United States
+  
+  - title: Data Quality Graphic
+    resource-name: Data Quality Graphic
+    isVideo: false
+    generic:
+      title: Data Quality Graphic
+      category: Any Platform
+      hasPreview: true
+      src: creativeResources/data-quality-graphic.png
+      alt: A map of the United States
+    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
+    
+
+  # - title: Data Quality Video
+  #   resource-name: Total Population Count
+  #   isVideo: true
+  #   generic:
+  #     src: USCB_50-States-Data-Viz_USA_v3.mp4
+  #     alt: A map of the United States
+  #   instagram:
+  #     src: USCB_50-States-Data-Viz_USA_v3.mp4
+  #     alt: A map of the United States
+
+  - title: Total Population Graphic
+    isVideo: false
+    generic:
+      title: Total Population Graphic
+      category: Any Platform
+      hasPreview: true
+      src: creativeResources/total-population-graphic.jpg
+      alt: A map of the United States
+    post: 'The first results of the #2020Census are in! As of April 1, 2020, the total U.S. population was 331,449,281. #Apportionment #CensusBureau'

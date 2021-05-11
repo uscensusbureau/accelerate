@@ -1,0 +1,40 @@
+<header class="smtk-header">
+  <div class="grid-container">
+    <div class="grid-row smtk-header-content">
+      <div class="tablet:grid-col-4">
+        <img src="{{site.baseurl}}/assets/img/smtk/logos/USCB_LOGO-01-p3zsfx0nvns3q00duwvwijm5klbhxonb7w4r18xoeu.png" alt="The United States Census Bureau word art logo" title="USCB_LOGO-01"/>
+      </div>
+      <div class="tablet:grid-col-4">
+        <span class="text-uppercase text-white">Follow Us</span>
+      </div>
+      <div class="tablet:grid-col-4 text-white">
+        
+        {% include sm-toolkit/icon-link.html 
+          href=site.data.smtk.census-socials.facebook
+          icon-class='fab fa-facebook-f' blank=true 
+          label="Facebook" %}
+        
+        {% include sm-toolkit/icon-link.html 
+          href=site.data.smtk.census-socials.twitter  
+          icon-class='fab fa-twitter' blank=true 
+          label="Twitter" %}
+
+        {% include sm-toolkit/icon-link.html 
+          href=site.data.smtk.census-socials.youtube  
+          icon-class='fab fa-youtube' blank=true 
+          label="YouTube" %}
+        
+        {% include sm-toolkit/icon-link.html 
+          href=site.data.smtk.census-socials.linkedin 
+          icon-class='fab fa-linkedin-in' blank=true 
+          label="LinkedIn" %}
+
+        {% include sm-toolkit/icon-link.html 
+          href=site.data.smtk.census-socials.instagram 
+          icon-class='fab fa-instagram' blank=true 
+          label="Instagram" %}
+      </div>
+
+    </div>
+  </div>
+</header>

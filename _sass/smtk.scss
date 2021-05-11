@@ -1,0 +1,163 @@
+$tablet: 640px;
+$dark-blue: #112E50;
+$text-blue: #0F3062;
+
+.smtk-body {
+  color: $dark-blue;
+  h1, h2, h3, h4, h5, h6, button, p, ul, li, span, select {
+    // font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  p, ul, li, span, select {
+    font-size: 1.25rem;
+    color: $text-blue;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+
+  #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
+    background: none;
+    padding-right: initial;
+  }
+}
+
+.sm-links {
+  p, a, span {
+    font-size: 1rem;
+  }
+  p {
+    color: $text-blue;
+  }
+}
+
+.smtk-wrap {
+  overflow-wrap: break-word;
+}
+
+.smtk-heading {
+  &--h2 {
+    font-weight: 400;
+  }
+}
+
+.smtk-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 99em;
+  width: 40px;
+  height: 40px;
+  &--small {
+    @extend .smtk-icon-link;
+    width: 32px;
+    height: 32px;
+  }
+  
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+a .usa-icon {
+  text-decoration: none;
+}
+.smtk-header {
+    background-image: url('../img/smtk/backgrounds/uscb-footer.jpeg');
+}
+
+.smtk-header-content {
+  padding: 1em 0;
+  margin: 0 auto;
+  align-items: center;
+  :nth-child(n){
+    text-align: center;
+  }
+  @media screen and (min-width: $tablet) {
+    > :nth-child(2) {
+      text-align: right;
+      padding-right: 1rem;
+    }
+    > :nth-child(3) {
+      text-align: left;
+    }
+  }
+}
+
+.smtk-hero {
+  min-width: none;
+  margin-top: 2em;
+  background-color: $dark-blue;
+  color: white;
+  p { color: white }
+}
+
+.smtk-hero-content {
+  margin: .5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.smtk-section {
+  padding: 0 1em;
+  .grid-container {
+    padding-top: .5em;
+    border: 1px solid $dark-blue;
+  }
+}
+
+.smtk-main-text {
+  max-width: 880px;
+  color: $text-blue !important;
+  margin: 0 auto;
+  padding: 0 1em;
+
+  li {
+    margin-bottom: .5em;
+  }
+}
+
+.smtk-button {
+  min-width: 0;
+  padding: .5rem .75rem;
+  background-color: white;
+  border-radius: 6px;
+  color: $dark-blue;
+  &:hover {
+    background-color: darken($color: white, $amount: 10%);
+  }
+  transition: background-color 100ms;
+  a {
+    border-bottom: none;
+  }
+}
+
+.what-is-apportionment {
+  margin-bottom: 0 !important;
+}
+
+/************
+  * LIGHBOX SECTION
+  **************/
+.smtk-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  text-align: center;
+}
+.smtk-lightbox__controls {
+  text-align: right;
+  padding: .5em .5em 0 0;
+}
+

@@ -8,7 +8,7 @@ permalink: pretty
 styles:
   - /assets/css/styles.css
 sass:
-  style: compressed
+  # style: compressed
 
 google_analytics: UA-155922885-1
 
