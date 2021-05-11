@@ -4,23 +4,17 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
-      # title: United States
       src: firstResults/censusmap.png
-      alt: A map of the United States
+      alt: Landscape map of the United States with text showing population and percentage increase since 2010
       hasPreview: true
     text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. Here are the results: [https://go.usa.gov/xHfDb](https://go.usa.gov/xHfDb) #Apportionment #CensusBureau'
-    # facebook: 'The first results of the #2020Census are here. 
-    # Explore the latest U.S. population data and more:'
-    # twitter: 'The first results of the #2020Census are here. 
-    # Explore the latest U.S. population data and more:'
-    # linkedin: 'The first results of the #2020Census are here. 
-    # Explore the latest U.S. population data and more:'
+    
   instagram-image: 
     text: 'The Census Bureau released the first #2020Census results, which included the number of seats each state will have in the U.S. House of Representatives. To explore the latest U.S. population data and more, follow the 🔗 in bio'
     image: 
       category: Instagram
       src: firstResults/instagram-national-section.jpg
-      alt: A map of the United States
+      alt: Square map of the United States with text showing population and percentage increase since 2010
       # title: United States
       hasPreview: true
   video: 
@@ -52,17 +46,17 @@ creative-resources:
     download: apportionment-pocket-guide.zip
     images:
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-A_v06-A.png
-        alt: A map of the United States
+        alt: Slide with words "United States Census 2020" and "What is apportionment?"
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-B_v06-A.png
-        alt: A map of the United States
+        alt: Slide with US map and text describing apportionment process
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-C_v06-A.png
-        alt: A map of the United States
+        alt: Slide with a legislative bill and text describing the census
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-D_v06-A.png
-        alt: A map of the United States
+        alt: Slide with icon of the US Senate
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-E_v06-A.png
-        alt: A map of the United States
+        alt: Slide with a calendar date and text saying the 2020 Census was released on April 26
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-F_v06-A.png
-        alt: A map of the United States
+        alt: White text on teal background reading United States Census 2020
     post: 'On 4/26, the U.S. Census Bureau released the #2020Census state population counts, which are used to determine each state’s number of seats in the U.S. House of Representatives. #Apportionment #CensusBureau'
       
   # - title: Apportionment Animation

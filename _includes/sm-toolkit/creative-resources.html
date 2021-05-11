@@ -9,7 +9,7 @@
   </p>
   <div class="grid-row margin-bottom-4">
     <div class="">
-      <select id="cr-select" class="usa-select">
+      <select id="cr-select" class="usa-select" aria-label="creative-resource">
         {% for option in data %}
           <option value="{{ option.title }}">{{ option.title }}</option>
         {% endfor %}
