@@ -8,7 +8,8 @@
 {% if data.title %}<h3 class="font-sans-md cr-asset__title">{{ data.title }}</h3>{% endif %}
 {% if data.category %}<h3 class="font-sans-md cr-asset__platform">{{ data.category }}</h3>{% endif %}
 
-<video controls class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
+<video controls {% if data.mp4Hosted %}controlslist="nodownload"{% endif %}
+  class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
   {% for src in data.src %}
     {% if forloop.last %}
       <source src="{{ downloadSrc }}">

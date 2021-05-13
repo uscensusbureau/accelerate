@@ -22,6 +22,10 @@ if( crSelect ){
       }
       else {
         row.classList.add('display-none')
+        const rowVids = row.getElementsByTagName('video')
+        for( video of rowVids ){
+          video.pause()
+        }
       }
     }
   })
