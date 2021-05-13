@@ -90,17 +90,17 @@ creative-resources:
         title: 25-second Video
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
-          - creativeResources/data-quality-videos/Census Data Quality-25_OC2.mp4
+          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+25_OC2.mp4
       - 
         title: 40-second Video
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-36_OC2.webm
-          - creativeResources/data-quality-videos/Census Data Quality-36_OC2.mp4
-      # - 
-        # title: 2.5-minute Video
-        # src: 
-        #   - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
-        #   - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.mp4
+          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+36_OC2.mp4
+      - 
+        title: 2.5-minute Video
+        src: 
+          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
+          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+Full_OC2.mp4
 
   - title: Total Population Graphic
     isVideo: false
