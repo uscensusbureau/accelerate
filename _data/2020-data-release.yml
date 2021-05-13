@@ -84,7 +84,7 @@ creative-resources:
 
   - title: Data Quality Video
     isVideo: true
-    post: After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality to provide specifics on how we achieved a complete and accurate count. To learn more about our commitment to data quality and transparency, visit https://go.usa.gov/xHnRh
+    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
     videos:
       -
         title: 25-second Video
