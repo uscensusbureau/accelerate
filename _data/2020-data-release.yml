@@ -96,11 +96,11 @@ creative-resources:
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-36_OC2.webm
           - creativeResources/data-quality-videos/Census Data Quality-36_OC2.mp4
-      - 
-        title: 2.5-minute Video
-        src: 
-          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
-          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.mp4
+      # - 
+        # title: 2.5-minute Video
+        # src: 
+        #   - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
+        #   - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.mp4
 
 
   - title: Total Population Graphic
