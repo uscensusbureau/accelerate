@@ -88,16 +88,19 @@ creative-resources:
     videos:
       -
         title: 25-second Video
+        mp4Hosted: true
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
           - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+25_OC2.mp4
       - 
         title: 40-second Video
+        mp4Hosted: true
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-36_OC2.webm
           - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+36_OC2.mp4
       - 
         title: 2.5-minute Video
+        mp4Hosted: true
         src: 
           - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
           - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+Full_OC2.mp4
