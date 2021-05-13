@@ -19,7 +19,8 @@ Explore the latest U.S. population data and more: [https://go.usa.gov/xHnkH](htt
       hasPreview: true
   video: 
     category: Any Platform
-    src: firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
+    src: 
+      - firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
     # title: United States
     text: 'The number of people living in the United States, including the 50 states and the District of Columbia, was 331,449,281 as of April 1, 2020, an increase of 7.4% since the 2010 Census. #2020Census'
 
@@ -29,15 +30,18 @@ creative-resources:
   - title: Apportionment Video
     resource-name: Apportionment Video
     isVideo: true
-    generic:
-      title: Apportionment Video - 19 Second Version
-      category: Any Platform
-      src: creativeResources/Census_Apportionment_15_h264.mp4
-    instagram:
-      title: Apportionment Video - 45 Second Version
-      category: Any Platform
-      src: creativeResources/Census_Apportionment_30_h264.mp4
     post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives. To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
+    videos:
+      -
+        title: Apportionment Video - 19 Second Version
+        category: Any Platform
+        src: 
+          - creativeResources/Census_Apportionment_15_h264.mp4
+      -
+        title: Apportionment Video - 45 Second Version
+        category: Any Platform
+        src: 
+          - creativeResources/Census_Apportionment_30_h264.mp4
 
   - title: Apportionment Guide
     resource-name: Apportionmnent Guide
@@ -78,15 +82,26 @@ creative-resources:
     post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
     
 
-  # - title: Data Quality Video
-  #   resource-name: Total Population Count
-  #   isVideo: true
-  #   generic:
-  #     src: USCB_50-States-Data-Viz_USA_v3.mp4
-  #     alt: A map of the United States
-  #   instagram:
-  #     src: USCB_50-States-Data-Viz_USA_v3.mp4
-  #     alt: A map of the United States
+  - title: Data Quality Video
+    isVideo: true
+    post: After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality to provide specifics on how we achieved a complete and accurate count. To learn more about our commitment to data quality and transparency, visit https://go.usa.gov/xHnRh
+    videos:
+      -
+        title: 25-second Video
+        src: 
+          - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
+          - creativeResources/data-quality-videos/Census Data Quality-25_OC2.mp4
+      - 
+        title: 40-second Video
+        src: 
+          - creativeResources/data-quality-videos/Census Data Quality-36_OC2.webm
+          - creativeResources/data-quality-videos/Census Data Quality-36_OC2.mp4
+      - 
+        title: 2.5-minute Video
+        src: 
+          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
+          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.mp4
+
 
   - title: Total Population Graphic
     isVideo: false
