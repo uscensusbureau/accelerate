@@ -1,12 +1,23 @@
 {% assign data = include.data %}
-{% assign src= site.baseurl | append: "/assets/img/smtk/" | append: data.src %}
+{% assign srcBase = site.baseurl | append: "/assets/img/smtk/" %}
+{% assign downloadSrc = srcBase | append: data.src.last %}
+{% if data.mp4Hosted %}
+  {% assign downloadSrc = data.src.last %}
+{% endif %}
 
 {% if data.title %}<h3 class="font-sans-md cr-asset__title">{{ data.title }}</h3>{% endif %}
 {% if data.category %}<h3 class="font-sans-md cr-asset__platform">{{ data.category }}</h3>{% endif %}
 
-<video controls class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
-  <source src="{{ src }}">
+<video controls {% if data.mp4Hosted %}controlslist="nodownload"{% endif %}
+  class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
+  {% for src in data.src %}
+    {% if forloop.last %}
+      <source src="{{ downloadSrc }}">
+    {% else %}
+      <source src="{{ srcBase | append: src }}">
+    {% endif %}
+  {% endfor %}
 </video>
 <p>
-  <a href="{{src}}" download>DOWNLOAD</a>
+  <a href="{{ downloadSrc }}" download>DOWNLOAD</a>
 </p>

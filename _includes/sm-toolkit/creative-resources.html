@@ -33,22 +33,15 @@
 
   {% if isVideo %}
     <div id="{{ selected.title}}" class="cr-asset__row grid-row grid-gap {% unless forloop.index == 1 %}display-none{% endunless %}">
-      <div class="tablet:grid-col-4 cr-asset__asset-container--generic">
-        <div>
-          {% include sm-toolkit/video-asset.html
-            data = selected.generic
-            class = "cr-asset__asset--video" %}
-        </div>
-      </div>
-      {% if selected.instagram %}
-        <div class="tablet:grid-col-4 cr-asset__asset-container--insta">
+      {% for video in selected.videos %}
+        <div class="tablet:grid-col-4">
           <div>
             {% include sm-toolkit/video-asset.html
-              data = selected.instagram
+              data = video
               class = "cr-asset__asset--video" %}
           </div>
         </div>
-      {% endif %}
+      {% endfor %}
       <div class="grid-row">
         <span class="cr-asset__post">
           {{ selected.post | markdownify }}

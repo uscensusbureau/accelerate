@@ -11,16 +11,6 @@ const areaTitle = document.getElementById('areaAsset__title')
 const areaGenImg = document.getElementById('areaAsset__img')
 const areaPost = document.getElementById('areaAsset__post')
 
-
-
-// const [genericTitle, igTitle] = document.getElementsByClassName('cr-asset__title')
-// const [genericVideo, igVideo] = document.getElementsByClassName('cr-asset__asset--video')
-// const [genericImage, igImage] = document.getElementsByClassName('cr-asset__asset--image')
-// const instaContainers = document.getElementsByClassName('cr-asset__asset-container--insta')
-
-// const imgRow = document.getElementById('img-row')
-// const videoRow = document.getElementById('video-row')
-// const guideRow = document.getElementById('guide-row')
 const allRows = document.getElementsByClassName('cr-asset__row')
 
 if( crSelect ){
@@ -32,6 +22,10 @@ if( crSelect ){
       }
       else {
         row.classList.add('display-none')
+        const rowVids = row.getElementsByTagName('video')
+        for( video of rowVids ){
+          video.pause()
+        }
       }
     }
   })
