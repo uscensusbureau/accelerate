@@ -62,58 +62,39 @@
   links:
     - text: Se entregan al presidente los resultados del Censo del 2020 para la distribución proporcional de distritos congresionales
       href: https://www.census.gov/newsroom/press-releases/2021/2020-census-apportionment-results/2020-census-apportionment-results-spanish.html
-    - text: 'Video: What is Apportionment?'
-    - text: Spanish
-      href:  https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-spanish.html
-    - text: Arabic
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-arabic.html
-    - text: Chinese (Simplified)
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-chinese-simplified.html
-    - text: Chinese (Traditional)
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-chinese-traditional.html
-    - text: French
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-french.html
-    - text: Haitian/Creole
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-haitian-creole.html
-    - text: Japanese
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-japanese.html
-    - text: Korean
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-korean.html
-    - text: Polish
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-polish.html
-    - text: Portuguese
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-portuguese.html
-    - text: Russian
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-russian.html
-    - text: Tagalog
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-tagalog.html
-    - text: Vietnamese
-      href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-vietnamese.html
+    - title: 'Video: What is Apportionment?'
+      links:
+        - text: Spanish
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-spanish.html
+        - text: Arabic
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-arabic.html
+        - text: Chinese (Simplified)
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-chinese-simplified.html
+        - text: Chinese (Traditional)
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-chinese-traditional.html
+        - text: French
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-french.html
+        - text: Haitian/Creole
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-haitian-creole.html
+        - text: Japanese
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-japanese.html
+        - text: Korean
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-korean.html
+        - text: Polish
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-polish.html
+        - text: Portuguese
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-portuguese.html
+        - text: Russian
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-russian.html
+        - text: Tagalog
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-tagalog.html
+        - text: Vietnamese
+          href: https://www.census.gov/library/video/2021/what-is-apportionment/what-is-apportionment-vietnamese.html
+    - text: Oficina del Censo publica indicadores de calidad del Censo del 2020
+      href: https://www.census.gov/newsroom/press-releases/2021/quality-indicators-on-2020-census/quality-indicators-on-2020-census-spanish.html
+    - title: 'Video: Data Quality and the 2020 Census'
+      links:
+        - text: Spanish
+          href: https://www.census.gov/library/video/2021/data-quality-2020-census/data-quality-2020-census-spanish.html
 
-    
-
-# - title: Key URLs – English Language
-#   links:
-#     - text: 2020 Census Homepage
-#       href: https://2020census.gov/en
-#     - text: What is the 2020 Census?
-#       href: https://2020census.gov/en/what-is-2020-census.html
-#     - text: Who to Count on Your Census?
-#       href: https://2020census.gov/en/who-to-count.html
-#     - text: Impact in Your Community
-#       href: https://2020census.gov/en/community-impact.html
-#     - text: How the Census Bureau Protects Your Data
-#       href: https://2020census.gov/en/data-protection.html
-
-# - title: Key URLs – Spanish Language
-#   links: 
-#     - text: 2020 Census Homepage
-#       href: https://2020census.gov/es
-#     - text: ¿Qué es el Censo del 2020?
-#       href: https://2020census.gov/es/what-is-2020-census.html
-#     - text: ¿A Quién Contar en su Censo?
-#       href: https://2020census.gov/es/who-to-count.html
-#     - text: El Impacto en su Comunidad
-#       href: https://2020census.gov/es/community-impact.html
-#     - text: Cómo Protege su Información la Oficina del Censo
-#       href: https://2020census.gov/es/data-protection.html
+  
