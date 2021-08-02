@@ -1,65 +1,67 @@
-<div class="grid-container">
-  <h2>
-    {{ page.links.title }}
-  </h2>
-  <p>
-    We encourage you to tag the U.S. Census Bureau and/or include a link to our posts whenever possible.
-    <br/>
-    Thank you for sharing the first 2020 Census results with your audience.
-  </p>
+<section class="smtk-section {{ include.class }}">
+  <div class="grid-container">
+    <h2>
+      {{ page.links.title }}
+    </h2>
+    <p>
+      We encourage you to tag the U.S. Census Bureau and/or include a link to our posts whenever possible.
+      <br/>
+      Thank you for sharing the first 2020 Census results with your audience.
+    </p>
 
-  <div class="grid-row grid-gap">
-    {% for section in include.data %}
-      {% assign outerIndex = forloop.index0 %}
-      <div class="tablet:grid-col sm-links">
-        {% case outerIndex %}
-          
-          {% when 0 %}
-            {% for subsection in section %}
-              <h4 class="font-sans-md">{{ subsection.title }}</h4>
-              {% for link in subsection.links %}
-                <p>
-                    {% if link.href %}
-                      <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>
-                    {% else %}
-                      <span>{{ link.text }}</span>
-                    {% endif %}
-                </p>
-              {% endfor %}
-            {% endfor %}
-          
-          {% when 1 %}
-            {% for subsection in section %}
-              <h4 class="font-sans-md">{{ subsection.title }}</h4>
+    <div class="grid-row grid-gap">
+      {% for section in include.data %}
+        {% assign outerIndex = forloop.index0 %}
+        <div class="tablet:grid-col sm-links">
+          {% case outerIndex %}
+            
+            {% when 0 %}
+              {% for subsection in section %}
+                <h4 class="font-sans-md">{{ subsection.title }}</h4>
                 {% for link in subsection.links %}
-                  <p class="margin-bottom-0">
-                    <a class="smtk-wrap" href="{{ link.href }}" target="_blank">{{ link.text }}</a>
+                  <p>
+                      {% if link.href %}
+                        <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>
+                      {% else %}
+                        <span>{{ link.text }}</span>
+                      {% endif %}
                   </p>
                 {% endfor %}
-            {% endfor %}
-          
-          {% else %}
-            <h4 class="font-sans-md">{{ section.title }}</h4>
-            {% for link in section.links %}
-              {% if link.title %}
-                <p class="what-is-apportionment">
-                  {{ link.title }}
-                </p>
-                <ul class="margin-bottom-1">
-                  {% for sublink in link.links %}
-                    <li class="margin-y-0">
-                      <a class="smtk-wrap" href="{{ sublink.href }}">{{ sublink.text }}</a>
-                    </li>
+              {% endfor %}
+            
+            {% when 1 %}
+              {% for subsection in section %}
+                <h4 class="font-sans-md">{{ subsection.title }}</h4>
+                  {% for link in subsection.links %}
+                    <p class="margin-bottom-0">
+                      <a class="smtk-wrap" href="{{ link.href }}" target="_blank">{{ link.text }}</a>
+                    </p>
                   {% endfor %}
-                </ul>
-              {% else %}
-                <p>
-                  <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>
-                </p>
-              {% endif %}
-            {% endfor %}            
-          {% endcase %}
-      </div>
-    {% endfor %}
+              {% endfor %}
+            
+            {% else %}
+              <h4 class="font-sans-md">{{ section.title }}</h4>
+              {% for link in section.links %}
+                {% if link.title %}
+                  <p class="what-is-apportionment">
+                    {{ link.title }}
+                  </p>
+                  <ul class="margin-bottom-1">
+                    {% for sublink in link.links %}
+                      <li class="margin-y-0">
+                        <a class="smtk-wrap" href="{{ sublink.href }}">{{ sublink.text }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <p>
+                    <a class="smtk-wrap" href="{{ link.href }}">{{ link.text }}</a>
+                  </p>
+                {% endif %}
+              {% endfor %}            
+            {% endcase %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
-</div>
+</section>

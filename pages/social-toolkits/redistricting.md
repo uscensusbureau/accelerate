@@ -1,7 +1,7 @@
 ---
 layout: sm-toolkit-layout
-title: 2020 Apportionment Social Media Toolkit
-permalink: /2020-apportionment-toolkit/
+title: 2020 Redistricting Social Media Toolkit
+permalink: /2020-redistricting-toolkit/
 
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
@@ -45,8 +45,18 @@ links:
   
 ---
 
+{% capture mainText %}
 ## How To Use This Toolkit
 1. Choose the type of asset you will use (graphic, animation, or video) and the social media channel you plan to post on.
 2. Click “DOWNLOAD ASSET” to save the graphic, animation, or video to your device.
 3. Highlight and select the text that you want to use for your social media post and copy the text to your clipboard.
 4. Go to the social media channel you plan to post on, paste the copied text, and add the downloaded graphic or animation to your post.
+{% endcapture %}
+
+<section class="smtk-main-text smtk-section">
+  {{ mainText | markdownify }}
+</section>
+
+{% include sm-toolkit/links.html 
+  data = site.data.smtk.redistricting.links
+  class="margin-y-6" %}

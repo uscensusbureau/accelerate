@@ -1,106 +1,105 @@
 {% assign data = site.data.2020-data-release.creative-resources %}
 
-<div class="grid-container">
-  <h2>
-    More 2020 Census Resources for Social Media
-  </h2>
-  <p>
-    Use the menu below to select a video or graphic:
-  </p>
-  <div class="grid-row margin-bottom-4">
-    <div class="">
-      <select id="cr-select" class="usa-select" aria-label="creative-resource">
-        {% for option in data %}
-          <option value="{{ option.title }}">{{ option.title }}</option>
-        {% endfor %}
-      </select>
-    </div>
-  </div>
-
-{% comment %}
-  {% assign selected = data[0] %}
-{% endcomment %}
-
-{% for selected in data %}
-  {% assign isVideo = true %}
-  {% if selected.isVideo == false %}
-    {% assign isVideo = false %}
-  {% endif %}
-  {% assign isGuide = false %}
-  {% if selected.isGuide == true %}
-    {% assign isGuide = true %}
-  {% endif %}
-
-  {% if isVideo %}
-    <div id="{{ selected.title}}" class="cr-asset__row grid-row grid-gap {% unless forloop.index == 1 %}display-none{% endunless %}">
-      {% for video in selected.videos %}
-        <div class="tablet:grid-col-4">
-          <div>
-            {% include sm-toolkit/video-asset.html
-              data = video
-              class = "cr-asset__asset--video" %}
-          </div>
-        </div>
-      {% endfor %}
-      <div class="grid-row">
-        <span class="cr-asset__post">
-          {{ selected.post | markdownify }}
-        </span>
+<section class="smtk-section {{ include.class }}">
+  <div class="grid-container">
+    <h2>
+      More 2020 Census Resources for Social Media
+    </h2>
+    <p>
+      Use the menu below to select a video or graphic:
+    </p>
+    <div class="grid-row margin-bottom-4">
+      <div class="">
+        <select id="cr-select" class="usa-select" aria-label="creative-resource">
+          {% for option in data %}
+            <option value="{{ option.title }}">{{ option.title }}</option>
+          {% endfor %}
+        </select>
       </div>
     </div>
-    
-  {% elsif isGuide %}
-    <div id="{{ selected.title}}" class="cr-asset__row {% unless forloop.index == 1 %}display-none{% endunless %}">
-      {% assign guide=include.data[1] %}
-      <div class="grid-row grid-gap ">
-        {% assign images = guide.images %}
-        {% for image in images %}
-          <div class="mobile-lg:grid-col-4">
-            <img src="{{ site.baseurl }}/assets/img/smtk/{{ image.src }}" alt="{{ image.alt }}" 
-              class="cr-asset__asset--image" />
+
+  {% comment %}
+    {% assign selected = data[0] %}
+  {% endcomment %}
+
+  {% for selected in data %}
+    {% assign isVideo = true %}
+    {% if selected.isVideo == false %}
+      {% assign isVideo = false %}
+    {% endif %}
+    {% assign isGuide = false %}
+    {% if selected.isGuide == true %}
+      {% assign isGuide = true %}
+    {% endif %}
+
+    {% if isVideo %}
+      <div id="{{ selected.title}}" class="cr-asset__row grid-row grid-gap {% unless forloop.index == 1 %}display-none{% endunless %}">
+        {% for video in selected.videos %}
+          <div class="tablet:grid-col-4">
+            <div>
+              {% include sm-toolkit/video-asset.html
+                data = video
+                class = "cr-asset__asset--video" %}
+            </div>
           </div>
         {% endfor %}
-      </div>
-
-      <div class="grid-row">
-        <span class="cr-asset__post">
-          {{ selected.post | markdownify }}
-        </span>
-      </div>
-      <div class="text-center margin-bottom-2">
-        <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
-          Download All Guide Assets
-        </a>
-      </div>
-    </div>
-  {% else %}
-    <div id="{{ selected.title}}" class="cr-asset__row grid-row grid-gap  {% unless forloop.index == 1 %}display-none{% endunless %}">
-      <div class="tablet:grid-col-4 cr-asset__asset-container--generic">
-        <div>
-          {% include sm-toolkit/static-asset.html 
-            data = selected.generic
-            class = "cr-asset__asset--image" %}
+        <div class="grid-row">
+          <span class="cr-asset__post">
+            {{ selected.post | markdownify }}
+          </span>
         </div>
       </div>
-      {% if selected.instagram %}
-        <div class="tablet:grid-col-4 cr-asset__asset-container--insta">
+      
+    {% elsif isGuide %}
+      <div id="{{ selected.title}}" class="cr-asset__row {% unless forloop.index == 1 %}display-none{% endunless %}">
+        {% assign guide=include.data[1] %}
+        <div class="grid-row grid-gap ">
+          {% assign images = guide.images %}
+          {% for image in images %}
+            <div class="mobile-lg:grid-col-4">
+              <img src="{{ site.baseurl }}/assets/img/smtk/{{ image.src }}" alt="{{ image.alt }}" 
+                class="cr-asset__asset--image" />
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="grid-row">
+          <span class="cr-asset__post">
+            {{ selected.post | markdownify }}
+          </span>
+        </div>
+        <div class="text-center margin-bottom-2">
+          <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
+            Download All Guide Assets
+          </a>
+        </div>
+      </div>
+    {% else %}
+      <div id="{{ selected.title}}" class="cr-asset__row grid-row grid-gap  {% unless forloop.index == 1 %}display-none{% endunless %}">
+        <div class="tablet:grid-col-4 cr-asset__asset-container--generic">
           <div>
             {% include sm-toolkit/static-asset.html 
-              data = selected.instagram
+              data = selected.generic
               class = "cr-asset__asset--image" %}
           </div>
         </div>
-      {% endif %}
-      <div class="grid-row">
-        <span class="cr-asset__post">
-          {{ selected.post | markdownify }}
-        </span>
+        {% if selected.instagram %}
+          <div class="tablet:grid-col-4 cr-asset__asset-container--insta">
+            <div>
+              {% include sm-toolkit/static-asset.html 
+                data = selected.instagram
+                class = "cr-asset__asset--image" %}
+            </div>
+          </div>
+        {% endif %}
+        <div class="grid-row">
+          <span class="cr-asset__post">
+            {{ selected.post | markdownify }}
+          </span>
+        </div>
       </div>
-    </div>
-  {% endif %}
-  
-  
-  
-{% endfor %}
+    {% endif %}
+  {% endfor %}
 
-</div>
+  </div>
+</section>

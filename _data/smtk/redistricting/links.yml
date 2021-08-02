@@ -1,0 +1,71 @@
+- 
+  - title: U.S. Census Bureau Official Social Media
+    links: 
+      - text: Facebook – @uscensusbureau
+        href: https://www.facebook.com/uscensusbureau/
+      - text: Twitter – @uscensusbureau
+        href: https://www.twitter.com/uscensusbureau/
+      - text: YouTube - U.S. Census Bureau
+        href: https://www.youtube.com/user/uscensusbureau
+      - text: LinkedIn - U.S. Census Bureau
+        href: https://www.linkedin.com/company/us-census-bureau/
+      - text: Instagram – @uscensusbureau
+        href: https://www.instagram.com/uscensusbureau/
+      - text: 'Hashtag – #2020Census'
+  - title: 2020 Census Redistring Resources
+    links:
+      # - text: 2020 Census Redistricting Results
+      # - text: Press Briefing on Redistricting Data
+      # - text: Redistricting FAQs
+      - text: 'Directors Blog: Redistricting Data: What to Expect and When'
+        href: https://www.census.gov/newsroom/blogs/director/2021/07/redistricting-data.html
+      - text: 2020 Census Redistricting Files Press Kit
+        href: https://www.census.gov/newsroom/press-kits/2021/2020-census-redistricting.html
+      - text: Redistricting 101 Fact Sheet
+        href: https://www.census.gov/library/fact-sheets/2021/redistricting-data-101.html
+      - text: 'Video: What is Redistricting?'
+        href: https://www.youtube.com/watch?v=O0MhAue2Tuk
+      - text: Accessing 2020 Census Redistricting Data from the Legacy Format Summary Files
+        href: https://www.census.gov/library/video/2021/accessing-2020-census-redistricting-data-from-legacy-format-summary-files.html
+- 
+  - title: More 2020 Census Resources
+    links:
+      - text: 'Social Media Toolkit: The First 2020 Census Results'
+        href: https://accelerate.census.gov/2020-results-toolkit/
+      - text: Differential Privacy and the 2020 Census2020 Census Blog Series
+        href: https://www.census.gov/content/dam/Census/library/factsheets/2021/differential-privacy-and-the-2020-census.pdf
+      # - text: 'America Counts: State Profiles'
+      - text: 'Map: Apportionment of the U.S. House of Representatives'
+        href: https://www.census.gov/library/visualizations/2021/dec/2020-apportionment-map.html
+      - text: 'Map: Percent Change in Resident Population for the 50 States, the District of Columbia, and Puerto Rico: 2010 to 2020'
+        href: https://www.census.gov/library/visualizations/2021/dec/2020-percent-change-map.html
+      - text: 'Map: 2020 Resident Population for the 50 States, the District of Columbia, and Puerto Rico'
+        href: https://www.census.gov/library/visualizations/2021/dec/2020-resident-population-map.html
+  
+  - title: Data Quality Resources
+    links:
+      - text: 'Video: Data Quality and the 2020 Census'
+        href: https://www.census.gov/library/video/2021/data-quality-2020-census.html
+      - text: '2020 Census Quality and Data Processing Press Release'
+        href: https://www.census.gov/newsroom/press-releases/2021/quality-indicators-on-2020-census.html
+      - text: '2020 Census Quality and Data Processing Press Kit'
+        href: https://www.census.gov/newsroom/press-kits/2021/2020-census-quality-and-data-processing.html
+      - text: '2020 Census: Operational Quality Metrics'
+        href: https://www.census.gov/library/visualizations/interactive/2020-census-operational-quality-metrics.html
+      - text: 'A Preliminary Analysis of U.S. and State-Level Results From the 2020 Census'
+        href: https://www.census.gov/library/working-papers/2021/demo/POP-twps0104.html
+      - text: 'Comparisons to Benchmarks as a Measure of Quality'
+        href: https://www.census.gov/newsroom/blogs/random-samplings/2021/04/comparisons-to-benchmarks-as-a-measure-of-quality.html
+
+- title: Resources in Languages Other Than English
+  links:
+    # - title: Press Release in Other Languages
+    #   links:
+    - text: Oficina del Censo publica indicadores de calidad del Censo del 2020
+      href: https://www.census.gov/newsroom/press-releases/2021/quality-indicators-on-2020-census/quality-indicators-on-2020-census-spanish.html
+    - title: 'Video: Data Quality and the 2020 Census'
+      links:
+        - text: Spanish
+          href: https://www.census.gov/library/video/2021/data-quality-2020-census/data-quality-2020-census-spanish.html
+
+  
