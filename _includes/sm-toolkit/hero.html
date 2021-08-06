@@ -2,33 +2,39 @@
 
 <section class="smtk-hero">
   <div class="grid-container maxw-none padding-x-0">
-      {% if data.text-on-left %}
-        <div class="grid-row"
-          style="background-image: url({{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }});">
-          <div class="tablet:grid-col-5 tablet:grid-offset-1 smtk-hero-content">
-            <h2 class="text-uppercase smtk-heading--h2">{{ data.title }}</h2>
-            <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
-          </div>
+    {% if data.text-on-left %}
+      <div>
+        <img 
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          alt="{{ include.background-img.alt }}"
+        />
+      </div>
+      <div class="grid-row"
+        style="background-image: url({{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }});">
+        <div class="tablet:grid-col-5 tablet:grid-offset-1 smtk-hero-content">
+          <h1>{{ data.title }}</h1>
+          <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
         </div>
-      {% else %}
-        <div class="grid-row">
-          <div class="tablet:grid-col-8">
-            <img class="cover-image" 
-              src="{{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }}" alt="{{ data.background-img.alt }}"
-            >
-          </div>
-          <div class="tablet:grid-col-4 padding-x-2 margin-x-auto text-center smtk-hero-content">
-            <h2 class="text-uppercase smtk-heading--h2">{{ data.title }}</h2>
-            <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
-            {% if data.cta %}
-              <div>
-                <button class="smtk-button">
-                  <a href="{{ data.cta.href }}">{{ data.cta.text }}</a>
-                </button>
-              </div>
-            {% endif %}
-          </div>
+      </div>
+    {% else %}
+      <div class="grid-row">
+        <div class="tablet:grid-col-8">
+          <img class="cover-image" 
+            src="{{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }}" alt="{{ data.background-img.alt }}"
+          >
         </div>
-      {% endif %}
+        <div class="tablet:grid-col-4 padding-x-2 margin-x-auto text-center smtk-hero-content">
+          <h2 class="text-uppercase smtk-heading--h2">{{ data.title }}</h2>
+          <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
+          {% if data.cta %}
+            <div>
+              <button class="smtk-button">
+                <a href="{{ data.cta.href }}">{{ data.cta.text }}</a>
+              </button>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </section>

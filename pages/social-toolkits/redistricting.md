@@ -21,31 +21,21 @@ hero:
   Social media is a great way to help us share the news.'
   text-on-left: true
   background-img: 
-    src: backgrounds/MicrosoftTeams-image-3.jpeg
-    alt: "Grid of smiling people with text United States Census Bureau"
+    src: backgrounds/Hero_Image.jpg
+    alt: "Polaroids of smiling people on a dark blue field"
   
-national-count:
-  title: The First Results of the 2020 Census
-  subtitle: 'The 2020 Census took a snapshot of all people living in the United States on April 1, 2020 and the results are in. According to the 2020 Census, the number of people living in the United States was 331,449,281. We encourage you to share the items in this toolkit and add your personal touch to these messages to align with the interests of your audience.'
-
-state-counts: 
-  title: 2020 Census Population by State or Territory
-  subtitle: Share these animations and graphics for each of the 50 states, the District of Columbia, and Puerto Rico.
-
-population-counts:
-  title: 2020 Census Apportionment Population Counts
-  subtitle: Apportionment is the process of distributing the 435 memberships, or seats, in the U.S. House of Representatives among the 50 states based on the apportionment population counts from the 2020 Census. The “Historical Apportionment Data Map” displays apportionment results for each census from 1910 to 2020.
-  post: 'View more than 10 decades of #apportionment and population data by exploring this interactive Historical Apportionment Data Map 👉 [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #2020Census #CensusBureau'
-  images: 
-    - src: populationCounts/graphic-1.png
-      hasPreview: true
-    # - src: populationCounts/graphic-2.png
-    #   hasPreview: true
-  videos:
-    - src: populationCounts/Apportionment2020.gif
-      hasPreview: true
-    # - src: populationCounts/Density2020.gif
-    #   hasPreview: true
+posts:
+  - 
+    title: Release Day Save the Date
+    subtitle: The U.S. Census Bureau will release redistricting data on August 12th. Share this post with your followers to let them know!
+    post: 'View more than 10 decades of #apportionment and population data by exploring this interactive Historical Apportionment Data Map 👉 [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #2020Census #CensusBureau'
+    images: 
+      - src: redis/redistricting-data-release-august-12--landscape.png
+        hasPreview: true
+        alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
+      - src: redis/redistricting-data-release-august-12--ig.png
+        hasPreview: true
+        alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
 
 links:
   title: Helpful Links for Partners and Stakeholders
@@ -64,7 +54,12 @@ links:
   {{ mainText | markdownify }}
 </section>
 
-{% include sm-toolkit/dataviz.html id='viz1627999344640' %}
+{% include sm-toolkit/assets.html header=site.data.smtk.redistricting.social-posts.national-count.header
+  data=site.data.smtk.redistricting.social-posts.national-count %}
+
+{% comment %}
+  {% include sm-toolkit/dataviz.html id='viz1627999344640' %}
+{% endcomment %}
 
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links

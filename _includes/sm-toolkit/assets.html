@@ -2,33 +2,33 @@
   <div class="grid-container">
     <h2>{{ include.header.title }}</h2>
     {{ include.header.subtitle | markdownify }}
-    <div class="grid-row grid-gap">
-      
-      <div class="tablet:grid-col-8 tablet:grid-offset-2">
-        {% assign post = include.data.video %}
-        <h2 class="font-sans-lg">Animation</h2>
-        <div class="font-sans-sm">
-          {% include sm-toolkit/video-asset.html data=post %}
-          <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
+    {% if include.video %}
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8 tablet:grid-offset-2">
+          {% assign post = include.data.video %}
+          <h2 class="font-sans-lg">Animation</h2>
+          <div class="font-sans-sm">
+            {% include sm-toolkit/video-asset.html data=post %}
+            <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
+          </div>
         </div>
       </div>
-    </div>
+    {% endif %}
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <h2 class="font-sans-lg">Graphics</h2>
+        {% if include.video %}
+          <h2 class="font-sans-lg">Graphics</h2>
+        {% endif %}
         {% assign post = include.data.generic-image %}
         {% include sm-toolkit/static-asset.html data=post.image %}
         <div class="font-sans-sm">
           <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
         </div>
-        <!-- <div class="font-sans-sm"><strong>TWITTER:</strong> {{ include.data.image-text | markdownify }}</div>
-          <div class="font-sans-sm"><strong>LINKEDIN:</strong> {{ include.data.image-text | markdownify }}</div> -->
       </div>
-
-      <div class="tablet:grid-col-6 tablet:padding-top-5">
+      <div class="tablet:grid-col-6 {% if include.video %}tablet:padding-top-5{% endif %}">
         {% assign post = include.data.instagram-image %}
-        {% include sm-toolkit/static-asset.html data=post.image %}
+        {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
         <div class="font-sans-sm"><strong>POST MESSAGE:</strong> {{ post.text | markdownify }}</div>
       </div>
     </div>
