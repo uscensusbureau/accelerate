@@ -32,6 +32,13 @@
     {% include scripts.html %}
     <script src="{{ site.baseurl }}/assets/js/smtk/asset-data.json"></script>
     <script src="{{ site.baseurl }}/assets/js/smtk/main.js"></script>
+    {% for script in page.scripts %}
+      {% if script.isExternal %}
+        <script src="{{ script.src }}" {% for attr in script.attrs %}{{attr}}{% endfor %}></script>
+      {% else %}
+        <script src="{{ site.baseurl }}/assets/js/{{script}}"></script>
+      {% endif %}
+    {% endfor %}
 
     {% if page.layout == 'landing' %}
   </div>

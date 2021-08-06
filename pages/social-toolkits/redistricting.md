@@ -3,6 +3,13 @@ layout: sm-toolkit-layout
 title: 2020 Redistricting Social Media Toolkit
 permalink: /2020-redistricting-toolkit/
 
+scripts:
+  -
+    src: https://public.tableau.com/javascripts/api/viz_v1.js
+    attrs: 
+      - defer
+    isExternal: true
+
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
   subtitle: 'The 2020 Census determines congressional representation, informs the allocation of hundreds of billions of dollars in federal funding, and provides data that afects communities for the next 10 years.
@@ -56,6 +63,8 @@ links:
 <section class="smtk-main-text smtk-section">
   {{ mainText | markdownify }}
 </section>
+
+{% include sm-toolkit/dataviz.html id='viz1627999344640' %}
 
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links
