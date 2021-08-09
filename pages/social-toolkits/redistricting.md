@@ -12,13 +12,13 @@ scripts:
 
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
-  subtitle: 'The 2020 Census determines congressional representation, informs the allocation of hundreds of billions of dollars in federal funding, and provides data that afects communities for the next 10 years.
+  subtitle: 'The 2020 Census determines congressional representation, informs the allocation of hundreds of billions of dollars in federal funding, and provides data that affects communities for the next 10 years.
   
 
-  You helped us spread the word about the 2020 Census count. Now the redistricing data is in!
+  Since releasing apportionment results in April, we’ve been working hard on the next set of 2020 Census data — redistricting data. These data play an important role in our democracy and begin to illuminate the changes to the local and demographic makeup of our nation over the last decade. 
   
   
-  Social media is a great way to help us share the news.'
+  Help us spread the word about the latest 2020 Census results!'
   text-on-left: true
   background-img: 
     src: backgrounds/Hero_Image.jpg

@@ -1,16 +1,16 @@
 release-day:
   header: 
     title: Release Day Save the Date
-    subtitle: The U.S. Census Bureau will release redistricting data on August 12th. Share this post with your followers to let them know!
+    subtitle: The U.S. Census Bureau will release redistricting data on August 12. Share this post with your followers to let them know!
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
       src: redis/redistricting-data-release-august-12--landscape.png
       alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
       hasPreview: true
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1:00PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
+    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
   instagram-image: 
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1:00PM ET. For event details click the link in bio.'
+    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. For event details click the link in bio.'
     image: 
       category: Instagram
       src: redis/redistricting-data-release-august-12--ig.png
