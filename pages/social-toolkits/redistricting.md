@@ -31,23 +31,28 @@ links:
 
 {% capture mainText %}
 ## How To Use This Toolkit
-1. Choose the type of asset you will use (graphic, animation, or video) and the social media channel you plan to post on.
-2. Click “DOWNLOAD ASSET” to save the graphic, animation, or video to your device.
-3. Highlight and select the text that you want to use for your social media post and copy the text to your clipboard.
-4. Go to the social media channel you plan to post on, paste the copied text, and add the downloaded graphic or animation to your post.
+1.	Choose the type of asset you will use (graphic, animation, or video) and the social media channel you plan to post on.
+2.	Click the download button to save the graphic, animation, or video to your device.
+3.	Highlight and select the text you want to use for your social media post and copy the text to your clipboard.
+4.	Go to the social media channel you plan to post on, paste the copied text, and add the downloaded graphic or animation to your post.
+5.	If posting on Instagram, make sure to add the relevant link to your bio so your followers can learn more. 
+6.	Remember to tag @uscensusbureau in your posts, use the hashtag #2020Census, and link to [Census.gov](https://www.census.gov/).
 {% endcapture %}
 
-<section class="smtk-main-text smtk-section">
+<section class="smtk-main-text smtk-section margin-top-6">
   {{ mainText | markdownify }}
 </section>
 
 {% assign socialPosts = site.data.smtk.redistricting.social-posts %}
 {% include sm-toolkit/assets.html header=socialPosts.release-day.header
-  data=socialPosts.release-day %}
+  data=socialPosts.release-day
+  class="margin-y-2" %}
 {% include sm-toolkit/assets.html header=socialPosts.release-video.header
-  data=socialPosts.release-video %}
+  data=socialPosts.release-video
+  class="margin-y-2" %}
 {% include sm-toolkit/assets.html header=socialPosts.race-ethnicity.header
-  data=socialPosts.race-ethnicity %}
+  data=socialPosts.race-ethnicity
+  class="margin-y-2" %}
   
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links

@@ -52,6 +52,16 @@
                         <a class="smtk-wrap" href="{{ sublink.href }}">{{ sublink.text }}</a>
                       </li>
                     {% endfor %}
+                    {% for language in link.languages %}
+                      {% assign suffix = language.href | default: language.text | slugify %}
+                      {% if link.link-suffix %}
+                        {% assign suffix = suffix | append: link.link-suffix %}
+                      {% endif %}
+                      {% assign href = link.link-prefix | append: suffix %}                      
+                      <li class="margin-y-0">
+                        <a class="smtk-wrap" href="{{ href }}">{{ language.text }}</a>
+                      </li>
+                    {% endfor %}
                   </ul>
                 {% else %}
                   <p>

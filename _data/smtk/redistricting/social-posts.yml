@@ -22,15 +22,11 @@ release-video:
     title: 2020 Census Redistricting Data Release Video
     subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
   video: 
-    category: Any Platform
-    title: 25-second Video
+    # category: Any Platform
+    # title: 25-second Video
     mp4Hosted: true
     src: 
-      - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
-      - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+25_OC2.mp4
-    # src: 
-    #   - firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
-    # # title: United States
+      - https://acceleratepublicassets.s3.amazonaws.com/Redistricting+Cutdown.mp4
     text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
 
 race-ethnicity:
