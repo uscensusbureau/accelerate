@@ -1,4 +1,4 @@
-national-count:
+release-day:
   header: 
     title: Release Day Save the Date
     subtitle: The U.S. Census Bureau will release redistricting data on August 12th. Share this post with your followers to let them know!
@@ -16,6 +16,43 @@ national-count:
       src: redis/redistricting-data-release-august-12--ig.png
       alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
       hasPreview: true
+
+release-video:
+  header:
+    title: 2020 Census Redistricting Data Release Video
+    subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
+  video: 
+    category: Any Platform
+    title: 25-second Video
+    mp4Hosted: true
+    src: 
+      - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
+      - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+25_OC2.mp4
+    # src: 
+    #   - firstResults/USCB_50-States-Data-Viz_USA_2020_7.4.mp4
+    # # title: United States
+    text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
+
+race-ethnicity:
+  header: 
+    title: Measurement of Race and Ethnicity Across the Decades 
+    subtitle: Share this recent data visualization measuring race and ethnicity across the decades with your followers.
+  generic-image:
+    image: 
+      category: Facebook / Twitter / LinkedIn
+      src: redis/USCB_Redistricting-RaceEthnicityDataViz_1920x1080.jpg
+      alt: "Scatterplot of decennial censuses that measured race and ethnicity data in the US where White and Black or African American have been measured since 1790"
+      hasPreview: true
+    text: 'Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020 👉 [Measurement of Race and Ethnicity Across the Decades: 1790–2020](https://www.census.gov/library/visualizations/interactive/decennial-census-measurement-of-race-and-ethnicity-across-the-decades-1790-2020.html) #CensusData'
+  instagram-image: 
+    text: 'Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020. See more in the link in bio. #CensusData'
+    image: 
+      category: Instagram
+      src: redis/USCB_Redistricting-RaceEthnicityDataViz_1080x1080.jpg
+      alt: "Scatterplot of decennial censuses that measured race and ethnicity data in the US where White and Black or African American have been measured since 1790"
+      hasPreview: true
+
+    
 
 creative-resources:
   - title: Apportionment Video

@@ -23,19 +23,6 @@ hero:
   background-img: 
     src: backgrounds/Hero_Image.jpg
     alt: "Polaroids of smiling people on a dark blue field"
-  
-posts:
-  - 
-    title: Release Day Save the Date
-    subtitle: The U.S. Census Bureau will release redistricting data on August 12th. Share this post with your followers to let them know!
-    post: 'View more than 10 decades of #apportionment and population data by exploring this interactive Historical Apportionment Data Map 👉 [https://go.usa.gov/xHnkH](https://go.usa.gov/xHnkH) #2020Census #CensusBureau'
-    images: 
-      - src: redis/redistricting-data-release-august-12--landscape.png
-        hasPreview: true
-        alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
-      - src: redis/redistricting-data-release-august-12--ig.png
-        hasPreview: true
-        alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
 
 links:
   title: Helpful Links for Partners and Stakeholders
@@ -54,13 +41,14 @@ links:
   {{ mainText | markdownify }}
 </section>
 
-{% include sm-toolkit/assets.html header=site.data.smtk.redistricting.social-posts.national-count.header
-  data=site.data.smtk.redistricting.social-posts.national-count %}
-
-{% comment %}
-  {% include sm-toolkit/dataviz.html id='viz1627999344640' %}
-{% endcomment %}
-
+{% assign socialPosts = site.data.smtk.redistricting.social-posts %}
+{% include sm-toolkit/assets.html header=socialPosts.release-day.header
+  data=socialPosts.release-day %}
+{% include sm-toolkit/assets.html header=socialPosts.release-video.header
+  data=socialPosts.release-video %}
+{% include sm-toolkit/assets.html header=socialPosts.race-ethnicity.header
+  data=socialPosts.race-ethnicity %}
+  
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links
   class="margin-y-6" %}
