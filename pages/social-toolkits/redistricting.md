@@ -3,12 +3,23 @@ layout: sm-toolkit-layout
 title: 2020 Redistricting Social Media Toolkit
 permalink: /2020-redistricting-toolkit/
 
-scripts:
+# scripts:
+#   -
+#     src: https://public.tableau.com/javascripts/api/viz_v1.js
+#     attrs: 
+#       - defer
+#     isExternal: true
+
+navbar: 
+  - text: How to Use
+    href: '#how-to'
+  - text: Sample Social Media Posts
+    href: '#sample-posts'
+  - text: Data Visualizations
+    href: '#data-viz'
+  - text: Links to Other Resources
+    href: '#links'
   -
-    src: https://public.tableau.com/javascripts/api/viz_v1.js
-    attrs: 
-      - defer
-    isExternal: true
 
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
