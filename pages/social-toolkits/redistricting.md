@@ -39,20 +39,13 @@ links:
 6.	Remember to tag @uscensusbureau in your posts, use the hashtag #2020Census, and link to [Census.gov](https://www.census.gov/).
 {% endcapture %}
 
-<section class="smtk-main-text smtk-section margin-top-6">
+<section class="smtk-section grid-container margin-top-6">
   {{ mainText | markdownify }}
 </section>
 
-{% assign socialPosts = site.data.smtk.redistricting.social-posts %}
-{% include sm-toolkit/assets.html header=socialPosts.release-day.header
-  data=socialPosts.release-day
-  class="margin-y-2" %}
-{% include sm-toolkit/assets.html header=socialPosts.release-video.header
-  data=socialPosts.release-video
-  class="margin-y-2" %}
-{% include sm-toolkit/assets.html header=socialPosts.race-ethnicity.header
-  data=socialPosts.race-ethnicity
-  class="margin-y-2" %}
+{% include sm-toolkit/redis-sample-posts.html %}
+
+{% include sm-toolkit/dataviz.html class="margin-top-6"%}
   
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links

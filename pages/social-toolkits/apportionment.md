@@ -72,8 +72,10 @@ This social media toolkit includes:
   {{ mainText | markdownify }}
 </section>
 
+<section class="smtk-section">
 {% include sm-toolkit/assets.html header=page.national-count 
   data=site.data.2020-data-release.national-count %}
+</section>
 
 {% include sm-toolkit/territories.html class="margin-top-6" %}
 

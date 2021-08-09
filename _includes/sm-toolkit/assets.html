@@ -1,6 +1,6 @@
-<section class="smtk-section {{include.class}}">
+<div class="{{include.class}}">
   <div class="grid-container">
-    <h2>{{ include.header.title }}</h2>
+    <h3>{{ include.header.title }}</h3>
     {{ include.header.subtitle | markdownify }}
     {% if include.data.video %}
       <div class="grid-row grid-gap">
@@ -35,4 +35,4 @@
       </div>
     {% endif %}
   </div>
-</section>
+</div>
