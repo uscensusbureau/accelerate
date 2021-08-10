@@ -22,7 +22,7 @@ hero:
   text-on-left: true
   background-img: 
     src: backgrounds/USCB_RedistrictingRelease_1500x500-wSpace.jpg
-    alt: "Polaroids of smiling people on a dark blue field"
+    alt: "A farm house, bungalow, and apartment building each in a teal bubble with text 'United States Census 2020'"
 
 links:
   title: Helpful Links for Partners and Stakeholders
