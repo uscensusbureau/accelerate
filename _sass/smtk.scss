@@ -15,6 +15,9 @@ $text-blue: #0F3062;
   p {
     margin-bottom: 1em;
   }
+  .text-white {
+    color: white;
+  }
 
   #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
     background: none;
