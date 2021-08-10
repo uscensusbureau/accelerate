@@ -1,5 +1,5 @@
 <div class="usa-nav-container">
-  <div class="usa-navbar">
+  <div class="usa-navbar flex-justify-end">
     <button class="usa-menu-btn">Menu</button>
     <!-- <div class="usa-logo">
       <em class="usa-logo-text">
@@ -46,7 +46,7 @@
                 {% endfor %}
               </ul>
             {% else %}
-            <a class="usa-nav-link" href="{{ site.baseurl}}{{ page.url }}{{ _section.href }}">
+            <a class="usa-nav-link usa-nav-link--narrow" href="{{ site.baseurl}}{{ page.url }}{{ _section.href }}">
               <span class="text-underline">{{ _section.text }}</span>
             </a>
             {% endif %}

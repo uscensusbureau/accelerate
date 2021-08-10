@@ -19,7 +19,6 @@ navbar:
     href: '#data-viz'
   - text: Links to Other Resources
     href: '#links'
-  -
 
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
