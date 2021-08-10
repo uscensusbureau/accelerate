@@ -21,7 +21,7 @@ hero:
   Help us spread the word about the latest 2020 Census results!'
   text-on-left: true
   background-img: 
-    src: backgrounds/Hero_Image.jpg
+    src: backgrounds/USCB_RedistrictingRelease_1500x500-wSpace.jpg
     alt: "Polaroids of smiling people on a dark blue field"
 
 links:

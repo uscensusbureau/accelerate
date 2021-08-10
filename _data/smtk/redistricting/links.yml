@@ -12,7 +12,7 @@
       - text: Instagram – @uscensusbureau
         href: https://www.instagram.com/uscensusbureau/
       - text: 'Hashtag – #2020Census'
-  - title: 2020 Census Redistring Resources
+  - title: 2020 Census Redistricting Resources
     links:
       - text: 2020 Census Results
         href: https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-census-results.html
@@ -70,7 +70,7 @@
         href: https://www.census.gov/newsroom/press-releases/2021/quality-indicators-on-2020-census.html
       - text: '2020 Census Quality and Data Processing Press Kit'
         href: https://www.census.gov/newsroom/press-kits/2021/2020-census-quality-and-data-processing.html
-      - text: '2020 Census: Operational Quality Metrics'
+      - text: 'Data Viz: 2020 Census Operational Quality Metrics'
         href: https://www.census.gov/library/visualizations/interactive/2020-census-operational-quality-metrics.html
       - text: 'A Preliminary Analysis of U.S. and State-Level Results From the 2020 Census'
         href: https://www.census.gov/library/working-papers/2021/demo/POP-twps0104.html
@@ -102,9 +102,9 @@
       languages: 
         - text: Arabic
         - text: Chinese (Simplified)
-          href: simplified-chinese
+          href: chinese-simplified
         - text: Chinese (Traditional)
-          href: traditional-chinese
+          href: chinese-traditional
         - text: French
         - text: Haitian Creole
         - text: Japanese
