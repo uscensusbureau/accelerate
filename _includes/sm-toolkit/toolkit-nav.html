@@ -1,9 +1,65 @@
-<nav class="site-nav-secondary sprint-nav" role="navigation" aria-label="subnavigation">
-  <ul class="usa-nav">
-    {% for link in include.links %}
-      <li class="usa-nav__primary-item sprint-nav-item" name="{{ link.text | slugify }}">
-        <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/{{ link.href }}">{{ link.text }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+<div class="usa-nav-container">
+  <div class="usa-navbar">
+    <button class="usa-menu-btn">Menu</button>
+    <!-- <div class="usa-logo">
+      <em class="usa-logo-text">
+        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+            {% if color == "light" %}
+            <img src="{{site.baseurl}}/assets/img/logo/logo-light.svg" alt="{{ header.title | default: site.title }}">
+            {% else %}
+            <img src="{{site.baseurl}}/assets/img/logo/logo-dark.svg" alt="{{ header.title | default: site.title }}">
+            {% endif %}
+          </a>
+      </em>
+    </div> -->
+  </div>
+
+  <nav role="navigation" class="usa-nav" aria-label="primary">
+    
+    <div class="usa-nav-inner">
+      <button class="usa-nav-close">
+        <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
+      </button>
+
+      {% assign _primary = page.navbar %}
+      {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
+      {% assign color = include.color | default: "light" %}
+      {% assign active = page.nav.page %}
+
+      <nav aria-label="primary links">
+      <ul class="usa-nav-primary usa-accordion">
+        {% for _section in primary_links %}
+        {% if color == "light" %}
+          <li class="nav-light">
+        {% else %}
+          <li class="nav-dark">
+        {% endif %}
+          {% if _section.links %}
+            {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
+            {% assign _section_id = _section.id %}
+            {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
+
+          {% if color == "light" %}
+          <button class="usa-accordion-button button-light usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+            <span class="nav-light">{{ _section.text }}</span>
+            {% else %}
+          <button class="usa-accordion-button button-dark usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+            <span class="nav-dark">{{ _section.text }}</span>
+            {% endif %}
+          </button>
+          <ul id="{{ _section_id }}" class="usa-nav-submenu">
+              {% for _link in section_links %}
+                <li>
+                  <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
+                </li>
+              {% endfor %}
+
+
+          </ul>
+          {% else %}
+          <a class="usa-nav-link" href="{{ site.baseurl}}{{ page.url }}{{ _section.href }}">
+            <span>{{ _section.text }}</span>
+          </a>
+          {% endif %}
+        </li>
+        {% endfor %}
