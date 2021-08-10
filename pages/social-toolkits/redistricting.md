@@ -14,8 +14,8 @@ hero:
   title: 'Social Media Toolkit: Redistricting Data'
   subtitle: 'The 2020 Census determines congressional representation, informs the allocation of hundreds of billions of dollars in federal funding, and provides data that affects communities for the next 10 years.
   
-
-  Since releasing apportionment results in April, we’ve been working hard on the next set of 2020 Census data — redistricting data. These data play an important role in our democracy and begin to illuminate the changes to the local and demographic makeup of our nation over the last decade. 
+  
+  Redistricting data play an important role in our democracy and begin to illuminate changes to the local and demographic makeup of our nation over the last decade.  
   
   
   Help us spread the word about the latest 2020 Census results!'
