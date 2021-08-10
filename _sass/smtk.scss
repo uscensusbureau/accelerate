@@ -88,18 +88,34 @@ a .usa-icon {
 
 .smtk-hero {
   min-width: none;
-  margin-top: 2em;
   background-color: $dark-blue;
   color: white;
-  p { color: white }
+  p { 
+    color: white 
+  }
+}
+
+.smtk-hero__bg-img {
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
 }
 
 .smtk-hero-content {
   margin: .5em 0;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+  &--dark {
+    color: $text-blue;
+    p {
+      color: $text-blue;
+    }
+  }
 }
+
 
 .cover-image {
   object-fit: cover;

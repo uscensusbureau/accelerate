@@ -39,9 +39,11 @@ population-counts:
 
 links:
   title: Helpful Links for Partners and Stakeholders
+  isFirst: true
   
 
 ---
+{% capture mainText %}
 # Social Media Toolkit: The First 2020 Census Results
 The 2020 Census determines congressional representation, informs the allocation of hundreds of billions of dollars in federal funding, and provides data that affects communities for the next 10 years.
 
@@ -65,3 +67,27 @@ This social media toolkit includes:
 2. Click “DOWNLOAD ASSET” to save the graphic, animation, or video to your device.
 3. Highlight and select the text that you want to use for your social media post and copy the text to your clipboard.
 4. Go to the social media channel you plan to post on, paste the copied text, and add the downloaded graphic or animation to your post.
+{% endcapture %}
+
+<section class="smtk-main-text smtk-section">
+  {{ mainText | markdownify }}
+</section>
+
+<section class="smtk-section">
+{% include sm-toolkit/assets.html header=page.national-count 
+  data=site.data.2020-data-release.national-count %}
+</section>
+
+{% include sm-toolkit/territories.html class="margin-top-6" %}
+
+{% include sm-toolkit/population-counts.html  
+  data=page.population-counts 
+  class="margin-top-6" %}
+
+{% include sm-toolkit/creative-resources.html 
+  data=site.data.2020-data-release.creative-resources
+  class="margin-top-6" %}
+
+{% include sm-toolkit/links.html 
+  data = site.data.smtk.2020-data-release-links
+  class="margin-y-6" %}

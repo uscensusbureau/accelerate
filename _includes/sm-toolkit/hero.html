@@ -1,19 +1,40 @@
+{% assign data = page.hero %}
+
 <section class="smtk-hero">
   <div class="grid-container maxw-none padding-x-0">
-    <div class="grid-row">
-      <div class="tablet:grid-col-8">
-        <img class="cover-image" 
-            src="{{ site.baseurl }}/assets/img/smtk/{{ page.hero.background-img.src }}" alt="{{ page.hero.background-img.alt }}">
+    {% if data.text-on-left %}
+      <div class="height-0">
+        <img 
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          alt="{{ include.background-img.alt }}"
+        />
       </div>
-      <div class="tablet:grid-col-4 padding-x-2 margin-x-auto text-center smtk-hero-content">
-        <h2 class="text-uppercase smtk-heading--h2">{{ page.hero.title }}</h2>
-        <p class="text-left">{{ page.hero.subtitle }}</p>
-        <div>
-          <button class="smtk-button">
-            <a href="{{ page.hero.cta.href }}">Sign Up</a>
-          </button>
+      <div class="grid-row smtk-hero__bg-img"
+        style="background-image: url({{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }});">
+        <div class="mobile-lg:grid-col-8  mobile-lg:grid-offset-1 tablet:grid-col-5 smtk-hero-content smtk-hero-content--dark">
+          <h1 class="bg-white">{{ data.title }}</h1>
+          <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
         </div>
       </div>
-    </div>
+    {% else %}
+      <div class="grid-row">
+        <div class="tablet:grid-col-8">
+          <img class="cover-image" 
+            src="{{ site.baseurl }}/assets/img/smtk/{{ data.background-img.src }}" alt="{{ data.background-img.alt }}"
+          >
+        </div>
+        <div class="tablet:grid-col-4 margin-x-auto text-center smtk-hero-content">
+          <h2 class="text-uppercase smtk-heading--h2">{{ data.title }}</h2>
+          <p class="text-left">{{ data.subtitle | newline_to_br }}</p>
+          {% if data.cta %}
+            <div>
+              <button class="smtk-button">
+                <a href="{{ data.cta.href }}">{{ data.cta.text }}</a>
+              </button>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </section>

@@ -3,8 +3,6 @@
 ---
 
 $(function() {
-  console.log('executing');
-
   $('a').smoothScroll();
 
   $('.masonry-grid').masonry({
