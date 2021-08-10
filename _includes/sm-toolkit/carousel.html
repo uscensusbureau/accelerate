@@ -1,0 +1,29 @@
+{% assign guide = include.data %}
+{% if guide.header %}
+  <h3>{{ guide.header.title }}</h3>
+  {{ guide.header.subtitle | markdownify }}
+{% endif %}
+
+<div id="{{include.id }}" 
+  class="cr-asset__row">
+  <div class="grid-row grid-gap {{ include.class }}">
+    {% assign images = guide.images %}
+    {% for image in images %}
+      <div class="mobile-lg:grid-col-{{ include.grid-col | default: 4 }}">
+        <img src="{{ site.baseurl }}/assets/img/smtk/{{ image.src }}" alt="{{ image.alt }}" 
+          class="cr-asset__asset--image" />
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="grid-row">
+    <span class="cr-asset__post">
+      <strong>POST MESSAGE:</strong> {{ guide.post | markdownify }}
+    </span>
+  </div>
+  <div class="text-center margin-bottom-2">
+    <a href="{{site.baseurl}}/assets/files/{{guide.download}}" download>
+      {{ include.downloadText | default: "Download All Guide Assets" }}
+    </a>
+  </div>
+</div>
