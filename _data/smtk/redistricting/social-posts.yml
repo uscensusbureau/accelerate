@@ -52,11 +52,11 @@ race-ethnicity:
 ig-carousel:
   header: 
     title: What is Redistricting?
-    subtitle: Share these posts on Instagram so your followers can learn more about the upcoming redistricting data release.
+    subtitle: Share these posts on Instagram and add the [Redistricting Data 101 Fact Sheet](https://www.census.gov/library/fact-sheets/2021/redistricting-data-101.html) to your bio so your followers can learn more about the upcoming redistricting data release.
   resource-name: Apportionmnent Guide
   isVideo: false
   isGuide: true
-  download: apportionment-pocket-guide.zip
+  download: RedistrictingStory.zip
   images:
     - src: redis/01_RedistrictingData_IG.png
       alt: Slide with words 'The U.S. Census Bureau provides the 50 states and the District of Columbia, and Puerto Rico...'
