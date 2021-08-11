@@ -133,6 +133,9 @@ a .usa-icon {
     border: 1px solid $dark-blue;
   }
 }
+#how-to, #data-viz, #sample-posts, #links {
+  scroll-margin-top: 10em;
+}
 
 .smtk-main-text {
   max-width: 880px;
