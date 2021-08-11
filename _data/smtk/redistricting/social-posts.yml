@@ -1,16 +1,16 @@
 release-day:
   header: 
-    title: Release Day Save the Date
-    subtitle: The U.S. Census Bureau will release redistricting data on August 12th. Share this post with your followers to let them know!
+    title: 'Save the Date: Release Day'
+    subtitle: The U.S. Census Bureau will release redistricting data on August 12. Share this post with your followers to let them know!
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
       src: redis/redistricting-data-release-august-12--landscape.png
       alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
       hasPreview: true
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1:00PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
+    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
   instagram-image: 
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1:00PM ET. For event details click the link in bio.'
+    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. For event details click the link in bio.'
     image: 
       category: Instagram
       src: redis/redistricting-data-release-august-12--ig.png
@@ -49,92 +49,22 @@ race-ethnicity:
       hasPreview: true
 
     
-
-creative-resources:
-  - title: Apportionment Video
-    resource-name: Apportionment Video
-    isVideo: true
-    post: 'Apportionment is the process of calculating how many seats each state gets in the U.S. House of Representatives. To learn more about how apportionment works, check out this video and visit [https://go.usa.gov/xHRwR](https://go.usa.gov/xHRwR)'
-    videos:
-      -
-        title: Apportionment Video - 19 Second Version
-        category: Any Platform
-        src: 
-          - creativeResources/Census_Apportionment_15_h264.mp4
-      -
-        title: Apportionment Video - 45 Second Version
-        category: Any Platform
-        src: 
-          - creativeResources/Census_Apportionment_30_h264.mp4
-
-  - title: Apportionment Guide
-    resource-name: Apportionmnent Guide
-    isVideo: false
-    isGuide: true
-    download: apportionment-pocket-guide.zip
-    images:
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-A_v06-A.png
-        alt: Slide with words "United States Census 2020" and "What is apportionment?"
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-B_v06-A.png
-        alt: Slide with US map and text describing apportionment process
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-C_v06-A.png
-        alt: Slide with a legislative bill and text describing the census
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-D_v06-A.png
-        alt: Slide with icon of the US Senate
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-E_v06-A.png
-        alt: Slide with a calendar date and text saying the 2020 Census was released on April 26
-      - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-F_v06-A.png
-        alt: White text on teal background reading United States Census 2020
-    post: 'On 4/26, the U.S. Census Bureau released the #2020Census state population counts, which are used to determine each state’s number of seats in the U.S. House of Representatives. #Apportionment #CensusBureau'
-      
-  # - title: Apportionment Animation
-  #   resource-name: Apportionment Animation
-  #   isVideo: true
-  #   generic:
-  #     src: creativeResources/Apportionment-animation.mp4
-  #     alt: A map of the United States
+ig-carousel:
+  header: 
+    title: What is Redistricting?
+    subtitle: Share these posts on Instagram and add the [Redistricting Data 101 Fact Sheet](https://www.census.gov/library/fact-sheets/2021/redistricting-data-101.html) to your bio so your followers can learn more about the upcoming redistricting data release.
+  resource-name: Apportionmnent Guide
+  isVideo: false
+  isGuide: true
+  download: RedistrictingStory.zip
+  images:
+    - src: redis/01_RedistrictingData_IG.png
+      alt: Slide with words 'The U.S. Census Bureau provides the 50 states and the District of Columbia, and Puerto Rico...'
+    - src: redis/02_RedistrictingData_IG.png
+      alt: Slide with US map and text describing apportionment process
+    - src: redis/03_RedistrictingData_IG.png
+      alt: Slide with a legislative bill and text describing the census
+    - src: redis/04_RedistrictingData_IG.png
+      alt: Slide with icon of the US Senate
+  post: 'Redistricting data include the first sub-state population counts and demographic characteristics from the #2020Census. Learn more in this Redistricting 101 fact sheet from the Census Bureau in the link in bio.'
   
-  - title: Data Quality Graphic
-    resource-name: Data Quality Graphic
-    isVideo: false
-    generic:
-      title: Data Quality Graphic
-      category: Any Platform
-      hasPreview: true
-      src: creativeResources/data-quality-graphic.png
-      alt: A map of the United States
-    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
-    
-
-  - title: Data Quality Video
-    isVideo: true
-    post: 'After every decennial census, the U.S. Census Bureau releases detailed metrics on data quality. Learn more about the quality of the 2020 Census at [https://go.usa.gov/xHnRh](https://go.usa.gov/xHnRh)'
-    videos:
-      -
-        title: 25-second Video
-        mp4Hosted: true
-        src: 
-          - creativeResources/data-quality-videos/Census Data Quality-25_OC2.webm
-          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+25_OC2.mp4
-      - 
-        title: 40-second Video
-        mp4Hosted: true
-        src: 
-          - creativeResources/data-quality-videos/Census Data Quality-36_OC2.webm
-          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+36_OC2.mp4
-      - 
-        title: 2.5-minute Video
-        mp4Hosted: true
-        src: 
-          - creativeResources/data-quality-videos/Census Data Quality-Full_OC2.webm
-          - https://acceleratepublicassets.s3.amazonaws.com/Census+Data+Quality+-+Full_OC2.mp4
-
-  - title: Total Population Graphic
-    isVideo: false
-    generic:
-      title: Total Population Graphic
-      category: Any Platform
-      hasPreview: true
-      src: creativeResources/total-population-graphic.jpg
-      alt: A map of the United States
-    post: 'The first results of the #2020Census are in! As of April 1, 2020, the total U.S. population was 331,449,281. #Apportionment #CensusBureau'

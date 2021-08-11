@@ -100,8 +100,9 @@ a .usa-icon {
 }
 
 .smtk-hero__bg-img {
+  background-color: white;
   background-size: cover;
-  background-position: left center;
+  background-position: center center;
 }
 
 .smtk-hero-content {
@@ -110,7 +111,15 @@ a .usa-icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+  &--dark {
+    color: $text-blue;
+    p {
+      color: $text-blue;
+    }
+  }
 }
+
 
 .cover-image {
   object-fit: cover;
