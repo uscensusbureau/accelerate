@@ -50,7 +50,7 @@ creative-resources:
     download: apportionment-pocket-guide.zip
     images:
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-A_v06-A.png
-        alt: Slide with words "United States Census 2020" and "What is apportionment?"
+        alt: Slide with words 'United States Census 2020' and 'What is apportionment?'
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-B_v06-A.png
         alt: Slide with US map and text describing apportionment process
       - src: creativeResources/apportionment-assets/USC_PocketGuide_Asset-01-Apportionment_16x9_Slate-C_v06-A.png

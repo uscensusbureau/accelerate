@@ -4,11 +4,22 @@ title: 2020 Redistricting Social Media Toolkit
 permalink: /2020-redistricting-toolkit/
 
 scripts:
-  -
-    src: https://public.tableau.com/javascripts/api/viz_v1.js
-    attrs: 
-      - defer
-    isExternal: true
+  - highlightNavigation.js
+#   -
+#     src: https://public.tableau.com/javascripts/api/viz_v1.js
+#     attrs: 
+#       - defer
+#     isExternal: true
+
+navbar: 
+  - text: How to Use
+    href: '#how-to'
+  - text: Sample Social Media Posts
+    href: '#sample-posts'
+  - text: Data Visualizations
+    href: '#data-viz'
+  - text: Links to Other Resources
+    href: '#links'
 
 hero:
   title: 'Social Media Toolkit: Redistricting Data'
@@ -39,14 +50,17 @@ links:
 6.	Remember to tag @uscensusbureau in your posts, use the hashtag #2020Census, and link to [Census.gov](https://www.census.gov/).
 {% endcapture %}
 
-<section class="smtk-section grid-container margin-top-6">
+<section id="how-to" class="smtk-section grid-container margin-top-6">
   {{ mainText | markdownify }}
 </section>
 
 {% include sm-toolkit/redis-sample-posts.html %}
 
-{% include sm-toolkit/dataviz.html class="margin-top-6"%}
-  
+<div id="data-viz">
+  {% include sm-toolkit/dataviz.html class="margin-top-6"%}
+</div>
+
 {% include sm-toolkit/links.html 
   data = site.data.smtk.redistricting.links
-  class="margin-y-6" %}
+  class="margin-y-6" 
+  id="links" %}

@@ -1,4 +1,4 @@
-<section class="{{ include.class }}">
+<section class="{{ include.class }}" {% if include.id %}id="{{ include.id }}"{% endif %}>
   <div class="grid-container">
     <h2>
       {{ page.links.title }}

@@ -52,6 +52,11 @@ ol {
 .usa-nav-primary li a {
   padding: 1.3rem 3rem 1.7rem;
   color: inherit;
+  &.usa-nav-link--narrow {
+    padding: 0 1rem .5rem;
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+  }
 }
 
 .usa-logo {
