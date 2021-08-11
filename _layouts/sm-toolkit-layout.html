@@ -20,6 +20,9 @@
 
     <main id="main-content">
       {% include sm-toolkit/hero.html %}
+      {% if page.navbar %}
+        {% include sm-toolkit/toolkit-nav.html links = page.navbar %}
+      {% endif %}
       
       {{ content }}
 

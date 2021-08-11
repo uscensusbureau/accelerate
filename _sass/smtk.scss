@@ -4,6 +4,7 @@ $text-blue: #0F3062;
 
 .smtk-body {
   color: $dark-blue;
+  overflow-x: visible;
   h1, h2, h3, h4, h5, h6, button, p, ul, li, span, select {
     // font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
     font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -14,6 +15,9 @@ $text-blue: #0F3062;
   }
   p {
     margin-bottom: 1em;
+  }
+  .text-white {
+    color: white;
   }
 
   #main-content a[href*='.com'], #main-content a[href*='.org'], #main-content a[href*='.net'], #main-content a[href*='.co'], #main-content a[href*='.tech'], #main-content a[href*='.vc'], #main-content a[href*='.gov'], #main-content a.external-link {
