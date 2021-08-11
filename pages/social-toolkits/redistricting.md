@@ -13,7 +13,7 @@ scripts:
 
 navbar: 
   - text: How to Use
-    href: '#how-to-use-this-toolkit'
+    href: '#how-to'
   - text: Sample Social Media Posts
     href: '#sample-posts'
   - text: Data Visualizations
@@ -50,7 +50,7 @@ links:
 6.	Remember to tag @uscensusbureau in your posts, use the hashtag #2020Census, and link to [Census.gov](https://www.census.gov/).
 {% endcapture %}
 
-<section class="smtk-section grid-container margin-top-6">
+<section id="how-to" class="smtk-section grid-container margin-top-6">
   {{ mainText | markdownify }}
 </section>
 

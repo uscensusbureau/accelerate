@@ -145,6 +145,14 @@
         span {
           border: 0;
       }
+      &.usa-nav-link--blue {
+        &:hover {
+          background-color: #eeeeee;
+        }
+        &:active {
+          background-color: whitesmoke;
+        }
+      }
     }
   }
 }
