@@ -4,6 +4,7 @@ $text-blue: #0F3062;
 
 .smtk-body {
   color: $dark-blue;
+  overflow-x: visible;
   h1, h2, h3, h4, h5, h6, button, p, ul, li, span, select {
     // font-family: aktiv-grotesk, "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", Arial, sans-serif !important;
     font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;

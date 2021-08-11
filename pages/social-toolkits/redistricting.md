@@ -3,7 +3,8 @@ layout: sm-toolkit-layout
 title: 2020 Redistricting Social Media Toolkit
 permalink: /2020-redistricting-toolkit/
 
-# scripts:
+scripts:
+  - highlightNavigation.js
 #   -
 #     src: https://public.tableau.com/javascripts/api/viz_v1.js
 #     attrs: 
