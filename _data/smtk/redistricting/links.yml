@@ -44,8 +44,8 @@
         href: https://www.census.gov/data/academy/data-gems/2021/how-to-download-the-complete-set-of-2020-redistricting-files.html
       - text: 'Video: Accessing 2020 Census Redistricting Data from the Legacy Format Summary Files'
         href: https://www.census.gov/library/video/2021/accessing-2020-census-redistricting-data-from-legacy-format-summary-files.html
-      # - text: 
-      #   href: 
+      - text: How to Access 2020 Census Redistricting Data Files from the Census Bureau’s FTP Site
+        href: https://www.census.gov/data/academy/courses/2020-census-redistricting-data.html
 - 
   - title: More 2020 Census Resources
     links:
@@ -91,25 +91,6 @@
       href: 'https://www.census.gov/library/video/2021/2020-census-redistricting-data-news-conference-spanish-resources.html'
     - text: 'Kit de prensa en español (Spanish 2020 Census Press Kit)'
       href: https://www.census.gov/newsroom/press-kits/2019/spanish.html
-    - title: 'News Conference on the Release of 2020 Census Redistricting Data'
-      link-prefix: https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data/news-conference-2020-census-redistricting-data-
-      link-suffix: .html
-      languages: 
-        - text: Arabic
-        - text: Chinese (Simplified)
-          href: simplified-chinese
-        - text: Chinese (Traditional)
-          href: traditional-chinese
-        - text: French
-        - text: Haitian Creole
-        - text: Japanese
-        - text: Korean
-        - text: Polish
-        - text: Portuguese
-        - text: Russian
-        - text: Spanish
-        - text: Tagalog
-        - text: Vietnamese
     - title: 'Redistricting 101 Fact Sheet'
       link-prefix: 'https://www.census.gov/library/fact-sheets/2021/redistricting-data-101/redistricting-data-101-'
       link-suffix: '.html'
