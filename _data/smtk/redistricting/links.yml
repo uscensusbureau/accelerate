@@ -85,7 +85,8 @@
 
 - title: Resources in Languages Other Than English
   links:
-    # - title: Spanish Redistricting Press Release
+    - text: Spanish Redistricting Press Release
+      href: https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity/population-changes-nations-diversity-spanish.html
     - text: '2020 Census Redistricting Data News Conference: Spanish Resources'
       href: 'https://www.census.gov/library/video/2021/2020-census-redistricting-data-news-conference-spanish-resources.html'
     - text: 'Kit de prensa en español (Spanish 2020 Census Press Kit)'
