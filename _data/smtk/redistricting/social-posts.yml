@@ -27,7 +27,7 @@ redistricting-results:
       src: redis/feature-redistricting-news-release-2.png
       alt: "Map of the USA and Puerto Rico by census tract"
       hasPreview: true
-    text: 'The Census Bureau has released #2020Census redistricting data. View the results 👉 [Redistricting Press Release Link](https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html)'
+    text: 'The Census Bureau has released #2020Census redistricting data. View the results 👉 [Local Population Changes and Nation’s Racial and Ethnic Diversity](https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html)'
   # instagram-image: 
   #   text: 'The Census Bureau has released #2020Census redistricting data. View the results in the link in bio.'
   #   image: 
@@ -43,16 +43,16 @@ america-counts:
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
-      src: 
-      alt: ""
+      src: redis/USCB_AC_RaceOverview_1920x1080.png
+      alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
       hasPreview: true
     text: 'Read the stories behind the numbers on the U.S. Census Bureau’s [America Counts](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) page for more insight on the #2020Census results.'
   instagram-image: 
     text: 'Read the stories behind the numbers on the U.S. Census Bureau’s America Counts page for more insight on the #2020Census results. Click the link in bio for more.'
     image: 
       category: Instagram
-      src: 
-      alt: ""
+      src: redis/USCB_AC_RaceOverview_1080x1080.png
+      alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
       hasPreview: true
 
 # release-video:
