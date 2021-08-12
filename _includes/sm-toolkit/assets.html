@@ -27,11 +27,13 @@
             <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
           </div>
         </div>
-        <div class="tablet:grid-col-6 {% if include.video %}tablet:padding-top-5{% endif %}">
-          {% assign post = include.data.instagram-image %}
-          {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
-          <div class="font-sans-sm"><strong>POST MESSAGE:</strong> {{ post.text | markdownify }}</div>
-        </div>
+        {% if include.data.instagram-image %}
+          <div class="tablet:grid-col-6 {% if include.video %}tablet:padding-top-5{% endif %}">
+            {% assign post = include.data.instagram-image %}
+            {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
+            <div class="font-sans-sm"><strong>POST MESSAGE:</strong> {{ post.text | markdownify }}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
   </div>

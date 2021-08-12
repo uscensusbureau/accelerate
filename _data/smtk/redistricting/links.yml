@@ -14,14 +14,24 @@
       - text: 'Hashtag – #2020Census'
   - title: 2020 Census Redistricting Resources
     links:
+      - text: Redistricting Data Press Release
+        href: https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html
+      - text: Decennial Census P.L. 94-171 Redistricting Data Summary Files
+        href: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
       - text: 2020 Census Results
         href: https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-census-results.html
-      - text: News Conference on Release of 2020 Census Redistricting Data
-        href: https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html
       - text: 2020 Census Redistricting Files Press Kit
         href: https://www.census.gov/newsroom/press-kits/2021/2020-census-redistricting.html
-      - text: Redistricting Data Program
-        href: https://www.census.gov/programs-surveys/decennial-census/about/rdo.html
+      - text: 'Data Viz: Race and Ethnicity in U.S. (2010-2020)'
+        href: https://www.census.gov/library/visualizations/interactive/race-and-ethnicity-in-the-united-state-2010-and-2020-census.html
+      - text: 'Data Viz: Race and Ethnic Diversity in U.S.  (2010-2020)'
+        href: https://www.census.gov/library/visualizations/interactive/racial-and-ethnic-diversity-in-the-united-states-2010-and-2020-census.html
+      - text: 'Data Viz: The U.S. Adult and Under 18 population (2020)'
+        href: https://www.census.gov/library/visualizations/interactive/adult-and-under-the-age-of-18-populations-2020-census.html
+      - text: 'Data Viz: Population and Housing Change (2010-2020)'
+        href: https://www.census.gov/library/visualizations/interactive/2020-population-and-housing-state-data.html
+      - text: 'Data Viz: Demographic Data Map'
+        href: https://census.gov/library/visualizations/2021/geo/demographicmapviewer.html
       - text: Redistricting 101 Fact Sheet
         href: https://www.census.gov/library/fact-sheets/2021/redistricting-data-101.html
       - text: 'Video: What is Redistricting?'
@@ -30,10 +40,6 @@
         href: https://www.census.gov/library/video/2021/2020-census-stakeholder-briefing-july-22-2021.html
       - text: 2020 Census Redistricting Webinar
         href: https://www.census.gov/content/dam/Census/newsroom/press-kits/2021/redistricting/20210805-2020-redistricting-advance-webinar.pdf
-      - text: 'Directors Blog: Redistricting Data: What to Expect and When'
-        href: https://www.census.gov/newsroom/blogs/director/2021/07/redistricting-data.html
-      - text: 'Blog: Resources Available to Prepare for the 2020 Census Redistricting Data Release' 
-        href: https://www.census.gov/newsroom/blogs/random-samplings/2021/07/resources-2020-census-redistricting-data-release.html
       - text: 'Data Gem: How to Download the Complete Set of 2020 Census Redistricting Files for Your State'
         href: https://www.census.gov/data/academy/data-gems/2021/how-to-download-the-complete-set-of-2020-redistricting-files.html
       - text: 'Video: Accessing 2020 Census Redistricting Data from the Legacy Format Summary Files'
@@ -45,14 +51,16 @@
     links:
       - text: 'Social Media Toolkit: The First 2020 Census Results'
         href: https://accelerate.census.gov/2020-results-toolkit/
-      - text: Differential Privacy and the 2020 Census
-        href: https://www.census.gov/content/dam/Census/library/factsheets/2021/differential-privacy-and-the-2020-census.pdf
+      - text: 'Fact Sheet: Protecting the Confidentiality of 2020 Census Redistricting Data'
+        href: https://www.census.gov/library/fact-sheets/2021/protecting-the-confidentiality-of-the-2020-census-redistricting-data.html
+      - text: 'Fact Sheet: Comparing Differential Privacy With Older Disclosure Avoidance Methods'
+        href: https://www.census.gov/library/fact-sheets/2021/comparing-differential-privacy-with-older-disclosure-avoidance-methods.html
       - text: 'Data Viz: Measurement of Race and Ethnicity Across the Decades: 1790–2020'
         href: https://www.census.gov/library/visualizations/interactive/decennial-census-measurement-of-race-and-ethnicity-across-the-decades-1790-2020.html
-      - text: 2020 Census Blog Series
-        href: https://www.census.gov/programs-surveys/decennial-census/2020-census/news/blog-posts.html
       - text: 'America Counts: 2020 Census Stories'
         href: https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html
+      - text: 2020 Census Blog Series
+        href: https://www.census.gov/programs-surveys/decennial-census/2020-census/news/blog-posts.html
       - text: 'Census Academy: 2020 Census Resources'
         href: https://www.census.gov/data/academy/topics/2020-census.html
       - text: 'Map: Apportionment of the U.S. House of Representatives'
@@ -77,6 +85,11 @@
 
 - title: Resources in Languages Other Than English
   links:
+    # - title: Spanish Redistricting Press Release
+    - text: '2020 Census Redistricting Data News Conference: Spanish Resources'
+      href: 'https://www.census.gov/library/video/2021/2020-census-redistricting-data-news-conference-spanish-resources.html'
+    - text: 'Kit de prensa en español (Spanish 2020 Census Press Kit)'
+      href: https://www.census.gov/newsroom/press-kits/2019/spanish.html
     - title: 'News Conference on the Release of 2020 Census Redistricting Data'
       link-prefix: https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data/news-conference-2020-census-redistricting-data-
       link-suffix: .html

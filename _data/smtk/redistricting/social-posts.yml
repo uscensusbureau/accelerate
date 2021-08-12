@@ -1,38 +1,74 @@
-release-day:
+# release-day:
+#   header: 
+#     title: 'Save the Date: Release Day'
+#     subtitle: The U.S. Census Bureau will release redistricting data on August 12. Share this post with your followers to let them know!
+#   generic-image:
+#     image: 
+#       category: Facebook / Twitter / LinkedIn
+#       src: redis/redistricting-data-release-august-12--landscape.png
+#       alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
+#       hasPreview: true
+#     text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
+#   instagram-image: 
+#     text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. For event details click the link in bio.'
+#     image: 
+#       category: Instagram
+#       src: redis/redistricting-data-release-august-12--ig.png
+#       alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
+#       hasPreview: true
+
+redistricting-results:
   header: 
-    title: 'Save the Date: Release Day'
-    subtitle: The U.S. Census Bureau will release redistricting data on August 12. Share this post with your followers to let them know!
+    title: 'Redistricting Data Results'
+    subtitle: The Census Bureau provides states with the population counts they may use in the redrawing of their congressional and state legislative district boundaries. On August 12, the Census Bureau released this 2020 Census data on its public FTP site in the same format provided in recent decades.
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
-      src: redis/redistricting-data-release-august-12--landscape.png
-      alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
+      src: redis/feature-redistricting-news-release-2.png
+      alt: "Map of the USA and Puerto Rico by census tract"
       hasPreview: true
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. Learn more 👉 [News Conference on Release of 2020 Census Redistricting Data](https://www.census.gov/newsroom/press-releases/2021/news-conference-2020-census-redistricting-data.html)'
+    text: 'The Census Bureau has released #2020Census redistricting data. View the results 👉 [Redistricting Press Release Link](https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html)'
+  # instagram-image: 
+  #   text: 'The Census Bureau has released #2020Census redistricting data. View the results in the link in bio.'
+  #   image: 
+  #     category: Instagram
+  #     src: 
+  #     alt: ""
+  #     hasPreview: true
+
+america-counts:
+  header: 
+    title: 'America Counts Stories'
+    subtitle: "Share the Census Bureau’s [America Counts: 2020 Census Stories](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) with your followers so they can read more about what we’ve learned from the 2020 Census redistricting data."
+  generic-image:
+    image: 
+      category: Facebook / Twitter / LinkedIn
+      src: 
+      alt: ""
+      hasPreview: true
+    text: 'Read the stories behind the numbers on the U.S. Census Bureau’s [America Counts](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) page for more insight on the #2020Census results.'
   instagram-image: 
-    text: 'Save the Date: The U.S. Census Bureau will hold a news conference to discuss the release of the first local level results from the #2020Census this Thursday, August 12 @ 1PM ET. For event details click the link in bio.'
+    text: 'Read the stories behind the numbers on the U.S. Census Bureau’s America Counts page for more insight on the #2020Census results. Click the link in bio for more.'
     image: 
       category: Instagram
-      src: redis/redistricting-data-release-august-12--ig.png
-      alt: "Teal circles on a white field with text 'Redistrictring Data Release: August 12'"
+      src: 
+      alt: ""
       hasPreview: true
 
-release-video:
-  header:
-    title: 2020 Census Redistricting Data Release Video
-    subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
-  video: 
-    # category: Any Platform
-    # title: 25-second Video
-    mp4Hosted: true
-    src: 
-      - https://acceleratepublicassets.s3.amazonaws.com/Redistricting+Cutdown.mp4
-    text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
+# release-video:
+#   header:
+#     title: 2020 Census Redistricting Data Release Video
+#     subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
+#   video: 
+#     mp4Hosted: true
+#     src: 
+#       - https://acceleratepublicassets.s3.amazonaws.com/Redistricting+Cutdown.mp4
+#     text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
 
 race-ethnicity:
   header: 
     title: Measurement of Race and Ethnicity Across the Decades 
-    subtitle: Share this recent data visualization measuring race and ethnicity across the decades with your followers.
+    subtitle: Share this data visualization measuring race and ethnicity across the decades with your followers.
   generic-image:
     image: 
       category: Facebook / Twitter / LinkedIn
