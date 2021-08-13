@@ -2,6 +2,7 @@
 layout: sm-toolkit-layout
 title: 2020 Census Social Media Toolkit
 permalink: /2020-results-toolkit/
+og-image: https://accelerate.census.gov/assets/img/smtk/firstResults/censusmap.png
 
 hero:
   title: Stay Connected
