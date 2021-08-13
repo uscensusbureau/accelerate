@@ -2,6 +2,7 @@
 layout: sm-toolkit-layout
 title: 2020 Redistricting Social Media Toolkit
 permalink: /2020-redistricting-toolkit/
+og-image: https://accelerate.census.gov/assets/img/smtk/redis/feature-redistricting-news-release-2.png
 
 scripts:
   - highlightNavigation.js
