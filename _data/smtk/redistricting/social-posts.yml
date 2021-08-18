@@ -97,10 +97,10 @@ ig-carousel:
     - src: redis/01_RedistrictingData_IG.png
       alt: Slide with words 'The U.S. Census Bureau provides the 50 states and the District of Columbia, and Puerto Rico...'
     - src: redis/02_RedistrictingData_IG.png
-      alt: Slide with US map and text describing apportionment process
+      alt: Slide with words 'with population counts they may use in their redrawing of congressional and state legislative district boundaries - a process known as redistricting'
     - src: redis/03_RedistrictingData_IG.png
-      alt: Slide with a legislative bill and text describing the census
+      alt: Slide with words 'Population counts by race and ethnicity for the total population, voting-age population, and more are included.'
     - src: redis/04_RedistrictingData_IG.png
-      alt: Slide with icon of the US Senate
+      alt: Slide with words 'Redistricting data provide a detailed portrait of the nation's population. The 2020 Census redistricting data release is on August 12.'
   post: 'Redistricting data include the first sub-state population counts and demographic characteristics from the #2020Census. Learn more in this Redistricting 101 fact sheet from the Census Bureau in the link in bio.'
   
