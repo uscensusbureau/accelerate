@@ -137,9 +137,9 @@ let tabHandler;
 let keyHandler;
 let focusedOnBeforeOpen;
 
-const openLightbox = (imgUrl, imgAlt) => {
+const openLightbox = (evt, imgUrl, imgAlt) => {
+  evt.preventDefault()
   focusedOnBeforeOpen = document.activeElement
-  // console.log(focusedOnBeforeOpen)
   disableHandler = ally.maintain.disabled({
     filter: lightbox
   })
@@ -155,11 +155,6 @@ const openLightbox = (imgUrl, imgAlt) => {
 
   lightbox.hidden = false
   lbContent.focus()
-  // const element = ally.query.firstTabbable({
-  //   context: lightbox,
-  //   defaultToContext: true,
-  // })
-  // element.focus()
 }
 
 const closeLightbox = evt => {
