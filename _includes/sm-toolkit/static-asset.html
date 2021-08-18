@@ -8,6 +8,6 @@
   {% if data.hasPreview %}
     {% assign safeAlt = data.alt | remove: "'" %}
     <a onclick="openLightbox('{{ data.src }}', '{{ safeAlt }}')">PREVIEW</a> | 
-    {% endif %}
+  {% endif %}
   <a href="{{src}}" download>DOWNLOAD</a>
 </p>

@@ -127,17 +127,52 @@ setContentsViaJS = function() {
  */
 const lightbox = document.getElementById("smtk-lightbox")
 const lbImage = lightbox.getElementsByTagName("img")[0]
-const closeButton = document.getElementById("smtk-lightbox__close")
-if( closeButton ){
-  closeButton.addEventListener( 'click', e => {
-    e.preventDefault()
-    lightbox.classList.add('display-none');
-  })
-}
+const lbContent = lightbox.getElementsByClassName('smtk-lightbox__content')[0]
+const closeButton = document.getElementsByClassName("smtk-lightbox__close")[0]
+
+// handlers to help trap focus on the lightbox
+// https://allyjs.io/tutorials/accessible-dialog.html#trapping-focus-inside-the-dialog
+let disableHandler;
+let tabHandler;
+let keyHandler;
+let focusedOnBeforeOpen;
 
 const openLightbox = (imgUrl, imgAlt) => {
+  focusedOnBeforeOpen = document.activeElement
+  // console.log(focusedOnBeforeOpen)
+  disableHandler = ally.maintain.disabled({
+    filter: lightbox
+  })
+  tabHandler = ally.maintain.tabFocus({
+    context: lightbox,
+  });
+  keyHandler = ally.when.key({
+    escape: closeLightbox
+  })
+
   lbImage.src = srcBase + imgUrl
   lbImage.alt = imgAlt
 
-  lightbox.classList.remove('display-none')
+  lightbox.hidden = false
+  lbContent.focus()
+  // const element = ally.query.firstTabbable({
+  //   context: lightbox,
+  //   defaultToContext: true,
+  // })
+  // element.focus()
+}
+
+const closeLightbox = evt => {
+  evt.preventDefault()
+    
+  keyHandler.disengage()
+  tabHandler.disengage()
+  disableHandler.disengage()
+  focusedOnBeforeOpen.focus()
+
+  lightbox.hidden = true
+}
+
+if( closeButton ){
+  closeButton.addEventListener( 'click', closeLightbox)
 }
