@@ -68,6 +68,8 @@
   
   - title: Data Quality Resources
     links:
+      - text: 'Blog: 2020 Census Operational Quality Metrics: Sub-State Summaries'
+        href: https://www.census.gov/newsroom/blogs/random-samplings/2021/08/2020-census-operational-quality-metrics.html
       - text: 'Video: Data Quality and the 2020 Census'
         href: https://www.census.gov/library/video/2021/data-quality-2020-census.html
       - text: '2020 Census Quality and Data Processing Press Release'
