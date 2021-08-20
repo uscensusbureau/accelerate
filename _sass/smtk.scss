@@ -184,4 +184,12 @@ a .usa-icon {
   text-align: right;
   padding: .5em .5em 0 0;
 }
+.smtk-lightbox__close {
+  min-width: 0;
+  color: #004280;
+  &:hover {
+    color: #13192F;
+    background-color: white;
+  }
+}
 

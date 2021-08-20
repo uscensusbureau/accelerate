@@ -7,7 +7,7 @@
 <p>
   {% if data.hasPreview %}
     {% assign safeAlt = data.alt | remove: "'" %}
-    <a onclick="openLightbox('{{ data.src }}', '{{ safeAlt }}')">PREVIEW</a> | 
-    {% endif %}
-  <a href="{{src}}" download>DOWNLOAD</a>
+    <a href="#" title="Preview {{data.src}}" aria-label="Preview {{data.src}}" onclick="openLightbox(event, '{{ data.src }}', '{{ safeAlt }}')">PREVIEW</a> | 
+  {% endif %}
+  <a href="{{src}}" title="Download {{data.src}}" aria-label="Download {{data.src}}" download>DOWNLOAD</a>
 </p>

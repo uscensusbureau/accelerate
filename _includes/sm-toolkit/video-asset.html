@@ -19,5 +19,7 @@
   {% endfor %}
 </video>
 <p>
-  <a href="{{ downloadSrc }}" download>DOWNLOAD</a>
+  <a href="{{ downloadSrc }}" title="Download {{ data.src.last }}" aria-label="Download {{ data.src.last }}" download>
+    DOWNLOAD
+  </a>
 </p>

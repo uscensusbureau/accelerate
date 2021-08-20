@@ -33,7 +33,11 @@
           <source src="{{ vidSrc }}">
         </video>
         <p>
-          <a id="areaAsset__download--video" href="{{ vidSrc }}" download>DOWNLOAD</a>
+          <a id="areaAsset__download--video" href="{{ vidSrc }}" 
+            title="Download {{ name | append: '.mp4' }}" aria-label="Download {{ name | append: '.mp4' }}" 
+            download>
+            DOWNLOAD
+          </a>
         </p>
       </div>
 
@@ -41,8 +45,15 @@
         <h4>Facebook / Twitter / LinkedIn</h4>
         <img src="{{ imgSrc }}" id="areaAsset__img" alt="{{ imgAlt }}"/>
         <p>
-          <a id="areaAsset__preview">PREVIEW</a> |
-          <a id="areaAsset__download--image" href="{{ imgSrc }}" download>DOWNLOAD</a>
+          <a id="areaAsset__preview"
+            title="Preview {{ name | append: 'Still001.jpg' }}" aria-label="Preview {{ name | append: 'Still001.jpg' }}">
+            PREVIEW
+          </a> |
+          <a id="areaAsset__download--image" href="{{ imgSrc }}" 
+            title="Download {{ name | append: 'Still001.jpg' }}" aria-label="Download {{ name | append: 'Still001.jpg' }}" 
+            download>
+            DOWNLOAD
+          </a>
         </p>
       </div>
     </div>
