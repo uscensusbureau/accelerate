@@ -22,7 +22,11 @@
             <h2 class="font-sans-lg">Graphics</h2>
           {% endif %}
           {% assign post = include.data.generic-image %}
-          {% include sm-toolkit/static-asset.html data=post.image %}
+          {% if post.video %}
+            {% include sm-toolkit/video-asset.html data=post.video %}
+          {% else %}
+            {% include sm-toolkit/static-asset.html data=post.image %}
+          {% endif %}
           <div class="font-sans-sm">
             <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
           </div>
@@ -30,7 +34,11 @@
         {% if include.data.instagram-image %}
           <div class="tablet:grid-col-6 {% if include.video %}tablet:padding-top-5{% endif %}">
             {% assign post = include.data.instagram-image %}
-            {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
+            {% if post.video %}
+              {% include sm-toolkit/video-asset.html data=post.video %}
+            {% else %}
+              {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
+            {% endif %}
             <div class="font-sans-sm"><strong>POST MESSAGE:</strong> {{ post.text | markdownify }}</div>
           </div>
         {% endif %}
