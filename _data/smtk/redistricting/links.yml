@@ -14,6 +14,8 @@
       - text: 'Hashtag – #2020Census'
   - title: 2020 Census Redistricting Resources
     links:
+      - text: 'Video: News Conference on Release of 2020 Census Redistricting Data'
+        href: https://www.census.gov/library/video/2021/news-conference-on-release-of-2020-census-redistricting-data.html
       - text: Redistricting Data Press Release
         href: https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html
       - text: Decennial Census P.L. 94-171 Redistricting Data Summary Files
@@ -68,6 +70,8 @@
   
   - title: Data Quality Resources
     links:
+      - text: 'Blog: 2020 Census Operational Quality Metrics: Item Nonresponse Rates'
+        href: https://www.census.gov/newsroom/blogs/random-samplings/2021/08/2020-census-operational-quality-metrics-item-nonresponse-rates.html
       - text: 'Blog: 2020 Census Operational Quality Metrics: Sub-State Summaries'
         href: https://www.census.gov/newsroom/blogs/random-samplings/2021/08/2020-census-operational-quality-metrics.html
       - text: 'Video: Data Quality and the 2020 Census'
@@ -83,8 +87,25 @@
 
 - title: Resources in Languages Other Than English
   links:
-    - text: Spanish Redistricting Press Release
-      href: https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity/population-changes-nations-diversity-spanish.html
+    - title: 'Redistricting Press Release'
+      link-prefix: 'https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity/population-changes-nations-diversity-'
+      link-suffix: '.html'
+      languages:
+        - text: Arabic
+        - text: Chinese (Simplified)
+          href: simplified-chinese
+        - text: Chinese (Traditional)
+          href: traditional-chinese
+        - text: French
+        - text: Haitian Creole
+        - text: Japanese
+        - text: Korean
+        - text: Polish
+        - text: Portuguese
+        - text: Russian
+        - text: Spanish
+        - text: Tagalog
+        - text: Vietnamese
     - text: '2020 Census Redistricting Data News Conference: Spanish Resources'
       href: 'https://www.census.gov/library/video/2021/2020-census-redistricting-data-news-conference-spanish-resources.html'
     - text: 'Kit de prensa en español (Spanish 2020 Census Press Kit)'
