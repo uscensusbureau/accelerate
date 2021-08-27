@@ -30,40 +30,14 @@ $(function() {
     for(let i = 1; i <= 6; i++) {
       const element = document.getElementById(`callout-${i}`)
       if (element) {
-        if (element.getBoundingClientRect().top - ($(window).scrollTop()) < 200 ) {
-          const span = element.getElementsByTagName("span")[0]
+        if ((element.getBoundingClientRect().top + window.scrollY) - ($(window).scrollTop()) < 200 ) {
+          const span = document.querySelector(`#callout-text-${i} span`)
           if (span) {
             span.style.opacity = "1.0"
           }
         }
       }
     }
-
-    /*
-    if (($("#callout-1").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-1").find("span").css("opacity", 1)
-    }
-
-    if (($("#callout-2").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-2").find("span").css("opacity", 1)
-    }
-
-    if (($("#callout-3").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-3").find("span").css("opacity", 1)
-    }
-
-    if (($("#callout-4").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-4").find("span").css("opacity", 1)
-    }
-
-    if (($("#callout-5").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-5").find("span").css("opacity", 1)
-    }
-
-    if (($("#callout-6").offset().top) - ($(window).scrollTop()) < 200 ) {
-      $("#callout-text-6").find("span").css("opacity", 1)
-    }
-    */
 
     //  for map viz - fade in by year
 

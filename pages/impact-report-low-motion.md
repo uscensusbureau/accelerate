@@ -132,7 +132,7 @@ Colin Maclay,  Census Counts, Executive Director and Research Professor USC Anne
 Mary Dell Hayes Project Manager, SC Counts 2020 I United Way Association of South Carolina
 
 ### Creative Ambassadors Program
-We launched the [Creative Ambassador program](https://accelerate.census.gov/get-involved/become-an-ambassador/#) in efforts to encourage artists and storytellers to respond to calls for census content  design support from our community partners. We engaged just over 25 dedicated creative professionals in our Creative Ambassadors Program to support ongoing design needs beyond our Creative-a thon events. A small but mighty highly engaged team of Creative Ambassadors develop a [DIY Content Toolkit](https://accelerate.census.gov/get-involved/become-an-ambassador/), for and by creatives, guiding them to make content to share within their networks.
+We launched the [Creative Ambassador program](https://accelerate.census.gov/get-involved/become-an-ambassador/#) in efforts to encourage artists and storytellers to respond to calls for census content  design support from our community partners. We engaged just over 25 dedicated creative professionals in our Creative Ambassadors Program to support ongoing design needs beyond our Creative-a thon events. A small but mighty highly engaged team of Creative Ambassadors develop a [DIY Content Toolkit (.zip 42MB)](https://accelerate.census.gov/assets/files/Creatives_for_the_Count_DIY_Content_Toolkit.zip), for and by creatives, guiding them to make content to share within their networks.
 
 We've partnered with dozens of diverse organizations to bring these events to hard-to-count communities across the nation, here’s a snapshot of some of our collaborators:
 
