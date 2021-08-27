@@ -175,13 +175,3 @@ hero:
       </div>
   </div>
 </section>
-
-<!-- Optional graphic
-<section class="usa-section usa-content">
-  <div class="usa-grid">
-    <div class="usa-width-one-whole">
-      <img src="{{site.baseurl}}/assets/img/graphics/we-all-count.svg"/>
-    </div>
-  </div>
-</section>
--->

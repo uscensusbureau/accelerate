@@ -28,6 +28,8 @@ primary:
     href: /get-involved/partner-with-us/
   - text: Virtual Create-a-thon
     href: /get-involved/virtual-create-a-thon/
+  - text: Our Impact
+    href: /our-impact/
   - text: Get Involved
     links:
       - text: Create-a-thon Events
@@ -50,11 +52,11 @@ about:
 
 impact-report:
   - text: The Challenge
-    href: /impact-report-low-motion/#the-challenge
+    href: /our-impact-low-motion/#the-challenge
   - text: The Process
-    href: /impact-report-low-motion/#the-process
+    href: /our-impact-low-motion/#the-process
   - text: Our Impact
-    href: /impact-report-low-motion/#our-impact
+    href: /our-impact-low-motion/#our-impact
 
 video-challenge:
   - text: Get Out The Count - Video Challenge

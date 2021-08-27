@@ -1,6 +1,6 @@
 ---
 title: Census Accelerate Impact Report
-permalink: /impact-report-low-motion/
+permalink: /our-impact-low-motion/
 layout: report-low-motion
 sidenav: impact-report
 

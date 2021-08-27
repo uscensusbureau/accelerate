@@ -29,7 +29,19 @@ $(function() {
 
 
     // for callout image text fade in
+    for(let i = 1; i <= 6; i++) {
+      const element = document.getElementById(`callout-${i}`)
+      if (element) {
+        if (element.getBoundingClientRect().top - ($(window).scrollTop()) < 200 ) {
+          const span = element.getElementsByTagName("span")[0]
+          if (span) {
+            span.style.opacity = "1.0"
+          }
+        }
+      }
+    }
 
+    /*
     if (($("#callout-1").offset().top) - ($(window).scrollTop()) < 200 ) {
       $("#callout-text-1").find("span").css("opacity", 1)
     }
@@ -53,12 +65,13 @@ $(function() {
     if (($("#callout-6").offset().top) - ($(window).scrollTop()) < 200 ) {
       $("#callout-text-6").find("span").css("opacity", 1)
     }
+    */
 
     //  for map viz - fade in by year
 
     $(".accelerate").addClass("blue");
 
-    var topOfMap = $(".map-viz").offset().top;
+    var topOfMap = $(".map-viz").offset() ? $(".map-viz").offset().top : 0;
 
     if (($(window).scrollTop() - topOfMap) / 1500  > 1 ) {
       $(".2018").addClass("yellow")
@@ -82,34 +95,38 @@ $(function() {
       $("#map-header-3").addClass("hidden")
     }
 
-    var topOfLogoGarden = $(".map-logo-garden").offset().top;
-    if (($(window).scrollTop() - topOfLogoGarden) == 0) {
-      $(".map-logo-garden").css("opacity", 1)
-      window.setTimeout(function() {
-        $("#map-logo-garden-hr").css("opacity", 0.7)
-        $(".map-logo-garden").find("h4").css("opacity", 1)
-        $("#rtv").css("opacity", 1);
-        $("#neue-south").css("opacity", 1);
-    	}, 2000);
-      window.setTimeout(function() {
-        $("#voto-latino").css("opacity", 1);
-        $("#shake-shack").css("opacity", 1);
-    	}, 4000);
-      window.setTimeout(function() {
-        $("#utep").css("opacity", 1);
-        $("#united").css("opacity", 1);
-    	}, 6000);
-      window.setTimeout(function() {
-        $("#lincoln-center").css("opacity", 1);
-        $("#pflag").css("opacity", 1);
-    	}, 8000);
-      window.setTimeout(function() {
-        $("#la2050").css("opacity", 1);
-        $("#ct-counts").css("opacity", 1);
-    	}, 10000);
+    if (document.getElementsByClassName('map-logo-garden').length > 0) {
+      var topOfLogoGarden = $(".map-logo-garden").offset().top;
+      if (($(window).scrollTop() - topOfLogoGarden) == 0) {
+        $(".map-logo-garden").css("opacity", 1)
+        window.setTimeout(function() {
+          $("#map-logo-garden-hr").css("opacity", 0.7)
+          $(".map-logo-garden").find("h4").css("opacity", 1)
+          $("#rtv").css("opacity", 1);
+          $("#neue-south").css("opacity", 1);
+        }, 2000);
+        window.setTimeout(function() {
+          $("#voto-latino").css("opacity", 1);
+          $("#shake-shack").css("opacity", 1);
+        }, 4000);
+        window.setTimeout(function() {
+          $("#utep").css("opacity", 1);
+          $("#united").css("opacity", 1);
+        }, 6000);
+        window.setTimeout(function() {
+          $("#lincoln-center").css("opacity", 1);
+          $("#pflag").css("opacity", 1);
+        }, 8000);
+        window.setTimeout(function() {
+          $("#la2050").css("opacity", 1);
+          $("#ct-counts").css("opacity", 1);
+        }, 10000);
+      }
     }
 
 //  theory of change
+  if (document.getElementById('slide-2')) {
+
     var topOfSlide2 = $("#slide-2").offset().top;
     if (($(window).scrollTop() - topOfSlide2) == 0) {
       $("#slide-2").css("opacity", 1)
@@ -135,42 +152,45 @@ $(function() {
     if (($(window).scrollTop() - topOfSlide3) < 0) {
       $("#slide-3").css("opacity", 0)
     }
+  }
 
 
 // prize winners
+    if (document.getElementById('gotc-slide-1')) {
 
-    var gotcSlideContainerTop = $("#gotc-slide-1").offset().top;
+      var gotcSlideContainerTop = $("#gotc-slide-1").offset().top;
 
-    var topOfGOTCSlide2 = $("#gotc-slide-2").offset().top;
+      var topOfGOTCSlide2 = $("#gotc-slide-2").offset().top;
 
-    if (topOfGOTCSlide2 == gotcSlideContainerTop && topOfGOTCSlide3 !== gotcSlideContainerTop) {
-      console.log("fading in")
-      $("#gotc-slide-1").find(".body").css("opacity", 0)
-      $("#gotc-slide-1").find(".header").css("opacity", 0)
-      $("#gotc-slide-2").css("opacity", 1)
-      window.setTimeout(function() {
+      if (topOfGOTCSlide2 == gotcSlideContainerTop && topOfGOTCSlide3 !== gotcSlideContainerTop) {
+        console.log("fading in")
+        $("#gotc-slide-1").find(".body").css("opacity", 0)
+        $("#gotc-slide-1").find(".header").css("opacity", 0)
+        $("#gotc-slide-2").css("opacity", 1)
+        window.setTimeout(function() {
+          $("#gotc-slide-2").find("p", "a", "img").css("opacity", 1);
+        }, 1000);
+      } else {
+        $("#gotc-slide-2").css("opacity", 0)
+        $("#gotc-slide-1").find(".body").css("opacity", 1)
+        $("#gotc-slide-1").find(".header").css("opacity", 1)
+        $("#gotc-slide-1").find("p", "a", "img").css("opacity", 1);
+      }
+
+      var topOfGOTCSlide3 = $("#gotc-slide-3").offset().top;
+      if (topOfGOTCSlide3 == gotcSlideContainerTop) {
+        $("#gotc-slide-2").find(".body").css("opacity", 0)
+        $("#gotc-slide-2").find(".header").css("opacity", 0)
+        $("#gotc-slide-3").css("opacity", 1)
+        window.setTimeout(function() {
+          $("#gotc-slide-3").find("p", "a", "img").css("opacity", 1);
+        }, 1000);
+      } else {
+        $("#gotc-slide-3").css("opacity", 0)
+        $("#gotc-slide-2").find(".body").css("opacity", 1)
+        $("#gotc-slide-2").find(".header").css("opacity", 1)
         $("#gotc-slide-2").find("p", "a", "img").css("opacity", 1);
-    	}, 1000);
-    } else {
-      $("#gotc-slide-2").css("opacity", 0)
-      $("#gotc-slide-1").find(".body").css("opacity", 1)
-      $("#gotc-slide-1").find(".header").css("opacity", 1)
-      $("#gotc-slide-1").find("p", "a", "img").css("opacity", 1);
-    }
-
-    var topOfGOTCSlide3 = $("#gotc-slide-3").offset().top;
-    if (topOfGOTCSlide3 == gotcSlideContainerTop) {
-      $("#gotc-slide-2").find(".body").css("opacity", 0)
-      $("#gotc-slide-2").find(".header").css("opacity", 0)
-      $("#gotc-slide-3").css("opacity", 1)
-      window.setTimeout(function() {
-        $("#gotc-slide-3").find("p", "a", "img").css("opacity", 1);
-    	}, 1000);
-    } else {
-      $("#gotc-slide-3").css("opacity", 0)
-      $("#gotc-slide-2").find(".body").css("opacity", 1)
-      $("#gotc-slide-2").find(".header").css("opacity", 1)
-      $("#gotc-slide-2").find("p", "a", "img").css("opacity", 1);
+      }
     }
 
   });

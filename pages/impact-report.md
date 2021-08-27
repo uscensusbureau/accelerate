@@ -1,6 +1,6 @@
 ---
 title: Census Accelerate Impact Report
-permalink: /impact-report/
+permalink: /our-impact/
 layout: impact-report
 
 ---
@@ -19,8 +19,6 @@ layout: impact-report
 </div>
 {% assign footer = site.data.footer %}
 {% include components/footer.html %}
-
-
 
 <div class="mobile-report hidden">
 
