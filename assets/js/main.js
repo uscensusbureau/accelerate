@@ -3,8 +3,6 @@
 ---
 
 $(function() {
-  console.log('executing');
-
   $('a').smoothScroll();
 
   $('.masonry-grid').masonry({
@@ -163,7 +161,6 @@ $(function() {
       var topOfGOTCSlide2 = $("#gotc-slide-2").offset().top;
 
       if (topOfGOTCSlide2 == gotcSlideContainerTop && topOfGOTCSlide3 !== gotcSlideContainerTop) {
-        console.log("fading in")
         $("#gotc-slide-1").find(".body").css("opacity", 0)
         $("#gotc-slide-1").find(".header").css("opacity", 0)
         $("#gotc-slide-2").css("opacity", 1)
@@ -199,13 +196,10 @@ $(function() {
 
 function showImages(el) {
   var windowHeight = jQuery( window ).height();
-  // console.log("window height", windowHeight);
   $(el).each(function(){
       var thisPos = $(this).offset().top;
-      // console.log("position", thisPos);
       var elementHeight = $(this).height();
       var topOfWindow = $(window).scrollTop();
-      console.log("element height", elementHeight);
       if (topOfWindow + windowHeight - elementHeight > thisPos ) {
           $(this).addClass("fadeIn");
       }
