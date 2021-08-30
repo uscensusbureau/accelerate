@@ -56,14 +56,13 @@ if( areaSelector ){
   imgPreview.addEventListener('click', e => {
     e.preventDefault()
     const areaName = areaSelector.value;
-    openLightbox( `/States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`, 
+    openLightbox(e, `/States_Animations/${areaName}/USCB_50 States Data Viz_${areaName}Still001.jpg`, 
       `An image of the USA with ${areaName} shaded lighter along with data indicating how much its population has changed since 2010` )
   })
 }
 
 setContentsViaJS = function() {
   const match = creativeResources.find( el => el.title === crSelect.value )
-  console.log(match)
   if( match ){
     genericTitle.innerHTML = match['resource-name']
     igTitle.innerHTML = match['resource-name']
