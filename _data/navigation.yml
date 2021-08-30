@@ -7,7 +7,7 @@
 # `primary.links` to "primary":
 #
 # primary:
-#   links: primary
+#   links: primarys
 #
 primary:
   - text: About
@@ -28,6 +28,8 @@ primary:
     href: /get-involved/partner-with-us/
   - text: Virtual Create-a-thon
     href: /get-involved/virtual-create-a-thon/
+  - text: Our Impact
+    href: /our-impact/
   - text: Get Involved
     links:
       - text: Create-a-thon Events
@@ -47,6 +49,14 @@ about:
     href: /about/#meet-the-team
   - text: An Initiative of COIL
     href: /about/#coil-initiative
+
+impact-report:
+  - text: The Challenge
+    href: /our-impact-low-motion/#the-challenge
+  - text: The Process
+    href: /our-impact-low-motion/#the-process
+  - text: Our Impact
+    href: /our-impact-low-motion/#our-impact
 
 video-challenge:
   - text: Get Out The Count - Video Challenge

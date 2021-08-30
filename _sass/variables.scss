@@ -15,6 +15,9 @@ $color-visited: $color-navy;
 $color-gray-medium-warm: #696969;
 $color-gray-medium-cool: #4F5A65;
 
+$color-impact-report-bright-blue: #0048ad;
+$color-impact-report-light-blue: #3d89f4;
+$color-impact-report-navy: #13192f;
 
 
 /* reds/salmons */
@@ -26,6 +29,7 @@ $color-primary-alt-medium: #ed613e;
 $color-primary-alt-light: #ee7257;
 $color-primary-alt-lightest: #f89f8b;
 
+$color-impact-report-bright-red: #de4828;
 
 /* yellows */
 $color-secondary: #F7C636;
@@ -57,16 +61,32 @@ $color-tertiary-light: #f4b9cc;
 $color-tertiary-lightest: #F9DEDE;
 $color-white-transprent: rgba(255,255,255,.9);
 
+$color-impact-report-bright-green: #009964;
+
 $color-bg-light: $color-offwhite;
 
 // Typography
- @import url("https://use.typekit.net/pcd3slg.css");
+@import url("https://use.typekit.net/pcd3slg.css");
+@font-face {
+  font-family: "Silka";
+  src: url("../fonts/silka/silka-regular.woff");
+}
+@font-face {
+  font-family: "Silka";
+  src: url("../fonts/silka/silka-regular.woff");
+}
+@font-face {
+  font-family: "SilkaBold";
+  src: url("../fonts/silka/silka-semibold.woff");
+}
 $font-serif: "Sanomat Bold", "Times New Roman", serif;
 $font-serif-bold: "Sanomat Bold", "Times New Roman", serif;
 $font-serif-medium: "Sanomat Medium", "Times New Roman", serif;
 $font-mono: 'Chivo', monospace; // Plaak
 $font-mono-alt: 'Overpass Mono', monospace;
 $font-sans: aktiv-grotesk, 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
+$font-sans-alt: 'Silka', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
+$font-sans-alt-bold: 'SilkaBold', 'Helvetica Neue', 'Helvetica', 'Roboto', Arial, sans-serif;
 $font-size-side-nav: 1.6rem;
 $font-size-xxxs: 1.1rem;
 $font-size-xxs: 1.2rem;

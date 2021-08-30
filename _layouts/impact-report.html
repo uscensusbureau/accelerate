@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="{{ layout.class }} page-{{ page.title | slugify }} {{ page.class }} {% if page.section_image %} page-background {% endif %} {% if page.hero.image %} page-background {% endif %}"
+{% if page.section_image %} style="background-image: url('{{ page.section_image | relative_url }}');" {% endif %}
+{% if page.hero.image %} style="background-image: url('{{ page.hero.image | relative_url }}');" {% endif %}
+
+    <!--  "An Official Website of the US Government" banner -->
+    {% include banner.html %}
+    {% if page.banner == true %}
+      {% include prize-banner.html %}
+    {% endif %}
+    {% include header.html %}
+
+    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+    {{ content }}
+    </main>
+
+  {% if page.layout != 'impact-report' %}
+    {% include footer.html %}
+  {% endif %}
+    {% include scripts.html %}
+    {% if page.layout == 'landing' %}
+  </div>
+    {% endif %}
+  </body>
+</html>
