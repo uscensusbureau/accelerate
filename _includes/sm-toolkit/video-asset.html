@@ -11,8 +11,8 @@
 <video controls {% if data.mp4Hosted %}controlslist="nodownload"{% endif %}
   class="maxw-full {% if include.class %}{{ include.class }}{% endif %}">
   {% for src in data.src %}
-    {% if forloop.last %}
-      <source src="{{ downloadSrc }}">
+    {% if data.mp4Hosted %}
+      <source src="{{ src }}">
     {% else %}
       <source src="{{ srcBase | append: src }}">
     {% endif %}
