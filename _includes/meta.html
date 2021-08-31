@@ -27,7 +27,7 @@
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://accelerate.census.gov/awards/">
+<meta property="og:url" content="{{ page.og-url | default: 'https://accelerate.census.gov/awards/' }}">
 <meta name="og:title"   content="{{ page.title }}">
 <meta name="og:card"  content="summary_large_image">
 <meta name="og:image" content="{{ page.og-image | default: 'https://accelerate.census.gov/assets/img/graphics/video-awards-preview.png' }}">
