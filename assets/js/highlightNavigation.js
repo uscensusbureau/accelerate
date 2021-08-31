@@ -1,14 +1,12 @@
 
 
 const highlightAnchorNavigation = (anchorLinks, pageDivs, highlightClass) => {
-  console.log('--------------')
   let lowestMatchingSection = pageDivs[0]
   let shortestDistance = Number.MAX_SAFE_INTEGER
   let i
   for (i = 0; i < anchorLinks.length; i++) {
     const section = pageDivs[i]
     const divDistanceFromTop = section.getBoundingClientRect().bottom
-    console.log({ section, divDistanceFromTop })
     // find
     if (divDistanceFromTop >= 50 && divDistanceFromTop < shortestDistance) {
       lowestMatchingSection = section
