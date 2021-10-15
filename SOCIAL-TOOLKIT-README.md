@@ -59,7 +59,5 @@ For lists of links whose hrefs follow a pattern (the same resource translated in
 
 ### Uploading assets
 It is important to note that the container Federalist uses to build the site has a 1GB cap. So be careful about adding too many and too large assets to your toolkits! At the same time, it's important that the toolkits contain assets at the proper size for partners. 
+
 For large assets do not upload the asset with this repo. Instead, upload them to an external bucket such as S3 and then link to that asset. When uploading to s3, make sure to set "content-disposition" to "attachment".
-
-
-

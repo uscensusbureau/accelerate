@@ -97,3 +97,7 @@ topics_api:
     - piLastName
     - piPhone
     - piEmail
+
+exclude: 
+  - README.md
+  - SOCIAL-TOOLKIT-README.md
