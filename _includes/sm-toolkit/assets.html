@@ -1,48 +1,53 @@
 <div class="{{include.class}}">
   <div class="grid-container">
     <h3>{{ include.header.title }}</h3>
-    {{ include.header.subtitle | markdownify }}
-    {% if include.data.video %}
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-8 tablet:grid-offset-2">
-          {% assign post = include.data.video %}
-          <h2 class="font-sans-lg">Animation</h2>
-          <div class="font-sans-sm">
-            {% include sm-toolkit/video-asset.html data=post %}
-            <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
-          </div>
+    {{ include.header.subtitle | markdownify }} {% if include.data.video %}
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-8 tablet:grid-offset-2">
+        {% assign post = include.data.video %}
+        <h2 class="font-sans-lg">Animation</h2>
+        <div class="font-sans-sm">
+          {% include sm-toolkit/video-asset.html data=post %}
+          <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
         </div>
       </div>
-    {% endif %}
-
-    {% if include.data.generic-image or include.data.instagram-image %}
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-6">
-          {% if include.data.video %}
-            <h2 class="font-sans-lg">Graphics</h2>
-          {% endif %}
-          {% assign post = include.data.generic-image %}
-          {% if post.video %}
-            {% include sm-toolkit/video-asset.html data=post.video %}
-          {% else %}
-            {% include sm-toolkit/static-asset.html data=post.image %}
-          {% endif %}
-          <div class="font-sans-sm">
-            <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
-          </div>
+    </div>
+    {% endif %} {% if include.data.generic-image or include.data.instagram-image
+    %}
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-6">
+        {% if include.data.video %}
+        <h2 class="font-sans-lg">Graphics</h2>
+        {% endif %} {% assign post = include.data.generic-image %} {% if
+        post.video %} {% include sm-toolkit/video-asset.html data=post.video %}
+        {% else %} {% include sm-toolkit/static-asset.html data=post.image %} {%
+        endif %}
+        <div class="font-sans-sm">
+          <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
         </div>
-        {% if include.data.instagram-image %}
-          <div class="tablet:grid-col-6 {% if include.video %}tablet:padding-top-5{% endif %}">
-            {% assign post = include.data.instagram-image %}
-            {% if post.video %}
-              {% include sm-toolkit/video-asset.html data=post.video %}
-            {% else %}
-              {% include sm-toolkit/static-asset.html data=post.image class="maxh-mobile" %}
-            {% endif %}
-            <div class="font-sans-sm"><strong>POST MESSAGE:</strong> {{ post.text | markdownify }}</div>
-          </div>
-        {% endif %}
       </div>
+      {% if include.data.instagram-image %}
+      <div
+        class="
+          tablet:grid-col-6
+          {%
+          if
+          include.video
+          %}tablet:padding-top-5{%
+          endif
+          %}
+        "
+      >
+        {% assign post = include.data.instagram-image %} {% if post.video %} {%
+        include sm-toolkit/video-asset.html data=post.video %} {% else %} {%
+        include sm-toolkit/static-asset.html data=post.image class="maxh-mobile"
+        %} {% endif %}
+        <div class="font-sans-sm">
+          <strong>POST MESSAGE:</strong> {{ post.text | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
 </div>

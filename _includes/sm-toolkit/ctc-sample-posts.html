@@ -1,0 +1,15 @@
+<section id="sample-posts" class="smtk-section grid-container">
+  <h2>Sample Social Media Posts</h2>
+  {% assign socialPosts = site.data.smtk.ctc-posts %}
+
+  <!--{% include sm-toolkit/assets.html header=socialPosts.state-profiles.header
+    data=socialPosts.state-profiles
+    class="margin-y-2" %}
+
+  {% include sm-toolkit/assets.html header=socialPosts.redistricting-results.header
+    data=socialPosts.redistricting-results
+    class="margin-y-2" %}-->
+
+  {% include sm-toolkit/assets.html header=socialPosts.ctc.header
+  data=socialPosts.ctc class="margin-y-2" %}
+</section>

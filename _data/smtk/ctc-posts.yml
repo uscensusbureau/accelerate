@@ -1,0 +1,37 @@
+ctc:
+  header:
+    title: "America Counts Redistricting Stories"
+    subtitle: "Share the Census Bureau’s [America Counts: 2020 Census Stories](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) with your followers so they can read more about what we’ve learned from the 2020 Census redistricting data."
+  generic-image:
+    text: "Read the stories behind the numbers on the U.S. Census Bureau’s [America Counts](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) page for more insight on the #2020Census results."
+    # image:
+    #   category: Facebook / Twitter / LinkedIn
+    #   src: redis/USCB_AC_RaceOverview_1920x1080.png
+    #   alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
+    #   hasPreview: true
+    video:
+      category: Facebook / Twitter / LinkedIn
+      mp4Hosted: true
+      src:
+        - https://acceleratepublicassets.s3.amazonaws.com/CTC+Creative+Toolkit_+Digital+Community+Activation_Nov2021.pdf
+  #instagram-image:
+  #  text: "Read the stories behind the numbers on the U.S. Census Bureau’s America Counts page for more insight on the #2020Census results. Click the link in bio for more."
+  #  video:
+  #    category: Instagram
+  #    mp4Hosted: true
+  #    src:
+  #      - https://acceleratepublicassets.s3.amazonaws.com/USCB_AC-Redistricting-Multi_1080x1080-v2a.mp4
+  # image:
+  #   category: Instagram
+  #   src: redis/USCB_AC_RaceOverview_1080x1080.png
+  #   alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
+  #   hasPreview: true
+# release-video:
+#   header:
+#     title: 2020 Census Redistricting Data Release Video
+#     subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
+#   video:
+#     mp4Hosted: true
+#     src:
+#       - https://acceleratepublicassets.s3.amazonaws.com/Redistricting+Cutdown.mp4
+#     text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
