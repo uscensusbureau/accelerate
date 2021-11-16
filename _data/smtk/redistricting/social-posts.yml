@@ -1,85 +1,65 @@
-pop-center:
-  header:
-    title: "2020 Center of Population"
-    subtitle: Every 10 years, the Census Bureau has calculated the “center of population,” which is a point at where an imaginary, flat, weightless and rigid map of the United States would balance perfectly if everyone were of identical weight. This point represents the average location of where people in the United States live. Based on 2020 Census redistricting data, the center of population is located in Hartville, a tiny town in central southern Missouri. The Census Bureau also calculates centers of population for each state, county, census tract and census block group. Help us spread the word!
-
-  generic-image:
-    image:
-      category: Facebook / Twitter / LinkedIn
-      src: redis/USCB_CenterOfPop-Share_1920x1080-v4.png
-      alt: "Flyer displays text: 'Find Your State's Center of Population'"
-      hasPreview: true
-    text: "The U.S. Census Bureau recently announced the new #CenterOfPopulation based on the #2020Census. The U.S. center of population is near the town of Hartville, Missouri. Find your state’s center of population with the Census Bureau’s new [data visualization](https://public.tableau.com/shared/78M32G5NT?:showVizHome=no)."
-  instagram-image:
-    text: "The U.S. Census Bureau recently announced the new #CenterOfPopulation based on the #2020Census. Hartville, a tiny town in central southern Missouri, is the new U.S. center of population. Find the location of your state’s center of population with the Census Bureau’s new #DataViz. Link in bio. #CenterOfPop #DataVisualization "
-    image:
-      category: Instagram
-      src: redis/USCB_CenterOfPop-Share_1080x1080-v4.png
-      alt: "Flyer displays text: 'Find Your State's Center of Population'"
-      hasPreview: true
-
 state-profiles:
-  header:
-    title: "2020 Census State Profiles"
+  header: 
+    title: '2020 Census State Profiles'
     subtitle: Dive into data-rich profiles for all 50 states, the District of Columbia and Puerto Rico on America Counts highlighting the recent 2020 Census redistricting data release. These sharable profiles provide key demographic characteristics for each state and county all on one page.
   generic-image:
-    image:
+    image: 
       category: Facebook / Twitter / LinkedIn
       src: redis/USCB_AC-Redistricting-Map_1920x1080-FULL.jpg
       alt: "A map of all 50 states, D.C., and Puerto Rico"
       hasPreview: true
-    text: "The Census Bureau has released 52 individual data profiles for all 50 states, D.C. & Puerto Rico highlighting #2020Census redistricting data. Learn more about your state! 👉 [State Profiles: 2020 Census](https://www.census.gov/library/stories/state-by-state.html)"
-  instagram-image:
-    text: "New from the Census Bureau: Data-rich profiles for all 50 states, D.C. & Puerto Rico highlighting #2020Census redistricting data. Each profile provides key demographic characteristics of each state and county all on one page."
-    image:
+    text: 'The Census Bureau has released 52 individual data profiles for all 50 states, D.C. & Puerto Rico highlighting #2020Census redistricting data. Learn more about your state! 👉 [State Profiles: 2020 Census](https://www.census.gov/library/stories/state-by-state.html)'
+  instagram-image: 
+    text: 'New from the Census Bureau: Data-rich profiles for all 50 states, D.C. & Puerto Rico highlighting #2020Census redistricting data. Each profile provides key demographic characteristics of each state and county all on one page.'
+    image: 
       category: Instagram
       src: redis/USCB_AC-Redistricting-Map_1080x1080-FULL.jpg
       alt: "A map of all 50 states, D.C., and Puerto Rico"
       hasPreview: true
 
 redistricting-results:
-  header:
-    title: "Redistricting Data Results"
+  header: 
+    title: 'Redistricting Data Results'
     subtitle: The Census Bureau provides states with the population counts they may use in the redrawing of their congressional and state legislative district boundaries. On August 12, the Census Bureau released this 2020 Census data on its public FTP site in the same format provided in recent decades.
   generic-image:
-    image:
+    image: 
       category: Facebook / Twitter / LinkedIn
       src: redis/feature-redistricting-news-release-2.png
       alt: "Map of the USA and Puerto Rico by census tract"
       hasPreview: true
-    text: "The Census Bureau has released #2020Census redistricting data. View the results 👉 [Local Population Changes and Nation’s Racial and Ethnic Diversity](https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html)"
-  # instagram-image:
+    text: 'The Census Bureau has released #2020Census redistricting data. View the results 👉 [Local Population Changes and Nation’s Racial and Ethnic Diversity](https://www.census.gov/newsroom/press-releases/2021/population-changes-nations-diversity.html)'
+  # instagram-image: 
   #   text: 'The Census Bureau has released #2020Census redistricting data. View the results in the link in bio.'
-  #   image:
+  #   image: 
   #     category: Instagram
-  #     src:
+  #     src: 
   #     alt: ""
   #     hasPreview: true
 
 america-counts:
-  header:
-    title: "America Counts Redistricting Stories"
+  header: 
+    title: 'America Counts Redistricting Stories'
     subtitle: "Share the Census Bureau’s [America Counts: 2020 Census Stories](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) with your followers so they can read more about what we’ve learned from the 2020 Census redistricting data."
   generic-image:
-    text: "Read the stories behind the numbers on the U.S. Census Bureau’s [America Counts](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) page for more insight on the #2020Census results."
-    # image:
+    text: 'Read the stories behind the numbers on the U.S. Census Bureau’s [America Counts](https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-stories.html) page for more insight on the #2020Census results.'
+    # image: 
     #   category: Facebook / Twitter / LinkedIn
     #   src: redis/USCB_AC_RaceOverview_1920x1080.png
     #   alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
     #   hasPreview: true
-    video:
+    video: 
       category: Facebook / Twitter / LinkedIn
       mp4Hosted: true
       src:
         - https://acceleratepublicassets.s3.amazonaws.com/USCB_AC-Redistricting-Multi_1920x1080-v2a.mp4
-  instagram-image:
-    text: "Read the stories behind the numbers on the U.S. Census Bureau’s America Counts page for more insight on the #2020Census results. Click the link in bio for more."
+  instagram-image: 
+    text: 'Read the stories behind the numbers on the U.S. Census Bureau’s America Counts page for more insight on the #2020Census results. Click the link in bio for more.'
     video:
       category: Instagram
       mp4Hosted: true
       src:
         - https://acceleratepublicassets.s3.amazonaws.com/USCB_AC-Redistricting-Multi_1080x1080-v2a.mp4
-    # image:
+    # image: 
     #   category: Instagram
     #   src: redis/USCB_AC_RaceOverview_1080x1080.png
     #   alt: "Smiling people with text 'America Counts. Improved Race and Ethnicity Measures Reveal U.S. Population is Much More Multiractial'"
@@ -89,33 +69,34 @@ america-counts:
 #   header:
 #     title: 2020 Census Redistricting Data Release Video
 #     subtitle: Share this video with your followers to answer common questions about the 2020 Census redistricting data release.
-#   video:
+#   video: 
 #     mp4Hosted: true
-#     src:
+#     src: 
 #       - https://acceleratepublicassets.s3.amazonaws.com/Redistricting+Cutdown.mp4
 #     text: 'Hear from Census Bureau experts as they answer common questions ahead of the 2020 Census redistricting data release. Check out the full video 👉 [2020 Census Redistricting Data Release Video](https://www.youtube.com/watch?v=O0MhAue2Tuk) #2020Census'
 
 race-ethnicity:
-  header:
-    title: Measurement of Race and Ethnicity Across the Decades
+  header: 
+    title: Measurement of Race and Ethnicity Across the Decades 
     subtitle: Share this data visualization measuring race and ethnicity across the decades with your followers.
   generic-image:
-    image:
+    image: 
       category: Facebook / Twitter / LinkedIn
       src: redis/USCB_Redistricting-RaceEthnicityDataViz_1920x1080.jpg
       alt: "Scatterplot of decennial censuses that measured race and ethnicity data in the US where White and Black or African American have been measured since 1790"
       hasPreview: true
-    text: "Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020 👉 [Measurement of Race and Ethnicity Across the Decades: 1790–2020](https://www.census.gov/library/visualizations/interactive/decennial-census-measurement-of-race-and-ethnicity-across-the-decades-1790-2020.html) #CensusData"
-  instagram-image:
-    text: "Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020. See more in the link in bio. #CensusData"
-    image:
+    text: 'Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020 👉 [Measurement of Race and Ethnicity Across the Decades: 1790–2020](https://www.census.gov/library/visualizations/interactive/decennial-census-measurement-of-race-and-ethnicity-across-the-decades-1790-2020.html) #CensusData'
+  instagram-image: 
+    text: 'Explore this interactive timeline of the race and ethnicity categories used in the U.S. decennial census every decade from 1790 to 2020. See more in the link in bio. #CensusData'
+    image: 
       category: Instagram
       src: redis/USCB_Redistricting-RaceEthnicityDataViz_1080x1080.jpg
       alt: "Scatterplot of decennial censuses that measured race and ethnicity data in the US where White and Black or African American have been measured since 1790"
       hasPreview: true
 
+    
 ig-carousel:
-  header:
+  header: 
     title: What is Redistricting?
     subtitle: Share these posts on Instagram and add the [Redistricting Data 101 Fact Sheet](https://www.census.gov/library/fact-sheets/2021/redistricting-data-101.html) to your bio so your followers can learn more about the upcoming redistricting data release.
   resource-name: Apportionmnent Guide
@@ -131,4 +112,5 @@ ig-carousel:
       alt: Slide with words 'Population counts by race and ethnicity for the total population, voting-age population, and more are included.'
     - src: redis/04_RedistrictingData_IG.png
       alt: Slide with words 'Redistricting data provide a detailed portrait of the nation's population. The 2020 Census redistricting data release is on August 12.'
-  post: "Redistricting data include the first sub-state population counts and demographic characteristics from the #2020Census. Learn more in this Redistricting 101 fact sheet from the Census Bureau in the link in bio."
+  post: 'Redistricting data include the first sub-state population counts and demographic characteristics from the #2020Census. Learn more in this Redistricting 101 fact sheet from the Census Bureau in the link in bio.'
+  
