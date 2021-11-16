@@ -9,7 +9,7 @@ pop-center:
       src: redis/USCB_CenterOfPop-Share_1920x1080-v4.png
       alt: "Flyer displays text: 'Find Your State's Center of Population'"
       hasPreview: true
-    text: "The U.S. Census Bureau recently announced the new #CenterOfPopulation based on the #2020Census. Hartville, Missouri, a town of about 600 people, is the new U.S. center of population. Find the location of your state’s center of population with the Census Bureau’s new [data visualization](https://public.tableau.com/shared/78M32G5NT?:showVizHome=no)."
+    text: "The U.S. Census Bureau recently announced the new #CenterOfPopulation based on the #2020Census. The U.S. center of population is near the town of Hartville, Missouri. Find your state’s center of population with the Census Bureau’s new [data visualization](https://public.tableau.com/shared/78M32G5NT?:showVizHome=no)."
   instagram-image:
     text: "The U.S. Census Bureau recently announced the new #CenterOfPopulation based on the #2020Census. Hartville, a tiny town in central southern Missouri, is the new U.S. center of population. Find the location of your state’s center of population with the Census Bureau’s new #DataViz. Link in bio. #CenterOfPop #DataVisualization "
     image:
