@@ -74,9 +74,7 @@ This census is the first ever “digital-first” census, which means there’s 
 The media landscape has changed radically in the last 10 years. With the rise of social news and media fragmentation, there’s a need for more accurate, engaging content on media channels that people use the most in 2020.
 <div class="divider"></div>
 </div>
-<div class="usa-width-one-fourth side-button">
-<a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more</a>
-</div>
+
 
 <div class="usa-width-three-fourths">
 {% include components/accordion.html %}
