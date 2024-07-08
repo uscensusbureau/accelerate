@@ -30,12 +30,6 @@ hero:
       <img src="{{site.baseurl}}/assets/img/graphics/illo-placeholder.svg" alt="Illustration of a community: school bus, industry, houses" />
     </div>
   </div>
-  <div id="opportunity-button" class="usa-grid ">
-    <div class="button-wrapper usa-width-one-half">
-      <div class="button-bg blue" style="width:60%;"></div>
-    <a class="usa-button usa-button-big usa-button-primary" href="https://2020census.gov/en/what-is-2020-census.html" target="_blank">Learn more about the 2020 Census</a>
-    </div>
-  </div>
 </section>
 
 <div id="opportunity-bottom"></div>
