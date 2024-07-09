@@ -23,7 +23,7 @@ hero:
   <div class="usa-grid">
     <div class="usa-width-five-twelfths">
       <h1>An opportunity to make a difference</h1>
-      <p class="text-large">The results of the census will determine how <a href="https://www.youtube.com/watch?v=83UNSPG3BHA" target="_blank">political representation</a> and <a href="https://2020census.gov/en/community-impact.html" target="_blank">billions in federal funding</a> for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
+      <p class="text-large">The results of the census will determine how <a href="https://www.youtube.com/watch?v=83UNSPG3BHA" target="_blank">political representation</a> and billions in federal funding for schools, roads, hospitals and more are distributed across the U.S.<br><br></p>
       <p class="text-large bottom-space"><strong>Some communities could miss out on their fair share.</strong> LGBTQ communities, people of color, immigrants, people experiencing homelessness, rural communities, people with low incomes, renters, single-parent households, people with limited English proficiency, and young children are hard to count. But we can help change that.</p>
     </div>
     <div class="usa-width-one-half">

@@ -21,7 +21,7 @@ hero:
 
 <div class="usa-width-three-fourths top-space bottom-space" markdown="1" id="accelerate-video-challenge">
 # What is the 'Get Out The Count' Video Challenge?
-This is a nationwide call for the most impactful, accurate, inspiring, funny, creative, and culturally relevant videos to educate the masses about the 2020 Census and mobilize communities to respond, reminding them that [it’s not too late to self-respond](http://2020census.gov/) online, by phone or by mail.
+This is a nationwide call for the most impactful, accurate, inspiring, funny, creative, and culturally relevant videos to educate the masses about the 2020 Census and mobilize communities to respond, reminding them that it’s not too late to self-respond online, by phone or by mail.
 
 </div>
 <div class="usa-width-three-fourths" markdown="1">
@@ -76,14 +76,14 @@ Take a look at helpful messaging, guidance and specific talking points to increa
 [Census National Campaign PSA](https://youtube.com/watch?v=oXZAe8XYeNQ)
 
 
-Submissions will be reviewed by government, media & tech industry, and non-profit leaders on categories including potential for impact, virality, technical quality, and creativity.  
+Submissions will be reviewed by government, media & tech industry, and non-profit leaders on categories including potential for impact, virality, technical quality, and creativity.
 
 </div>
 
 <div class="usa-width-three-fourths bottom-space" markdown="1"  id="background" >
 # What is Census Accelerate?
 
-Census Accelerate, a program of the [Census Open Innovation Labs](https://opportunity.census.gov/coil), brings together designers, content creators, filmmakers, and community representatives to generate compelling digital content focusing on helping communities most at risk of being undercounted in the [2020 Census](http://2020census.gov/).
+Census Accelerate, a program of the [Census Open Innovation Labs](https://opportunity.census.gov/coil), brings together designers, content creators, filmmakers, and community representatives to generate compelling digital content focusing on helping communities most at risk of being undercounted in the 2020 Census.
 </div>
 
 <div class="usa-width-three-fourths bottom-space" markdown="1">
@@ -103,19 +103,19 @@ Census Accelerate has partnered with national and local advocacy groups, the ent
 
 ### 1. How has the COVID-19 affected the Census or this Prize Challenge?
 
-Most people have already received a mailer from the U.S. Census Bureau with information about how to complete the Census online at [2020census.gov](http://2020census.gov/).  Encourage those who have received their invitation to respond online as soon as they receive it.
+Most people have already received a mailer from the U.S. Census Bureau with information about how to complete the Census online at 2020census.gov.  Encourage those who have received their invitation to respond online as soon as they receive it.
 
 **Key message to incorporate into videos: It has never been easier to respond on your own, either online, by phone, or by mail, without having to meet a census taker.**
 
 The U.S. Census Bureau has released statements on its [response to COVID-19](https://www.census.gov/newsroom/press-releases/2020/statement-coronavirus.html), and [announced modifications to Group Quarters operations](https://www.census.gov/newsroom/press-releases/2020/modifying-2020-operations-for-counting-college-students.html), which counts people in nursing homes, college dorms, prisons and other institutional living facilities. Please check back [here for additional news and details](https://www.census.gov/newsroom/press-kits/2020/covid-19-census-bureau.html) on the 2020 Census and COVID-19.
 
-By March 20th, most households will receive the first of several mailed invitations to respond. **Everyone is encouraged to respond online, via phone or by mail, as soon as they receive their invitation** with the provided instructions and web address for the online questionnaire ([my2020census.gov](http://my2020census.gov/)). Filling out the census now will reduce the chances of an enumerator knocking on your door in the future.
+By March 20th, most households will receive the first of several mailed invitations to respond. **Everyone is encouraged to respond online, via phone or by mail, as soon as they receive their invitation** with the provided instructions and web address for the online questionnaire my2020census.gov. Filling out the census now will reduce the chances of an enumerator knocking on your door in the future.
 
 We want you to remain socially distanced and are understanding that videos will be limited to what can be produced while at home. Judges will keep that at the top of their minds.
 
 ### 2. Which hashtag or URL should I direct people to? 
 
-Please direct viewers to [2020census.gov](http://2020census.gov/), or to call 1-844-330-2020 (English) or 1-844-468-2020 (Spanish).
+Please direct viewers to 2020census.gov, or to call 1-844-330-2020 (English) or 1-844-468-2020 (Spanish).
 
 Some optional hashtags are: #ShapeOurFuture  #standupbecounted #2020Census #countmein #icount #wecount #cuentaconmigo #cometoyourcensus
 
@@ -145,7 +145,7 @@ Yes, as long as it’s accurate and follows our messaging guidance, we encourage
 
 ### 9. How can I make sure my video is accurate? 
 
-Please take a look at [key facts and resources here]({{site.baseurl}}/assets/files/2020-Census-Resource-Guide-GOTC-Video-Prize-Challenge.pdf). You can also visit [2020census.gov](http://2020census.gov/) for additional factsheets and information. We encourage you to direct any questions or clarifications to [census.accelerate@census.gov](mailto:census.accelerate@census.gov). We will also offer a webinar where you can learn more and ask questions. Stay tuned to this webpage for details, or email us to make sure you get the invite!
+Please take a look at [key facts and resources here]({{site.baseurl}}/assets/files/2020-Census-Resource-Guide-GOTC-Video-Prize-Challenge.pdf). You can also visit 2020census.gov for additional factsheets and information. We encourage you to direct any questions or clarifications to [census.accelerate@census.gov](mailto:census.accelerate@census.gov). We will also offer a webinar where you can learn more and ask questions. Stay tuned to this webpage for details, or email us to make sure you get the invite!
 
 ### 10. Do I need to upload my video to YouTube?
 
