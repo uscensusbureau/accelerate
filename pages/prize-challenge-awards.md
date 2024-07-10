@@ -112,9 +112,9 @@ Austin, TX
 ### Video Title: Me Toca a Mi
 Atlanta, GA
 
-- Original Track by Nino Augustine.  
-- Te Toca a Ti Census Version Co-written by Nino Augustine, Felicita Pineda, and Josephine Figueroa.  Producer: Bonafly.  
-- Video produced by Cholo Productions, the production company of Atlanta's beloved Latinx party, La Choloteca.  
+- Original Track by Nino Augustine.
+- Te Toca a Ti Census Version Co-written by Nino Augustine, Felicita Pineda, and Josephine Figueroa.  Producer: Bonafly.
+- Video produced by Cholo Productions, the production company of Atlanta's beloved Latinx party, La Choloteca.
 - Backed by multimedia artist Josephine Figueroa.
 <div class="usa-accordion">
   <p><button class="usa-accordion-button" aria-expanded="false" aria-controls="3">
@@ -247,11 +247,11 @@ Nashville, TN
 
 <div  class="usa-section usa-content usa-grid bottom-space">
 <div class="usa-width-seven-twelfths" markdown="1">
-# Communities benefit most when everyone responds to <a href="https://2020census.gov" target="_blank">the 2020 Census</a>
+# Communities benefit most when everyone responds to the 2020 Census
 </div>
 Results determine where billions of dollars are distributed each year for 10 years, informing funding decisions for critical public services, such as schools and education programs, health and emergency services, infrastructure, and other vital programs and services. Census data also determine the number of seats in Congress for each state, and inform boundaries for voting and legislative districts.
 
-People can still respond to the 2020 Census by visiting <a href="https://2020census.gov" target="_blank">2020census.gov</a>, by phone or by mail.
+People can still respond to the 2020 Census by visiting 2020census.gov, by phone or by mail.
 </div>
 
 <div  class="usa-section usa-content usa-grid bottom-space">

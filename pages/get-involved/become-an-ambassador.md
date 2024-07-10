@@ -44,9 +44,9 @@ Ready to use creative content to help your community get counted? We’re here t
 
           <a class="usa-button usa-button-big usa-button-secondary" href="{{site.baseurl}}/assets/files/Creatives_for_the_Count_DIY_Content_Toolkit.zip" target="_blank" style="margin-right: 2rem;"><span>Get the toolkit</span></a>
 
-          <p>Remember to strike the right tone given our public health environment. The most important message: it has never been easier to <a href="http://2020census.gov" target="_blank">respond to the census</a> on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
+          <p>Remember to strike the right tone given our public health environment. The most important message: it has never been easier to respond to the census on your own, either online, by phone, or by mail, without having to meet a census taker. Responding now will minimize the need for the Census Bureau to send census takers out into communities to follow up.</p>
 
-          <p class="text-small">Please <a href="https://2020census.gov/en/news-events/press-kits/covid-19.html" target="_blank">click here for ongoing updates on COVID-19</a> from the Census Bureau</p><br>
+          <p class="text-small">Please click here for ongoing updates on COVID-19 from the Census Bureau</p><br>
 
           <p style="font-weight: bold;">Examples of partner- and user-generated content through the lens of COVID-19</p>
 
