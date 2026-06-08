@@ -1,6 +1,13 @@
 # Census Open Innovation Labs
 This is the home of Census Accelerate's website.
 
+## Status
+ **This repository has been archived and is no longer maintained.**
+ 
+ The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.
+ 
+ It should not be used in production systems.
+
 ## Getting started
 
 This project is based off of https://github.com/18F/nsf-sbir.git
